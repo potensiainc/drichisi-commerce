@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 베이비 백팩 - Slide 5</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: #FFF8F5;
+      position: relative;
+    }
+    .header {
+      background: linear-gradient(90deg, #C8102E 0%, #E31837 100%);
+      padding: 40px 60px;
+      color: white;
+      text-align: center;
+    }
+    .header-title {
+      font-size: 42px;
+      font-weight: 900;
+    }
+    .content {
+      padding: 50px 60px;
+    }
+    .use-case-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    .use-case-card {
+      background: white;
+      border-radius: 24px;
+      padding: 40px 30px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+      border: 2px solid transparent;
+      transition: all 0.3s;
+    }
+    .use-case-card:hover {
+      border-color: #C8102E;
+    }
+    .use-case-emoji {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+    .use-case-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 12px;
+    }
+    .use-case-desc {
+      font-size: 18px;
+      color: #666;
+      line-height: 1.5;
+    }
+    .highlight-box {
+      background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+      border-radius: 24px;
+      padding: 30px;
+      text-align: center;
+      margin-top: 30px;
+      color: white;
+    }
+    .highlight-text {
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .brand-logo {
+      position: absolute;
+      bottom: 30px;
+      right: 40px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #C8102E;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="header-title">이런 분께 추천해요!</h1>
+    </div>
+    <div class="content">
+      <div class="use-case-grid">
+        <div class="use-case-card">
+          <div class="use-case-emoji">&#127874;</div>
+          <h3 class="use-case-title">첫 백팩 데뷔</h3>
+          <p class="use-case-desc">아기의 첫 백팩으로<br>특별한 선물</p>
+        </div>
+        <div class="use-case-card">
+          <div class="use-case-emoji">&#127979;</div>
+          <h3 class="use-case-title">어린이집 등원</h3>
+          <p class="use-case-desc">간식과 물병을<br>스스로 들고 가요</p>
+        </div>
+        <div class="use-case-card">
+          <div class="use-case-emoji">&#127965;</div>
+          <h3 class="use-case-title">외출/나들이</h3>
+          <p class="use-case-desc">공원, 놀이터<br>어디서나 착용</p>
+        </div>
+        <div class="use-case-card">
+          <div class="use-case-emoji">&#127873;</div>
+          <h3 class="use-case-title">돌 선물</h3>
+          <p class="use-case-desc">의미 있는 돌잔치<br>선물로 최고</p>
+        </div>
+      </div>
+      <div class="highlight-box">
+        <p class="highlight-text">6개월 ~ 3세 아기를 위한 첫 백팩</p>
+      </div>
+    </div>
+    <div class="brand-logo">MIKIHOUSE</div>
+  </div>
+</body>
+</html>

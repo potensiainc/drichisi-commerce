@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 베이비슈즈 - Slide 06 Development</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background: linear-gradient(180deg, #F5DEB3 0%, #E8D4A0 100%);
+    }
+
+    .top-label {
+      position: absolute;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      color: #8B6914;
+      text-transform: uppercase;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .feature-grid {
+      display: flex;
+      gap: 50px;
+    }
+
+    .feature-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .feature-circle {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid rgba(139, 105, 20, 0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .feature-icon {
+      font-size: 52px;
+    }
+
+    .feature-name {
+      font-size: 24px;
+      font-weight: 700;
+      color: #1A1A1A;
+    }
+
+    .feature-desc {
+      font-size: 18px;
+      font-weight: 400;
+      color: #666;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .headline {
+      font-size: 44px;
+      font-weight: 700;
+      color: #1A1A1A;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #8B6914;
+      font-weight: 800;
+    }
+
+    .size-info {
+      display: flex;
+      gap: 30px;
+      background: rgba(255,255,255,0.8);
+      padding: 20px 40px;
+      border-radius: 15px;
+    }
+
+    .size-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .size-label {
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+    }
+
+    .size-value {
+      font-size: 24px;
+      font-weight: 700;
+      color: #8B6914;
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: rgba(139, 105, 20, 0.2);
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 2px; border-left-width: 2px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 2px; border-right-width: 2px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 2px; border-left-width: 2px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 2px; border-right-width: 2px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(139, 105, 20, 0.3);
+    }
+
+    .dot.active {
+      background: #8B6914;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <span class="top-label">Second Shoes</span>
+
+    <div class="content">
+      <div class="feature-grid">
+        <div class="feature-item">
+          <div class="feature-circle">
+            <span class="feature-icon">&#129518;</span>
+          </div>
+          <span class="feature-name">플렉스 솔</span>
+          <span class="feature-desc">자연스러운<br>발가락 움직임</span>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-circle">
+            <span class="feature-icon">&#129406;</span>
+          </div>
+          <span class="feature-name">단단한 카운터</span>
+          <span class="feature-desc">발목 안정성<br>확보</span>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-circle">
+            <span class="feature-icon">&#129522;</span>
+          </div>
+          <span class="feature-name">탈부착 인솔</span>
+          <span class="feature-desc">세탁 편리<br>위생적</span>
+        </div>
+      </div>
+
+      <h2 class="headline">
+        <span class="highlight">올바른 보행 발달</span>을 지원해요
+      </h2>
+
+      <div class="size-info">
+        <div class="size-item">
+          <span class="size-label">사이즈</span>
+          <span class="size-value">14.0 ~ 15.0cm</span>
+        </div>
+        <div class="size-item">
+          <span class="size-label">대상 연령</span>
+          <span class="size-value">12~24개월</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

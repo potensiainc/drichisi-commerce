@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #FFC0CB;
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px;
+      position: relative;
+    }
+    .slide-number {
+      position: absolute;
+      top: 50px;
+      left: 60px;
+      font-size: 14px;
+      color: rgba(44, 62, 95, 0.5);
+      letter-spacing: 2px;
+    }
+    .feature-label {
+      position: absolute;
+      top: 50px;
+      right: 60px;
+      background: white;
+      color: #2C3E5F;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .image-container {
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .product-image {
+      width: 500px;
+      height: 500px;
+      object-fit: contain;
+      border-radius: 50%;
+      background: white;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(44, 62, 95, 0.2);
+    }
+    .sparkle {
+      position: absolute;
+      font-size: 30px;
+    }
+    .sparkle-1 { top: 20px; left: 50px; }
+    .sparkle-2 { top: 80px; right: 30px; }
+    .sparkle-3 { bottom: 60px; left: 20px; }
+    .headline {
+      font-size: 44px;
+      font-weight: 900;
+      color: #2C3E5F;
+      text-align: center;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+    .description {
+      font-size: 22px;
+      color: #2C3E5F;
+      text-align: center;
+      line-height: 1.7;
+      opacity: 0.8;
+    }
+    .decorative-ring {
+      position: absolute;
+      border: 3px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+    }
+    .ring-1 {
+      width: 600px;
+      height: 600px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .ring-2 {
+      width: 750px;
+      height: 750px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="decorative-ring ring-1"></div>
+  <div class="decorative-ring ring-2"></div>
+
+  <div class="container">
+    <div class="slide-number">04 / 07</div>
+    <span class="feature-label">POINT 03</span>
+
+    <div class="image-container">
+      <img src="../../products/[미키하우스]_팬츠_ロング팬츠_로고_うさぎ_10分丈_長ズボン_日本製_여아_베이비_키즈_아동복_13-3226-146/images/default/image_01.jpg" class="product-image" alt="토끼 와펜 디테일">
+      <span class="sparkle sparkle-1">&#10022;</span>
+      <span class="sparkle sparkle-2">&#10022;</span>
+      <span class="sparkle sparkle-3">&#10022;</span>
+    </div>
+
+    <h2 class="headline">
+      귀여운 토끼 와펜<br>
+      포인트 디자인
+    </h2>
+    <p class="description">
+      핑크 원형 와펜에 토끼 얼굴 자수<br>
+      + 컬러풀 MIKIHOUSE 로고
+    </p>
+  </div>
+</body>
+</html>

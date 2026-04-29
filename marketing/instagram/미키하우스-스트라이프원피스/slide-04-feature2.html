@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 스트라이프 원피스 - Slide 04 Feature 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background: linear-gradient(180deg, #FFFFFF 0%, #F5F1E8 100%);
+      display: flex;
+      flex-direction: column;
+      padding: 80px;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+    .feature-number {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      color: #C8102E;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      font-size: 46px;
+      font-weight: 700;
+      color: #1A1A1A;
+      line-height: 1.4;
+    }
+
+    .highlight {
+      color: #C8102E;
+      font-weight: 800;
+    }
+
+    .color-grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      padding: 20px 0;
+    }
+
+    .color-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .color-item img {
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      border-radius: 16px;
+      filter: drop-shadow(0 8px 20px rgba(0,0,0,0.12));
+    }
+
+    .color-name {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+      padding: 6px 20px;
+      border-radius: 20px;
+    }
+
+    .color-pink { background: rgba(212, 152, 156, 0.2); }
+    .color-blue { background: rgba(107, 154, 184, 0.2); }
+    .color-green { background: rgba(74, 155, 137, 0.2); }
+    .color-beige { background: rgba(200, 168, 130, 0.2); }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: #E0E0E0;
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 2px; border-left-width: 2px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 2px; border-right-width: 2px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 2px; border-left-width: 2px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 2px; border-right-width: 2px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #E0E0E0;
+    }
+
+    .dot.active {
+      background: #C8102E;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <div class="header">
+      <span class="feature-number">Feature 02</span>
+      <h2 class="headline"><span class="highlight">4가지 컬러</span>로 자매 룩도 OK</h2>
+    </div>
+
+    <div class="color-grid">
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_WEB한정_스트라이프원피스_로고_日本製_여아_베이비_키즈_아동복_통원_통학_10-1917-797/images/pink/image_01.jpg" alt="핑크">
+        <span class="color-name color-pink">Pink</span>
+      </div>
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_WEB한정_스트라이프원피스_로고_日本製_여아_베이비_키즈_아동복_통원_통학_10-1917-797/images/blue/image_01.jpg" alt="블루">
+        <span class="color-name color-blue">Blue</span>
+      </div>
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_WEB한정_스트라이프원피스_로고_日本製_여아_베이비_키즈_아동복_통원_통학_10-1917-797/images/forest_green/image_01.jpg" alt="포레스트그린">
+        <span class="color-name color-green">Forest Green</span>
+      </div>
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_WEB한정_스트라이프원피스_로고_日本製_여아_베이비_키즈_아동복_통원_통학_10-1917-797/images/beige/image_01.jpg" alt="베이지">
+        <span class="color-name color-beige">Beige</span>
+      </div>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

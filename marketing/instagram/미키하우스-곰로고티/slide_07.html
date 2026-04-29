@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 곰 로고 티셔츠 - Slide 7</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, #C8102E 0%, #A00D24 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .gold-circles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .gold-circle {
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid rgba(255,215,0,0.3);
+        }
+        .gc1 { width: 600px; height: 600px; top: -200px; right: -200px; }
+        .gc2 { width: 400px; height: 400px; bottom: -100px; left: -100px; }
+        .gc3 { width: 200px; height: 200px; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        .content {
+            padding: 80px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        .product-showcase {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        .product-image {
+            width: 320px;
+            height: 320px;
+            object-fit: contain;
+            filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
+        }
+        .main-title {
+            font-size: 52px;
+            font-weight: 900;
+            color: white;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+        .gold-text {
+            color: #FFD700;
+        }
+        .sub-title {
+            font-size: 24px;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 50px;
+        }
+        .cta-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .cta-button {
+            background: #FFD700;
+            color: #C8102E;
+            padding: 20px 60px;
+            font-size: 22px;
+            font-weight: 700;
+            border-radius: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .cta-hint {
+            font-size: 18px;
+            color: rgba(255,255,255,0.7);
+        }
+        .brand-logo {
+            position: absolute;
+            top: 60px;
+            left: 80px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #FFD700;
+            letter-spacing: 3px;
+        }
+        .slide-num {
+            position: absolute;
+            top: 60px;
+            right: 80px;
+            font-size: 18px;
+            color: rgba(255,255,255,0.6);
+        }
+        .price-tag {
+            background: white;
+            color: #C8102E;
+            padding: 15px 40px;
+            border-radius: 30px;
+            font-size: 28px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .price-note {
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gold-circles">
+        <div class="gold-circle gc1"></div>
+        <div class="gold-circle gc2"></div>
+        <div class="gold-circle gc3"></div>
+    </div>
+
+    <div class="brand-logo">MIKIHOUSE</div>
+    <div class="slide-num">07 / 07</div>
+
+    <div class="content">
+        <div class="product-showcase">
+            <img src="../../products/[미키하우스]_반팔티셔츠_くま_로고_남아_여아_베이비_키즈_아동복_10-5253-686/images/nobg/thumbnail_nobg.png"
+                 alt="미키하우스 곰 로고 티셔츠 앞면"
+                 class="product-image">
+            <img src="../../products/[미키하우스]_반팔티셔츠_くま_로고_남아_여아_베이비_키즈_아동복_10-5253-686/images/nobg/image_01_nobg.png"
+                 alt="미키하우스 곰 로고 티셔츠 뒷면"
+                 class="product-image">
+        </div>
+
+        <h1 class="main-title">
+            매일 입고 싶은 옷<br>
+            <span class="gold-text">미키하우스</span>
+        </h1>
+        <p class="sub-title">곰 로고 반팔티셔츠 | 90-120 사이즈</p>
+
+        <div class="cta-section">
+            <div class="price-tag">4,455 엔 ~</div>
+            <div class="cta-button">프로필 링크에서 구매하기</div>
+            <div class="cta-hint">DM으로 사이즈 문의 가능해요</div>
+            <div class="price-note">* 해외직구 상품으로 배송비 별도</div>
+        </div>
+    </div>
+</body>
+</html>

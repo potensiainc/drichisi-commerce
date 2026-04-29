@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "generated_at": "2026-04-26T23:31:00",
+    "product_id": "B0BSB636F2",
+    "analysis_version": "2026-04-26T23:30:00"
+  },
+  "title_candidates": [
+    {
+      "text": "미키하우스 순면 오버롤 6부 사로펫 베이비 키즈 남녀공용",
+      "length": 28,
+      "keyword_density": "high",
+      "rationale": "브랜드+소재+상품타입+특징 포함, 검색 최적화"
+    },
+    {
+      "text": "미키하우스 면100 여름 오버롤 아동 사로펫 6색상",
+      "length": 27,
+      "keyword_density": "medium",
+      "rationale": "계절성 강조, 색상 다양성 어필"
+    },
+    {
+      "text": "미키하우스 심플로고 오버롤 6부 베이비 남녀공용 면100",
+      "length": 30,
+      "keyword_density": "high",
+      "rationale": "디자인 특징(심플로고) 강조"
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 순면 오버롤 6부 사로펫 베이비 키즈 남녀공용",
+    "length": 28,
+    "reasoning": "브랜드 인지도 + 소재(순면) + 상품타입(오버롤/사로펫) + 타겟(베이비/키즈) + 성별(남녀공용) 모두 포함하여 검색 유입 극대화. 50자 제한 준수."
+  },
+  "tags": [
+    "미키하우스",
+    "베이비오버롤",
+    "키즈사로펫",
+    "면100아동복",
+    "여름베이비옷",
+    "남녀공용아동복",
+    "일본아동복",
+    "6부오버롤",
+    "심플로고",
+    "프리미엄아동복"
+  ],
+  "category_recommendation": {
+    "path": "유아동패션 > 베이비의류(~100cm) > 우주복/오버롤",
+    "rationale": "네이버 스마트스토어 표준 카테고리 기준, 상품 특성에 가장 적합",
+    "alternatives": [
+      "유아동패션 > 아동의류(100cm~) > 바지",
+      "유아동패션 > 베이비의류(~100cm) > 상하복세트"
+    ]
+  },
+  "brand_field": {
+    "value": "미키하우스",
+    "type": "입력필수",
+    "note": "브랜드 공식 한글 표기 사용"
+  },
+  "manufacturer_field": {
+    "value": "MIKIHOUSE",
+    "type": "선택사항",
+    "note": "일본 공식 영문 브랜드명"
+  },
+  "search_keywords": {
+    "primary": [
+      "미키하우스",
+      "베이비오버롤",
+      "키즈사로펫",
+      "순면아동복"
+    ],
+    "secondary": [
+      "여름베이비옷",
+      "일본아동복",
+      "남녀공용베이비",
+      "6부오버롤"
+    ],
+    "long_tail": [
+      "미키하우스 오버롤",
+      "순면 베이비 사로펫",
+      "일본 프리미엄 아동복",
+      "여름 키즈 오버롤"
+    ]
+  },
+  "seo_check": {
+    "title_length": "pass",
+    "brand_name_consistency": "pass",
+    "keyword_stuffing": "pass",
+    "forbidden_terms": "pass",
+    "all_passed": true,
+    "notes": "모든 SEO 기준 충족. 플랫폼명 미노출, 원통화 미노출, 브랜드명 일관성 유지."
+  }
+}

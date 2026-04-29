@@ -1,0 +1,83 @@
+{
+  "title_candidates": [
+    {
+      "text": "미키하우스 어린이 우산 45cm 유아 유치원 통원용 핑크 멀티",
+      "length": 29,
+      "keyword_density": "high",
+      "rationale": "핵심 키워드 '미키하우스', '어린이 우산', '45cm', '유아', '유치원' 모두 포함. 짧고 검색 효율적."
+    },
+    {
+      "text": "미키하우스 유아 우산 45cm 곰 토끼 로고 유치원 어린이집",
+      "length": 29,
+      "keyword_density": "medium",
+      "rationale": "귀여운 요소 '곰', '토끼' 강조. 어린이집 키워드 추가로 검색폭 확대."
+    },
+    {
+      "text": "미키하우스 45cm 장우산 유아 키즈 통원 레인용품",
+      "length": 27,
+      "keyword_density": "medium",
+      "rationale": "'레인용품' 카테고리 키워드 포함. 간결하고 명확."
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 어린이 우산 45cm 유아 유치원 통원용 핑크 멀티",
+    "length": 29,
+    "reason": "브랜드+상품+사이즈+용도+옵션 모두 포함. 29자로 네이버 권장 범위 내. 검색 키워드 밀도 최상."
+  },
+  "tags": [
+    "미키하우스",
+    "어린이우산",
+    "유아우산",
+    "45cm우산",
+    "유치원우산",
+    "통원용우산",
+    "키즈우산",
+    "일본브랜드우산"
+  ],
+  "category_recommendation": {
+    "path": "출산/육아 > 기저귀/분유/수유용품 외 > 유아동 잡화 > 우산/레인코트",
+    "rationale": "네이버 스마트스토어 표준 카테고리 구조에 따라 유아동 레인용품 카테고리에 배치"
+  },
+  "brand_field": {
+    "value": "MIKIHOUSE",
+    "display_name": "미키하우스"
+  },
+  "manufacturer_field": {
+    "value": "MIKIHOUSE",
+    "display_name": "미키하우스"
+  },
+  "search_keywords": {
+    "primary": [
+      "미키하우스 우산",
+      "어린이 우산 45cm",
+      "유아 우산",
+      "유치원 우산"
+    ],
+    "secondary": [
+      "키즈 우산",
+      "통원용 우산",
+      "일본 브랜드 우산",
+      "어린이집 우산"
+    ],
+    "long_tail": [
+      "미키하우스 어린이 우산",
+      "유치원생 우산 추천",
+      "45cm 유아 우산"
+    ]
+  },
+  "seo_check": {
+    "title_length_ok": true,
+    "brand_included": true,
+    "size_specified": true,
+    "target_age_clear": true,
+    "no_foreign_currency": true,
+    "no_platform_mention": true,
+    "all_passed": true
+  },
+  "meta_description": "미키하우스의 귀여운 어린이 우산 45cm. 유치원·어린이집 통원에 딱 맞는 사이즈. 곰·토끼 로고 포인트로 아이들이 좋아하는 디자인. 프리미엄 품질로 오래 사용 가능.",
+  "optimization_notes": {
+    "title_strategy": "브랜드명(미키하우스) + 상품명(어린이 우산) + 핵심 스펙(45cm) + 용도(유치원 통원용) + 옵션(핑크 멀티) 순서로 배치하여 검색 효율 극대화",
+    "tag_strategy": "브랜드, 상품 종류, 사이즈, 용도, 타겟 연령을 고르게 분산하여 다양한 검색 경로 확보",
+    "category_strategy": "유아동 잡화 > 우산 카테고리로 정확한 타겟팅"
+  }
+}

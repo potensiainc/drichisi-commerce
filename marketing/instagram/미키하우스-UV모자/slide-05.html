@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 UV모자 - Slide 05</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(135deg, #E8F4FD 0%, #D4E8F7 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .header {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+    .header .tag {
+      display: inline-block;
+      background: #C8102E;
+      color: white;
+      padding: 10px 28px;
+      border-radius: 25px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .header h2 {
+      font-size: 48px;
+      font-weight: 900;
+      color: #222;
+      line-height: 1.4;
+    }
+    .header h2 span {
+      color: #C8102E;
+    }
+    .size-visual {
+      position: absolute;
+      top: 280px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .size-chart {
+      background: white;
+      border-radius: 24px;
+      padding: 40px 60px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+      margin-bottom: 40px;
+    }
+    .size-row {
+      display: flex;
+      align-items: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #EEE;
+    }
+    .size-row:last-child {
+      border-bottom: none;
+    }
+    .size-label {
+      width: 120px;
+      font-size: 24px;
+      font-weight: 700;
+      color: #333;
+    }
+    .size-value {
+      font-size: 28px;
+      color: #C8102E;
+      font-weight: 700;
+    }
+    .size-range {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+    .size-box {
+      background: #C8102E;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 12px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    .size-box.gold {
+      background: #FFD700;
+      color: #333;
+    }
+    .feature-cards {
+      position: absolute;
+      bottom: 100px;
+      left: 60px;
+      right: 60px;
+      display: flex;
+      gap: 30px;
+    }
+    .feature-card {
+      flex: 1;
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+    .feature-card-icon {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+    .feature-card h4 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 8px;
+    }
+    .feature-card p {
+      font-size: 18px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="tag">Point 03</div>
+    <h2>성장해도 오래 쓰는<br><span>조절 가능 사이즈</span></h2>
+  </div>
+
+  <div class="size-visual">
+    <div class="size-chart">
+      <div class="size-row">
+        <span class="size-label">머리둘레</span>
+        <span class="size-value">46cm ~ 56cm (5단계 조절)</span>
+      </div>
+      <div class="size-row">
+        <span class="size-label">대상 연령</span>
+        <span class="size-value">베이비 ~ 키즈</span>
+      </div>
+    </div>
+    <div class="size-range">
+      <div class="size-box">46cm</div>
+      <div class="size-box gold">48cm</div>
+      <div class="size-box gold">50cm</div>
+      <div class="size-box gold">52cm</div>
+      <div class="size-box">56cm</div>
+    </div>
+  </div>
+
+  <div class="feature-cards">
+    <div class="feature-card">
+      <div class="feature-card-icon">🎀</div>
+      <h4>고무줄 턱끈</h4>
+      <p>바람에 날아가지 않아요</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-card-icon">📏</div>
+      <h4>드로우코드</h4>
+      <p>머리 크기에 맞게 조절</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-card-icon">👶</div>
+      <h4>오래 착용</h4>
+      <p>성장해도 계속 사용</p>
+    </div>
+  </div>
+</body>
+</html>

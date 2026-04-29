@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 캔버스 토트백 - Slide 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(180deg, #FFFFFF 0%, #F8F5F0 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+      position: relative;
+    }
+    .logo {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      width: 140px;
+      height: auto;
+    }
+    .header {
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 50px;
+    }
+    .header h2 {
+      font-size: 44px;
+      font-weight: 900;
+      color: #1A1A1A;
+    }
+    .header h2 span {
+      color: #C8102E;
+    }
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      flex: 1;
+      padding: 0 20px;
+    }
+    .color-item {
+      background: white;
+      border-radius: 24px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .color-item img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+    .color-name {
+      margin-top: 12px;
+      font-size: 22px;
+      font-weight: 700;
+      color: #333;
+    }
+    .color-dot {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    .accent-bar {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+    .accent-bar span {
+      width: 50px;
+      height: 6px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="../../../assets/brands/mikihouse/logo.png" alt="MIKIHOUSE" class="logo">
+    <div class="header">
+      <h2><span>6가지 컬러</span>로 취향껏</h2>
+    </div>
+    <div class="color-grid">
+      <div class="color-item">
+        <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/レッド/image_01.jpg" alt="레드">
+        <span class="color-name"><span class="color-dot" style="background:#C8102E"></span>레드</span>
+      </div>
+      <div class="color-item">
+        <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/イエロー/image_01.jpg" alt="옐로우">
+        <span class="color-name"><span class="color-dot" style="background:#FFD700"></span>옐로우</span>
+      </div>
+      <div class="color-item">
+        <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/グリーン/image_01.jpg" alt="그린">
+        <span class="color-name"><span class="color-dot" style="background:#4A7C59"></span>그린</span>
+      </div>
+      <div class="color-item">
+        <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/ネイビー/image_01.jpg" alt="네이비">
+        <span class="color-name"><span class="color-dot" style="background:#2B3E50"></span>네이비</span>
+      </div>
+      <div class="color-item">
+        <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/ブルー/image_01.jpg" alt="블루">
+        <span class="color-name"><span class="color-dot" style="background:#4A90D9"></span>블루</span>
+      </div>
+      <div class="color-item">
+        <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/ベージュ/image_01.jpg" alt="베이지">
+        <span class="color-name"><span class="color-dot" style="background:#B87333"></span>베이지</span>
+      </div>
+    </div>
+    <div class="accent-bar">
+      <span style="background:#C8102E"></span>
+      <span style="background:#FFD700"></span>
+      <span style="background:#4A7C59"></span>
+      <span style="background:#2B3E50"></span>
+      <span style="background:#4A90D9"></span>
+      <span style="background:#B87333"></span>
+    </div>
+  </div>
+</body>
+</html>

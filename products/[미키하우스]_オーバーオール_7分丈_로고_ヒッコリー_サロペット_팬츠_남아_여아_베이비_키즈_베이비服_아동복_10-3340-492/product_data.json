@@ -1,0 +1,56 @@
+{
+  "asin": "B0BSN9L7JL",
+  "url": "https://www.amazon.co.jp/dp/B0BSN9L7JL",
+  "scraped_at": "2026-04-26T10:54:58.612120",
+  "title": "[미키하우스] 오버롤 7부 로고 히코리 서스펜더 팬츠 남아 여아 베이비 키즈 아동복 10-3340-492",
+  "brand": "MIKIHOUSE(미키하우스)",
+  "price": "2980",
+  "rating": "5.0",
+  "review_count": "1",
+  "availability": "재고 있음",
+  "image_count": 7,
+  "color_options": [],
+  "size_options": [
+    {
+      "name": "80",
+      "available": true
+    },
+    {
+      "name": "90",
+      "available": true
+    },
+    {
+      "name": "100",
+      "available": true
+    }
+  ],
+  "specs": {
+    "판매_순위": "베이비용 롬퍼스·커버올 - 823위",
+    "고객_리뷰": "5.0점 (1개)"
+  },
+  "variant_images": {
+    "default": [
+      "../images/default/image_01.jpg",
+      "../images/default/image_02.jpg",
+      "../images/default/image_03.jpg",
+      "../images/default/image_04.jpg",
+      "../images/default/image_05.jpg",
+      "../images/default/image_06.jpg"
+    ]
+  },
+  "description": {
+    "main": "미키하우스의 히코리 스트라이프 서스펜더 팬츠입니다. 클래식한 스트라이프 패턴과 귀여운 미키하우스 로고가 포인트인 7부 기장 오버롤로, 남아 여아 모두 착용 가능한 베이직 아이템입니다.",
+    "aplus_text": "브랜드 소개\n아이와 가족의 매일을 웃음으로 가득하게\n\n추천 아이템\n스토어 방문\n미키하우스 로고 굿즈\n인기 미키하우스 로고 시리즈 잡화\n다양한 컬러로 코디네이션 포인트에\n\n저희 미키하우스는 아이를 생각한 제품 만들기와 서비스를 통해 아이를 웃게 하고, 가족을 웃게 하며, 임신·출산·육아의 매일이 행복해지는 도움을 드리겠습니다.",
+    "brand_story": "브랜드 소개\n아이와 가족의 매일을 웃음으로 가득하게\n\n추천 아이템\n스토어 방문\n미키하우스 로고 굿즈\n인기 미키하우스 로고 시리즈 잡화\n다양한 컬러로 코디네이션 포인트에\n\n저희 미키하우스는 아이를 생각한 제품 만들기와 서비스를 통해 아이를 웃게 하고, 가족을 웃게 하며, 임신·출산·육아의 매일이 행복해지는 도움을 드리겠습니다."
+  },
+  "features": [
+    "히코리 스트라이프 패턴",
+    "미키하우스 로고 자수",
+    "7부 기장",
+    "남녀공용 디자인",
+    "어깨끈 조절 가능",
+    "활동성 좋은 실루엣"
+  ],
+  "materials": "면 100%",
+  "care_instructions": "세탁기 사용 가능 (약하게), 표백제 사용 금지, 건조기 사용 금지"
+}

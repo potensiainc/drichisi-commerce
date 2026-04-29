@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>HOT BISCUITS - Slide 06</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #FAFAFA;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header .label {
+      display: inline-block;
+      background: #4A90E2;
+      color: white;
+      padding: 10px 28px;
+      border-radius: 25px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .header h2 {
+      font-size: 40px;
+      font-weight: 900;
+      color: #333;
+    }
+
+    .review-cards {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .review-card {
+      background: white;
+      border-radius: 25px;
+      padding: 35px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+      position: relative;
+    }
+
+    .review-header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .avatar {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, #FF6B9D, #FFB6C1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+
+    .reviewer-info {
+      flex: 1;
+    }
+
+    .reviewer-name {
+      font-size: 20px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .review-meta {
+      font-size: 16px;
+      color: #999;
+    }
+
+    .stars {
+      color: #FFD700;
+      font-size: 20px;
+    }
+
+    .review-text {
+      font-size: 22px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .review-text span {
+      color: #FF6B9D;
+      font-weight: 600;
+    }
+
+    .quote-mark {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 60px;
+      color: #F0F0F0;
+      font-family: Georgia, serif;
+    }
+
+    .rating-summary {
+      background: linear-gradient(135deg, #FFD700, #FFC107);
+      border-radius: 25px;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .rating-big {
+      font-size: 56px;
+      font-weight: 900;
+      color: #333;
+    }
+
+    .rating-detail {
+      text-align: left;
+    }
+
+    .rating-stars {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .rating-count {
+      font-size: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="label">REAL REVIEW</span>
+      <h2>실제 구매자 후기</h2>
+    </div>
+
+    <div class="review-cards">
+      <div class="review-card">
+        <span class="quote-mark">"</span>
+        <div class="review-header">
+          <div class="avatar">👶</div>
+          <div class="reviewer-info">
+            <div class="reviewer-name">14개월 아기맘</div>
+            <div class="review-meta">14.0cm 핑크 구매</div>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <p class="review-text">발볼이 넓은 우리 아이도 <span>편하게 신어요!</span><br>여름에 메쉬라서 땀도 안 차고 좋아요.</p>
+      </div>
+
+      <div class="review-card">
+        <span class="quote-mark">"</span>
+        <div class="review-header">
+          <div class="avatar">👶</div>
+          <div class="reviewer-info">
+            <div class="reviewer-name">18개월 남아맘</div>
+            <div class="review-meta">14.5cm 블루 구매</div>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <p class="review-text">벨크로로 갑 조절되니까 <span>발등 높은 아이도 OK!</span><br>디자인도 예쁘고 퀄리티 최고에요.</p>
+      </div>
+    </div>
+
+    <div class="rating-summary">
+      <div class="rating-big">4.6</div>
+      <div class="rating-detail">
+        <div class="rating-stars">★★★★★</div>
+        <div class="rating-count">27개 리뷰 평균</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>란도린 디퓨저 - Slide 03 Feature 1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Serif+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Serif KR', serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background-image: url('file:///D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/image_04.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .dim-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.65);
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 40px;
+      padding: 60px;
+    }
+
+    .feature-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.4em;
+      color: #F5D88A;
+      text-transform: uppercase;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .headline {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 54px;
+      font-weight: 600;
+      color: #FFFFFF;
+      line-height: 1.5;
+      text-shadow:
+        0 2px 4px rgba(0,0,0,0.8),
+        0 4px 20px rgba(0,0,0,0.6);
+    }
+
+    .highlight {
+      color: #F5D88A;
+      font-weight: 700;
+    }
+
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #C9A65C, transparent);
+    }
+
+    .description {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 28px;
+      font-weight: 400;
+      color: #FFFFFF;
+      line-height: 1.7;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: rgba(201, 166, 92, 0.4);
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 1px; border-left-width: 1px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 1px; border-right-width: 1px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 1px; border-left-width: 1px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 1px; border-right-width: 1px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(253, 252, 250, 0.4);
+    }
+
+    .dot.active {
+      background: #C9A65C;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="dim-overlay"></div>
+
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <div class="content">
+      <span class="feature-number">Feature 01</span>
+
+      <h2 class="headline">
+        <span class="highlight">향수병</span> 같은 디자인<br>
+        인테리어 그 자체
+      </h2>
+
+      <div class="divider"></div>
+
+      <p class="description">
+        골드 캡 + 블랙 스틱 + 유리병<br>
+        어디 두든 공간이 달라 보여요
+      </p>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

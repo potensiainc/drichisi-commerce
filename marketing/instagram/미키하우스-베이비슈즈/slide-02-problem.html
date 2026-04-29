@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 베이비슈즈 - Slide 02 Problem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background: #FAFAFA;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 50px;
+    }
+
+    .problem-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .problem-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .x-mark {
+      font-size: 36px;
+      font-weight: 700;
+      color: #C8102E;
+    }
+
+    .problem-text {
+      font-size: 34px;
+      font-weight: 500;
+      color: #3A3A3A;
+      line-height: 1.4;
+    }
+
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, #C8102E, transparent);
+      border-radius: 2px;
+    }
+
+    .headline {
+      font-size: 46px;
+      font-weight: 700;
+      color: #1A1A1A;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #C8102E;
+      font-weight: 800;
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: #E0E0E0;
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 2px; border-left-width: 2px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 2px; border-right-width: 2px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 2px; border-left-width: 2px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 2px; border-right-width: 2px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #E0E0E0;
+    }
+
+    .dot.active {
+      background: #C8102E;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <div class="content">
+      <div class="problem-list">
+        <div class="problem-item">
+          <span class="x-mark">x</span>
+          <span class="problem-text">발볼이 넓어서 신발이 안 맞고</span>
+        </div>
+        <div class="problem-item">
+          <span class="x-mark">x</span>
+          <span class="problem-text">여름에 땀이 차서 답답하고</span>
+        </div>
+        <div class="problem-item">
+          <span class="x-mark">x</span>
+          <span class="problem-text">걸음마가 불안정해 걱정되고</span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <h2 class="headline">
+        걸음마기 아기 신발,<br>
+        <span class="highlight">뭘 사야</span> 할지 모르겠어요
+      </h2>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

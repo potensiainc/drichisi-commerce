@@ -1,0 +1,86 @@
+{
+  "product_name": "란도린 리드디퓨저 클래식 플로럴",
+  "content_type": "carousel",
+  "created_at": "2026-04-26",
+  "slides": [
+    {
+      "order": 1,
+      "type": "cover",
+      "image_file": "images/thumbnail.jpg",
+      "text_overlay": "집에 들어오면\n향수 가게 같다는 말 듣는 이유",
+      "text_position": "bottom",
+      "design_note": "골드+블랙 제품 강조, 텍스트는 하단 배치"
+    },
+    {
+      "order": 2,
+      "type": "problem",
+      "image_file": "images/image_03.jpg",
+      "text_overlay": "디퓨저 하나로\n집 분위기가 달라질 수 있을까?",
+      "text_position": "center",
+      "design_note": "미니멀한 공간에 디퓨저 단독 배치된 이미지"
+    },
+    {
+      "order": 3,
+      "type": "feature",
+      "image_file": "images/image_04.jpg",
+      "text_overlay": "향수병 같은 디자인\n두기만 해도 인테리어",
+      "text_position": "bottom",
+      "design_note": "골드 액자와 함께 연출된 고급스러운 무드"
+    },
+    {
+      "order": 4,
+      "type": "feature",
+      "image_file": "images/image_01.jpg",
+      "text_overlay": "피치 → 로즈 → 머스크\n3단계로 퍼지는 향",
+      "text_position": "bottom",
+      "design_note": "향 피라미드 설명 이미지"
+    },
+    {
+      "order": 5,
+      "type": "feature",
+      "image_file": "images/image_02.jpg",
+      "text_overlay": "80ml로 약 1.5~3개월\n한 번 두면 한 시즌",
+      "text_position": "bottom",
+      "design_note": "창가 연출컷, 자연광 무드"
+    },
+    {
+      "order": 6,
+      "type": "lifestyle",
+      "image_file": "images/image_04.jpg",
+      "text_overlay": "현관, 거실, 침실\n어디에 둬도 분위기가 달라져요",
+      "text_position": "center",
+      "design_note": "실제 공간 활용 예시"
+    },
+    {
+      "order": 7,
+      "type": "cta",
+      "image_file": "images/thumbnail.jpg",
+      "text_overlay": "Laundrin' TOKYO\n프로필 링크에서 만나요",
+      "text_position": "center",
+      "design_note": "브랜드 로고 강조, CTA"
+    }
+  ],
+  "caption": {
+    "hook": "집에 들어오면 향수 가게 같다는 말,\n이 디퓨저 하나로 시작됐어요.",
+    "body": "일본 Laundrin' 란도린 디퓨저\nClassic Floral 향\n\n향수병처럼 예쁜 디자인이라\n현관에 두기만 해도 인테리어가 돼요.\n\n피치, 로즈, 머스크가 은은하게 퍼지는데\n너무 달지도, 무겁지도 않은 딱 그 향이에요.\n\n80ml로 1.5~3개월 가니까\n한 번 사두면 한 시즌은 써요.\n\n집들이 선물로도 센스 있다는 말 많이 들었어요.",
+    "cta": "궁금하시면 프로필 링크에서 확인하세요!",
+    "hashtags": [
+      "#일본구매대행",
+      "#일본직구",
+      "#드리치시",
+      "#란도린",
+      "#란도린디퓨저",
+      "#리드디퓨저",
+      "#홈프래그런스",
+      "#인테리어방향제",
+      "#현관인테리어",
+      "#집들이선물",
+      "#집꾸미기",
+      "#홈스타일링",
+      "#감성인테리어",
+      "#일본인테리어",
+      "#무드있는집"
+    ]
+  },
+  "full_caption": "집에 들어오면 향수 가게 같다는 말,\n이 디퓨저 하나로 시작됐어요.\n\n일본 Laundrin' 란도린 디퓨저\nClassic Floral 향\n\n향수병처럼 예쁜 디자인이라\n현관에 두기만 해도 인테리어가 돼요.\n\n피치, 로즈, 머스크가 은은하게 퍼지는데\n너무 달지도, 무겁지도 않은 딱 그 향이에요.\n\n80ml로 1.5~3개월 가니까\n한 번 사두면 한 시즌은 써요.\n\n집들이 선물로도 센스 있다는 말 많이 들었어요.\n\n궁금하시면 프로필 링크에서 확인하세요!\n\n#일본구매대행 #일본직구 #드리치시 #란도린 #란도린디퓨저 #리드디퓨저 #홈프래그런스 #인테리어방향제 #현관인테리어 #집들이선물 #집꾸미기 #홈스타일링 #감성인테리어 #일본인테리어 #무드있는집"
+}

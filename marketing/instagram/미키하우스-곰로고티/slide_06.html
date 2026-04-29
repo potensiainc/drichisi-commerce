@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 곰 로고 티셔츠 - Slide 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: #F5F5F5;
+            position: relative;
+            overflow: hidden;
+        }
+        .red-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            background: #C8102E;
+        }
+        .content {
+            padding: 80px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .brand-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FFD700;
+            letter-spacing: 3px;
+        }
+        .slide-num {
+            font-size: 18px;
+            color: rgba(255,255,255,0.7);
+        }
+        .section-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 60px;
+        }
+        .size-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin-top: 20px;
+        }
+        .size-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border-top: 4px solid #FFD700;
+        }
+        .size-number {
+            font-size: 56px;
+            font-weight: 900;
+            color: #C8102E;
+            margin-bottom: 10px;
+        }
+        .size-unit {
+            font-size: 20px;
+            color: #666;
+            font-weight: 500;
+        }
+        .size-age {
+            font-size: 18px;
+            color: #1D3557;
+            font-weight: 600;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+        .size-height {
+            font-size: 14px;
+            color: #999;
+            margin-top: 8px;
+        }
+        .info-section {
+            margin-top: 50px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        .info-item {
+            text-align: center;
+        }
+        .info-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .info-label {
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 5px;
+        }
+        .info-value {
+            font-size: 18px;
+            color: #1D3557;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="red-bar"></div>
+
+    <div class="content">
+        <div class="header">
+            <div class="brand-logo">MIKIHOUSE</div>
+            <div class="slide-num">06 / 07</div>
+        </div>
+
+        <h2 class="section-title">SIZE GUIDE</h2>
+
+        <div class="size-grid">
+            <div class="size-card">
+                <div class="size-number">90</div>
+                <div class="size-unit">cm</div>
+                <div class="size-age">12-18개월</div>
+                <div class="size-height">신장 85-95cm</div>
+            </div>
+            <div class="size-card">
+                <div class="size-number">100</div>
+                <div class="size-unit">cm</div>
+                <div class="size-age">2-3세</div>
+                <div class="size-height">신장 95-105cm</div>
+            </div>
+            <div class="size-card">
+                <div class="size-number">110</div>
+                <div class="size-unit">cm</div>
+                <div class="size-age">4-5세</div>
+                <div class="size-height">신장 105-115cm</div>
+            </div>
+            <div class="size-card">
+                <div class="size-number">120</div>
+                <div class="size-unit">cm</div>
+                <div class="size-age">5-6세</div>
+                <div class="size-height">신장 115-125cm</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-item">
+                <div class="info-icon">🏷️</div>
+                <div class="info-label">브랜드</div>
+                <div class="info-value">MIKIHOUSE</div>
+            </div>
+            <div class="info-item">
+                <div class="info-icon">🌍</div>
+                <div class="info-label">소재 원산지</div>
+                <div class="info-value">일본</div>
+            </div>
+            <div class="info-item">
+                <div class="info-icon">✂️</div>
+                <div class="info-label">봉제</div>
+                <div class="info-value">베트남</div>
+            </div>
+            <div class="info-item">
+                <div class="info-icon">👕</div>
+                <div class="info-label">타입</div>
+                <div class="info-value">반팔 티셔츠</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

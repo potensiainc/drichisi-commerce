@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 키즈백팩 8L 3색상 체스트벨트 메시등판 3-4세</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #FFFFFF;
+            --bg-alt: #F8F9FA;
+            --bg-soft: #FFF5F5;
+            --text-main: #1A1A1A;
+            --text-sub: #666666;
+            --accent: #FF0000;
+            --accent-navy: #000080;
+            --accent-soft: #FF6B6B;
+            --line-soft: #E5E7EB;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif;
+            color: var(--text-main);
+            background: var(--bg-base);
+            line-height: 1.7;
+            word-break: keep-all;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--bg-base);
+        }
+
+        /* HERO Section */
+        .hero {
+            position: relative;
+            padding: 80px 60px 100px;
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+            text-align: center;
+        }
+
+        .hero__label {
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-sub);
+            letter-spacing: 0.3px;
+            margin-bottom: 24px;
+            padding: 8px 20px;
+            background: var(--bg-base);
+            border-radius: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .hero__title {
+            font-size: 38px;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--text-main);
+            margin-bottom: 20px;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .hero__subtitle {
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--text-sub);
+            line-height: 1.6;
+            margin-bottom: 50px;
+        }
+
+        .hero__images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 50px;
+        }
+
+        .hero__image-card {
+            background: var(--bg-base);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hero__image-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+
+        .hero__image-card img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+
+        .hero__color-label {
+            padding: 12px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-main);
+            background: var(--bg-alt);
+        }
+
+        /* Story Section */
+        .story {
+            padding: 100px 70px;
+            background: var(--bg-base);
+        }
+
+        .story__content {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .story__heading {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            margin-bottom: 20px;
+        }
+
+        .story__title {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 32px;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .story__text {
+            font-size: 17px;
+            line-height: 1.9;
+            color: var(--text-sub);
+            margin-bottom: 24px;
+        }
+
+        .story__text strong {
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 100px 60px;
+            background: var(--bg-alt);
+        }
+
+        .features__title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 70px;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .features__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 48px 40px;
+        }
+
+        .feature {
+            background: var(--bg-base);
+            padding: 40px 32px;
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-4px);
+        }
+
+        .feature__icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--accent-soft) 0%, var(--accent) 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 24px;
+        }
+
+        .feature__title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--text-main);
+        }
+
+        .feature__desc {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--text-sub);
+        }
+
+        /* Detail Images Section */
+        .detail-gallery {
+            padding: 100px 60px;
+            background: var(--bg-base);
+        }
+
+        .detail-gallery__title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 60px;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .detail-gallery__subtitle {
+            text-align: center;
+            font-size: 16px;
+            color: var(--text-sub);
+            margin-top: -40px;
+            margin-bottom: 60px;
+        }
+
+        .detail-gallery__grid {
+            display: grid;
+            gap: 32px;
+        }
+
+        .detail-gallery__row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .detail-gallery__row--two {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .detail-gallery__image {
+            background: var(--bg-alt);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 250px;
+        }
+
+        .detail-gallery__image img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+
+        .detail-gallery__caption {
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-sub);
+            margin-top: 12px;
+            font-style: italic;
+        }
+
+        /* Color Options Section */
+        .color-showcase {
+            padding: 100px 60px;
+            background: var(--bg-soft);
+        }
+
+        .color-showcase__title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 24px;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .color-showcase__intro {
+            text-align: center;
+            font-size: 17px;
+            color: var(--text-sub);
+            margin-bottom: 70px;
+            line-height: 1.7;
+        }
+
+        .color-option {
+            margin-bottom: 80px;
+        }
+
+        .color-option:last-child {
+            margin-bottom: 0;
+        }
+
+        .color-option__header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .color-option__name {
+            display: inline-block;
+            font-size: 24px;
+            font-weight: 700;
+            padding: 12px 32px;
+            background: var(--bg-base);
+            border-radius: 30px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+
+        .color-option__images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .color-option__image {
+            background: var(--bg-base);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 250px;
+        }
+
+        .color-option__image img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+
+        /* Specs Section */
+        .specs {
+            padding: 100px 60px;
+            background: var(--bg-base);
+        }
+
+        .specs__title {
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 60px;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .specs__table {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--bg-base);
+            border: 1px solid var(--line-soft);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .specs__row {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            border-bottom: 1px solid var(--line-soft);
+        }
+
+        .specs__row:last-child {
+            border-bottom: none;
+        }
+
+        .specs__label {
+            padding: 20px 24px;
+            background: var(--bg-alt);
+            font-weight: 600;
+            font-size: 15px;
+            border-right: 1px solid var(--line-soft);
+        }
+
+        .specs__value {
+            padding: 20px 24px;
+            font-size: 15px;
+            color: var(--text-sub);
+        }
+
+        /* Trust Section */
+        .trust {
+            padding: 100px 60px;
+            background: var(--bg-alt);
+            text-align: center;
+        }
+
+        .trust__badge {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 24px;
+        }
+
+        .trust__title {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 28px;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .trust__text {
+            font-size: 17px;
+            line-height: 1.8;
+            color: var(--text-sub);
+            max-width: 640px;
+            margin: 0 auto 50px;
+        }
+
+        .trust__points {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .trust__point {
+            background: var(--bg-base);
+            padding: 32px 24px;
+            border-radius: 12px;
+        }
+
+        .trust__point-icon {
+            font-size: 40px;
+            margin-bottom: 16px;
+        }
+
+        .trust__point-text {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        /* Care Section */
+        .care {
+            padding: 100px 70px;
+            background: var(--bg-base);
+        }
+
+        .care__content {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .care__title {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .care__story {
+            font-size: 16px;
+            line-height: 1.9;
+            color: var(--text-sub);
+            margin-bottom: 32px;
+        }
+
+        .care__tips {
+            background: var(--bg-alt);
+            padding: 32px;
+            border-radius: 12px;
+            margin-top: 32px;
+        }
+
+        .care__tip {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .care__tip:last-child {
+            margin-bottom: 0;
+        }
+
+        .care__tip-icon {
+            font-size: 20px;
+            margin-right: 12px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .care__tip-text {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--text-sub);
+        }
+
+        .care__tip-text strong {
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        /* Closing Section */
+        .closing {
+            padding: 100px 60px;
+            background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+            text-align: center;
+        }
+
+        .closing__title {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 24px;
+            font-family: 'Gowun Dodum', 'Pretendard', sans-serif;
+        }
+
+        .closing__text {
+            font-size: 17px;
+            line-height: 1.8;
+            color: var(--text-sub);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .closing__brand {
+            margin-top: 60px;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--accent);
+            letter-spacing: 2px;
+        }
+
+        /* Mobile Responsive */
+        @media screen and (max-width: 480px) {
+            .hero {
+                padding: 50px 30px 60px;
+            }
+
+            .hero__label {
+                font-size: 13px;
+            }
+
+            .hero__title {
+                font-size: 26px;
+            }
+
+            .hero__subtitle {
+                font-size: 15px;
+            }
+
+            .hero__images {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .story,
+            .features,
+            .detail-gallery,
+            .color-showcase,
+            .specs,
+            .trust,
+            .care,
+            .closing {
+                padding: 60px 30px;
+            }
+
+            .story__title,
+            .features__title,
+            .detail-gallery__title,
+            .color-showcase__title,
+            .specs__title,
+            .trust__title,
+            .closing__title {
+                font-size: 24px;
+            }
+
+            .features__grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .detail-gallery__row,
+            .color-option__images {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .specs__table {
+                font-size: 14px;
+            }
+
+            .specs__row {
+                grid-template-columns: 1fr;
+            }
+
+            .specs__label {
+                border-right: none;
+                border-bottom: 1px solid var(--line-soft);
+            }
+
+            .trust__points {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .closing__brand {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO Section -->
+        <section class="hero">
+            <img src="../images/mikihouse_logo.png" alt="MIKIHOUSE" style="max-width: 200px; height: auto; margin-bottom: 32px;">
+            <div class="hero__label">미키하우스 키즈백팩 8L 3색상 체스트벨트 메시등판 3-4세</div>
+            <h1 class="hero__title">우리 아이 첫 백팩,<br>8L 용량으로 통원부터 소풍까지</h1>
+            <p class="hero__subtitle">일본 프리미엄 브랜드 미키하우스의 정통 키즈 백팩입니다.<br>매일 함께할 첫 가방, 신중하게 고르셨나요?</p>
+
+            <div class="hero__images">
+                <div class="hero__image-card">
+                    <img src="../images/multicolor/thumbnail.jpg" alt="미키하우스 백팩 멀티컬러" loading="eager">
+                    <div class="hero__color-label">멀티컬러</div>
+                </div>
+                <div class="hero__image-card">
+                    <img src="../images/navy/thumbnail.jpg" alt="미키하우스 백팩 네이비" loading="eager">
+                    <div class="hero__color-label">네이비</div>
+                </div>
+                <div class="hero__image-card">
+                    <img src="../images/red/thumbnail.jpg" alt="미키하우스 백팩 레드" loading="eager">
+                    <div class="hero__color-label">레드</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story Section -->
+        <section class="story">
+            <div class="story__content">
+                <div class="story__heading">Story</div>
+                <h2 class="story__title">어린이집 첫날, 가방이 너무 크거나 작으면 어떡하죠?</h2>
+                <p class="story__text">
+                    3세, 4세 아이들에게는 딱 맞는 크기가 있어요. 너무 크면 몸에 부담이 되고, 너무 작으면 여벌 옷 한 벌도 못 넣죠.
+                </p>
+                <p class="story__text">
+                    <strong>8리터.</strong> 여벌 옷, 물통, 간식, 수첩까지 딱 필요한 만큼 담을 수 있는 용량입니다. 3~4세 유아 체형에 최적화된 크기예요.
+                </p>
+                <p class="story__text">
+                    어깨에서 자꾸 흘러내리는 가방 때문에 속상해하는 아이 본 적 있으시죠? <strong>체스트벨트가 있으면</strong> 활동적으로 뛰어놀아도 안정적으로 고정됩니다.
+                </p>
+                <p class="story__text">
+                    등판은 메시 소재로 통기성을 챙겼어요. 한여름에도 땀이 차지 않도록요. 조절 가능한 어깨끈으로 아이가 자라도 오래 사용할 수 있습니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2 class="features__title">왜 부모들이 미키하우스를 선택할까요?</h2>
+            <div class="features__grid">
+                <div class="feature">
+                    <div class="feature__icon">📏</div>
+                    <h3 class="feature__title">8L 적정 용량</h3>
+                    <p class="feature__desc">3~4세 유아에게 딱 맞는 크기. 여벌 옷, 물통, 간식까지 넣어도 부담스럽지 않습니다.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__icon">🎒</div>
+                    <h3 class="feature__title">체스트벨트 포함</h3>
+                    <p class="feature__desc">가슴에서 어깨끈을 고정하는 벨트로 활동 중에도 흘러내리지 않아요.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__icon">🌬️</div>
+                    <h3 class="feature__title">메시 등판</h3>
+                    <p class="feature__desc">통기성 좋은 메시 소재로 여름에도 쾌적합니다. 땀 배출이 원활해요.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__icon">📐</div>
+                    <h3 class="feature__title">조절 가능한 어깨끈</h3>
+                    <p class="feature__desc">아이 성장에 맞춰 길이 조절이 가능. 오래 사용할 수 있습니다.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__icon">🏷️</div>
+                    <h3 class="feature__title">대형 브랜드 로고</h3>
+                    <p class="feature__desc">미키하우스 로고가 크게 새겨져 있어 어린이집에서도 금방 찾을 수 있어요.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__icon">🎨</div>
+                    <h3 class="feature__title">3가지 색상</h3>
+                    <p class="feature__desc">멀티컬러, 네이비, 레드 중 아이가 좋아하는 색상을 골라보세요.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detail Gallery - Multicolor -->
+        <section class="detail-gallery">
+            <h2 class="detail-gallery__title">디테일 살펴보기</h2>
+            <p class="detail-gallery__subtitle">멀티컬러 모델 기준</p>
+
+            <div class="detail-gallery__grid">
+                <div class="detail-gallery__row">
+                    <div class="detail-gallery__image">
+                        <img src="../images/multicolor/image_01.jpg" alt="미키하우스 백팩 측면 메시 등판" loading="eager">
+                    </div>
+                    <div class="detail-gallery__image">
+                        <img src="../images/multicolor/image_02.jpg" alt="미키하우스 백팩 후면" loading="eager">
+                    </div>
+                    <div class="detail-gallery__image">
+                        <img src="../images/multicolor/image_03.jpg" alt="미키하우스 백팩 바닥 디테일" loading="eager">
+                    </div>
+                </div>
+                <div class="detail-gallery__row--two">
+                    <div class="detail-gallery__image">
+                        <img src="../images/multicolor/image_04.jpg" alt="미키하우스 로고 클로즈업" loading="eager">
+                    </div>
+                    <div class="detail-gallery__image">
+                        <img src="../images/multicolor/image_05.jpg" alt="미키하우스 백팩 지퍼 디테일" loading="eager">
+                    </div>
+                </div>
+                <div class="detail-gallery__image">
+                    <img src="../images/multicolor/image_06.jpg" alt="미키하우스 백팩 사이즈 참고" loading="eager">
+                </div>
+            </div>
+        </section>
+
+        <!-- Color Options Section -->
+        <section class="color-showcase">
+            <h2 class="color-showcase__title">아이가 좋아할 색상을 골라보세요</h2>
+            <p class="color-showcase__intro">같은 디자인, 다른 분위기. 세 가지 색상 모두 준비되어 있습니다.</p>
+
+            <!-- Multicolor Option -->
+            <div class="color-option">
+                <div class="color-option__header">
+                    <div class="color-option__name">멀티컬러</div>
+                </div>
+                <div class="color-option__images">
+                    <div class="color-option__image">
+                        <img src="../images/multicolor/thumbnail.jpg" alt="멀티컬러 정면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/multicolor/image_01.jpg" alt="멀티컬러 측면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/multicolor/image_02.jpg" alt="멀티컬러 후면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/multicolor/image_03.jpg" alt="멀티컬러 바닥" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/multicolor/image_04.jpg" alt="멀티컬러 로고" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/multicolor/image_05.jpg" alt="멀티컬러 디테일" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/multicolor/image_06.jpg" alt="멀티컬러 사이즈" loading="eager">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navy Option -->
+            <div class="color-option">
+                <div class="color-option__header">
+                    <div class="color-option__name">네이비</div>
+                </div>
+                <div class="color-option__images">
+                    <div class="color-option__image">
+                        <img src="../images/navy/thumbnail.jpg" alt="네이비 정면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/navy/image_01.jpg" alt="네이비 측면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/navy/image_02.jpg" alt="네이비 후면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/navy/image_03.jpg" alt="네이비 바닥" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/navy/image_04.jpg" alt="네이비 로고" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/navy/image_05.jpg" alt="네이비 디테일" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/navy/image_06.jpg" alt="네이비 사이즈" loading="eager">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Red Option -->
+            <div class="color-option">
+                <div class="color-option__header">
+                    <div class="color-option__name">레드</div>
+                </div>
+                <div class="color-option__images">
+                    <div class="color-option__image">
+                        <img src="../images/red/thumbnail.jpg" alt="레드 정면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/red/image_01.jpg" alt="레드 측면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/red/image_02.jpg" alt="레드 후면" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/red/image_03.jpg" alt="레드 바닥" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/red/image_04.jpg" alt="레드 로고" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/red/image_05.jpg" alt="레드 디테일" loading="eager">
+                    </div>
+                    <div class="color-option__image">
+                        <img src="../images/red/image_06.jpg" alt="레드 사이즈" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specs Section -->
+        <section class="specs">
+            <h2 class="specs__title">제품 사양</h2>
+            <div class="specs__table">
+                <div class="specs__row">
+                    <div class="specs__label">브랜드</div>
+                    <div class="specs__value">MIKIHOUSE (미키하우스)</div>
+                </div>
+                <div class="specs__row">
+                    <div class="specs__label">용량</div>
+                    <div class="specs__value">8L</div>
+                </div>
+                <div class="specs__row">
+                    <div class="specs__label">대상 연령</div>
+                    <div class="specs__value">3~4세 유아</div>
+                </div>
+                <div class="specs__row">
+                    <div class="specs__label">소재</div>
+                    <div class="specs__value">등판 메시, 조절 가능한 어깨끈</div>
+                </div>
+                <div class="specs__row">
+                    <div class="specs__label">특징</div>
+                    <div class="specs__value">체스트벨트, 대형 브랜드 로고</div>
+                </div>
+                <div class="specs__row">
+                    <div class="specs__label">색상 옵션</div>
+                    <div class="specs__value">멀티컬러, 네이비, 레드</div>
+                </div>
+                <div class="specs__row">
+                    <div class="specs__label">제품 번호</div>
+                    <div class="specs__value">10-8232-145</div>
+                </div>
+                <div class="specs__row">
+                    <div class="specs__label">제조국</div>
+                    <div class="specs__value">일본</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Section -->
+        <section class="trust">
+            <div class="trust__badge">Since 1971, Japan</div>
+            <h2 class="trust__title">일본 부모들이 50년간 신뢰한 브랜드</h2>
+            <p class="trust__text">
+                미키하우스는 1971년 일본에서 시작된 프리미엄 유아용품 브랜드입니다. 반세기 넘게 아이의 성장과 안전을 최우선으로 생각하며 제품을 만들어왔어요.
+                정품 보장은 기본, 품질 우수성은 검증되었습니다.
+            </p>
+            <div class="trust__points">
+                <div class="trust__point">
+                    <div class="trust__point-icon">✓</div>
+                    <div class="trust__point-text">일본 정품 보장</div>
+                </div>
+                <div class="trust__point">
+                    <div class="trust__point-icon">✓</div>
+                    <div class="trust__point-text">프리미엄 품질</div>
+                </div>
+                <div class="trust__point">
+                    <div class="trust__point-icon">✓</div>
+                    <div class="trust__point-text">50년 브랜드 신뢰</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Care Section -->
+        <section class="care">
+            <div class="care__content">
+                <h2 class="care__title">오래 사용하려면 이렇게 관리해주세요</h2>
+                <p class="care__story">
+                    처음 받았을 때의 깨끗함, 조금 더 오래 유지하고 싶으시죠? 유아용품은 관리가 특히 중요해요. 메시 소재와 천 재질 특성상 올바른 세탁이 필요합니다.
+                </p>
+
+                <div class="care__tips">
+                    <div class="care__tip">
+                        <div class="care__tip-icon">👶</div>
+                        <div class="care__tip-text">
+                            <strong>처음 사용 전</strong> 아이 체형에 맞게 어깨끈 길이를 조절해 주세요. 체스트벨트도 꼭 착용시켜주시면 안정적입니다.
+                        </div>
+                    </div>
+                    <div class="care__tip">
+                        <div class="care__tip-icon">🧼</div>
+                        <div class="care__tip-text">
+                            <strong>세탁 방법</strong> 손세탁을 권장합니다. 특히 메시 등판 부분은 중성세제로 부드럽게 닦아주세요. 세탁기 사용 시 변형 위험이 있어요.
+                        </div>
+                    </div>
+                    <div class="care__tip">
+                        <div class="care__tip-icon">⚖️</div>
+                        <div class="care__tip-text">
+                            <strong>용량 제한</strong> 8L는 3~4세 기준으로 설계되었어요. 과도한 무게의 물건을 넣으면 아이 어깨에 부담이 될 수 있습니다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Closing Section -->
+        <section class="closing">
+            <h2 class="closing__title">매일 가방에 넣어주는 마음,<br>미키하우스가 함께합니다.</h2>
+            <p class="closing__text">
+                어린이집 첫날부터 유치원 졸업까지, 아이가 자라는 동안 함께할 백팩입니다.
+                어깨끈을 조절하며 아이의 성장을 느낄 때마다, 처음 고른 선택이 맞았다고 생각하실 거예요.
+            </p>
+            <img src="../images/mikihouse_logo.png" alt="MIKIHOUSE" style="max-width: 180px; height: auto; margin-top: 40px;">
+        </section>
+    </div>
+</body>
+</html>

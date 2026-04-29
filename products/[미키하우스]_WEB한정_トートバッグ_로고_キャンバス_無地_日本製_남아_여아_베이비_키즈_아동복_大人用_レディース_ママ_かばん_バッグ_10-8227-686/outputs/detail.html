@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 토트백 일본제 캔버스 엄마가방 6색상 에코백</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+        .container {
+            width: 860px;
+            margin: 0 auto;
+            background: #fff;
+        }
+
+        /* HERO Section */
+        .hero {
+            background: linear-gradient(135deg, #F5F5F5 0%, #E8DCC8 100%);
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #2B3E50;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .hero .subtitle {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+
+        .hero .brand-badge {
+            display: inline-block;
+            background: #fff;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #2B3E50;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        /* Main Image */
+        .main-image {
+            width: 100%;
+            margin: 0;
+        }
+
+        .main-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Section Common */
+        section {
+            padding: 60px 40px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2B3E50;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        section h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #2B3E50;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        section p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        /* Color Options Grid */
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .color-item {
+            text-align: center;
+        }
+
+        .color-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .color-item .color-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2B3E50;
+        }
+
+        /* Detail Grid */
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .detail-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Features List */
+        .features {
+            background: #F5F5F5;
+            border-radius: 12px;
+            padding: 40px;
+            margin-top: 30px;
+        }
+
+        .feature-item {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .feature-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .feature-item h4 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #D73A3A;
+            margin-bottom: 12px;
+        }
+
+        .feature-item .evidence {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .feature-item .emotional {
+            font-size: 15px;
+            color: #777;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        /* For You Section */
+        .for-you {
+            background: #E8DCC8;
+            padding: 50px 40px;
+        }
+
+        .for-you h2 {
+            color: #2B3E50;
+            margin-bottom: 30px;
+        }
+
+        .for-you-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .for-you-list li {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .for-you-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #D73A3A;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        /* Specs Table */
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background: #fff;
+        }
+
+        .specs-table th,
+        .specs-table td {
+            padding: 15px 20px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .specs-table th {
+            background: #2B3E50;
+            color: #fff;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .specs-table td {
+            font-size: 15px;
+            color: #555;
+        }
+
+        /* Notice Section */
+        .notice {
+            background: #FFF9F0;
+            border-left: 4px solid #D73A3A;
+            padding: 30px 40px;
+            margin-top: 40px;
+        }
+
+        .notice h3 {
+            font-size: 20px;
+            color: #D73A3A;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .notice p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        /* Closing */
+        .closing {
+            text-align: center;
+            padding: 60px 40px;
+            background: #2B3E50;
+            color: #fff;
+        }
+
+        .closing h2 {
+            font-size: 28px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .closing p {
+            font-size: 16px;
+            color: #E8DCC8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO Section -->
+        <section class="hero">
+            <div class="brand-badge">MIKIHOUSE</div>
+            <h1>미키하우스 토트백 일본제 캔버스 엄마가방 6색상 에코백</h1>
+            <p class="subtitle">
+                아이 짐도, 장보기 짐도.<br>
+                몇 년을 써도 튼튼한 일본제 캔버스 가방.
+            </p>
+        </section>
+
+        <!-- Main Product Image -->
+        <div class="main-image">
+            <img src="../images/レッド/image_01.jpg" alt="미키하우스 토트백 레드 정면">
+        </div>
+
+        <!-- 6가지 컬러 옵션 -->
+        <section>
+            <h2>6가지 컬러로 취향껏 선택</h2>
+            <p style="text-align: center;">
+                엄마는 베이지, 아이는 옐로우.<br>
+                가족이 각자 컬러를 골라 쓰는 재미.
+            </p>
+
+            <div class="color-grid">
+                <div class="color-item">
+                    <img src="../images/レッド/image_01.jpg" alt="레드">
+                    <div class="color-name">레드</div>
+                </div>
+                <div class="color-item">
+                    <img src="../images/イエロー/image_01.jpg" alt="옐로우">
+                    <div class="color-name">옐로우</div>
+                </div>
+                <div class="color-item">
+                    <img src="../images/グリーン/image_01.jpg" alt="그린">
+                    <div class="color-name">그린</div>
+                </div>
+                <div class="color-item">
+                    <img src="../images/ネイビー/image_01.jpg" alt="네이비">
+                    <div class="color-name">네이비</div>
+                </div>
+                <div class="color-item">
+                    <img src="../images/ブルー/image_01.jpg" alt="블루">
+                    <div class="color-name">블루</div>
+                </div>
+                <div class="color-item">
+                    <img src="../images/ベージュ/image_01.jpg" alt="베이지">
+                    <div class="color-name">베이지</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 디테일 사진 -->
+        <section>
+            <h2>디테일을 확인하세요</h2>
+            <div class="detail-grid">
+                <img src="../images/レッド/image_02.jpg" alt="측면 디테일">
+                <img src="../images/レッド/image_03.jpg" alt="후면 로고">
+                <img src="../images/レッド/image_04.jpg" alt="내부 구조">
+                <img src="../images/ネイビー/image_01.jpg" alt="네이비 옵션">
+            </div>
+        </section>
+
+        <!-- 주요 특징 -->
+        <section>
+            <h2>왜 이 가방을 선택해야 할까요</h2>
+
+            <div class="features">
+                <div class="feature-item">
+                    <h4>1. 일본제 캔버스 소재의 튼튼함</h4>
+                    <p class="evidence">
+                        MIKIHOUSE의 일본 자체 제작. 두툼한 캔버스 소재로 내구성 우수. 바닥 보강 처리로 형태 유지.
+                    </p>
+                    <p class="emotional">
+                        아이 짐도, 장보기 짐도 한가득 담아도 형태가 무너지지 않아요. 몇 년을 써도 튼튼한 가방.
+                    </p>
+                </div>
+
+                <div class="feature-item">
+                    <h4>2. 엄마와 아이가 함께 쓰는 디자인</h4>
+                    <p class="evidence">
+                        미니멀한 투톤 컬러 + MIKIHOUSE 로고. 아동복 브랜드이지만 성인도 사용 가능한 깔끔한 디자인.
+                    </p>
+                    <p class="emotional">
+                        유치원 소풍 갈 때는 아이가, 마트 갈 때는 엄마가. 우리 가족 가방.
+                    </p>
+                </div>
+
+                <div class="feature-item">
+                    <h4>3. 6가지 컬러로 취향껏 선택</h4>
+                    <p class="evidence">
+                        레드, 옐로우, 그린, 네이비, 블루, 베이지 총 6색. 모두 내추럴 베이지 본체 + 컬러 핸들·바닥 조합.
+                    </p>
+                    <p class="emotional">
+                        엄마는 베이지, 아이는 옐로우. 가족이 각자 컬러를 골라 쓰는 재미.
+                    </p>
+                </div>
+
+                <div class="feature-item">
+                    <h4>4. 적당한 사이즈감</h4>
+                    <p class="evidence">
+                        큼직하지만 과하지 않은 사이즈. 유아 외출 필수품(물병, 간식, 여벌옷) 충분히 수납 가능.
+                    </p>
+                    <p class="emotional">
+                        딱 필요한 만큼만. 크지도 작지도 않은, 매일 들기 좋은 사이즈.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- For You Section -->
+        <section class="for-you">
+            <h2>이런 분들께 추천합니다</h2>
+            <ul class="for-you-list">
+                <li>아이와 나들이 갈 때 물병, 간식, 여벌옷 챙기느라 가방이 무거웠던 분께</li>
+                <li>장보기용 에코백을 찾는데 너무 얇거나 약한 가방은 싫었던 분께</li>
+                <li>깔끔하고 심플한 디자인에 튼튼한 소재까지 갖춘 가방을 찾았던 분께</li>
+            </ul>
+        </section>
+
+        <!-- 사용 시나리오 -->
+        <section>
+            <h2>일상 속 이 가방</h2>
+            <p>
+                <strong>주말 오전, 아이 손 잡고 공원 가는 길.</strong><br>
+                간식이랑 물병 넣어도 형태가 흐트러지지 않아요.
+            </p>
+            <p>
+                <strong>퇴근길 마트.</strong><br>
+                장바구니 대신 들고 가도 든든한 가방. 우유팩도 빵도 안심.
+            </p>
+            <p>
+                <strong>오후 카페.</strong><br>
+                노트북 대신 책 한 권, 파우치 하나. 가볍게 들고 나가기 딱 좋은 사이즈.
+            </p>
+        </section>
+
+        <!-- 상품 스펙 -->
+        <section>
+            <h2>상품 정보</h2>
+            <table class="specs-table">
+                <tr>
+                    <th>브랜드</th>
+                    <td>MIKIHOUSE (미키하우스)</td>
+                </tr>
+                <tr>
+                    <th>원산지</th>
+                    <td>일본제 (Made in Japan)</td>
+                </tr>
+                <tr>
+                    <th>소재</th>
+                    <td>캔버스 (면 100%)</td>
+                </tr>
+                <tr>
+                    <th>컬러 옵션</th>
+                    <td>레드, 옐로우, 그린, 네이비, 블루, 베이지 (총 6색)</td>
+                </tr>
+                <tr>
+                    <th>디자인</th>
+                    <td>베이지 본체 + 컬러 핸들·바닥 투톤 조합, MIKIHOUSE 로고</td>
+                </tr>
+                <tr>
+                    <th>용도</th>
+                    <td>엄마가방, 육아가방, 에코백, 서브백</td>
+                </tr>
+                <tr>
+                    <th>타겟</th>
+                    <td>유아 자녀를 둔 엄마, 20-40대 여성</td>
+                </tr>
+                <tr>
+                    <th>평점</th>
+                    <td>5점 만점에 4.6점 (11개 리뷰 기준)</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 주의사항 -->
+        <div class="notice">
+            <h3>구매 전 확인사항</h3>
+            <p>
+                <strong>해외 직구 상품:</strong> 본 상품은 일본에서 직접 구매대행하는 상품으로, 배송 기간은 주문 후 약 7-14일 소요됩니다.
+            </p>
+            <p>
+                <strong>교환/환불:</strong> 해외 구매 특성상 단순 변심에 의한 교환/환불은 어려울 수 있습니다. 신중한 구매 부탁드립니다.
+            </p>
+            <p>
+                <strong>이미지:</strong> 실제 상품과 모니터 환경에 따라 색상이 다소 차이가 있을 수 있습니다.
+            </p>
+        </div>
+
+        <!-- Closing -->
+        <section class="closing">
+            <h2>매일 가방에. MIKIHOUSE.</h2>
+            <p>믿고 쓰는 일본 브랜드의 품질</p>
+        </section>
+    </div>
+</body>
+</html>

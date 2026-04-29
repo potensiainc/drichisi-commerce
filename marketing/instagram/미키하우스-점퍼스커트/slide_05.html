@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 점퍼스커트 - Slide 5</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: #f4f4f0;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 80px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .label {
+      color: #d62839;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .headline {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #1a2a3a;
+      line-height: 1.4;
+    }
+    .scenes {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      width: 100%;
+    }
+    .scene {
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 16px;
+      padding: 32px 40px;
+      box-shadow: 0 4px 20px rgba(26, 42, 58, 0.08);
+    }
+    .scene-number {
+      width: 60px;
+      height: 60px;
+      background: #1a2a3a;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #f4f4f0;
+      font-family: 'Noto Serif KR', serif;
+      font-size: 24px;
+      font-weight: 700;
+      margin-right: 32px;
+      flex-shrink: 0;
+    }
+    .scene-text {
+      flex: 1;
+    }
+    .scene-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1a2a3a;
+      margin-bottom: 8px;
+    }
+    .scene-desc {
+      font-size: 16px;
+      color: #5a6a7a;
+      line-height: 1.5;
+    }
+    .accent {
+      color: #d62839;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="label">Daily Styling</div>
+      <h1 class="headline">이런 순간에 입혀주세요</h1>
+    </div>
+    <div class="scenes">
+      <div class="scene">
+        <div class="scene-number">1</div>
+        <div class="scene-text">
+          <div class="scene-title">유치원 등원</div>
+          <div class="scene-desc">흰 티셔츠 하나만 입혀도 <span class="accent">바로 완성</span>되는 코디</div>
+        </div>
+      </div>
+      <div class="scene">
+        <div class="scene-number">2</div>
+        <div class="scene-text">
+          <div class="scene-title">주말 나들이</div>
+          <div class="scene-desc">안감 빨간 체크가 살짝 보일 때마다 <span class="accent">귀여운</span></div>
+        </div>
+      </div>
+      <div class="scene">
+        <div class="scene-number">3</div>
+        <div class="scene-text">
+          <div class="scene-title">동생에게 물려주기</div>
+          <div class="scene-desc">세탁기 돌려도 걱정 없는 <span class="accent">내구성 좋은</span> 히코리 소재</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "version": "2.0",
+    "analyzed_at": "2026-04-26T23:30:00+09:00",
+    "source": "product_info.json",
+    "product_folder": "[미키하우스]_반팔블라우스_無地_うさぎ_日本製_면100％_여아_베이비_키즈_아동복_10-5409-496"
+  },
+  "language_handling": {
+    "original_title": "[ミキハウス] 半袖ブラウス 無地 うさぎ 日本製 綿100％ 女の子 ベビー キッズ 子供服 10-5409-496",
+    "translated_title": "미키하우스 여아 토끼자수 무지 반팔 블라우스 면100% 일본제 베이비 키즈",
+    "brand_name_policy": "original",
+    "brand_name_display": "미키하우스",
+    "notes": "MIKIHOUSE(ミキハウス)는 '미키하우스'로 표기. 원브랜드명 병기 없이 한글만 사용."
+  },
+  "category": {
+    "main": "유아동패션",
+    "sub": "여아의류",
+    "detail": "블라우스/셔츠",
+    "target_age": "베이비-유아(70-110cm)",
+    "target_gender": "여아"
+  },
+  "design_direction": {
+    "design_tone": "클래식하고 고급스러운 유아동복",
+    "color_palette": [
+      "#FFFFFF",
+      "#FFF5F5",
+      "#F8E8E8",
+      "#E8D5D5",
+      "#C8B0B0"
+    ],
+    "layout_hint": "깔끔하고 단정한 레이아웃. 토끼 자수 디테일 강조. 일본제 프리미엄 품질 강조. 부드러운 면 100% 소재감 부각.",
+    "style_keywords": [
+      "클래식",
+      "고급스러운",
+      "단정한",
+      "깔끔한",
+      "프리미엄",
+      "내추럴"
+    ]
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "품질",
+        "text": "70년 전통 미키하우스의 장인정신이 담긴 일본제 프리미엄 블라우스"
+      },
+      {
+        "angle": "소재",
+        "text": "100% 순면, 아이 피부에 닿는 모든 순간이 부드러운 착용감"
+      },
+      {
+        "angle": "디자인",
+        "text": "귀여운 토끼 자수 포인트로 특별한 날도 일상도 완벽하게"
+      },
+      {
+        "angle": "실용성",
+        "text": "70부터 110까지, 우리 아이 성장과 함께하는 베이직 아이템"
+      }
+    ],
+    "main_benefit": "일본 장인의 손길이 담긴 순면 100% 블라우스로 우리 아이 피부를 편안하게 지켜줍니다.",
+    "trust_signals": [
+      "미키하우스 정품",
+      "일본 직수입",
+      "면 100% 천연소재",
+      "일본 국내 생산",
+      "70년 전통 브랜드"
+    ]
+  },
+  "specs_structured": {
+    "basic_info": {
+      "브랜드": "미키하우스(MIKIHOUSE)",
+      "품번": "10-5409-496",
+      "원산지": "일본",
+      "소재": "면 100%",
+      "대상": "여아 베이비/키즈"
+    },
+    "size_info": {
+      "사이즈": "70, 80, 90, 100, 110",
+      "사이즈_설명": "일본 사이즈 기준 (cm 단위)"
+    },
+    "care_info": {
+      "세탁방법": "찬물 단독세탁 권장, 자연건조",
+      "주의사항": "삶거나 표백제 사용 금지"
+    },
+    "features": [
+      "토끼 자수 포인트",
+      "무지 디자인",
+      "반팔 기본형",
+      "일본제 고급 마감",
+      "순면 100% 통기성"
+    ]
+  },
+  "image_inventory": [
+    {
+      "filename": "image_01.jpg",
+      "local_path": "../images/default/image_01.jpg",
+      "usage": "메인 대표 이미지 (전면 착용샷)",
+      "description": "흰색 블라우스 전면 디테일"
+    },
+    {
+      "filename": "image_02.jpg",
+      "local_path": "../images/default/image_02.jpg",
+      "usage": "토끼 자수 디테일 클로즈업",
+      "description": "왼쪽 가슴 부분 토끼 자수 상세"
+    },
+    {
+      "filename": "image_03.jpg",
+      "local_path": "../images/default/image_03.jpg",
+      "usage": "후면 디자인 및 마감",
+      "description": "뒷면 디자인 및 단추 마감"
+    },
+    {
+      "filename": "image_04.jpg",
+      "local_path": "../images/default/image_04.jpg",
+      "usage": "소재감 및 디테일",
+      "description": "면 소재 질감 및 봉제선 디테일"
+    },
+    {
+      "filename": "image_05.jpg",
+      "local_path": "../images/default/image_05.jpg",
+      "usage": "착용 이미지",
+      "description": "실제 착용 모습 및 실루엣"
+    },
+    {
+      "filename": "thumbnail.jpg",
+      "local_path": "../images/default/thumbnail.jpg",
+      "usage": "썸네일",
+      "description": "대표 썸네일 이미지"
+    }
+  ],
+  "compliance_notes": {
+    "prohibited_mentions": [
+      "아마존",
+      "Amazon",
+      "라쿠텐",
+      "원가격(엔화)",
+      "KC인증"
+    ],
+    "required_disclosures": [
+      "해외직구 상품 (통관/배송 기간 안내 필요)",
+      "사이즈는 일본 기준이므로 국내 사이즈와 다를 수 있음"
+    ],
+    "risk_flags": []
+  }
+}

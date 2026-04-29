@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>미키하우스 아동 레인부츠 반사테이프 중창 통원통학 13-19cm</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum:wght@400&family=Noto+Sans+KR:wght@400;500;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      /* Color Palette */
+      --accent: #E63946;
+      --bg-base: #FFDD4A;
+      --accent-soft: #FF6B9D;
+      --supporting-green: #2A9D8F;
+      --supporting-blue: #457B9D;
+      --text-main: #2B2D42;
+      --text-sub: #5A5A5A;
+      --bg-alt: #FFF9E6;
+      --line-soft: #E0E0E0;
+      --white: #FFFFFF;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      color: var(--text-main);
+      line-height: 1.7;
+      word-break: keep-all;
+      background: var(--white);
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--white);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    /* Typography */
+    h1, h2, h3 {
+      font-family: 'Gowun Dodum', sans-serif;
+      font-weight: 400;
+    }
+
+    .accent-text {
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-weight: 600;
+    }
+
+    /* HERO Section */
+    .hero {
+      position: relative;
+      background: linear-gradient(135deg, var(--bg-base) 0%, #FFF4B8 100%);
+      padding: 80px 60px 100px;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -50px;
+      right: -50px;
+      width: 200px;
+      height: 200px;
+      background: var(--accent);
+      opacity: 0.1;
+      border-radius: 50%;
+    }
+
+    .hero-label {
+      font-size: 16px;
+      color: var(--text-sub);
+      margin-bottom: 16px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-title {
+      font-size: 42px;
+      line-height: 1.3;
+      color: var(--accent);
+      margin-bottom: 32px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-copy {
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--text-main);
+      margin-bottom: 48px;
+      max-width: 600px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-image-wrapper {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      margin-top: 48px;
+    }
+
+    .hero-image-wrapper img {
+      margin: 0 auto;
+      max-height: 500px;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.1));
+    }
+
+    .brand-badge {
+      display: inline-block;
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--accent);
+      background: var(--white);
+      padding: 8px 20px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 4px 12px rgba(230, 57, 70, 0.15);
+    }
+
+    /* Story Section */
+    .story {
+      background: var(--white);
+      padding: 100px 60px;
+    }
+
+    .section-title {
+      font-size: 32px;
+      margin-bottom: 24px;
+      color: var(--text-main);
+    }
+
+    .story-text {
+      font-size: 17px;
+      line-height: 1.9;
+      color: var(--text-main);
+      margin-bottom: 28px;
+    }
+
+    .story-highlight {
+      background: var(--bg-alt);
+      padding: 32px 40px;
+      border-left: 4px solid var(--accent);
+      margin: 48px 0;
+    }
+
+    .story-highlight p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--text-main);
+    }
+
+    /* Features Grid */
+    .features {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 48px;
+      margin-top: 48px;
+    }
+
+    .feature-card {
+      background: var(--white);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+
+    .feature-number {
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 16px;
+      line-height: 1;
+    }
+
+    .feature-title {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--text-main);
+    }
+
+    .feature-desc {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text-sub);
+    }
+
+    /* Image Showcase */
+    .showcase {
+      background: var(--white);
+      padding: 100px 60px;
+    }
+
+    .showcase-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+      margin-top: 48px;
+    }
+
+    .showcase-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      background: var(--bg-alt);
+    }
+
+    .showcase-item img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .showcase-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .showcase-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+      color: var(--white);
+      padding: 24px;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    .showcase-full {
+      grid-column: 1 / -1;
+    }
+
+    /* Options Section */
+    .options {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      margin-top: 48px;
+    }
+
+    .option-card {
+      background: var(--white);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+      transition: transform 0.3s ease;
+    }
+
+    .option-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .option-image {
+      width: 100%;
+      padding: 40px;
+      background: var(--white);
+      text-align: center;
+    }
+
+    .option-image img {
+      margin: 0 auto;
+      max-height: 350px;
+    }
+
+    .option-info {
+      padding: 32px;
+      background: var(--white);
+      border-top: 1px solid var(--line-soft);
+    }
+
+    .option-name {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--text-main);
+    }
+
+    .option-desc {
+      font-size: 15px;
+      color: var(--text-sub);
+      line-height: 1.6;
+    }
+
+    /* Specs Table */
+    .specs {
+      background: var(--white);
+      padding: 100px 60px;
+    }
+
+    .specs-table {
+      width: 100%;
+      margin-top: 48px;
+      border-collapse: collapse;
+      background: var(--white);
+      border: 1px solid var(--line-soft);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .specs-table th,
+    .specs-table td {
+      padding: 20px 24px;
+      text-align: left;
+      border-bottom: 1px solid var(--line-soft);
+    }
+
+    .specs-table th {
+      background: var(--bg-alt);
+      font-weight: 700;
+      color: var(--text-main);
+      width: 30%;
+    }
+
+    .specs-table td {
+      color: var(--text-sub);
+    }
+
+    .specs-table tr:last-child th,
+    .specs-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Detail Images */
+    .details {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .details-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 48px;
+    }
+
+    .detail-item {
+      background: var(--white);
+      padding: 24px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .detail-item img {
+      margin: 0 auto 16px;
+      max-height: 280px;
+    }
+
+    .detail-label {
+      font-size: 14px;
+      color: var(--text-sub);
+      font-style: italic;
+    }
+
+    /* For You Section */
+    .for-you {
+      background: linear-gradient(135deg, var(--accent-soft) 0%, #FFB3D4 100%);
+      padding: 100px 60px;
+      color: var(--white);
+    }
+
+    .for-you .section-title {
+      color: var(--white);
+    }
+
+    .for-you-list {
+      list-style: none;
+      margin-top: 48px;
+    }
+
+    .for-you-list li {
+      font-size: 19px;
+      line-height: 1.8;
+      padding: 24px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      position: relative;
+      padding-left: 40px;
+    }
+
+    .for-you-list li:last-child {
+      border-bottom: none;
+    }
+
+    .for-you-list li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    /* Notice Section - 스토리텔링 방식 */
+    .notice {
+      background: var(--white);
+      padding: 100px 60px;
+    }
+
+    .notice-intro {
+      font-size: 18px;
+      line-height: 1.9;
+      color: var(--text-main);
+      margin-bottom: 32px;
+    }
+
+    .notice-content {
+      background: var(--bg-alt);
+      padding: 40px;
+      border-radius: 12px;
+      margin-top: 32px;
+    }
+
+    .notice-item {
+      margin-bottom: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--line-soft);
+    }
+
+    .notice-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .notice-item-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--accent);
+    }
+
+    .notice-item-text {
+      font-size: 16px;
+      line-height: 1.8;
+      color: var(--text-main);
+    }
+
+    /* Closing */
+    .closing {
+      background: linear-gradient(135deg, var(--bg-base) 0%, #FFF4B8 100%);
+      padding: 120px 60px;
+      text-align: center;
+      position: relative;
+    }
+
+    .closing::before {
+      content: '';
+      position: absolute;
+      top: -50px;
+      left: -50px;
+      width: 200px;
+      height: 200px;
+      background: var(--accent-soft);
+      opacity: 0.1;
+      border-radius: 50%;
+    }
+
+    .closing-message {
+      font-size: 36px;
+      line-height: 1.5;
+      color: var(--text-main);
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .closing-brand {
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 480px) {
+      .hero {
+        padding: 60px 24px 80px;
+      }
+
+      .hero-title {
+        font-size: 32px;
+      }
+
+      .hero-copy {
+        font-size: 16px;
+      }
+
+      .story,
+      .features,
+      .showcase,
+      .options,
+      .specs,
+      .details,
+      .for-you,
+      .notice,
+      .closing {
+        padding: 60px 24px;
+      }
+
+      .section-title {
+        font-size: 26px;
+      }
+
+      .features-grid,
+      .showcase-grid,
+      .options-grid,
+      .details-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .showcase-full {
+        grid-column: 1;
+      }
+
+      .feature-card {
+        padding: 28px;
+      }
+
+      .feature-number {
+        font-size: 36px;
+      }
+
+      .specs-table th,
+      .specs-table td {
+        padding: 16px;
+        font-size: 14px;
+      }
+
+      .closing-message {
+        font-size: 28px;
+      }
+
+      .closing-brand {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- HERO Section -->
+    <section class="hero">
+      <div class="brand-badge">MIKIHOUSE</div>
+      <div class="hero-label">미키하우스 아동 레인부츠 반사테이프 중창 통원통학 13-19cm</div>
+      <h1 class="hero-title">물웅덩이를 보면<br>참지 못하고 첨벙첨벙.</h1>
+      <div class="hero-copy">
+        '신발 젖으니까 안 돼!' 대신<br>
+        '마음껏 놀아!' 할 수 있는 여유.
+      </div>
+      <div class="hero-image-wrapper">
+        <img src="../images/multicolor/thumbnail.jpg" alt="미키하우스 멀티컬러 레인부츠 정면" loading="eager">
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story">
+      <h2 class="section-title">비 오는 날, 아이가 먼저 나서는 순간</h2>
+      <p class="story-text">
+        비 예보가 뜨면 아침부터 걱정이죠. 옷은 어떻게 입히지, 우산은 챙겼나, 신발은 젖지 않을까.
+      </p>
+      <p class="story-text">
+        그런데 어느 날부터 달라졌어요. "엄마, 나 이 장화 신고 갈래!" 하며 아이가 먼저 현관으로 달려가는 모습.
+      </p>
+      <p class="story-text">
+        퍼즐 블록처럼 알록달록한 패턴 위로 귀여운 동물 친구들이 웃고 있는 장화. 비 오는 날이 우울한 날이 아니라 즐거운 외출이 되었어요.
+      </p>
+
+      <div class="story-highlight">
+        <p>
+          일본 엄마들이 70년 넘게 믿고 선택한 미키하우스. 귀여운 디자인 뒤에는 안전과 편안함을 먼저 생각하는 진심이 담겨 있습니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <h2 class="section-title">귀여운 것만 좋아할 줄 알았는데</h2>
+      <div class="features-grid">
+
+        <div class="feature-card">
+          <div class="feature-number">01</div>
+          <h3 class="feature-title">비 오는 날도 즐거운<br>퍼즐블록 디자인</h3>
+          <p class="feature-desc">
+            알록달록한 퍼즐 블록 패턴 속에 곰, 토끼, 개구리 친구들이 숨어 있어요. 우산 쓰기 싫다고 떼쓰던 아이가 장화 신고 싶다며 먼저 나서는 순간을 만나실 거예요.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">02</div>
+          <h3 class="feature-title">어두운 길도 안심,<br>반사테이프</h3>
+          <p class="feature-desc">
+            겨울철 일찍 어두워지는 퇴근 시간, 아이 손 꼭 잡고 걷는 그 길. 반사 테이프가 차량 불빛에 반짝이며 아이의 존재를 알려줍니다.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">03</div>
+          <h3 class="feature-title">뛰어놀아도 발 편한<br>중창 구조</h3>
+          <p class="feature-desc">
+            물웅덩이를 보면 참지 못하고 첨벙첨벙 뛰어드는 우리 아이. 키즈 전용 중창이 충격을 흡수해 주니까 마음껏 놀게 해줄 수 있어요.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-number">04</div>
+          <h3 class="feature-title">유치원 신발장에서<br>잃어버릴 걱정 없이</h3>
+          <p class="feature-desc">
+            현관에 똑같은 장화가 10켤레. '우리 애 거 어디 갔지?' 하던 그날 이후, 이름 스티커 하나로 해결됐어요. 포함된 이름 스티커로 쉽게 구분할 수 있습니다.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="showcase">
+      <h2 class="section-title">디테일을 보면 더 믿음이 갑니다</h2>
+      <div class="showcase-grid">
+
+        <div class="showcase-item">
+          <img src="../images/multicolor/image_03.jpg" alt="멀티컬러 밑창 미끄럼방지 패턴" loading="lazy">
+          <div class="showcase-caption">깊은 패턴의 미끄럼 방지 밑창</div>
+        </div>
+
+        <div class="showcase-item">
+          <img src="../images/multicolor/image_04.jpg" alt="멀티컬러 상단뷰 중창 구조" loading="lazy">
+          <div class="showcase-caption">발 편한 중창 쿠션 구조</div>
+        </div>
+
+        <div class="showcase-item">
+          <img src="../images/multicolor/image_05.jpg" alt="멀티컬러 뒤꿈치 반사테이프" loading="lazy">
+          <div class="showcase-caption">어두운 길에서도 빛나는 반사 테이프</div>
+        </div>
+
+        <div class="showcase-item">
+          <img src="../images/multicolor/image_02.jpg" alt="멀티컬러 측면 미키하우스 로고" loading="lazy">
+          <div class="showcase-caption">신뢰의 미키하우스 로고</div>
+        </div>
+
+        <div class="showcase-item showcase-full">
+          <img src="../images/multicolor/image_01.jpg" alt="멀티컬러 정면 풀샷" loading="lazy">
+          <div class="showcase-caption">아이들이 좋아하는 밝고 경쾌한 퍼즐 블록 패턴</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Options Section -->
+    <section class="options">
+      <h2 class="section-title">두 가지 컬러, 우리 아이 취향대로</h2>
+      <div class="options-grid">
+
+        <div class="option-card">
+          <div class="option-image">
+            <img src="../images/multicolor/thumbnail.jpg" alt="멀티컬러 옵션" loading="lazy">
+          </div>
+          <div class="option-info">
+            <h3 class="option-name">멀티컬러</h3>
+            <p class="option-desc">
+              노란색 베이스에 빨강, 파랑, 초록 퍼즐 블록이 어우러진 밝고 경쾌한 디자인. 활발한 아이들에게 잘 어울려요.
+            </p>
+          </div>
+        </div>
+
+        <div class="option-card">
+          <div class="option-image">
+            <img src="../images/pink/thumbnail.jpg" alt="핑크 옵션" loading="lazy">
+          </div>
+          <div class="option-info">
+            <h3 class="option-name">핑크</h3>
+            <p class="option-desc">
+              부드러운 핑크 톤에 토끼와 곰 캐릭터가 사랑스러운 느낌. 은은하고 따뜻한 분위기를 좋아하는 아이에게 추천해요.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Specs Section -->
+    <section class="specs">
+      <h2 class="section-title">상품 정보</h2>
+      <table class="specs-table">
+        <tbody>
+          <tr>
+            <th>브랜드</th>
+            <td>MIKIHOUSE (미키하우스)</td>
+          </tr>
+          <tr>
+            <th>모델명</th>
+            <td>10-9471-684</td>
+          </tr>
+          <tr>
+            <th>사이즈</th>
+            <td>13cm / 14cm / 15cm / 16cm / 17cm / 18cm / 19cm (0.5cm 단위 없음, 정수 단위 선택)</td>
+          </tr>
+          <tr>
+            <th>컬러</th>
+            <td>멀티컬러 / 핑크</td>
+          </tr>
+          <tr>
+            <th>소재</th>
+            <td>PVC (폴리염화비닐)</td>
+          </tr>
+          <tr>
+            <th>주요 기능</th>
+            <td>반사테이프, 중창 쿠션, 미끄럼 방지 밑창, 뒤꿈치 당김 고리, 이름 스티커 포함</td>
+          </tr>
+          <tr>
+            <th>용도</th>
+            <td>통원, 통학, 우천 외출, 물놀이</td>
+          </tr>
+          <tr>
+            <th>원산지</th>
+            <td>일본</td>
+          </tr>
+          <tr>
+            <th>제조사</th>
+            <td>MIKIHOUSE</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Details Section - 핑크 버전 디테일 -->
+    <section class="details">
+      <h2 class="section-title">핑크 버전도 이렇게 귀여워요</h2>
+      <div class="details-grid">
+
+        <div class="detail-item">
+          <img src="../images/pink/image_01.jpg" alt="핑크 정면" loading="lazy">
+          <p class="detail-label">핑크 정면 풀샷</p>
+        </div>
+
+        <div class="detail-item">
+          <img src="../images/pink/image_04.jpg" alt="핑크 측면" loading="lazy">
+          <p class="detail-label">핑크 측면 실루엣</p>
+        </div>
+
+        <div class="detail-item">
+          <img src="../images/pink/image_02.jpg" alt="핑크 밑창" loading="lazy">
+          <p class="detail-label">핑크 밑창 패턴</p>
+        </div>
+
+        <div class="detail-item">
+          <img src="../images/pink/image_03.jpg" alt="핑크 상단뷰" loading="lazy">
+          <p class="detail-label">핑크 중창 구조</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- For You Section -->
+    <section class="for-you">
+      <h2 class="section-title">이런 분께 추천해요</h2>
+      <ul class="for-you-list">
+        <li>비 오는 날 아침, 장화 신는다고 스스로 나서는 아이를 보고 싶은 분께</li>
+        <li>어두운 등하원길, 아이 안전이 제일 걱정인 워킹맘께</li>
+        <li>유치원 신발장에서 우리 애 거 찾느라 매번 헤매는 분께</li>
+      </ul>
+    </section>
+
+    <!-- Notice Section - 스토리텔링 방식 -->
+    <section class="notice">
+      <h2 class="section-title">구매 전 알아두면 좋아요</h2>
+
+      <p class="notice-intro">
+        일본에서 직접 공수한 정품 미키하우스 레인부츠예요. 구매 전 아래 내용을 확인해 주시면 더 만족스러운 선택이 될 거예요.
+      </p>
+
+      <div class="notice-content">
+
+        <div class="notice-item">
+          <h3 class="notice-item-title">사이즈 선택 팁</h3>
+          <p class="notice-item-text">
+            아이 발 실측 사이즈에서 0.5~1cm 여유 있게 선택하시는 걸 권장해요. 장화는 두꺼운 양말을 신고 신는 경우가 많아서 약간 여유 있는 사이즈가 편해요. 13~19cm까지 1cm 단위로 선택 가능합니다 (0.5cm 단위 없음).
+          </p>
+        </div>
+
+        <div class="notice-item">
+          <h3 class="notice-item-title">컬러 차이 안내</h3>
+          <p class="notice-item-text">
+            모니터 환경에 따라 실제 색상과 약간 다르게 보일 수 있어요. 특히 핑크 버전의 경우 조명에 따라 톤이 밝거나 진하게 느껴질 수 있습니다. 상품 이미지 여러 장을 참고해 주세요.
+          </p>
+        </div>
+
+        <div class="notice-item">
+          <h3 class="notice-item-title">PVC 소재 특성</h3>
+          <p class="notice-item-text">
+            PVC 장화는 처음 신을 때 특유의 냄새가 날 수 있어요. 통풍이 잘 되는 곳에 하루 정도 두시면 대부분 사라집니다. 또한 겨울철 극저온(-10℃ 이하)에서는 소재가 딱딱해질 수 있으니 참고해 주세요.
+          </p>
+        </div>
+
+        <div class="notice-item">
+          <h3 class="notice-item-title">이름 스티커 활용법</h3>
+          <p class="notice-item-text">
+            포함된 이름 스티커는 안쪽 발목 부분에 부착하시면 돼요. 외부에 붙이면 마찰로 떨어질 수 있으니 안쪽에 붙이는 게 오래 유지돼요.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Closing Section -->
+    <section class="closing">
+      <p class="closing-message">
+        비 오는 날도,<br>
+        즐거운 외출로.
+      </p>
+      <p class="closing-brand">MIKIHOUSE</p>
+    </section>
+
+  </div>
+</body>
+</html>

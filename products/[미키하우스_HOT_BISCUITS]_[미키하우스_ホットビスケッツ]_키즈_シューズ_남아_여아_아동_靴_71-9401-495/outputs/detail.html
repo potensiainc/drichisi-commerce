@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 걸음마 신발 통기성 메쉬 운동화</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif;
+            line-height: 1.6;
+            color: #2d2d2d;
+            background: #ffffff;
+        }
+
+        .container {
+            width: 860px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+
+        /* HERO 섹션 */
+        .hero {
+            position: relative;
+            padding: 80px 60px;
+            background: linear-gradient(135deg, #FFF5F8 0%, #FFFFFF 100%);
+            text-align: center;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: #FFB6C1;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border-radius: 20px;
+            margin-bottom: 24px;
+        }
+
+        .hero-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #1a1a1a;
+            line-height: 1.3;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: #555555;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            font-weight: 400;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(255, 105, 180, 0.15);
+        }
+
+        .hero-image img {
+            width: 100%;
+            display: block;
+        }
+
+        /* 섹션 공통 */
+        section {
+            padding: 80px 60px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+            letter-spacing: -0.3px;
+        }
+
+        .section-subtitle {
+            font-size: 16px;
+            color: #666666;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        /* KEY MESSAGE 섹션 */
+        .key-message {
+            background: #FAFAFA;
+            border-left: 4px solid #FFB6C1;
+        }
+
+        .message-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .message-item {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #e8e8e8;
+        }
+
+        .message-item h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #FF69B4;
+            margin-bottom: 12px;
+        }
+
+        .message-item p {
+            font-size: 15px;
+            color: #555555;
+            line-height: 1.7;
+        }
+
+        /* FEATURES 섹션 */
+        .features {
+            background: #ffffff;
+        }
+
+        .feature-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 50px;
+            margin-top: 40px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .feature-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .feature-image {
+            flex: 0 0 360px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .feature-image img {
+            width: 100%;
+            display: block;
+        }
+
+        .feature-content {
+            flex: 1;
+        }
+
+        .feature-content h3 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+        }
+
+        .feature-content p {
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.8;
+        }
+
+        .feature-badge {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #FFD700;
+            color: #1a1a1a;
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 20px;
+            margin-bottom: 12px;
+        }
+
+        /* OPTIONS 섹션 */
+        .options {
+            background: #F8F8F8;
+        }
+
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .color-card {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid #e8e8e8;
+            transition: all 0.3s ease;
+        }
+
+        .color-card:hover {
+            border-color: #FFB6C1;
+            box-shadow: 0 4px 20px rgba(255, 105, 180, 0.15);
+        }
+
+        .color-card-image {
+            width: 100%;
+            aspect-ratio: 1;
+            overflow: hidden;
+        }
+
+        .color-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .color-card-title {
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        /* SPECS 섹션 */
+        .specs {
+            background: #ffffff;
+        }
+
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 40px;
+            border: 1px solid #e8e8e8;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .specs-table th {
+            background: #FAFAFA;
+            padding: 18px 24px;
+            text-align: left;
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a1a1a;
+            border-bottom: 1px solid #e8e8e8;
+            width: 30%;
+        }
+
+        .specs-table td {
+            padding: 18px 24px;
+            font-size: 15px;
+            color: #555555;
+            border-bottom: 1px solid #f0f0f0;
+            line-height: 1.8;
+        }
+
+        .specs-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* TRUST 섹션 */
+        .trust {
+            background: linear-gradient(135deg, #FFF9E6 0%, #FFFFFF 100%);
+            text-align: center;
+        }
+
+        .trust-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .trust-rating {
+            font-size: 48px;
+            font-weight: 800;
+            color: #FFD700;
+            margin-bottom: 16px;
+        }
+
+        .trust-stars {
+            color: #FFD700;
+            font-size: 32px;
+            margin-bottom: 20px;
+            letter-spacing: 4px;
+        }
+
+        .trust-text {
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.8;
+        }
+
+        .trust-badge {
+            display: inline-block;
+            padding: 12px 28px;
+            background: #FFD700;
+            color: #1a1a1a;
+            font-size: 14px;
+            font-weight: 700;
+            border-radius: 24px;
+            margin-top: 24px;
+        }
+
+        /* CLOSING 섹션 */
+        .closing {
+            background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%);
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .closing-title {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .closing-subtitle {
+            font-size: 18px;
+            line-height: 1.8;
+            opacity: 0.95;
+            margin-bottom: 40px;
+        }
+
+        .closing-cta {
+            display: inline-block;
+            padding: 18px 48px;
+            background: #ffffff;
+            color: #FF69B4;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .closing-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* HERITAGE 섹션 */
+        .heritage {
+            background: #F5F5F5;
+            text-align: center;
+        }
+
+        .heritage-year {
+            font-size: 64px;
+            font-weight: 800;
+            color: #FFB6C1;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+
+        .heritage-text {
+            font-size: 18px;
+            color: #555555;
+            line-height: 1.8;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .heritage-logo {
+            margin-top: 40px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a1a;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO 섹션 -->
+        <section class="hero">
+            <div class="hero-badge">MIKIHOUSE HOT BISCUITS</div>
+            <h1 class="hero-title">미키하우스 걸음마 신발<br>통기성 메쉬 운동화 16-18cm</h1>
+            <p class="hero-subtitle">걸음마 시기, 우리 아이 첫 신발은 달라야 합니다</p>
+            <div class="hero-image">
+                <img src="../images/ピンク/image_01.jpg" alt="미키하우스 핫비스킷 아동 운동화 핑크 정면">
+            </div>
+        </section>
+
+        <!-- KEY MESSAGE 섹션 -->
+        <section class="key-message">
+            <h2 class="section-title">아이의 발 건강을 생각하는<br>60년 전통 미키하우스</h2>
+            <p class="section-subtitle">일본 아동복 브랜드 1위, 믿을 수 있는 품질로 우리 아이의 첫 걸음을 응원합니다</p>
+
+            <div class="message-grid">
+                <div class="message-item">
+                    <h3>발달 단계 맞춤 설계</h3>
+                    <p>플렉스 솔과 넉넉한 앞코로 걸음마 시기 자연스러운 발 움직임을 돕습니다. 탄탄한 뒤꿈치 카운터가 발목을 안정적으로 지지해요.</p>
+                </div>
+                <div class="message-item">
+                    <h3>쾌적한 통기성</h3>
+                    <p>땀 많은 우리 아이 발을 위해 폴리에스터 메쉬 소재를 사용했어요. 하루 종일 신어도 쾌적하게 유지됩니다.</p>
+                </div>
+                <div class="message-item">
+                    <h3>간편한 착탈</h3>
+                    <p>벨크로 한 번이면 끝! 아침 등원 준비 시간이 빨라집니다. 아이 스스로도 신고 벗을 수 있어요.</p>
+                </div>
+                <div class="message-item">
+                    <h3>안전한 소재</h3>
+                    <p>60년 전통 미키하우스의 까다로운 품질 기준을 통과한 정품만 판매합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES 섹션 -->
+        <section class="features">
+            <h2 class="section-title">우리 아이 첫 신발,<br>이렇게 달라야 합니다</h2>
+            <p class="section-subtitle">걸음마 시기 발 건강을 지키는 5가지 핵심 기능</p>
+
+            <div class="feature-list">
+                <div class="feature-item">
+                    <div class="feature-image">
+                        <img src="../images/ホワイト/image_04.jpg" alt="미키하우스 핫비스킷 아동 운동화 화이트 상단">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-badge">통기성</span>
+                        <h3>메쉬 소재로 쾌적하게</h3>
+                        <p>폴리에스터 메쉬 소재가 공기를 순환시켜 땀 많은 아이 발을 쾌적하게 유지합니다. 여름철은 물론 사계절 내내 시원하게 신을 수 있어요.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-image">
+                        <img src="../images/マルチカラー/image_05.jpg" alt="미키하우스 핫비스킷 아동 운동화 멀티컬러 밑창">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-badge">플렉스 솔</span>
+                        <h3>자연스러운 발 움직임</h3>
+                        <p>유연한 플렉스 솔 설계로 아이의 발이 자연스럽게 구부러집니다. 걸음마 시기 발 근육 발달에 도움을 줍니다.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-image">
+                        <img src="../images/ピンク/image_03.jpg" alt="미키하우스 핫비스킷 아동 운동화 핑크 후면">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-badge">안정성</span>
+                        <h3>탄탄한 뒤꿈치 카운터</h3>
+                        <p>걸음마 시기 불안정한 발목을 안정적으로 지지하는 튼튼한 뒤꿈치 구조. 넘어지는 것을 예방합니다.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-image">
+                        <img src="../images/ホワイト/image_02.jpg" alt="미키하우스 핫비스킷 아동 운동화 화이트 측면">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-badge">착용감</span>
+                        <h3>넉넉한 앞코 디자인</h3>
+                        <p>발가락이 자유롭게 움직일 수 있는 넉넉한 여유 공간. 성장기 아이의 발을 압박하지 않아요.</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-image">
+                        <img src="../images/マルチカラー/image_02.jpg" alt="미키하우스 핫비스킷 아동 운동화 멀티컬러 측면">
+                    </div>
+                    <div class="feature-content">
+                        <span class="feature-badge">편의성</span>
+                        <h3>벨크로 스트랩</h3>
+                        <p>끈을 묶지 않아도 빠르고 쉽게 착용 가능. 아이 스스로도 신고 벗을 수 있어 자립심을 키워줍니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- OPTIONS 섹션 -->
+        <section class="options">
+            <h2 class="section-title">다양한 색상 옵션</h2>
+            <p class="section-subtitle">우리 아이 취향에 맞는 색상을 선택하세요</p>
+
+            <div class="color-grid">
+                <div class="color-card">
+                    <div class="color-card-image">
+                        <img src="../images/ピンク/thumbnail.jpg" alt="핑크">
+                    </div>
+                    <div class="color-card-title">핑크</div>
+                </div>
+
+                <div class="color-card">
+                    <div class="color-card-image">
+                        <img src="../images/ホワイト/thumbnail.jpg" alt="화이트">
+                    </div>
+                    <div class="color-card-title">화이트</div>
+                </div>
+
+                <div class="color-card">
+                    <div class="color-card-image">
+                        <img src="../images/マルチカラー/thumbnail.jpg" alt="멀티컬러">
+                    </div>
+                    <div class="color-card-title">멀티컬러</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SPECS 섹션 -->
+        <section class="specs">
+            <h2 class="section-title">상품 상세 정보</h2>
+            <p class="section-subtitle">정확한 스펙으로 안심하고 선택하세요</p>
+
+            <table class="specs-table">
+                <tr>
+                    <th>브랜드</th>
+                    <td>MIKIHOUSE HOT BISCUITS</td>
+                </tr>
+                <tr>
+                    <th>제조사</th>
+                    <td>MIKIHOUSE</td>
+                </tr>
+                <tr>
+                    <th>모델번호</th>
+                    <td>71-9401-495</td>
+                </tr>
+                <tr>
+                    <th>사이즈</th>
+                    <td>16.0cm, 17.0cm, 18.0cm</td>
+                </tr>
+                <tr>
+                    <th>색상</th>
+                    <td>핑크, 화이트, 멀티컬러</td>
+                </tr>
+                <tr>
+                    <th>소재</th>
+                    <td>폴리에스터 메쉬 (갑피), 고무 (밑창), 통기성 소재 (안감)</td>
+                </tr>
+                <tr>
+                    <th>주요 기능</th>
+                    <td>벨크로 스트랩, 플렉스 솔, 탄탄한 뒤꿈치 카운터, 넉넉한 앞코 디자인, 통기성 메쉬 소재</td>
+                </tr>
+                <tr>
+                    <th>권장 연령</th>
+                    <td>1-3세 (걸음마~유아기)</td>
+                </tr>
+                <tr>
+                    <th>추천 용도</th>
+                    <td>일상용, 통원용, 외출용, 선물용</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- HERITAGE 섹션 -->
+        <section class="heritage">
+            <div class="heritage-year">Since 1971</div>
+            <p class="heritage-text">1971년 탄생한 미키하우스는 55년 동안 아이들의 건강한 성장을 위해 최고의 품질만을 고집해왔습니다. 일본 아동복 브랜드 1위, 전 세계 부모들의 신뢰를 받는 이유입니다.</p>
+            <div class="heritage-logo">MIKIHOUSE</div>
+        </section>
+
+        <!-- TRUST 섹션 -->
+        <section class="trust">
+            <div class="trust-content">
+                <div class="trust-rating">4.3 / 5.0</div>
+                <div class="trust-stars">★★★★☆</div>
+                <p class="trust-text">많은 부모님들이 선택하고 만족한 제품입니다.<br>우리 아이 첫 신발로 안심하고 선택하세요.</p>
+                <div class="trust-badge">검증된 품질</div>
+            </div>
+        </section>
+
+        <!-- CLOSING 섹션 -->
+        <section class="closing">
+            <h2 class="closing-title">우리 아이 첫 걸음,<br>미키하우스와 함께 시작하세요</h2>
+            <p class="closing-subtitle">60년 전통 브랜드의 믿을 수 있는 품질<br>건강한 발 발달을 위한 과학적 설계<br>엄마 아빠의 편의까지 생각한 디자인</p>
+        </section>
+    </div>
+</body>
+</html>

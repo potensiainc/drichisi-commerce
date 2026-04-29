@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>육아맘들 사이에서 난리 난 미키하우스 유아백팩, 어린이집 가방으로 딱이에요</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      line-height: 1.8;
+      color: #333;
+      background: #fafafa;
+    }
+
+    .post-container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 40px 24px;
+    }
+
+    /* 히어로 섹션 */
+    .hero {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #4A90D9 0%, #357ABD 100%);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 6px 16px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-title {
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.4;
+      color: #1a1a1a;
+      margin-bottom: 16px;
+      word-break: keep-all;
+    }
+
+    .hero-subtitle {
+      font-size: 15px;
+      color: #888;
+    }
+
+    /* 훅 섹션 */
+    .hook {
+      background: linear-gradient(135deg, #E8F4FD 0%, #D1E9F9 100%);
+      border-radius: 16px;
+      padding: 32px 24px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .hook-quote {
+      font-size: 24px;
+      font-weight: 700;
+      color: #2E6BA8;
+      margin-bottom: 16px;
+    }
+
+    .hook-text {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    /* 이미지 */
+    .image-container {
+      margin: 32px 0;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .image-caption {
+      background: #f8f8f8;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #888;
+      text-align: center;
+    }
+
+    /* 색상 갤러리 */
+    .color-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 32px 0;
+    }
+
+    .color-item {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+
+    .color-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .color-label {
+      background: #f8f8f8;
+      padding: 8px;
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    /* 2열 갤러리 */
+    .two-col-gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin: 32px 0;
+    }
+
+    .two-col-gallery .color-item {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+
+    /* 섹션 */
+    .section {
+      margin-bottom: 48px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #4A90D9;
+    }
+
+    .section-title-icon {
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(135deg, #4A90D9 0%, #357ABD 100%);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .section-content {
+      font-size: 15px;
+      color: #444;
+    }
+
+    .section-content p {
+      margin-bottom: 16px;
+    }
+
+    /* 스펙 박스 */
+    .spec-box {
+      background: #F8FBFE;
+      border: 1px solid #D1E9F9;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .spec-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #2E6BA8;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .spec-grid {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 12px 16px;
+      font-size: 14px;
+    }
+
+    .spec-label {
+      color: #888;
+      font-weight: 500;
+    }
+
+    .spec-value {
+      color: #333;
+    }
+
+    /* 포인트 박스 */
+    .point-box {
+      background: linear-gradient(135deg, #F0F7FD 0%, #E8F4FD 100%);
+      border-left: 4px solid #4A90D9;
+      padding: 20px 24px;
+      margin: 24px 0;
+      border-radius: 0 12px 12px 0;
+    }
+
+    .point-box p {
+      margin: 0;
+      font-size: 15px;
+      color: #444;
+    }
+
+    /* 특징 리스트 */
+    .feature-list {
+      list-style: none;
+      margin: 24px 0;
+    }
+
+    .feature-list li {
+      padding: 12px 0;
+      padding-left: 28px;
+      position: relative;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 15px;
+      color: #444;
+    }
+
+    .feature-list li:last-child {
+      border-bottom: none;
+    }
+
+    .feature-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+      height: 18px;
+      background: linear-gradient(135deg, #4A90D9 0%, #357ABD 100%);
+      border-radius: 50%;
+    }
+
+    .feature-list li::after {
+      content: "+";
+      position: absolute;
+      left: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* 장단점 */
+    .pros-cons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    @media (max-width: 500px) {
+      .pros-cons {
+        grid-template-columns: 1fr;
+      }
+      .color-gallery {
+        grid-template-columns: 1fr;
+      }
+      .two-col-gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .pros, .cons {
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .pros {
+      background: #F0FFF4;
+      border: 1px solid #C6F6D5;
+    }
+
+    .cons {
+      background: #FFF5F5;
+      border: 1px solid #FED7D7;
+    }
+
+    .pros-title, .cons-title {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pros-title {
+      color: #22543D;
+    }
+
+    .cons-title {
+      color: #C53030;
+    }
+
+    .pros-icon, .cons-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .pros-icon {
+      background: #38A169;
+    }
+
+    .cons-icon {
+      background: #E53E3E;
+    }
+
+    .pros ul, .cons ul {
+      list-style: none;
+      font-size: 14px;
+    }
+
+    .pros li, .cons li {
+      margin-bottom: 8px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .pros li::before {
+      content: "+";
+      position: absolute;
+      left: 0;
+      color: #38A169;
+      font-weight: 700;
+    }
+
+    .cons li::before {
+      content: "-";
+      position: absolute;
+      left: 0;
+      color: #E53E3E;
+      font-weight: 700;
+    }
+
+    /* 추천 대상 */
+    .recommend-box {
+      background: #F7FAFC;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .recommend-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #4A5568;
+      margin-bottom: 16px;
+    }
+
+    .recommend-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .recommend-tag {
+      background: #fff;
+      border: 1px solid #E2E8F0;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: #4A5568;
+    }
+
+    /* CTA 버튼 */
+    .cta-section {
+      background: linear-gradient(135deg, #4A90D9 0%, #357ABD 100%);
+      border-radius: 16px;
+      padding: 32px 24px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-subtitle {
+      font-size: 14px;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: #fff;
+      color: #2E6BA8;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+
+    /* 마무리 */
+    .closing {
+      background: #F8FBFE;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 32px 0;
+      text-align: center;
+    }
+
+    .closing-text {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    /* 해시태그 */
+    .hashtags {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid #eee;
+    }
+
+    .hashtags p {
+      font-size: 13px;
+      color: #888;
+      line-height: 2;
+      word-break: keep-all;
+    }
+
+    .hashtags a {
+      color: #4A90D9;
+      text-decoration: none;
+    }
+
+    /* 구분선 */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #4A90D9, transparent);
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+  <article class="post-container">
+
+    <!-- 히어로 -->
+    <header class="hero">
+      <span class="hero-badge">일본 직구 리뷰</span>
+      <h1 class="hero-title">육아맘들 사이에서 난리 난<br>미키하우스 유아백팩,<br>어린이집 가방으로 딱이에요</h1>
+      <p class="hero-subtitle">MIKIHOUSE 키즈 로고 백팩 8L | 3-4세</p>
+    </header>
+
+    <!-- 훅 -->
+    <div class="hook">
+      <p class="hook-quote">"그 가방 어디 거야?"</p>
+      <p class="hook-text">
+        어린이집 등원할 때 다른 엄마가 물어봤어요.<br>
+        사실 저도 인스타에서 보고 혹해서 산 건데,<br>
+        직접 받아보니까 왜 인기 있는지 알겠더라고요.
+      </p>
+    </div>
+
+    <!-- 색상 갤러리 - 3가지 정면 -->
+    <div class="color-gallery">
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/419VBHtFs+L._AC_SL1500_.jpg" alt="미키하우스 백팩 멀티컬러">
+        <p class="color-label">멀티컬러</p>
+      </div>
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/41axEL06SnL._AC_SL1500_.jpg" alt="미키하우스 백팩 네이비">
+        <p class="color-label">네이비</p>
+      </div>
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/41NAOBoV5kL._AC_SL1500_.jpg" alt="미키하우스 백팩 레드">
+        <p class="color-label">레드</p>
+      </div>
+    </div>
+
+    <!-- 브랜드 소개 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">01</span>
+        미키하우스가 뭔데?
+      </h2>
+      <div class="section-content">
+        <p>미키하우스는 일본 유아용품 브랜드인데요, 일본에서는 진짜 유명해요. 1971년부터 시작한 브랜드라 역사도 오래됐고요.</p>
+        <p>한국에서는 잘 모르는 분들도 있는데, 일본 가면 백화점에 꼭 있는 브랜드예요. 특히 유아복이랑 유아용품으로 유명해서 일본 엄마들이 많이 사거든요.</p>
+
+        <div class="point-box">
+          <p>TIP | 프리미엄 브랜드라 가격대가 좀 있긴 한데, 그만큼 퀄리티는 확실해요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 멀티컬러 상세 -->
+    <div class="two-col-gallery">
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/41GOU1Ev7QL._AC_SL1500_.jpg" alt="미키하우스 백팩 멀티컬러 정면">
+        <p class="color-label">멀티컬러 정면</p>
+      </div>
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/419Idu9e3wL._AC_SL1500_.jpg" alt="미키하우스 백팩 멀티컬러 측면">
+        <p class="color-label">멀티컬러 측면</p>
+      </div>
+    </div>
+
+    <!-- 상품 정보 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">02</span>
+        상품 정보
+      </h2>
+
+      <div class="spec-box">
+        <p class="spec-title">PRODUCT INFO</p>
+        <div class="spec-grid">
+          <span class="spec-label">브랜드</span>
+          <span class="spec-value">MIKIHOUSE (미키하우스)</span>
+
+          <span class="spec-label">제품명</span>
+          <span class="spec-value">키즈 로고 백팩 8L</span>
+
+          <span class="spec-label">용량</span>
+          <span class="spec-value">8리터</span>
+
+          <span class="spec-label">대상 연령</span>
+          <span class="spec-value">3-4세 (유아)</span>
+
+          <span class="spec-label">색상</span>
+          <span class="spec-value">멀티컬러 / 네이비 / 레드</span>
+
+          <span class="spec-label">특징</span>
+          <span class="spec-value">체스트벨트, 메시 등판, 조절 어깨끈</span>
+
+          <span class="spec-label">원산지</span>
+          <span class="spec-value">일본</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 네이비 상세 -->
+    <div class="two-col-gallery">
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/41mEUyfPaJL._AC_SL1500_.jpg" alt="미키하우스 백팩 네이비 정면">
+        <p class="color-label">네이비 정면</p>
+      </div>
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/41IGWZed8wL._AC_SL1500_.jpg" alt="미키하우스 백팩 네이비 측면">
+        <p class="color-label">네이비 측면</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 왜 샀냐면 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">03</span>
+        왜 샀냐면요
+      </h2>
+      <div class="section-content">
+        <p>솔직히 어린이집 가방은 싼 거 사도 되지 않나 싶었거든요. 어차피 금방 크는데요.</p>
+        <p>근데 처음 산 가방이 어깨에서 자꾸 흘러내리더라고요. 애가 불편해하니까 가방 메는 걸 싫어하게 됐어요.</p>
+
+        <div class="point-box">
+          <p>POINT | 그래서 이번엔 제대로 된 거 사자 싶어서 미키하우스 찾아봤어요. 체스트벨트 있어서 흘러내리지 않는다길래요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 레드 상세 -->
+    <div class="two-col-gallery">
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/41EeDMMjJKL._AC_SL1500_.jpg" alt="미키하우스 백팩 레드 정면">
+        <p class="color-label">레드 정면</p>
+      </div>
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/41YsurV5ieL._AC_SL1500_.jpg" alt="미키하우스 백팩 레드 측면">
+        <p class="color-label">레드 측면</p>
+      </div>
+    </div>
+
+    <!-- 실제 후기 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">04</span>
+        실제로 사용해보니까
+      </h2>
+      <div class="section-content">
+        <p><strong>일단 체스트벨트가 진짜 좋아요.</strong></p>
+        <p>가슴 앞에서 끈으로 고정되니까 어깨에서 안 흘러내려요. 애가 뛰어다녀도 가방이 덜렁거리지 않더라고요.</p>
+
+        <ul class="feature-list">
+          <li>체스트벨트로 흘러내림 방지</li>
+          <li>메시 등판으로 통기성 우수</li>
+          <li>어깨끈 길이 조절 가능</li>
+          <li>대형 로고로 분실 걱정 감소</li>
+        </ul>
+
+        <p>등판이 메시 소재라서 통기성도 좋아요. 요즘 날씨에 가방 메면 등에 땀 차잖아요. 이건 좀 나은 것 같아요.</p>
+      </div>
+    </section>
+
+    <!-- 기능 디테일 -->
+    <div class="two-col-gallery">
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/51pNmtX+-BL._AC_SL1500_.jpg" alt="미키하우스 백팩 체스트벨트">
+        <p class="color-label">체스트벨트 디테일</p>
+      </div>
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/51m5CdhFzqL._AC_SL1500_.jpg" alt="미키하우스 백팩 메시 등판">
+        <p class="color-label">메시 등판</p>
+      </div>
+    </div>
+
+    <!-- 용량 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">05</span>
+        8L 용량은 어때요?
+      </h2>
+      <div class="section-content">
+        <p>3-4세 아이한테는 딱 적당한 것 같아요.</p>
+        <p>어린이집 등원할 때 여벌옷이랑 물티슈, 간식 정도 넣으면 딱 맞아요. 소풍 갈 때도 도시락이랑 물통 정도는 들어가고요.</p>
+
+        <div class="point-box">
+          <p>TIP | 너무 크면 오히려 아이가 힘들어하는데, 이건 적당한 크기라 좋아요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 착용컷 -->
+    <div class="two-col-gallery">
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/51Eic+1+WhL._AC_SL1500_.jpg" alt="미키하우스 백팩 멀티컬러 착용">
+        <p class="color-label">멀티컬러 착용</p>
+      </div>
+      <div class="color-item">
+        <img src="https://m.media-amazon.com/images/I/51sXBW3sNML._AC_SL1500_.jpg" alt="미키하우스 백팩 네이비 착용">
+        <p class="color-label">네이비 착용</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 장단점 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">06</span>
+        솔직한 장단점
+      </h2>
+
+      <div class="pros-cons">
+        <div class="pros">
+          <p class="pros-title"><span class="pros-icon">+</span> 장점</p>
+          <ul>
+            <li>체스트벨트로 흘러내림 방지</li>
+            <li>메시 등판 통기성 우수</li>
+            <li>어깨끈 길이 조절 가능</li>
+            <li>3가지 색상 선택</li>
+            <li>브랜드 신뢰도 확실</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <p class="cons-title"><span class="cons-icon">-</span> 단점</p>
+          <ul>
+            <li>가격이 좀 있음 (20만 원대)</li>
+            <li>배송 시간 좀 걸림</li>
+            <li>3-4세 이후엔 작아질 수 있음</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="point-box">
+        <p>POINT | 미키하우스가 원래 프리미엄 브랜드라서요. 기능이랑 품질 생각하면 투자할 만한 것 같아요.</p>
+      </div>
+    </section>
+
+    <!-- 레드 착용컷 -->
+    <div class="image-container">
+      <img src="https://m.media-amazon.com/images/I/51D4acTeBNL._AC_SL1500_.jpg" alt="미키하우스 백팩 레드 착용">
+      <p class="image-caption">레드 착용컷</p>
+    </div>
+
+    <!-- 추천 대상 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">07</span>
+        이런 분들한테 추천해요
+      </h2>
+
+      <div class="recommend-box">
+        <p class="recommend-title">CHECK LIST</p>
+        <div class="recommend-list">
+          <span class="recommend-tag">어린이집/유치원 통원 가방 찾는 분</span>
+          <span class="recommend-tag">체스트벨트 있는 백팩 원하는 분</span>
+          <span class="recommend-tag">3-4세 첫 백팩 고민 중인 분</span>
+          <span class="recommend-tag">등에 땀 덜 차는 가방 찾는 분</span>
+          <span class="recommend-tag">미키하우스 브랜드 좋아하는 분</span>
+          <span class="recommend-tag">프리미엄 유아용품에 투자하고 싶은 분</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-section">
+      <p class="cta-title">일본 정품 미키하우스</p>
+      <p class="cta-subtitle">드리치시에서 만나보세요</p>
+      <a href="https://smartstore.naver.com/drichisi" class="cta-button" target="_blank">
+        상품 바로가기 &rarr;
+      </a>
+    </div>
+
+    <!-- 마무리 -->
+    <div class="closing">
+      <p class="closing-text">
+        한 달 써보니까 왜 엄마들이 미키하우스 찾는지 알겠더라고요.<br><br>
+        체스트벨트 있어서 흘러내리지 않고, 메시 등판이라 통기성 좋고,<br>
+        8L 용량이 3-4세한테 딱 맞아요.<br><br>
+        <strong>애가 가방 메는 거 좋아하게 됐거든요.</strong>
+      </p>
+    </div>
+
+    <!-- 해시태그 -->
+    <div class="hashtags">
+      <p>
+        <a href="#">#미키하우스</a> <a href="#">#미키하우스백팩</a> <a href="#">#유아백팩</a> <a href="#">#키즈백팩</a> <a href="#">#어린이집가방</a> <a href="#">#유치원가방</a> <a href="#">#3세백팩</a> <a href="#">#4세백팩</a> <a href="#">#일본구매대행</a> <a href="#">#일본직구</a> <a href="#">#육아맘추천</a> <a href="#">#드리치시</a>
+      </p>
+    </div>
+
+  </article>
+</body>
+</html>

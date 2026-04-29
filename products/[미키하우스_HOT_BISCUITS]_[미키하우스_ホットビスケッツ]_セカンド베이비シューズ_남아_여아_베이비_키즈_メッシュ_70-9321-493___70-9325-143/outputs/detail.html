@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 HOT BISCUITS 세컨드 베이비슈즈 걸음마 신발</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: #fff;
+        }
+
+        /* HERO 섹션 */
+        .hero {
+            background: linear-gradient(135deg, #FFE5F0 0%, #FFF5E6 100%);
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #FF6B9D;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .hero .subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .rating-badge {
+            display: inline-flex;
+            align-items: center;
+            background: #fff;
+            padding: 12px 24px;
+            border-radius: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+
+        .rating-badge .star {
+            color: #FFD700;
+            font-size: 20px;
+            margin-right: 8px;
+        }
+
+        .rating-badge .score {
+            font-size: 18px;
+            font-weight: 700;
+            color: #333;
+            margin-right: 5px;
+        }
+
+        .rating-badge .reviews {
+            color: #999;
+            font-size: 14px;
+        }
+
+        .color-preview {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .color-dot {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        /* 이미지 섹션 */
+        .image-section {
+            padding: 40px 0;
+        }
+
+        .main-image {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .main-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* 기능 아이콘 그리드 */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 40px 30px;
+            background: #F8F9FA;
+        }
+
+        .feature-card {
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .feature-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .feature-desc {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* 색상 갤러리 */
+        .color-gallery {
+            padding: 50px 30px;
+        }
+
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+            text-align: center;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 40px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .color-label {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(255,255,255,0.95);
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        /* 사이즈 가이드 */
+        .size-guide {
+            padding: 50px 30px;
+            background: #FFF9F0;
+        }
+
+        .size-table {
+            width: 100%;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin: 30px 0;
+        }
+
+        .size-table th {
+            background: #FF6B9D;
+            color: #fff;
+            padding: 15px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .size-table td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .size-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .size-tip {
+            background: #FFF3E6;
+            padding: 20px;
+            border-left: 4px solid #FFB347;
+            margin-top: 20px;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .size-tip strong {
+            color: #FF6B00;
+        }
+
+        /* 발달 단계 섹션 */
+        .development {
+            padding: 50px 30px;
+        }
+
+        .development-content {
+            background: linear-gradient(135deg, #E8F5E9 0%, #F1F8E9 100%);
+            padding: 40px;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+
+        .development-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .development-list li {
+            padding: 12px 0 12px 35px;
+            position: relative;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .development-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        /* 스펙 테이블 */
+        .specs {
+            padding: 50px 30px;
+            background: #F8F9FA;
+        }
+
+        .specs-table {
+            width: 100%;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin-top: 30px;
+        }
+
+        .specs-table th {
+            background: #4A90E2;
+            color: #fff;
+            padding: 15px 20px;
+            font-weight: 600;
+            text-align: left;
+            width: 30%;
+        }
+
+        .specs-table td {
+            padding: 15px 20px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .specs-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* 브랜드 섹션 */
+        .brand {
+            padding: 50px 30px;
+            background: linear-gradient(135deg, #FFE5E5 0%, #FFE5F7 100%);
+            text-align: center;
+        }
+
+        .brand-logo {
+            font-size: 32px;
+            font-weight: 700;
+            color: #FF6B9D;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .brand-tagline {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .brand-description {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        /* FAQ 섹션 */
+        .faq {
+            padding: 50px 30px;
+        }
+
+        .faq-item {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            background: #F5F7FA;
+            padding: 20px 25px;
+            font-weight: 600;
+            font-size: 15px;
+            color: #333;
+            position: relative;
+            padding-left: 45px;
+        }
+
+        .faq-question:before {
+            content: "Q";
+            position: absolute;
+            left: 20px;
+            color: #FF6B9D;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .faq-answer {
+            padding: 20px 25px 20px 45px;
+            font-size: 14px;
+            line-height: 1.7;
+            color: #666;
+            position: relative;
+        }
+
+        .faq-answer:before {
+            content: "A";
+            position: absolute;
+            left: 20px;
+            color: #4A90E2;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        /* 구매 안내 */
+        .purchase-guide {
+            padding: 40px 30px;
+            background: #FFF9F0;
+            border-top: 3px solid #FFD700;
+        }
+
+        .notice-box {
+            background: #FFFACD;
+            border-left: 4px solid #FFD700;
+            padding: 20px;
+            margin: 20px 0;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        .notice-box strong {
+            color: #FF6B00;
+        }
+
+        /* 반응형 */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 24px;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .section-title {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO 섹션 -->
+        <section class="hero">
+            <h1>미키하우스 HOT BISCUITS<br>세컨드 베이비슈즈 걸음마 신발</h1>
+            <p class="subtitle">첫 걸음마를 응원하는 일본 프리미엄 세컨드 슈즈</p>
+
+            <div class="rating-badge">
+                <span class="star">★</span>
+                <span class="score">4.6</span>
+                <span class="reviews">(27개 리뷰)</span>
+            </div>
+
+            <p style="margin-top: 20px; font-size: 16px; color: #666;">
+                6가지 색상 · 3가지 사이즈 · 우리 아기만의 첫 신발
+            </p>
+
+            <div class="color-preview">
+                <div class="color-dot" style="background: linear-gradient(135deg, #FF6B9D 0%, #4A90E2 50%, #FFD700 100%);"></div>
+                <div class="color-dot" style="background: #FF6B9D;"></div>
+                <div class="color-dot" style="background: #4A90E2;"></div>
+                <div class="color-dot" style="background: #F5DEB3;"></div>
+                <div class="color-dot" style="background: linear-gradient(135deg, #fff 0%, #4A90E2 100%);"></div>
+                <div class="color-dot" style="background: linear-gradient(135deg, #FF6B9D 0%, #FFD700 100%);"></div>
+            </div>
+        </section>
+
+        <!-- 메인 이미지 -->
+        <section class="image-section">
+            <div class="main-image">
+                <img src="../images/マルチカラー/image_01.jpg" alt="미키하우스 HOT BISCUITS 세컨드 베이비슈즈 메인">
+            </div>
+        </section>
+
+        <!-- 주요 기능 -->
+        <section class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🌬️</div>
+                <div class="feature-title">통기성 메쉬 소재</div>
+                <div class="feature-desc">폴리에스터 메쉬로 여름에도 쾌적하게</div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">👣</div>
+                <div class="feature-title">넉넉한 2E 라스트</div>
+                <div class="feature-desc">발볼 넓은 아기에게도 편안하게</div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🦶</div>
+                <div class="feature-title">플렉스 솔 설계</div>
+                <div class="feature-desc">올바른 보행 발달 지원</div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔧</div>
+                <div class="feature-title">면 파스너 조절</div>
+                <div class="feature-desc">갑높이 쉽게 조절 가능</div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <div class="feature-title">단단한 카운터</div>
+                <div class="feature-desc">발목 안정성 확보</div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🧼</div>
+                <div class="feature-title">탈부착 컵 인솔</div>
+                <div class="feature-desc">세탁 편리, 관리 용이</div>
+            </div>
+        </section>
+
+        <!-- 색상 갤러리 -->
+        <section class="color-gallery">
+            <h2 class="section-title">6가지 색상 옵션</h2>
+            <p class="section-subtitle">우리 아기 취향에 맞는 색상을 선택하세요</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="../images/マルチカラー/thumbnail.jpg" alt="멀티컬러">
+                    <div class="color-label">멀티컬러</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/ピンク/thumbnail.jpg" alt="핑크">
+                    <div class="color-label">핑크</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/ブルー/thumbnail.jpg" alt="블루">
+                    <div class="color-label">블루</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/ベージュ/thumbnail.jpg" alt="베이지">
+                    <div class="color-label">베이지</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/ホワイト_ブルー/thumbnail.jpg" alt="화이트/블루">
+                    <div class="color-label">화이트/블루</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="../images/マルチカラー【Ｎ】/thumbnail.jpg" alt="멀티컬러(N)">
+                    <div class="color-label">멀티컬러(N)</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 사이즈 가이드 -->
+        <section class="size-guide">
+            <h2 class="section-title">사이즈 가이드</h2>
+            <p class="section-subtitle">아기 발 사이즈에 맞게 선택하세요</p>
+
+            <table class="size-table">
+                <thead>
+                    <tr>
+                        <th>사이즈</th>
+                        <th>권장 연령</th>
+                        <th>실측 발 길이</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>14.0cm</strong></td>
+                        <td>생후 12-18개월</td>
+                        <td>13.0-13.5cm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>14.5cm</strong></td>
+                        <td>생후 15-20개월</td>
+                        <td>13.5-14.0cm</td>
+                    </tr>
+                    <tr>
+                        <td><strong>15.0cm</strong></td>
+                        <td>생후 18-24개월</td>
+                        <td>14.0-14.5cm</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="size-tip">
+                <strong>💡 사이즈 선택 TIP</strong><br>
+                아기 발 실측 길이 + 0.5~1cm 여유를 두고 선택하시면 됩니다.<br>
+                예: 발 사이즈 13.5cm → 14.0cm 또는 14.5cm 권장<br>
+                세컨드 슈즈는 혼자 걷기 시작한 시기(생후 12개월~24개월)에 적합합니다.
+            </div>
+        </section>
+
+        <!-- 상세 이미지 -->
+        <section class="image-section">
+            <div class="main-image">
+                <img src="../images/マルチカラー/image_02.jpg" alt="측면 디테일">
+            </div>
+            <div class="main-image">
+                <img src="../images/マルチカラー/image_03.jpg" alt="내부 구조">
+            </div>
+            <div class="main-image">
+                <img src="../images/マルチカラー/image_04.jpg" alt="밑창 디테일">
+            </div>
+        </section>
+
+        <!-- 걸음마기 발달 -->
+        <section class="development">
+            <h2 class="section-title">올바른 보행 발달을 위한 설계</h2>
+            <p class="section-subtitle">미키하우스가 아기 발 건강을 연구한 결과입니다</p>
+
+            <div class="development-content">
+                <ul class="development-list">
+                    <li><strong>발가락 여유 공간</strong> - 자연스러운 성장을 방해하지 않도록 앞코에 여유 공간 확보</li>
+                    <li><strong>단단한 카운터</strong> - 뒤꿈치 부분을 단단하게 설계하여 발목 안정성 확보</li>
+                    <li><strong>플렉스 솔 (굴곡 가능한 밑창)</strong> - 발바닥 자연스러운 굴곡을 도와 올바른 보행 습관 형성</li>
+                    <li><strong>2E 라스트</strong> - 일반 신발보다 넉넉한 발볼로 압박 없이 편안하게</li>
+                    <li><strong>면 파스너 (벨크로)</strong> - 갑높이를 쉽게 조절하여 아기 발에 딱 맞게</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 제품 스펙 -->
+        <section class="specs">
+            <h2 class="section-title">제품 상세 정보</h2>
+
+            <table class="specs-table">
+                <tbody>
+                    <tr>
+                        <th>브랜드</th>
+                        <td>MIKIHOUSE HOT BISCUITS</td>
+                    </tr>
+                    <tr>
+                        <th>모델명</th>
+                        <td>70-9321-493 / 70-9325-143</td>
+                    </tr>
+                    <tr>
+                        <th>소재</th>
+                        <td>폴리에스터 메쉬</td>
+                    </tr>
+                    <tr>
+                        <th>대상</th>
+                        <td>남아/여아 겸용 (유니섹스)</td>
+                    </tr>
+                    <tr>
+                        <th>용도</th>
+                        <td>세컨드 슈즈 (걸음마기)</td>
+                    </tr>
+                    <tr>
+                        <th>사이즈</th>
+                        <td>14.0cm / 14.5cm / 15.0cm</td>
+                    </tr>
+                    <tr>
+                        <th>라스트</th>
+                        <td>2E (넉넉한 발볼)</td>
+                    </tr>
+                    <tr>
+                        <th>원산지</th>
+                        <td>일본</td>
+                    </tr>
+                    <tr>
+                        <th>색상</th>
+                        <td>멀티컬러, 핑크, 블루, 베이지, 화이트/블루, 멀티컬러(N)</td>
+                    </tr>
+                    <tr>
+                        <th>특징</th>
+                        <td>통기성 메쉬, 2E 라스트, 이름표 부착 가능, 면 파스너 조절, 컵 인솔 탈부착</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 브랜드 소개 -->
+        <section class="brand">
+            <div class="brand-logo">MIKIHOUSE<br>HOT BISCUITS</div>
+            <div class="brand-tagline">Good Quality</div>
+            <div class="brand-description">
+                아이들이 매일 기분 좋게, 즐겁고 건강하게 지내길 바라는 마음으로<br>
+                아이를 위한 좋은 제품 만들기를 중요하게 생각합니다.<br><br>
+                안심할 수 있는 품질과 즐거운 디자인을 제공하는<br>
+                일본 프리미엄 아동복 브랜드 미키하우스의 HOT BISCUITS 라인입니다.
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq">
+            <h2 class="section-title">자주 묻는 질문</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">세컨드 슈즈는 언제부터 신길 수 있나요?</div>
+                <div class="faq-answer">일반적으로 생후 12개월~24개월, 혼자 걷기 시작한 아기에게 적합합니다. 발 사이즈가 13cm~15.5cm 정도일 때 착용할 수 있습니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">발볼이 넓은 아기도 신을 수 있나요?</div>
+                <div class="faq-answer">네, 2E 라스트 설계로 일반 신발보다 발볼이 넉넉합니다. 면 파스너로 갑높이를 조절할 수 있어 발볼이 넓거나 갑이 높은 아기에게도 적합합니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">세탁이 가능한가요?</div>
+                <div class="faq-answer">컵 인솔은 탈부착이 가능해 따로 세탁할 수 있습니다. 신발 본체는 중성세제를 사용해 손세탁 후 그늘에서 건조하는 것을 권장합니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">실제 사이즈는 어떻게 선택하나요?</div>
+                <div class="faq-answer">아기 발 실측 사이즈 + 0.5~1cm 여유를 두고 선택하시면 됩니다. 예를 들어 발 사이즈가 13.5cm이면 14.0cm 또는 14.5cm를 권장합니다.</div>
+            </div>
+        </section>
+
+        <!-- 구매 안내 -->
+        <section class="purchase-guide">
+            <h2 class="section-title">구매 안내</h2>
+
+            <div class="notice-box">
+                <strong>📦 정품 보장</strong><br>
+                일본 정품을 품질 검수 후 발송해드립니다.<br><br>
+
+                <strong>🌏 배송 기간</strong><br>
+                주문 후 약 7-14일 소요됩니다. (통관 및 배송 상황에 따라 변동 가능)<br><br>
+
+                <strong>💰 가격 안내</strong><br>
+                일본 구매대행 상품으로 환율 변동에 따라 최종 가격이 달라질 수 있습니다.<br><br>
+
+                <strong>✨ 드리치시의 약속</strong><br>
+                품질과 정품 보장으로 안심하고 구매하실 수 있도록 최선을 다하겠습니다.
+            </div>
+        </section>
+    </div>
+</body>
+</html>

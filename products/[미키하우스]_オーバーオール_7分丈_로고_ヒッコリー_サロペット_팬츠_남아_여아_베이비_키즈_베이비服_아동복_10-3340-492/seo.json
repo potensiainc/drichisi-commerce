@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "generated_at": "2026-04-26T23:32:00+09:00",
+    "based_on_analysis": "analysis.json v2.0",
+    "seo_engine_version": "2.0"
+  },
+  "title_candidates": [
+    {
+      "text": "미키하우스 히코리 서스펜더 팬츠 7부 남아여아 베이비 정품",
+      "length": 29,
+      "keywords": ["미키하우스", "히코리", "서스펜더", "7부", "남아여아", "베이비", "정품"],
+      "score": 88,
+      "pros": ["브랜드명 선두", "핵심 키워드 포함", "간결함"],
+      "cons": ["특색이 다소 부족"]
+    },
+    {
+      "text": "미키하우스 클래식 히코리 오버롤 7부 면100 남아여아",
+      "length": 29,
+      "keywords": ["미키하우스", "클래식", "히코리", "오버롤", "7부", "면100", "남아여아"],
+      "score": 92,
+      "pros": ["'클래식' 키워드로 차별화", "소재 강조", "검색 친화적"],
+      "cons": []
+    },
+    {
+      "text": "미키하우스 로고 히코리 서스펜더 팬츠 7부 정품 베이비",
+      "length": 29,
+      "keywords": ["미키하우스", "로고", "히코리", "서스펜더", "7부", "정품", "베이비"],
+      "score": 85,
+      "pros": ["로고 포인트 강조", "정품 신뢰성"],
+      "cons": ["다소 일반적"]
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 클래식 히코리 오버롤 7부 면100 남아여아",
+    "length": 29,
+    "selected_reason": "'클래식'이라는 키워드로 타임리스한 디자인 강조, 소재 정보(면100) 포함으로 실용성과 품질 모두 어필. 검색 시 차별화 가능."
+  },
+  "tags": [
+    "미키하우스",
+    "미키하우스오버롤",
+    "히코리팬츠",
+    "서스펜더팬츠",
+    "베이비팬츠",
+    "아동복",
+    "7부팬츠",
+    "남아여아공용",
+    "일본아동복",
+    "면팬츠"
+  ],
+  "category_recommendation": {
+    "primary": "패션의류",
+    "secondary": "아동의류",
+    "tertiary": "팬츠/레깅스",
+    "path": "패션의류 > 아동의류 > 팬츠/레깅스",
+    "naver_category_id": "50000006",
+    "confidence": "high",
+    "rationale": "서스펜더 팬츠/오버롤은 아동복 하의 카테고리에 속하며, 네이버 스마트스토어 기준 '팬츠/레깅스'가 가장 적합."
+  },
+  "brand_field": {
+    "value": "미키하우스",
+    "display": "미키하우스",
+    "original": "MIKIHOUSE",
+    "handling": "korean_primary"
+  },
+  "manufacturer_field": {
+    "value": "미키하우스",
+    "country": "일본"
+  },
+  "search_optimization": {
+    "primary_keywords": [
+      "미키하우스",
+      "히코리 팬츠",
+      "오버롤",
+      "서스펜더 팬츠",
+      "베이비 팬츠"
+    ],
+    "secondary_keywords": [
+      "7부 팬츠",
+      "남아 팬츠",
+      "여아 팬츠",
+      "아기 팬츠",
+      "일본 아동복"
+    ],
+    "long_tail_keywords": [
+      "미키하우스 히코리 팬츠",
+      "미키하우스 서스펜더",
+      "베이비 오버롤",
+      "클래식 아동복",
+      "면 100 아기옷"
+    ],
+    "semantic_clusters": [
+      {
+        "theme": "브랜드 프리미엄",
+        "keywords": ["미키하우스", "정품", "일본", "프리미엄"]
+      },
+      {
+        "theme": "상품 특성",
+        "keywords": ["히코리", "스트라이프", "7부", "오버롤", "서스펜더"]
+      },
+      {
+        "theme": "타겟 고객",
+        "keywords": ["베이비", "아기", "남아", "여아", "키즈"]
+      },
+      {
+        "theme": "소재/품질",
+        "keywords": ["면100", "일본제", "고급", "피부자극없음"]
+      }
+    ]
+  },
+  "meta_description": {
+    "text": "일본 프리미엄 브랜드 미키하우스의 클래식 히코리 스트라이프 오버롤. 7부 기장으로 사계절 활용도 높고, 면 100% 소재로 아이 피부에 자극 없이 편안합니다. 남아 여아 모두 착용 가능한 타임리스 디자인.",
+    "length": 116,
+    "keywords_included": ["미키하우스", "히코리", "오버롤", "7부", "면100", "남아여아"]
+  },
+  "seo_check": {
+    "title_length_ok": true,
+    "title_keyword_front_loaded": true,
+    "tags_count_ok": true,
+    "category_match": true,
+    "brand_consistent": true,
+    "no_forbidden_terms": true,
+    "all_passed": true,
+    "warnings": []
+  },
+  "platform_penalties_avoided": [
+    "아마존 언급 없음",
+    "원화 환산 가격 없음",
+    "¥ 표시 없음",
+    "KC인증 언급 없음"
+  ]
+}

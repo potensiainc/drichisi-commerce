@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "analysis_version": "2.0",
+    "analyzed_at": "2026-04-26T18:15:00+09:00",
+    "product_id": "mikihouse-backpack-8l-10-8232-145",
+    "analyst_notes": "일본 프리미엄 유아용품 브랜드 미키하우스의 정통 키즈 백팩. 3~4세 유아 대상의 8L 용량으로 어린이집/유치원 통원용으로 최적화된 제품."
+  },
+  "language_handling": {
+    "brand_name_policy": "original",
+    "brand_name_original": "MIKIHOUSE",
+    "brand_name_korean": "미키하우스",
+    "brand_justification": "일본에서 1971년 설립된 프리미엄 유아용품 브랜드로, 한국 시장에서도 '미키하우스'로 널리 인지되어 있으며, 카타카나 음차가 자연스럽게 정착됨. 원문 표기보다 한글 표기가 검색 및 인지에 유리함.",
+    "product_type_translation": {
+      "リュック": "백팩",
+      "リュックサック": "백팩",
+      "かばん": "가방",
+      "バッグ": "가방"
+    },
+    "option_name_policy": "korean_only",
+    "option_translations": {
+      "マルチカラー": "멀티컬러",
+      "ネイビー": "네이비",
+      "レッド": "레드"
+    }
+  },
+  "category_analysis": {
+    "primary_category": "육아/유아용품",
+    "secondary_category": "가방/백팩",
+    "tertiary_category": "키즈 백팩",
+    "naver_smartstore_path": "육아/유아용품 > 외출용품 > 유아백팩",
+    "category_justification": "3~4세 유아를 대상으로 한 8L 용량의 통원/외출용 백팩으로, 유아용품 카테고리가 가장 적합함. 일반 패션 가방이 아닌 기능성 유아용품으로 분류되어야 함.",
+    "target_age": "3~4세 (유아)",
+    "target_gender": "남아/여아 공용"
+  },
+  "design_direction": {
+    "design_tone": "심플하고 실용적인 키즈 디자인",
+    "color_palette": [
+      "#FF0000",
+      "#000080",
+      "#FF6B6B",
+      "#FFFFFF"
+    ],
+    "layout_hint": "hero_product_specs_features_trust",
+    "visual_hierarchy": [
+      "HERO: 3가지 색상 옵션 전체 노출 (멀티컬러, 네이비, 레드)",
+      "SPECS: 용량(8L), 대상 연령(3~4세), 소재(메시 등판), 특징(체스트벨트)",
+      "FEATURES: 조절 가능한 어깨끈, 통기성, 브랜드 로고, 다용도 활용",
+      "TRUST: 미키하우스 브랜드 신뢰성, 일본 정품 보장"
+    ],
+    "typography_direction": "깔끔하고 가독성 높은 산세리프체. 유아용품이므로 부드럽고 친근한 느낌 유지.",
+    "imagery_strategy": "색상별 정면/측면/등판/디테일 컷을 균형있게 배치. 실제 착용 장면이 있다면 우선 배치하여 사용감 전달."
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 신뢰",
+        "text": "일본 프리미엄 브랜드 미키하우스의 정통 키즈 백팩",
+        "emotion": "신뢰감, 안정감",
+        "target": "브랜드 가치를 중시하는 부모"
+      },
+      {
+        "angle": "기능성 강조",
+        "text": "우리 아이 첫 백팩, 8L 용량으로 통원부터 소풍까지",
+        "emotion": "실용성, 성장 동반",
+        "target": "기능과 실용성을 우선하는 부모"
+      },
+      {
+        "angle": "편안함 강조",
+        "text": "메시 등판과 체스트벨트로 편안한 착용감",
+        "emotion": "아이 건강 우선, 배려",
+        "target": "아이의 편안함을 최우선하는 부모"
+      },
+      {
+        "angle": "다용도 활용",
+        "text": "어린이집부터 가족 나들이까지, 매일 함께하는 백팩",
+        "emotion": "일상의 동반자, 신뢰",
+        "target": "실용적인 육아템을 찾는 부모"
+      }
+    ],
+    "benefit_statements": [
+      "조절 가능한 어깨끈으로 아이 성장에 맞춰 오래 사용",
+      "체스트벨트로 어깨에서 흘러내리지 않는 안정적인 착용감",
+      "통기성 좋은 메시 등판으로 땀 배출이 원활",
+      "심플한 대형 로고 디자인으로 분실 위험 감소",
+      "8L 적정 용량으로 3~4세 유아에게 최적화된 크기",
+      "일본 정품 미키하우스 품질 보장"
+    ],
+    "feature_callouts": [
+      "용량 8리터 (3~4세 유아 최적)",
+      "조절 가능한 어깨끈",
+      "체스트벨트 포함",
+      "메시 등판 (통기성)",
+      "대형 브랜드 로고",
+      "3가지 색상 (멀티컬러/네이비/레드)"
+    ]
+  },
+  "image_inventory": {
+    "멀티컬러": {
+      "total_count": 7,
+      "suggested_usage": {
+        "hero": ["thumbnail.jpg"],
+        "detail_front": ["image_01.jpg"],
+        "detail_side": ["image_02.jpg"],
+        "detail_back": ["image_03.jpg"],
+        "detail_close": ["image_04.jpg", "image_05.jpg"],
+        "lifestyle": ["image_06.jpg"]
+      }
+    },
+    "네이비": {
+      "total_count": 7,
+      "suggested_usage": {
+        "hero": ["thumbnail.jpg"],
+        "detail_front": ["image_01.jpg"],
+        "detail_side": ["image_02.jpg"],
+        "detail_back": ["image_03.jpg"],
+        "detail_close": ["image_04.jpg", "image_05.jpg"],
+        "lifestyle": ["image_06.jpg"]
+      }
+    },
+    "레드": {
+      "total_count": 7,
+      "suggested_usage": {
+        "hero": ["thumbnail.jpg"],
+        "detail_front": ["image_01.jpg"],
+        "detail_side": ["image_02.jpg"],
+        "detail_back": ["image_03.jpg"],
+        "detail_close": ["image_04.jpg", "image_05.jpg"],
+        "lifestyle": ["image_06.jpg"]
+      }
+    }
+  },
+  "competitive_positioning": {
+    "price_tier": "프리미엄",
+    "key_differentiators": [
+      "일본 대표 유아용품 브랜드 신뢰성",
+      "정품 보장 및 품질 우수성",
+      "유아 인체공학적 설계 (체스트벨트, 메시 등판)",
+      "심플하면서도 인지도 높은 브랜드 로고"
+    ],
+    "target_customer_profile": "20-40대 부모, 브랜드 가치와 품질을 중시하며 프리미엄 육아용품에 투자 의향이 있는 고객",
+    "messaging_focus": "브랜드 신뢰성 + 기능성 + 아이의 편안함"
+  },
+  "risk_assessment": {
+    "group_a_critical": [],
+    "group_b_notice": [
+      {
+        "type": "제품 안전",
+        "description": "어깨끈 조절 시 아이 체형에 맞게 조정 필요",
+        "recommendation": "사용 전 아이에게 맞춰 어깨끈 길이를 조절하시고, 체스트벨트를 꼭 착용해 주세요."
+      },
+      {
+        "type": "세탁 관리",
+        "description": "메시 소재 등판 관리 필요",
+        "recommendation": "손세탁 권장. 메시 부분은 중성세제로 부드럽게 닦아주세요."
+      },
+      {
+        "type": "용량 제한",
+        "description": "8L 용량으로 과도한 짐은 부담",
+        "recommendation": "3~4세 유아 기준으로 설계되었으므로, 과도한 무게의 물건은 넣지 마세요."
+      }
+    ]
+  },
+  "seo_keywords": [
+    "미키하우스",
+    "미키하우스 백팩",
+    "유아 백팩",
+    "키즈 백팩",
+    "어린이집 가방",
+    "유치원 가방",
+    "3세 백팩",
+    "4세 백팩",
+    "8L 백팩",
+    "일본 유아용품",
+    "미키하우스 가방"
+  ],
+  "workflow_outputs": {
+    "recommended_hero_hook": 1,
+    "priority_images": [
+      "멀티컬러/thumbnail.jpg",
+      "네이비/thumbnail.jpg",
+      "레드/thumbnail.jpg",
+      "멀티컬러/image_01.jpg",
+      "멀티컬러/image_04.jpg"
+    ],
+    "content_structure": "hero → specs → features → trust → notice"
+  }
+}

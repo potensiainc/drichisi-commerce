@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "product_name": "미키하우스 HOT BISCUITS 세컨드 베이비 슈즈",
+    "brand": "MIKIHOUSE HOT BISCUITS",
+    "category": "육아/유아용품 > 유아신발",
+    "analyzed_at": "2026-04-27T00:00:00Z",
+    "analyzer_version": "2.0"
+  },
+  "language_handling": {
+    "brand_name_policy": "original",
+    "brand_name_kr": "미키하우스",
+    "brand_name_original": "MIKIHOUSE",
+    "sub_brand_name_kr": "HOT BISCUITS",
+    "sub_brand_name_original": "HOT BISCUITS",
+    "rationale": "MIKIHOUSE는 일본 프리미엄 아동복 브랜드로, 한국에서도 '미키하우스'로 널리 알려져 있으나 브랜드명 자체는 영문 'MIKIHOUSE'를 공식 표기로 사용. HOT BISCUITS는 서브 라인으로 영문 그대로 사용."
+  },
+  "design_direction": {
+    "color_palette": [
+      "#FF6B9D",
+      "#4A90E2",
+      "#F5DEB3",
+      "#FFFFFF",
+      "#FFD700"
+    ],
+    "layout_hint": "multi_variant_showcase",
+    "visual_hierarchy": [
+      "색상별 이미지 갤러리 (6개 옵션)",
+      "기능성 아이콘 (통기성, 안정성, 조절성)",
+      "사이즈 가이드 테이블",
+      "걸음마기 발달 단계 설명",
+      "브랜드 신뢰도 섹션"
+    ],
+    "design_tone": "clean_and_safe"
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "functional_development",
+        "text": "첫 걸음마를 응원하는\n일본 프리미엄 세컨드 슈즈",
+        "cta": "우리 아기 발에 맞는 사이즈 찾기"
+      },
+      {
+        "angle": "premium_quality",
+        "text": "27명의 엄마가 선택한\n미키하우스 베이비 슈즈",
+        "cta": "평점 4.6 리뷰 확인하기"
+      },
+      {
+        "angle": "multi_option",
+        "text": "6가지 색상, 3가지 사이즈\n우리 아기만의 첫 신발",
+        "cta": "색상별 실제 착용 사진 보기"
+      },
+      {
+        "angle": "breathability",
+        "text": "여름에도 쾌적한\n통기성 메쉬 베이비 슈즈",
+        "cta": "메쉬 소재 특징 알아보기"
+      }
+    ],
+    "problem_statement": "걸음마기 아기에게 적합한 신발을 찾기 어렵고, 발볼이 넓거나 갑이 높은 아기는 일반 신발이 맞지 않아 고민입니다. 특히 여름철에는 통기성 부족으로 땀띠가 생기기 쉽습니다.",
+    "solution_statement": "미키하우스 HOT BISCUITS 세컨드 슈즈는 2E 라스트 설계로 발볼이 넉넉하고, 면 파스너로 갑높이 조절이 가능합니다. 통기성 좋은 메쉬 소재로 여름철에도 쾌적하며, 플렉스 솔과 단단한 카운터가 올바른 보행 발달을 지원합니다.",
+    "trust_signals": [
+      "일본 프리미엄 브랜드 MIKIHOUSE의 70년 전통",
+      "평점 4.6/5.0 (27개 리뷰)",
+      "일본 베이비슈즈 카테고리 105위",
+      "안전성 검증된 폴리에스터 메쉬 소재",
+      "정품 보장 및 품질 검수 후 발송"
+    ]
+  },
+  "image_inventory": [
+    {
+      "variant": "멀티컬러",
+      "folder": "マルチカラー",
+      "file_count": 6,
+      "files": [
+        "thumbnail.jpg",
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg"
+      ],
+      "recommended_usage": "HERO 메인 이미지"
+    },
+    {
+      "variant": "핑크",
+      "folder": "ピンク",
+      "file_count": 6,
+      "files": [
+        "thumbnail.jpg",
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg"
+      ],
+      "recommended_usage": "옵션 갤러리"
+    },
+    {
+      "variant": "블루",
+      "folder": "ブルー",
+      "file_count": 6,
+      "files": [
+        "thumbnail.jpg",
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg"
+      ],
+      "recommended_usage": "옵션 갤러리"
+    },
+    {
+      "variant": "베이지",
+      "folder": "ベージュ",
+      "file_count": 6,
+      "files": [
+        "thumbnail.jpg",
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg"
+      ],
+      "recommended_usage": "옵션 갤러리"
+    },
+    {
+      "variant": "화이트/블루",
+      "folder": "ホワイト_ブルー",
+      "file_count": 6,
+      "files": [
+        "thumbnail.jpg",
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg"
+      ],
+      "recommended_usage": "옵션 갤러리"
+    },
+    {
+      "variant": "멀티컬러(N)",
+      "folder": "マルチカラー【Ｎ】",
+      "file_count": 6,
+      "files": [
+        "thumbnail.jpg",
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg"
+      ],
+      "recommended_usage": "옵션 갤러리"
+    }
+  ],
+  "content_sections": [
+    {
+      "section_id": "HERO",
+      "purpose": "첫인상 결정 및 핵심 가치 전달",
+      "recommended_hook": "functional_development",
+      "visual_elements": [
+        "멀티컬러 메인 이미지",
+        "평점 4.6/5.0 배지",
+        "6가지 색상 아이콘"
+      ]
+    },
+    {
+      "section_id": "FEATURES",
+      "purpose": "기능성 차별화 포인트 강조",
+      "key_messages": [
+        "통기성 메쉬 소재로 여름에도 쾌적",
+        "2E 라스트 설계로 발볼 넓은 아기에게 적합",
+        "플렉스 솔 + 단단한 카운터로 올바른 보행 지원",
+        "면 파스너로 갑높이 쉽게 조절",
+        "탈부착 컵 인솔로 세탁 편리"
+      ],
+      "visual_style": "icon_grid"
+    },
+    {
+      "section_id": "SIZE_GUIDE",
+      "purpose": "사이즈 선택 가이드 제공",
+      "content_type": "table",
+      "data": {
+        "sizes": ["14.0cm", "14.5cm", "15.0cm"],
+        "age_range": "생후 12-24개월",
+        "fit_tip": "실측 발 길이 + 0.5~1cm 여유 권장"
+      }
+    },
+    {
+      "section_id": "COLOR_GALLERY",
+      "purpose": "6가지 색상 옵션 시각화",
+      "layout": "grid_2x3",
+      "images_per_variant": 2
+    },
+    {
+      "section_id": "DEVELOPMENT",
+      "purpose": "걸음마기 발달 단계 및 제품 적합성 설명",
+      "key_points": [
+        "세컨드 슈즈는 혼자 걷기 시작한 시기에 적합",
+        "발가락 여유 공간으로 자연스러운 성장 지원",
+        "단단한 카운터로 발목 안정성 확보",
+        "플렉스 솔로 올바른 보행 습관 형성"
+      ]
+    },
+    {
+      "section_id": "BRAND",
+      "purpose": "미키하우스 브랜드 신뢰도 구축",
+      "content": "일본 프리미엄 아동복 브랜드 MIKIHOUSE의 HOT BISCUITS 라인. 'Good Quality'를 키워드로 아이들이 매일 기분 좋게 지낼 수 있도록 안심할 수 있는 품질과 즐거운 디자인을 제공합니다."
+    },
+    {
+      "section_id": "SPECS",
+      "purpose": "제품 상세 스펙 제공",
+      "format": "two_column_table",
+      "data": {
+        "브랜드": "MIKIHOUSE HOT BISCUITS",
+        "모델명": "70-9321-493 / 70-9325-143",
+        "소재": "폴리에스터 메쉬",
+        "대상": "남아/여아 겸용",
+        "용도": "세컨드 슈즈 (걸음마기)",
+        "사이즈": "14.0cm / 14.5cm / 15.0cm",
+        "라스트": "2E (넉넉한 발볼)",
+        "원산지": "일본"
+      }
+    },
+    {
+      "section_id": "FAQ",
+      "purpose": "구매 전 의문점 해소",
+      "questions": [
+        {
+          "q": "세컨드 슈즈는 언제부터 신길 수 있나요?",
+          "a": "일반적으로 생후 12개월~24개월, 혼자 걷기 시작한 아기에게 적합합니다."
+        },
+        {
+          "q": "발볼이 넓은 아기도 신을 수 있나요?",
+          "a": "네, 2E 라스트 설계로 넉넉하며, 면 파스너로 갑높이 조절이 가능합니다."
+        },
+        {
+          "q": "세탁이 가능한가요?",
+          "a": "컵 인솔은 탈부착 가능해 따로 세탁할 수 있습니다. 본체는 손세탁 권장."
+        },
+        {
+          "q": "사이즈는 어떻게 선택하나요?",
+          "a": "실측 발 길이 + 0.5~1cm 여유를 두고 선택하시면 됩니다."
+        }
+      ]
+    }
+  ],
+  "compliance_check": {
+    "platform_exposure_risk": "low",
+    "rationale": "상품 설명에 플랫폼명 미언급",
+    "currency_exposure_risk": "medium",
+    "currency_handling": "product_data.json에 JPY 표기 있으나, 상세페이지에서는 '일본 구매대행 상품' 표현만 사용하고 원통화 기호 제거 필요",
+    "foreign_text_risk": "low",
+    "foreign_text_handling": "브랜드명 MIKIHOUSE, HOT BISCUITS는 영문 유지. 색상명은 한국어로 변환 완료."
+  },
+  "risk_assessment": {
+    "group_a_risks": [],
+    "group_b_risks": [
+      {
+        "type": "currency_symbol",
+        "severity": "medium",
+        "location": "product_data.json - price.currency",
+        "recommendation": "상세페이지에서는 '일본 구매대행 상품으로 환율에 따라 가격 변동' 표현만 사용하고, ¥ 기호 노출 금지"
+      }
+    ]
+  },
+  "seo_hints": {
+    "primary_keywords": [
+      "미키하우스 베이비 슈즈",
+      "세컨드 슈즈",
+      "걸음마 신발",
+      "유아 신발"
+    ],
+    "secondary_keywords": [
+      "통기성 메쉬",
+      "발볼 넓은 아기 신발",
+      "일본 아기 신발",
+      "HOT BISCUITS"
+    ],
+    "suggested_angles": [
+      "기능성 강조 (2E 라스트, 플렉스 솔)",
+      "프리미엄 브랜드 신뢰도",
+      "다양한 색상 옵션",
+      "여름철 통기성"
+    ]
+  }
+}

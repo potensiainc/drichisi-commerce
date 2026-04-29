@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 퍼즐블록 백팩 - Slide 05 Feature 3</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background: linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%);
+      display: flex;
+      flex-direction: column;
+      padding: 80px;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+    .feature-number {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      color: #FF6B9D;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      font-size: 46px;
+      font-weight: 700;
+      color: #1A1A1A;
+      line-height: 1.4;
+    }
+
+    .highlight {
+      color: #FF6B9D;
+      font-weight: 800;
+    }
+
+    .size-grid {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+      padding: 20px 0;
+    }
+
+    .size-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .size-item img {
+      height: 400px;
+      width: auto;
+      filter: drop-shadow(0 10px 25px rgba(0,0,0,0.15));
+    }
+
+    .size-item:first-child img {
+      height: 340px;
+    }
+
+    .size-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .size-name {
+      font-size: 28px;
+      font-weight: 700;
+      color: #333;
+      padding: 10px 30px;
+      background: rgba(255, 107, 157, 0.1);
+      border-radius: 25px;
+    }
+
+    .size-detail {
+      font-size: 18px;
+      font-weight: 500;
+      color: #666;
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: #E0E0E0;
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 2px; border-left-width: 2px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 2px; border-right-width: 2px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 2px; border-left-width: 2px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 2px; border-right-width: 2px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #E0E0E0;
+    }
+
+    .dot.active {
+      background: #FF6B9D;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <div class="header">
+      <span class="feature-number">Feature 03</span>
+      <h2 class="headline"><span class="highlight">2가지 사이즈</span>로 성장에 맞춰</h2>
+    </div>
+
+    <div class="size-grid">
+      <div class="size-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_リュック_リュックサック_バッグ_かばん_로고_くま_うさぎ_남아_여아_키즈_베이비_아동_통원_10-8213-687/images/nobg/pink_01_nobg.png" alt="S사이즈">
+        <div class="size-info">
+          <span class="size-name">S 사이즈 (6L)</span>
+          <span class="size-detail">3-4세 권장</span>
+        </div>
+      </div>
+      <div class="size-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_リュック_リュックサック_バッグ_かばん_로고_くま_うさぎ_남아_여아_키즈_베이비_아동_통원_10-8213-687/images/nobg/multicolor_01_nobg.png" alt="M사이즈">
+        <div class="size-info">
+          <span class="size-name">M 사이즈 (10L)</span>
+          <span class="size-detail">5-6세 권장</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

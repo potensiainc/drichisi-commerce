@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(180deg, #FFFAF0 0%, #FFF0F5 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+      position: relative;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .slide-number {
+      font-size: 14px;
+      color: #999;
+      letter-spacing: 2px;
+    }
+    .feature-label {
+      background: #87CEEB;
+      color: #2C3E5F;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .content {
+      flex: 1;
+      display: flex;
+      gap: 40px;
+    }
+    .text-section {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .image-section {
+      width: 55%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .headline {
+      font-size: 40px;
+      font-weight: 900;
+      color: #2C3E5F;
+      line-height: 1.4;
+      margin-bottom: 30px;
+    }
+    .headline .highlight {
+      background: linear-gradient(180deg, transparent 60%, #FFD700 60%);
+    }
+    .description {
+      font-size: 20px;
+      color: #666;
+      line-height: 1.9;
+      margin-bottom: 30px;
+    }
+    .feature-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .tag {
+      background: white;
+      border: 2px solid #2C3E5F;
+      color: #2C3E5F;
+      padding: 10px 18px;
+      border-radius: 20px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    .product-image {
+      width: 450px;
+      height: 550px;
+      object-fit: contain;
+      filter: drop-shadow(0 15px 30px rgba(44, 62, 95, 0.15));
+    }
+    .texture-badge {
+      position: absolute;
+      bottom: 80px;
+      right: 40px;
+      background: #2C3E5F;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 15px;
+      font-size: 16px;
+      font-weight: 700;
+      transform: rotate(-5deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="slide-number">03 / 07</span>
+      <span class="feature-label">POINT 02</span>
+    </div>
+
+    <div class="content">
+      <div class="text-section">
+        <h2 class="headline">
+          코듀로이 질감인데<br>
+          <span class="highlight">니트처럼 늘어나요</span>
+        </h2>
+        <p class="description">
+          니트코드 소재로 부드럽고<br>
+          신축성이 뛰어나요.<br>
+          뛰어놀 때도 편안하게!
+        </p>
+        <div class="feature-tags">
+          <span class="tag">부드러운 촉감</span>
+          <span class="tag">높은 신축성</span>
+          <span class="tag">활동 편의</span>
+        </div>
+      </div>
+
+      <div class="image-section">
+        <img src="../../products/[미키하우스]_팬츠_ロング팬츠_로고_うさぎ_10分丈_長ズボン_日本製_여아_베이비_키즈_아동복_13-3226-146/images/default/image_04.jpg" class="product-image" alt="니트코드 소재">
+        <div class="texture-badge">니트코드 소재</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

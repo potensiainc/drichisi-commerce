@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: linear-gradient(135deg, #C8102E 0%, #a00d26 100%);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px;
+    }
+    .burst {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(255,215,0,0.3) 0%, transparent 70%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .solution-badge {
+      background: #FFD700;
+      color: #333;
+      padding: 15px 50px;
+      font-size: 28px;
+      font-weight: 700;
+      border-radius: 40px;
+      margin-bottom: 50px;
+      z-index: 10;
+    }
+    .headline {
+      font-size: 60px;
+      font-weight: 900;
+      color: white;
+      text-align: center;
+      line-height: 1.4;
+      margin-bottom: 50px;
+      z-index: 10;
+    }
+    .headline span {
+      color: #FFD700;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      z-index: 10;
+    }
+    .feature-card {
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 35px 25px;
+      text-align: center;
+      border: 2px solid rgba(255,255,255,0.2);
+    }
+    .feature-icon {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    .feature-title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #FFD700;
+      margin-bottom: 10px;
+    }
+    .feature-desc {
+      font-size: 18px;
+      color: white;
+      line-height: 1.5;
+    }
+    .slide-number {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      color: rgba(255,255,255,0.7);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="burst"></div>
+
+    <div class="solution-badge">SOLUTION</div>
+
+    <h2 class="headline">미키하우스가<br><span>모든 고민을 해결</span>합니다</h2>
+
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🎨</div>
+        <h3 class="feature-title">귀여운 디자인</h3>
+        <p class="feature-desc">아이가 먼저<br>신고 싶어해요</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔦</div>
+        <h3 class="feature-title">반사테이프</h3>
+        <p class="feature-desc">어두운 길에서도<br>잘 보여요</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏷️</div>
+        <h3 class="feature-title">이름 스티커</h3>
+        <p class="feature-desc">절대 안<br>잃어버려요</p>
+      </div>
+    </div>
+
+    <p class="slide-number">3 / 7</p>
+  </div>
+</body>
+</html>

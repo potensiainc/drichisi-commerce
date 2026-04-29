@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 유치원 백팩</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Malgun Gothic', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+
+        .container {
+            width: 860px;
+            margin: 0 auto;
+            background: #fff;
+        }
+
+        /* HERO 섹션 */
+        .hero {
+            background: linear-gradient(135deg, #FFF5EE 0%, #FFE4E1 100%);
+            padding: 80px 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255,182,193,0.3) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -5%;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(255,215,0,0.2) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #FF6B9D;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(255,107,157,0.15);
+        }
+
+        /* STORY 섹션 */
+        .story {
+            padding: 80px 60px;
+            background: #fff;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #333;
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            padding-bottom: 20px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #FF6B9D 0%, #FFD700 100%);
+            border-radius: 2px;
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .story-card {
+            background: #FAFAFA;
+            border-radius: 15px;
+            padding: 30px 25px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .story-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+
+        .story-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .story-card-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #FF6B9D;
+            margin-bottom: 15px;
+        }
+
+        .story-card-text {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        /* DETAILS 섹션 */
+        .details {
+            padding: 80px 60px;
+            background: #FFF9F5;
+        }
+
+        .detail-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .detail-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .detail-image-wrapper {
+            flex: 1;
+            max-width: 380px;
+        }
+
+        .detail-image {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        .detail-content {
+            flex: 1;
+            padding: 20px 0;
+        }
+
+        .detail-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .detail-text {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .detail-highlight {
+            background: #FFE4E1;
+            border-left: 4px solid #FF6B9D;
+            padding: 15px 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .detail-highlight-text {
+            font-size: 14px;
+            color: #FF6B9D;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+
+        /* FOR YOU 섹션 */
+        .for-you {
+            padding: 80px 60px;
+            background: linear-gradient(135deg, #FFE4E1 0%, #FFF5EE 100%);
+            text-align: center;
+        }
+
+        .for-you-intro {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .for-you-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .for-you-item {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px 20px;
+            box-shadow: 0 4px 15px rgba(255,107,157,0.1);
+        }
+
+        .for-you-emoji {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .for-you-text {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.7;
+        }
+
+        /* OPTIONS 섹션 */
+        .options {
+            padding: 80px 60px;
+            background: #fff;
+        }
+
+        .option-tabs {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 40px;
+            justify-content: center;
+        }
+
+        .option-tab {
+            background: #F5F5F5;
+            border: 2px solid #E0E0E0;
+            border-radius: 10px;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .option-tab.active {
+            background: #FF6B9D;
+            border-color: #FF6B9D;
+            color: #fff;
+        }
+
+        .option-images {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .option-image {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .size-guide {
+            margin-top: 50px;
+            background: #FAFAFA;
+            border-radius: 15px;
+            padding: 30px;
+        }
+
+        .size-guide-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .size-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .size-table th,
+        .size-table td {
+            padding: 15px 20px;
+            text-align: center;
+            border: 1px solid #E0E0E0;
+        }
+
+        .size-table th {
+            background: #FF6B9D;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .size-table td {
+            background: #fff;
+            color: #555;
+        }
+
+        /* SPECS 섹션 */
+        .specs {
+            padding: 80px 60px;
+            background: #F9F9F9;
+        }
+
+        .specs-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2px;
+            background: #E0E0E0;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .spec-row {
+            display: contents;
+        }
+
+        .spec-label {
+            background: #FFE4E1;
+            padding: 20px 25px;
+            font-size: 15px;
+            font-weight: 600;
+            color: #FF6B9D;
+        }
+
+        .spec-value {
+            background: #fff;
+            padding: 20px 25px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        /* TRUST 섹션 */
+        .trust {
+            padding: 60px;
+            background: linear-gradient(135deg, #87CEEB 0%, #FFB6C1 100%);
+            text-align: center;
+        }
+
+        .trust-rating {
+            font-size: 48px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .trust-label {
+            font-size: 18px;
+            color: #fff;
+            opacity: 0.9;
+        }
+
+        /* NOTICE 섹션 */
+        .notice {
+            padding: 60px;
+            background: #FFF9E6;
+            border: 2px solid #FFD700;
+            border-radius: 15px;
+            margin: 0 60px 60px;
+        }
+
+        .notice-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #FF6B9D;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .notice-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .notice-icon {
+            font-size: 24px;
+            flex-shrink: 0;
+        }
+
+        .notice-text {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        /* CLOSING 섹션 */
+        .closing {
+            padding: 100px 60px;
+            background: linear-gradient(135deg, #FFF5EE 0%, #FFB6C1 50%, #87CEEB 100%);
+            text-align: center;
+        }
+
+        .closing-text {
+            font-size: 28px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .closing-subtext {
+            font-size: 16px;
+            color: #fff;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">미키하우스 유치원 백팩 곰토끼 퍼즐블록 체스트벨트 반사판 3-6세 통원가방</h1>
+                <p class="hero-subtitle">유치원 가는 날, 아이가 스스로 메고 싶어하는 가방.<br>미키하우스 퍼즐블록 백팩.</p>
+                <img src="../images/ピンク/image_01.jpg" alt="미키하우스 퍼즐블록 백팩" class="hero-image">
+            </div>
+        </section>
+
+        <!-- STORY -->
+        <section class="story">
+            <h2 class="section-title">왜 이 가방이어야 할까요?</h2>
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="story-icon">🎨</div>
+                    <h3 class="story-card-title">사랑스러운 디자인</h3>
+                    <p class="story-card-text">파스텔 톤 퍼즐블록 패턴. 곰·토끼 캐릭터가 어우러진 미키하우스만의 귀여움</p>
+                </div>
+                <div class="story-card">
+                    <div class="story-icon">🛡️</div>
+                    <h3 class="story-card-title">안전 디테일</h3>
+                    <p class="story-card-text">체스트 벨트로 흘러내리지 않고, 반사판으로 어두운 등원길도 안심</p>
+                </div>
+                <div class="story-card">
+                    <div class="story-icon">📐</div>
+                    <h3 class="story-card-title">성장에 맞춘 사이즈</h3>
+                    <p class="story-card-text">S(6L) 3-4세, M(10L) 5-6세. 아이 연령에 딱 맞는 용량 선택 가능</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DETAILS -->
+        <section class="details">
+            <h2 class="section-title">이 백팩의 특별한 디테일</h2>
+
+            <div class="detail-item">
+                <div class="detail-image-wrapper">
+                    <img src="../images/ピンク/image_02.jpg" alt="어깨끈 디테일" class="detail-image">
+                </div>
+                <div class="detail-content">
+                    <h3 class="detail-title">체스트 벨트로 편안하게</h3>
+                    <p class="detail-text">뛰어다녀도 가방이 흘러내리지 않아요. 어깨끈을 가슴 앞에서 고정하는 체스트 벨트가 있어서 아이의 작은 어깨에도 부담이 적습니다.</p>
+                    <p class="detail-text">어깨끈 길이는 조절 가능해서 아이가 자라도 계속 쓸 수 있어요.</p>
+                    <div class="detail-highlight">
+                        <p class="detail-highlight-text">💡 유치원 등원길, 아이가 스스로 가방을 메고 현관 앞에 서 있는 모습을 보면 뿌듯하죠.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-item">
+                <div class="detail-image-wrapper">
+                    <img src="../images/ピンク/image_03.jpg" alt="반사판 안전 기능" class="detail-image">
+                </div>
+                <div class="detail-content">
+                    <h3 class="detail-title">어두운 등원길도 안심, 반사판</h3>
+                    <p class="detail-text">어깨끈과 가방 앞면 곰 모양에 리플렉터(반사판)가 달려 있어요. 겨울철 이른 등원 시간이나 해질녘에도 아이가 잘 보여서 안전합니다.</p>
+                    <p class="detail-text">차도 옆 인도를 걸을 때도 한결 마음이 놓여요.</p>
+                </div>
+            </div>
+
+            <div class="detail-item">
+                <div class="detail-image-wrapper">
+                    <img src="../images/ピンク/image_04.jpg" alt="퍼즐블록 디테일" class="detail-image">
+                </div>
+                <div class="detail-content">
+                    <h3 class="detail-title">미키하우스만의 퍼즐블록 패턴</h3>
+                    <p class="detail-text">핑크·오렌지·옐로우·블루가 조화롭게 어우러진 퍼즐블록 디자인. 곰·토끼·로고 캐릭터가 타일처럼 배치되어 있어 아이들이 "이 가방만 멜래요!"라고 할 만큼 사랑스러워요.</p>
+                    <p class="detail-text">유치원 친구들 사이에서도 눈에 띄는 디자인이죠.</p>
+                    <div class="detail-highlight">
+                        <p class="detail-highlight-text">💡 내부에는 네임택이 있어 분실 위험도 줄어들어요.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="detail-item">
+                <div class="detail-image-wrapper">
+                    <img src="../images/ピンク/image_05.jpg" alt="다용도 활용" class="detail-image">
+                </div>
+                <div class="detail-content">
+                    <h3 class="detail-title">통원·외출·소풍까지 만능 활용</h3>
+                    <p class="detail-text">6~10리터 용량으로 도시락·물병·여벌옷을 딱 맞게 수납할 수 있어요. 유치원 등원용은 물론, 주말 가족 나들이나 할머니 댁 방문 시에도 요긴하게 쓰입니다.</p>
+                    <p class="detail-text">가벼운 소재라 아이 혼자서도 들 수 있어요.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOR YOU -->
+        <section class="for-you">
+            <h2 class="section-title">이런 분께 추천해요</h2>
+            <p class="for-you-intro">미키하우스 퍼즐블록 백팩, 이런 순간에 딱 맞아요.</p>
+            <div class="for-you-list">
+                <div class="for-you-item">
+                    <div class="for-you-emoji">👨‍👩‍👧</div>
+                    <p class="for-you-text">유치원 등원 가방을 찾고 있는데, 안전성과 귀여움 둘 다 놓치고 싶지 않은 분께</p>
+                </div>
+                <div class="for-you-item">
+                    <div class="for-you-emoji">👧</div>
+                    <p class="for-you-text">아이가 '이 가방 멜래요!'라고 스스로 고를 만큼 예쁜 디자인을 찾는 분께</p>
+                </div>
+                <div class="for-you-item">
+                    <div class="for-you-emoji">🎁</div>
+                    <p class="for-you-text">조카·손주 선물로 믿을 수 있는 브랜드, 실용적인 아이템을 찾는 분께</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- OPTIONS -->
+        <section class="options">
+            <h2 class="section-title">색상 옵션</h2>
+            <div class="option-tabs">
+                <div class="option-tab active">핑크</div>
+                <div class="option-tab">멀티컬러</div>
+            </div>
+            <div class="option-images">
+                <img src="../images/ピンク/image_01.jpg" alt="핑크 정면" class="option-image">
+                <img src="../images/ピンク/image_02.jpg" alt="핑크 디테일" class="option-image">
+            </div>
+
+            <div class="size-guide">
+                <h3 class="size-guide-title">사이즈 가이드</h3>
+                <table class="size-table">
+                    <thead>
+                        <tr>
+                            <th>사이즈</th>
+                            <th>치수 (가로×세로×깊이)</th>
+                            <th>용량</th>
+                            <th>권장 연령</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>S</td>
+                            <td>W20 × H25 × D10 cm</td>
+                            <td>6 리터</td>
+                            <td>3-4세</td>
+                        </tr>
+                        <tr>
+                            <td>M</td>
+                            <td>W26 × H31.5 × D13 cm</td>
+                            <td>10 리터</td>
+                            <td>5-6세</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- SPECS -->
+        <section class="specs">
+            <h2 class="section-title">상품 정보</h2>
+            <div class="specs-grid">
+                <div class="spec-row">
+                    <div class="spec-label">브랜드</div>
+                    <div class="spec-value">MIKIHOUSE (미키하우스)</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-label">원산지</div>
+                    <div class="spec-value">일본</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-label">모델번호</div>
+                    <div class="spec-value">10-8213-687</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-label">색상 옵션</div>
+                    <div class="spec-value">핑크, 멀티컬러</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-label">사이즈 옵션</div>
+                    <div class="spec-value">S (3-4세 / 6L), M (5-6세 / 10L)</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-label">주요 기능</div>
+                    <div class="spec-value">체스트 벨트, 반사판, 조절 가능 어깨끈, 내부 네임택</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-label">용도</div>
+                    <div class="spec-value">유치원 통원, 외출, 소풍</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-label">대상 연령</div>
+                    <div class="spec-value">3-6세 유아·아동</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUST -->
+        <section class="trust">
+            <div class="trust-rating">4.7 / 5.0</div>
+            <p class="trust-label">검증된 품질</p>
+        </section>
+
+        <!-- NOTICE -->
+        <section class="notice">
+            <h3 class="notice-title">구매 전 꼭 확인해주세요</h3>
+            <div class="notice-item">
+                <div class="notice-icon">📦</div>
+                <div class="notice-text"><strong>해외 구매대행 상품:</strong> 본 제품은 해외 구매대행을 통해 유통되는 상품입니다. 제조사 직접 A/S는 불가하며, 구매대행 업체의 교환/환불 정책이 적용됩니다.</div>
+            </div>
+            <div class="notice-item">
+                <div class="notice-icon">🏷️</div>
+                <div class="notice-text"><strong>정품 보장:</strong> 미키하우스 정품만을 취급합니다. 100% 정품 보장을 약속드립니다.</div>
+            </div>
+            <div class="notice-item">
+                <div class="notice-icon">📐</div>
+                <div class="notice-text"><strong>사이즈 선택:</strong> 아이의 연령과 체격에 맞는 사이즈를 신중히 선택해주세요. S사이즈(3-4세), M사이즈(5-6세) 권장 연령을 참고해주세요.</div>
+            </div>
+        </section>
+
+        <!-- CLOSING -->
+        <section class="closing">
+            <p class="closing-text">매일 메는 가방이니까,<br>아이도 엄마도 만족하는 걸로.</p>
+            <p class="closing-subtext">Since 1948, Japan. 미키하우스.</p>
+        </section>
+
+    </div>
+</body>
+</html>

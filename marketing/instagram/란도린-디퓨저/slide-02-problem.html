@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>란도린 디퓨저 - Slide 02 Problem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Noto+Serif+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Serif KR', serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background: #F7F6F3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 60px;
+    }
+
+    .problem-list {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    .problem-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .x-mark {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 40px;
+      font-weight: 500;
+      color: #C9A65C;
+    }
+
+    .problem-text {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 36px;
+      font-weight: 500;
+      color: #3A3530;
+      line-height: 1.4;
+    }
+
+    .divider {
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #C9A65C, transparent);
+    }
+
+    .headline {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 52px;
+      font-weight: 600;
+      color: #1A1510;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #B8922D;
+      font-weight: 700;
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: #D4CFC8;
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 1px; border-left-width: 1px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 1px; border-right-width: 1px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 1px; border-left-width: 1px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 1px; border-right-width: 1px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #D4CFC8;
+    }
+
+    .dot.active {
+      background: #C9A65C;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <div class="content">
+      <div class="problem-list">
+        <div class="problem-item">
+          <span class="x-mark">×</span>
+          <span class="problem-text">향초는 불 켜기 번거롭고</span>
+        </div>
+        <div class="problem-item">
+          <span class="x-mark">×</span>
+          <span class="problem-text">스프레이는 금방 날아가고</span>
+        </div>
+        <div class="problem-item">
+          <span class="x-mark">×</span>
+          <span class="problem-text">방향제는 디자인이 별로</span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <h2 class="headline">
+        디퓨저 하나로<br>
+        <span class="highlight">집 분위기</span>가 달라질 수 있을까?
+      </h2>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #2C3E5F;
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      position: relative;
+    }
+    .left-panel {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px;
+      position: relative;
+      z-index: 2;
+    }
+    .right-panel {
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(135deg, #FFFAF0 0%, #FFF5F5 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .slide-number {
+      position: absolute;
+      top: 50px;
+      left: 60px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.5);
+      letter-spacing: 2px;
+    }
+    .feature-label {
+      background: #FFC0CB;
+      color: #2C3E5F;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: 700;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+    .headline {
+      font-size: 44px;
+      font-weight: 900;
+      color: white;
+      line-height: 1.4;
+      margin-bottom: 30px;
+    }
+    .headline .highlight {
+      color: #FFD700;
+    }
+    .description {
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.8;
+    }
+    .product-image {
+      width: 400px;
+      height: 500px;
+      object-fit: contain;
+      filter: drop-shadow(-10px 20px 40px rgba(0, 0, 0, 0.1));
+    }
+    .decorative-dots {
+      position: absolute;
+      bottom: 60px;
+      left: 60px;
+      display: flex;
+      gap: 10px;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.3);
+    }
+    .dot.active {
+      background: #FFC0CB;
+      width: 30px;
+      border-radius: 5px;
+    }
+    .accent-shape {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background: rgba(255, 192, 203, 0.1);
+      border-radius: 50%;
+      top: -100px;
+      right: -100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="slide-number">02 / 07</div>
+      <div class="accent-shape"></div>
+
+      <span class="feature-label">POINT 01</span>
+      <h2 class="headline">
+        40년 전통<br>
+        <span class="highlight">프리미엄 품질</span>
+      </h2>
+      <p class="description">
+        일본 대표 아동복 브랜드 미키하우스.<br>
+        엄마들이 먼저 찾는 이유가 있어요.
+      </p>
+
+      <div class="decorative-dots">
+        <div class="dot"></div>
+        <div class="dot active"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <img src="../../products/[미키하우스]_팬츠_ロング팬츠_로고_うさぎ_10分丈_長ズボン_日本製_여아_베이비_키즈_아동복_13-3226-146/images/nobg/thumbnail_nobg.png" class="product-image" alt="미키하우스 토끼 팬츠">
+    </div>
+  </div>
+</body>
+</html>

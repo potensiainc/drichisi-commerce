@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>미키하우스 핫비스킷 환절기 긴팔티 스트라이프 어린이집 등원복</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum:wght@400&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-base: #F5F3ED;
+  --bg-alt: #FFFFFF;
+  --text-main: #2B3E50;
+  --text-sub: #666666;
+  --accent: #C8434E;
+  --accent-soft: #4A9B7F;
+  --accent-warm: #D9A866;
+  --line-soft: #E5E5E5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gowun Dodum', 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-main);
+  background: #fff;
+}
+
+.container {
+  width: 860px;
+  margin: 0 auto;
+  background: var(--bg-base);
+}
+
+/* HERO 섹션 */
+.hero {
+  position: relative;
+  background: var(--bg-alt);
+  padding: 50px 60px 60px;
+  text-align: center;
+}
+
+.seo-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-sub);
+  margin-bottom: 20px;
+  letter-spacing: -0.3px;
+}
+
+.hero h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-main);
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  margin: 40px 0 30px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-subtitle {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text-sub);
+  margin-top: 25px;
+}
+
+/* 공통 섹션 */
+.section {
+  padding: 70px 60px;
+}
+
+.section-white {
+  background: var(--bg-alt);
+}
+
+.section-cream {
+  background: var(--bg-base);
+}
+
+.section-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: var(--text-sub);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-text {
+  font-size: 15px;
+  line-height: 1.9;
+  color: var(--text-main);
+  margin-bottom: 20px;
+}
+
+/* STORY 섹션 */
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.story-card {
+  background: var(--bg-alt);
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.story-card h3 {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+.story-card p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text-main);
+}
+
+/* FOR YOU 섹션 */
+.for-you-list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.for-you-item {
+  background: var(--bg-alt);
+  padding: 25px 30px;
+  margin-bottom: 15px;
+  border-left: 4px solid var(--accent-soft);
+  border-radius: 2px;
+}
+
+.for-you-item p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-main);
+}
+
+/* DETAILS 섹션 */
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.detail-image {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.detail-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* OPTIONS 섹션 */
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.option-card {
+  text-align: center;
+}
+
+.option-image {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.option-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.option-name {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.option-desc {
+  font-size: 14px;
+  color: var(--text-sub);
+}
+
+/* SPECS 섹션 */
+.specs-table {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.specs-table tr {
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.specs-table th {
+  width: 30%;
+  padding: 18px 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--text-main);
+  background: var(--bg-base);
+}
+
+.specs-table td {
+  padding: 18px 20px;
+  font-size: 15px;
+  color: var(--text-main);
+  background: var(--bg-alt);
+}
+
+/* NOTICE 섹션 */
+.notice-box {
+  background: #FFF9F0;
+  border: 1px solid #FFE4C4;
+  border-radius: 4px;
+  padding: 30px;
+  margin: 30px 0;
+}
+
+.notice-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+.notice-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.notice-list li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-main);
+}
+
+.notice-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+}
+
+/* CLOSING 섹션 */
+.closing {
+  text-align: center;
+  padding: 80px 60px;
+  background: var(--text-main);
+  color: var(--bg-alt);
+}
+
+.closing h2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.closing p {
+  font-size: 16px;
+  color: #d0d0d0;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- HERO 섹션 -->
+  <section class="hero">
+    <p class="seo-title">미키하우스 핫비스킷 환절기 긴팔티 스트라이프 어린이집 등원복 남아 여아 80-120</p>
+    <h1>아침엔 쌀쌀하고 낮엔 따뜻한<br>요즘 같은 날,<br>외출복 고민 없이 입히기 딱 좋은 두께예요.</h1>
+    <div class="hero-image">
+      <img src="../images/マルチカラー/image_01.jpg" alt="미키하우스 핫비스킷 스트라이프 긴팔티 착용 이미지">
+    </div>
+    <p class="hero-subtitle">환절기 체온 조절에 딱 맞는 두께감.<br>세탁기 돌려도 변형 없는 튼튼한 원단.<br>미키하우스 핫비스킷의 Good Quality.</p>
+  </section>
+
+  <!-- STORY 섹션 -->
+  <section class="section section-cream">
+    <h2 class="section-title">아이 옷은 매일이 전쟁이니까</h2>
+    <p class="section-subtitle">실용성과 품질, 두 마리 토끼를 잡은 데일리 베이직</p>
+
+    <div class="story-grid">
+      <div class="story-card">
+        <h3>환절기 체온 조절에 딱</h3>
+        <p>약간 두께감 있는 천축 면 원단을 사용해 너무 얇지도 두껍지도 않아요. 봄가을 환절기, 아침엔 쌀쌀하고 낮엔 따뜻한 요즘 같은 날 외출복 고민 없이 입히기 좋은 두께입니다.</p>
+      </div>
+
+      <div class="story-card">
+        <h3>세탁 걱정 없이 편하게</h3>
+        <p>아이 옷은 하루에도 몇 번씩 갈아입히는데, 세탁기 돌려도 변형 없이 튼튼해요. 천축 면 소재로 세탁 후에도 형태 유지력이 우수하고 잦은 세탁에도 내구성이 유지됩니다.</p>
+      </div>
+
+      <div class="story-card">
+        <h3>어깨 여밈으로 입히기 편해요</h3>
+        <p>90cm 이하 사이즈는 어깨 부분에 스냅 버튼 여밈 방식이 적용되어 있어요. 아직 팔을 잘 못 올리는 아기에게 옷 입히는 건 전쟁인데, 어깨 여밈이라 머리 눌러 끼울 걱정이 없어요.</p>
+      </div>
+
+      <div class="story-card">
+        <h3>어린이집 생활 필수, 네임 태그</h3>
+        <p>이름표를 달 수 있는 네임 태그가 기본 부착되어 있어요. 어린이집 가방에서 내 아이 옷 찾기, 이름표 하나면 끝이죠.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR YOU 섹션 -->
+  <section class="section section-white">
+    <h2 class="section-title">이런 분께 추천해요</h2>
+
+    <div class="for-you-list">
+      <div class="for-you-item">
+        <p>어린이집 등원복으로 매일 입히는데 세탁 걱정 없는 튼튼한 옷이 필요한 분께</p>
+      </div>
+      <div class="for-you-item">
+        <p>아직 팔을 잘 못 올리는 아기에게 옷 입히기가 힘드셨던 분께</p>
+      </div>
+      <div class="for-you-item">
+        <p>환절기 아이 외출복 레이어링 고민이 많으셨던 분께</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DETAILS 섹션 -->
+  <section class="section section-cream">
+    <h2 class="section-title">디테일을 확인하세요</h2>
+
+    <div class="details-grid">
+      <div class="detail-image">
+        <img src="../images/ネイビー_ホワイト/image_02.jpg" alt="미키하우스 핫비스킷 로고 와펜 디테일">
+      </div>
+      <div class="detail-image">
+        <img src="../images/ネイビー_ホワイト/image_03.jpg" alt="네임 태그 및 어깨 여밈 디테일">
+      </div>
+      <div class="detail-image">
+        <img src="../images/マルチカラー/image_03.jpg" alt="멀티컬러 로고 와펜 클로즈업">
+      </div>
+      <div class="detail-image">
+        <img src="../images/マルチカラー/image_02.jpg" alt="멀티컬러 후면 전체">
+      </div>
+    </div>
+  </section>
+
+  <!-- OPTIONS 섹션 -->
+  <section class="section section-white">
+    <h2 class="section-title">컬러 옵션</h2>
+    <p class="section-subtitle">두 가지 컬러 모두 코디하기 쉬운 배색</p>
+
+    <div class="options-grid">
+      <div class="option-card">
+        <div class="option-image">
+          <img src="../images/ネイビー_ホワイト/thumbnail.jpg" alt="네이비 화이트 스트라이프">
+        </div>
+        <p class="option-name">네이비 화이트</p>
+        <p class="option-desc">베이직하고 내추럴한 클래식 스트라이프</p>
+      </div>
+
+      <div class="option-card">
+        <div class="option-image">
+          <img src="../images/マルチカラー/thumbnail.jpg" alt="멀티컬러 스트라이프">
+        </div>
+        <p class="option-name">멀티컬러</p>
+        <p class="option-desc">레드·그린·퍼플·옐로우의 밝고 발랄한 배색</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECS 섹션 -->
+  <section class="section section-cream">
+    <h2 class="section-title">제품 사양</h2>
+
+    <table class="specs-table">
+      <tr>
+        <th>브랜드</th>
+        <td>미키하우스 핫비스킷 (MIKIHOUSE HOT BISCUITS)</td>
+      </tr>
+      <tr>
+        <th>모델명</th>
+        <td>스트라이프 긴팔 티셔츠</td>
+      </tr>
+      <tr>
+        <th>모델번호</th>
+        <td>70-5207-496</td>
+      </tr>
+      <tr>
+        <th>소재</th>
+        <td>천축(텐쥬) 면</td>
+      </tr>
+      <tr>
+        <th>사이즈</th>
+        <td>80, 90, 100, 110, 120</td>
+      </tr>
+      <tr>
+        <th>컬러</th>
+        <td>네이비 화이트 / 멀티컬러</td>
+      </tr>
+      <tr>
+        <th>제조국</th>
+        <td>일본</td>
+      </tr>
+      <tr>
+        <th>대상</th>
+        <td>남아 여아 공용 (유아/아동 80-120cm)</td>
+      </tr>
+      <tr>
+        <th>특징</th>
+        <td>긴팔, 90cm 이하 어깨 여밈, 네임 태그 부착</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- NOTICE 섹션 (상품 고유 리스크만) -->
+  <section class="section section-white">
+    <div class="notice-box">
+      <p class="notice-title">상품 고유 안내사항</p>
+      <ul class="notice-list">
+        <li>본 제품은 아동용 섬유제품으로, 해외직구 상품으로서 KC 인증 대상에서 제외됩니다.</li>
+        <li>실제 색상은 모니터 환경에 따라 다소 차이가 있을 수 있습니다.</li>
+        <li>세탁 시 중성세제 사용을 권장합니다.</li>
+        <li>사이즈는 측정 방법에 따라 1-2cm 오차가 있을 수 있습니다.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CLOSING 섹션 -->
+  <section class="closing">
+    <h2>매일 기분 좋게,<br>건강하게.</h2>
+    <p>미키하우스 핫비스킷</p>
+  </section>
+
+</div>
+
+</body>
+</html>

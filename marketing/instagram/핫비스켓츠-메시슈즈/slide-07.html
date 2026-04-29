@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>HOT BISCUITS - Slide 07</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(135deg, #FF6B9D 0%, #E91E63 100%);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .brand-logo {
+      background: white;
+      padding: 20px 50px;
+      border-radius: 40px;
+      margin-bottom: 50px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    }
+
+    .brand-logo h1 {
+      font-size: 36px;
+      font-weight: 900;
+      color: #E91E63;
+      letter-spacing: 2px;
+    }
+
+    .brand-logo span {
+      display: block;
+      font-size: 18px;
+      color: #999;
+      font-weight: 500;
+      margin-top: 5px;
+      letter-spacing: 4px;
+    }
+
+    .main-cta {
+      margin-bottom: 50px;
+    }
+
+    .main-cta h2 {
+      font-size: 52px;
+      font-weight: 900;
+      color: white;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+
+    .main-cta p {
+      font-size: 26px;
+      color: white;
+      opacity: 0.9;
+    }
+
+    .benefits {
+      display: flex;
+      gap: 25px;
+      margin-bottom: 50px;
+    }
+
+    .benefit-tag {
+      background: rgba(255,255,255,0.2);
+      backdrop-filter: blur(10px);
+      padding: 15px 30px;
+      border-radius: 30px;
+      border: 2px solid rgba(255,255,255,0.3);
+    }
+
+    .benefit-tag span {
+      font-size: 20px;
+      color: white;
+      font-weight: 600;
+    }
+
+    .cta-button {
+      background: white;
+      padding: 25px 80px;
+      border-radius: 50px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      margin-bottom: 30px;
+    }
+
+    .cta-button span {
+      font-size: 28px;
+      font-weight: 800;
+      color: #E91E63;
+    }
+
+    .cta-arrow {
+      display: inline-block;
+      margin-left: 10px;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(10px); }
+    }
+
+    .trust-badges {
+      display: flex;
+      gap: 30px;
+    }
+
+    .trust-badge {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .trust-badge .icon {
+      font-size: 24px;
+    }
+
+    .decorative-shoes {
+      position: absolute;
+      font-size: 120px;
+      opacity: 0.1;
+    }
+
+    .shoe-1 { top: 50px; left: 30px; transform: rotate(-20deg); }
+    .shoe-2 { bottom: 80px; right: 50px; transform: rotate(15deg); }
+    .shoe-3 { top: 200px; right: 100px; transform: rotate(-10deg); font-size: 80px; }
+  </style>
+</head>
+<body>
+  <div class="decorative-shoes shoe-1">👟</div>
+  <div class="decorative-shoes shoe-2">👟</div>
+  <div class="decorative-shoes shoe-3">👟</div>
+
+  <div class="container">
+    <div class="brand-logo">
+      <h1>HOT BISCUITS</h1>
+      <span>by MIKIHOUSE</span>
+    </div>
+
+    <div class="main-cta">
+      <h2>우리 아기 첫 걸음마<br>특별한 신발로 응원하세요</h2>
+      <p>프로필 링크에서 구매 가능</p>
+    </div>
+
+    <div class="benefits">
+      <div class="benefit-tag">
+        <span>통기성 메쉬</span>
+      </div>
+      <div class="benefit-tag">
+        <span>넓은 발볼</span>
+      </div>
+      <div class="benefit-tag">
+        <span>6가지 컬러</span>
+      </div>
+    </div>
+
+    <div class="cta-button">
+      <span>지금 바로 확인하기 <span class="cta-arrow">→</span></span>
+    </div>
+
+    <div class="trust-badges">
+      <div class="trust-badge">
+        <span class="icon">✓</span>
+        <span>일본 정품</span>
+      </div>
+      <div class="trust-badge">
+        <span class="icon">✓</span>
+        <span>품질 검수</span>
+      </div>
+      <div class="trust-badge">
+        <span class="icon">✓</span>
+        <span>안전 배송</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

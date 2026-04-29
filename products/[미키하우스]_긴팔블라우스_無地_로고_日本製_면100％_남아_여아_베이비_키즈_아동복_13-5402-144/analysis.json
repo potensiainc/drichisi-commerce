@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "version": "2.0",
+    "analyzed_at": "2026-04-26T23:30:00+09:00",
+    "product_id": "B0FDK83QKZ",
+    "source_platform": "스크래핑 플랫폼",
+    "analyst": "product-analyzer"
+  },
+  "language_handling": {
+    "brand_name_policy": "original",
+    "brand_name_kr": "미키하우스",
+    "brand_name_original": "MIKIHOUSE",
+    "option_name_policy": "korean_only",
+    "description_policy": "korean_only"
+  },
+  "category": {
+    "primary": "육아/유아용품",
+    "secondary": "베이비/키즈 의류",
+    "tertiary": "블라우스/셔츠",
+    "naver_category_hint": "출산/육아 > 유아동의류(~13세) > 상의 > 블라우스/셔츠"
+  },
+  "product_summary": {
+    "korean_name": "미키하우스 긴팔 블라우스",
+    "core_features": [
+      "일본 프리미엄 브랜드 미키하우스",
+      "면 100% 순면 소재로 아이 피부에 안전",
+      "일본 제조 품질 보증",
+      "크리스마스 컬러 로고 디자인",
+      "M 와펜과 팔꿈치 패치 포인트",
+      "남아/여아 모두 착용 가능한 유니섹스",
+      "로고 컬러와 동일한 버튼 컬러로 통일감"
+    ],
+    "target_customer": "생후 12개월~4세 영유아를 키우는 부모, 일본 정품 베이비복을 찾는 고객, 품질과 안전을 중시하는 육아맘",
+    "main_benefit": "일본 1위 베이비 브랜드의 안전한 순면 소재로 아이 피부를 보호하며, 귀여운 로고 디자인으로 특별한 날 착용하기 좋은 블라우스",
+    "differentiation": [
+      "일본 제조 정품 품질",
+      "면 100% 흡습성 천연 소재",
+      "크리스마스 시즌 한정 디자인 (희소성)",
+      "미키하우스 브랜드 신뢰도",
+      "유니섹스 디자인으로 형제자매 함께 착용 가능"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "clean_premium",
+    "color_palette": [
+      "#F5F5F5",
+      "#FFFFFF",
+      "#2C3E50",
+      "#E74C3C",
+      "#27AE60"
+    ],
+    "layout_hint": "깔끔한 화이트 배경에 상품 이미지를 크게 배치. 미키하우스 브랜드 신뢰도를 강조하는 섹션 상단 배치. 소재/안전성 정보를 아이콘과 함께 명확히 전달. 크리스마스 컬러(레드/그린) 포인트 활용.",
+    "section_priority": [
+      "HERO (크리스마스 로고 블라우스 강조)",
+      "BRAND (미키하우스 브랜드 스토리)",
+      "FEATURES (면 100%, 일본제, 디자인 디테일)",
+      "SPECS (사이즈, 소재, 세탁 방법)",
+      "TRUST (브랜드 인증, 품질 보증)"
+    ]
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "brand_heritage",
+        "text": "일본 베이비복 1위 브랜드 미키하우스의 크리스마스 블라우스"
+      },
+      {
+        "angle": "safety_first",
+        "text": "아이 피부를 생각한 면 100% 순면, 일본 제조 정품 블라우스"
+      },
+      {
+        "angle": "special_occasion",
+        "text": "특별한 날을 더 특별하게, 미키하우스 크리스마스 로고 블라우스"
+      },
+      {
+        "angle": "versatile_design",
+        "text": "남아/여아 모두 착용 가능한 유니섹스 디자인, 미키하우스 블라우스"
+      },
+      {
+        "angle": "quality_detail",
+        "text": "M 와펜과 팔꿈치 패치 디테일이 살아있는 프리미엄 블라우스"
+      }
+    ],
+    "feature_descriptions": {
+      "면100%_순면소재": "흡습성이 뛰어난 천연 면 100% 천연 소재로 아이의 민감한 피부를 부드럽게 감싸줍니다. 통기성이 좋아 땀을 잘 흡수하며, 사계절 쾌적하게 착용할 수 있습니다.",
+      "일본제_품질보증": "일본 국내 제조로 엄격한 품질 관리를 거친 정품입니다. 미키하우스만의 섬세한 봉제 기술과 내구성 있는 마감으로 오래도록 착용할 수 있습니다.",
+      "크리스마스_로고디자인": "크리스마스 컬러(레드/그린)로 표현된 미키하우스 로고가 포인트입니다. 심플한 화이트 블라우스에 컬러풀한 로고가 더해져 특별한 날 착용하기 좋습니다.",
+      "M와펜_팔꿈치패치": "옷깃에 M 와펜을 달고, 팔꿈치 부분에 패치를 더해 디테일을 살렸습니다. 단순한 블라우스를 귀여우면서도 세련되게 업그레이드한 디자인입니다.",
+      "유니섹스_활용도": "남아/여아 모두 착용할 수 있는 유니섹스 디자인입니다. 로고와 버튼 컬러만 매칭되어 있어 깔끔하고, 로맨스나 오버올과 레이어드하기 좋습니다."
+    },
+    "benefit_statements": [
+      "미키하우스 정품으로 아이 옷에 대한 안심을 선물하세요",
+      "면 100% 소재로 하루종일 편안한 착용감을 제공합니다",
+      "일본 제조 품질로 세탁 후에도 변형 없이 오래 입을 수 있습니다",
+      "크리스마스 시즌뿐 아니라 평소에도 귀엽게 착용 가능한 디자인입니다",
+      "형제자매가 함께 맞춰 입을 수 있는 유니섹스 아이템입니다"
+    ]
+  },
+  "image_inventory": [
+    {
+      "filename": "thumbnail.jpg",
+      "path": "images/default/thumbnail.jpg",
+      "purpose": "썸네일/대표 이미지",
+      "description": "화이트 블라우스 정면 전체 컷"
+    },
+    {
+      "filename": "image_01.jpg",
+      "path": "images/default/image_01.jpg",
+      "purpose": "메인 착용 이미지",
+      "description": "블라우스 정면 상세 컷"
+    },
+    {
+      "filename": "image_02.jpg",
+      "path": "images/default/image_02.jpg",
+      "purpose": "디테일 이미지",
+      "description": "블라우스 후면 또는 측면 컷"
+    },
+    {
+      "filename": "image_03.jpg",
+      "path": "images/default/image_03.jpg",
+      "purpose": "로고/와펜 클로즈업",
+      "description": "M 와펜 또는 로고 디테일 컷"
+    },
+    {
+      "filename": "image_04.jpg",
+      "path": "images/default/image_04.jpg",
+      "purpose": "소재/질감 클로즈업",
+      "description": "면 소재 질감 또는 팔꿈치 패치 디테일"
+    }
+  ],
+  "risk_assessment": {
+    "group_a_critical": [],
+    "group_b_notice_required": [
+      {
+        "type": "fabric_care",
+        "content": "면 100% 소재 특성상 첫 세탁 시 약간의 수축이 있을 수 있습니다. 세탁 전 제품 라벨을 확인하세요.",
+        "severity": "medium"
+      },
+      {
+        "type": "sizing",
+        "content": "일본 사이즈 기준이므로 한국 사이즈보다 작을 수 있습니다. 사이즈표를 참고하여 선택하세요.",
+        "severity": "medium"
+      },
+      {
+        "type": "color_variance",
+        "content": "모니터 환경에 따라 실제 상품의 색상과 다소 차이가 있을 수 있습니다.",
+        "severity": "low"
+      }
+    ],
+    "group_c_optional": [
+      {
+        "type": "care_instruction",
+        "content": "와펜과 패치 디테일이 있으므로 세탁망 사용을 권장합니다."
+      },
+      {
+        "type": "styling_tip",
+        "content": "로맨스, 오버올, 바지 등과 레이어드하여 다양하게 연출할 수 있습니다."
+      }
+    ]
+  },
+  "seo_keywords_suggestion": [
+    "미키하우스",
+    "미키하우스 블라우스",
+    "일본 베이비복",
+    "일본 아동복",
+    "면 블라우스",
+    "유아 블라우스",
+    "키즈 블라우스",
+    "크리스마스 아동복",
+    "일본제 아동복",
+    "베이비 셔츠",
+    "유니섹스 블라우스"
+  ],
+  "content_warnings": {
+    "forbidden_mentions": [
+      "아마존",
+      "Amazon",
+      "라쿠텐",
+      "Rakuten",
+      "야후재팬"
+    ],
+    "price_display_rule": "원화 가격만 표시, 엔화(￥) 절대 금지",
+    "certification_rule": "KC인증 언급 금지"
+  }
+}

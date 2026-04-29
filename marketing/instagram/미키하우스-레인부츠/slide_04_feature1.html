@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: linear-gradient(180deg, #FFF8DC 0%, #FFD700 100%);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .top-section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px;
+      position: relative;
+    }
+    .feature-badge {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      background: #C8102E;
+      color: white;
+      padding: 10px 25px;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 25px;
+    }
+    .product-image {
+      width: 500px;
+      height: 500px;
+      object-fit: contain;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.2));
+    }
+    .pattern-highlight {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border: 4px solid #C8102E;
+      border-radius: 50%;
+      top: 180px;
+      right: 200px;
+    }
+    .highlight-line {
+      position: absolute;
+      width: 100px;
+      height: 3px;
+      background: #C8102E;
+      top: 280px;
+      right: 100px;
+    }
+    .highlight-text {
+      position: absolute;
+      top: 260px;
+      right: 40px;
+      background: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #C8102E;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .bottom-section {
+      background: white;
+      padding: 50px 60px;
+    }
+    .feature-title {
+      font-size: 42px;
+      font-weight: 900;
+      color: #C8102E;
+      margin-bottom: 25px;
+    }
+    .feature-desc {
+      font-size: 26px;
+      color: #333;
+      line-height: 1.6;
+    }
+    .feature-desc strong {
+      color: #C8102E;
+      font-weight: 700;
+    }
+    .slide-number {
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      font-size: 16px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top-section">
+      <div class="feature-badge">POINT 01</div>
+
+      <img class="product-image" src="../../products/[미키하우스]_レインブーツ_10-9471-684_키즈/images/multicolor/image_01.jpg" alt="미키하우스 레인부츠 패턴">
+
+      <div class="pattern-highlight"></div>
+      <div class="highlight-line"></div>
+      <div class="highlight-text">퍼즐 블록 패턴</div>
+    </div>
+
+    <div class="bottom-section">
+      <h2 class="feature-title">비 오는 날도 즐거운 퍼즐블록 디자인</h2>
+      <p class="feature-desc">
+        귀여운 동물 얼굴과 <strong>알록달록한 퍼즐 블록 패턴</strong>이<br>
+        아이들의 우울한 우천 등원일을 <strong>즐거운 외출</strong>로 바꿔줘요!
+      </p>
+    </div>
+
+    <p class="slide-number">4 / 7</p>
+  </div>
+</body>
+</html>

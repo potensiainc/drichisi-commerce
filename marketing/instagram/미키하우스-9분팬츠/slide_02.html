@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #2E4057;
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      width: 140px;
+      height: auto;
+    }
+    .slide-number {
+      color: rgba(255,255,255,0.4);
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .content {
+      flex: 1;
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      margin-top: 30px;
+    }
+    .product-side {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .product-image {
+      width: 420px;
+      height: 520px;
+      object-fit: contain;
+      filter: drop-shadow(0 20px 50px rgba(0,0,0,0.3));
+    }
+    .info-side {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .color-name {
+      color: #FFD700;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 15px;
+    }
+    .title {
+      color: white;
+      font-size: 46px;
+      font-weight: 900;
+      line-height: 1.3;
+      margin-bottom: 30px;
+    }
+    .material-box {
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    .material-label {
+      color: rgba(255,255,255,0.6);
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .material-value {
+      color: white;
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .feature {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: rgba(255,255,255,0.9);
+      font-size: 22px;
+    }
+    .feature-icon {
+      width: 36px;
+      height: 36px;
+      background: #C8102E;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feature-icon svg {
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+    .bottom-accent {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 8px;
+      background: linear-gradient(90deg, #C8102E 0%, #FFD700 100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="file:///D:/commerce/assets/brands/mikihouse/logo_nobg.png" alt="MIKIHOUSE" class="logo">
+      <span class="slide-number">2 / 7</span>
+    </div>
+
+    <div class="content">
+      <div class="product-side">
+        <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/インディゴブルー/nobg/image_01_nobg.png" alt="인디고블루 팬츠" class="product-image">
+      </div>
+      <div class="info-side">
+        <div class="color-name">INDIGO BLUE</div>
+        <h2 class="title">스트레치 데님<br>인디고블루</h2>
+        <div class="material-box">
+          <div class="material-label">MATERIAL</div>
+          <div class="material-value">스트레치 데님 소재</div>
+        </div>
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            </div>
+            <span>편안한 신축성</span>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            </div>
+            <span>클래식한 데님 감성</span>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            </div>
+            <span>어디에나 코디 용이</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-accent"></div>
+  </div>
+</body>
+</html>

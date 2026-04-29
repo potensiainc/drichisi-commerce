@@ -1,0 +1,108 @@
+{
+  "product_name": "[미키하우스] 심플 로고 반팔티셔츠",
+  "generated_at": "2026-04-27T00:05:00+09:00",
+  "source_analysis": "products/[미키하우스]_반팔티셔츠_大人用_로고_無地_심플_日本製_남아_여아_親子ペア_베이비_키즈_아동복_10-5279-497/analysis.json",
+
+  "title_candidates": [
+    {
+      "id": "A",
+      "type": "표준형",
+      "text": "미키하우스 반팔티셔츠 심플 로고 일본제 페어룩 10-5279-497",
+      "length": 38,
+      "keywords_used": ["미키하우스", "반팔티셔츠", "심플 로고", "일본제", "페어룩", "모델번호"],
+      "target_search_terms": ["미키하우스 티셔츠", "미키하우스 반팔", "일본 아동복", "페어룩 티셔츠", "일본제 티셔츠"],
+      "rationale": "브랜드 인지도가 높은 미키하우스 특성을 살려 핵심 키워드를 간결하게 배치. 모델번호 포함으로 정품 신뢰성 강조"
+    },
+    {
+      "id": "B",
+      "type": "세부 키워드 강화형",
+      "text": "미키하우스 반팔티셔츠 가족 페어룩 일본제 심플 로고 청소년 성인",
+      "length": 38,
+      "keywords_used": ["미키하우스", "반팔티셔츠", "가족 페어룩", "일본제", "심플 로고", "청소년", "성인"],
+      "target_search_terms": ["가족 티셔츠", "부모자식 페어룩", "미키하우스 성인", "청소년 티셔츠", "가족 맞춤 옷"],
+      "rationale": "페어룩 니즈 타겟팅. 롱테일 검색어(가족 페어룩, 청소년 성인) 공략으로 신규 셀러에 유리"
+    },
+    {
+      "id": "C",
+      "type": "최소형",
+      "text": "미키하우스 심플 로고 반팔티셔츠 일본제",
+      "length": 24,
+      "keywords_used": ["미키하우스", "심플 로고", "반팔티셔츠", "일본제"],
+      "target_search_terms": ["미키하우스 티셔츠", "미키하우스 로고", "미키하우스 정품"],
+      "rationale": "브랜드 파워 활용. 미키하우스 브랜드 검색 유입에 최적화된 간결한 구성"
+    }
+  ],
+
+  "recommended_title": {
+    "candidate_id": "B",
+    "text": "미키하우스 반팔티셔츠 가족 페어룩 일본제 심플 로고 청소년 성인",
+    "selection_reason": "analysis.json의 1순위 셀링포인트가 '가족 페어룩 가능'임. 신규 셀러로 세부 키워드(가족 페어룩, 청소년 성인) 강화가 유리. 기존 미키하우스 티셔츠 경쟁 상품과 차별화 가능"
+  },
+
+  "tags": [
+    {
+      "tag": "미키하우스티셔츠",
+      "type": "core",
+      "search_intent": "브랜드 직접 검색 고객 타겟"
+    },
+    {
+      "tag": "일본아동복",
+      "type": "core",
+      "search_intent": "일본 브랜드 아동복 찾는 고객"
+    },
+    {
+      "tag": "가족페어룩",
+      "type": "long-tail",
+      "search_intent": "부모자식 맞춤 옷 찾는 고객"
+    },
+    {
+      "tag": "부모자식티셔츠",
+      "type": "long-tail",
+      "search_intent": "가족 단위 구매 의도"
+    },
+    {
+      "tag": "청소년티셔츠",
+      "type": "long-tail",
+      "search_intent": "청소년 사이즈 티셔츠 찾는 고객"
+    },
+    {
+      "tag": "일본제티셔츠",
+      "type": "long-tail",
+      "search_intent": "일본 제조 품질 중시 고객"
+    },
+    {
+      "tag": "심플베이직티",
+      "type": "emotional",
+      "search_intent": "유행 타지 않는 기본템 선호"
+    },
+    {
+      "tag": "데일리티셔츠",
+      "type": "emotional",
+      "search_intent": "일상 착용 편한 옷 찾는 고객"
+    },
+    {
+      "tag": "프리미엄아동복",
+      "type": "emotional",
+      "search_intent": "고품질 아동복 선호 고객"
+    },
+    {
+      "tag": "가족룩선물",
+      "type": "seasonal",
+      "search_intent": "선물용 가족 의류 검색"
+    }
+  ],
+
+  "category_recommendation": {
+    "path": "패션의류 > 아동의류 > 아동 상의 > 티셔츠",
+    "rationale": "청소년~성인 사이즈지만 미키하우스 브랜드가 아동복 카테고리에서 검색량이 높음. 페어룩 특성상 아동의류 카테고리 매칭이 유리",
+    "note": "네이버 스마트스토어 센터에서 정확한 카테고리명 최종 확인 필요"
+  },
+
+  "brand_field": "MIKIHOUSE",
+  "manufacturer_field": "MIKIHOUSE",
+
+  "seo_check": {
+    "all_passed": true,
+    "failed_items": []
+  }
+}

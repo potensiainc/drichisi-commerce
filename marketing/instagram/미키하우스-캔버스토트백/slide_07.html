@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 캔버스 토트백 - Slide 7 (CTA)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(135deg, #C8102E 0%, #A00D24 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px;
+      position: relative;
+    }
+    .logo {
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px;
+      height: auto;
+      filter: brightness(0) invert(1);
+    }
+    .product-showcase {
+      display: flex;
+      justify-content: center;
+      gap: -40px;
+      margin-bottom: 50px;
+    }
+    .product-img {
+      width: 280px;
+      height: 280px;
+      object-fit: contain;
+      background: white;
+      border-radius: 24px;
+      padding: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .product-img:nth-child(2) {
+      transform: translateY(-20px);
+      z-index: 1;
+    }
+    .product-img:nth-child(1), .product-img:nth-child(3) {
+      transform: scale(0.9);
+      opacity: 0.9;
+    }
+    .headline {
+      font-size: 56px;
+      font-weight: 900;
+      color: white;
+      text-align: center;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+    .headline span {
+      color: #FFD700;
+    }
+    .subline {
+      font-size: 28px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.9);
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .price-box {
+      background: white;
+      padding: 24px 60px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .price {
+      font-size: 48px;
+      font-weight: 900;
+      color: #C8102E;
+    }
+    .price-label {
+      font-size: 20px;
+      color: #666;
+      font-weight: 500;
+    }
+    .cta-button {
+      background: #FFD700;
+      color: #1A1A1A;
+      padding: 24px 80px;
+      border-radius: 60px;
+      font-size: 28px;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    .cta-button svg {
+      width: 28px;
+      height: 28px;
+      fill: #1A1A1A;
+    }
+    .badge-row {
+      position: absolute;
+      bottom: 50px;
+      display: flex;
+      gap: 20px;
+    }
+    .badge {
+      background: rgba(255,255,255,0.2);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .gold-accent {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle at top right, rgba(255,215,0,0.3) 0%, transparent 70%);
+    }
+    .gold-accent-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle at bottom left, rgba(255,215,0,0.2) 0%, transparent 70%);
+    }
+  </style>
+</head>
+<body>
+  <div class="gold-accent"></div>
+  <div class="gold-accent-bottom"></div>
+  <div class="container">
+    <img src="../../../assets/brands/mikihouse/logo_nobg.png" alt="MIKIHOUSE" class="logo">
+    <div class="product-showcase">
+      <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/イエロー/image_01.jpg" alt="옐로우" class="product-img">
+      <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/レッド/image_01.jpg" alt="레드" class="product-img">
+      <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/ネイビー/image_01.jpg" alt="네이비" class="product-img">
+    </div>
+    <h1 class="headline">매일 가방에.<br><span>MIKIHOUSE</span></h1>
+    <p class="subline">일본제 캔버스 토트백 6색상</p>
+    <div class="price-box">
+      <span class="price-label">시작가</span>
+      <span class="price">2,750</span>
+      <span class="price-label">JPY</span>
+    </div>
+    <div class="cta-button">
+      <svg viewBox="0 0 24 24"><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/></svg>
+      프로필 링크에서 구매하기
+    </div>
+    <div class="badge-row">
+      <span class="badge">MADE IN JAPAN</span>
+      <span class="badge">WEB 한정</span>
+      <span class="badge">6 COLORS</span>
+    </div>
+  </div>
+</body>
+</html>

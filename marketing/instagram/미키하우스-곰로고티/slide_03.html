@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 곰 로고 티셔츠 - Slide 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: linear-gradient(180deg, #1D3557 0%, #2A4A6F 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .content {
+            padding: 80px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .brand-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FFD700;
+            letter-spacing: 3px;
+        }
+        .slide-num {
+            font-size: 18px;
+            color: rgba(255,255,255,0.6);
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .product-image {
+            width: 420px;
+            height: 420px;
+            object-fit: contain;
+            filter: drop-shadow(0 20px 50px rgba(0,0,0,0.4));
+        }
+        .text-section {
+            flex: 1;
+        }
+        .feature-tag {
+            background: #FFD700;
+            color: #1D3557;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 25px;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .main-title {
+            font-size: 44px;
+            font-weight: 900;
+            color: white;
+            line-height: 1.4;
+            margin-bottom: 30px;
+        }
+        .highlight {
+            color: #FFD700;
+        }
+        .description {
+            font-size: 22px;
+            color: rgba(255,255,255,0.85);
+            line-height: 1.8;
+        }
+        .quality-badges {
+            display: flex;
+            gap: 15px;
+            margin-top: 40px;
+        }
+        .badge {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,215,0,0.5);
+            padding: 12px 20px;
+            border-radius: 30px;
+            color: #FFD700;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .decorative-circle {
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid rgba(255,215,0,0.2);
+        }
+        .circle-1 {
+            width: 500px;
+            height: 500px;
+            left: -100px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .circle-2 {
+            width: 300px;
+            height: 300px;
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="decorative-circle circle-1"></div>
+    <div class="decorative-circle circle-2"></div>
+
+    <div class="content">
+        <div class="header">
+            <div class="brand-logo">MIKIHOUSE</div>
+            <div class="slide-num">03 / 07</div>
+        </div>
+
+        <div class="main-content">
+            <div class="image-section">
+                <img src="../../products/[미키하우스]_반팔티셔츠_くま_로고_남아_여아_베이비_키즈_아동복_10-5253-686/images/nobg/image_01_nobg.png"
+                     alt="뒷면 디자인"
+                     class="product-image">
+            </div>
+            <div class="text-section">
+                <div class="feature-tag">POINT 02</div>
+                <h2 class="main-title">
+                    뒤돌아서도<br>
+                    <span class="highlight">귀여운 옷</span>
+                </h2>
+                <p class="description">
+                    놀이터에서 뛰어다니는<br>
+                    아이 뒷모습도<br>
+                    사랑스러운 디자인
+                </p>
+                <div class="quality-badges">
+                    <div class="badge">앞뒤 디자인</div>
+                    <div class="badge">곰 포인트</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

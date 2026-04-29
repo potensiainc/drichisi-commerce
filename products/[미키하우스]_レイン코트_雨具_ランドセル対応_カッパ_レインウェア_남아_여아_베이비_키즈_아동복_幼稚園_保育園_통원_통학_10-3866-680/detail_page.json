@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "type": "product_images",
+      "content": "Product variant images from Amazon"
+    },
+    {
+      "type": "features",
+      "bullets": [
+        "ランドセル対応デザイン (backpack-compatible design)",
+        "男の子・女の子兼用 (unisex)",
+        "幼稚園・保育園・通園・通学用 (kindergarten, nursery, commuting)",
+        "カラー：マルチカラー、ピンク",
+        "サイズ：SS(80-90)からL(110-120)まで"
+      ]
+    },
+    {
+      "type": "description",
+      "content": "ミキハウスのレインコート。子どもと家族の毎日を笑顔でいっぱいにするブランド理念のもと、品質にこだわった雨具。"
+    }
+  ]
+}

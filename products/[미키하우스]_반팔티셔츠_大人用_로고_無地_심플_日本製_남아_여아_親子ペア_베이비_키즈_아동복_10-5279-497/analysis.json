@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "analyzed_at": "2026-04-26T23:30:00+09:00",
+    "product_id": "B0BYNGP3YD",
+    "brand_original": "MIKIHOUSE(ミキハウス)",
+    "category": "베이비·키즈 > 아동복 > 티셔츠"
+  },
+  "language_handling": {
+    "brand_name_policy": "original",
+    "brand_name_final": "미키하우스",
+    "product_name_kr": "심플 로고 반팔티셔츠",
+    "notes": "미키하우스는 한국에서도 널리 알려진 브랜드명으로 원음 표기 사용"
+  },
+  "design_direction": {
+    "color_palette": [
+      "#FFFFFF",
+      "#E63946",
+      "#1D3557",
+      "#F8F9FA"
+    ],
+    "design_tone": "clean_minimal",
+    "layout_hint": "베이직 심플 레이아웃 - 상단 메인 이미지, 중단 컬러 옵션 소개, 하단 브랜드 신뢰성 강조",
+    "typography_suggestion": "고딕체, 깔끔한 서체"
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "premium_quality",
+        "text": "일본 명품 브랜드 미키하우스의 정통 퀄리티"
+      },
+      {
+        "angle": "family_matching",
+        "text": "온 가족이 함께 입는 특별한 순간"
+      },
+      {
+        "angle": "timeless_design",
+        "text": "유행 타지 않는 심플함, 오래도록 사랑받는 디자인"
+      },
+      {
+        "angle": "made_in_japan",
+        "text": "일본 장인정신이 담긴 안심 품질"
+      }
+    ],
+    "benefit_bullets": [
+      "일본 정품 미키하우스 반팔티셔츠",
+      "심플한 로고 디자인으로 어디에나 매치하기 좋음",
+      "부모와 자녀가 함께 입을 수 있는 페어룩 아이템",
+      "일본제 고품질 원단으로 내구성 우수",
+      "165~185 사이즈로 청소년부터 성인까지 착용 가능"
+    ],
+    "trust_signals": [
+      "일본 정품 직구",
+      "미키하우스 공식 제품",
+      "일본제 (Made in Japan)"
+    ]
+  },
+  "image_inventory": {
+    "white": {
+      "folder": "images/ホワイト",
+      "folder_en": "images/white",
+      "images": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "thumbnail.jpg"
+      ]
+    },
+    "red_navy": {
+      "folder": "images/赤×紺",
+      "folder_en": "images/red_navy",
+      "images": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "thumbnail.jpg"
+      ]
+    }
+  },
+  "risk_assessment": {
+    "group_a": [],
+    "group_b": [],
+    "group_c": [],
+    "overall_risk_level": "low"
+  },
+  "recommendations": {
+    "seo_focus_keywords": [
+      "미키하우스",
+      "미키하우스 티셔츠",
+      "일본 아동복",
+      "일본제 티셔츠",
+      "페어룩",
+      "가족 티셔츠"
+    ],
+    "target_customer": "20-40대 부모, 고품질 아동복을 찾는 고객, 페어룩에 관심 있는 가족",
+    "positioning": "프리미엄 일본 브랜드의 심플하고 고품질 베이직 티셔츠"
+  }
+}

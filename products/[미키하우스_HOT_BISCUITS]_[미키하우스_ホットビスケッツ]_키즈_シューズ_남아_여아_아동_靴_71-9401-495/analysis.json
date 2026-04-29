@@ -1,0 +1,318 @@
+{
+  "meta": {
+    "product_id": "71-9401-495",
+    "analyzed_at": "2026-04-26T23:30:00+09:00",
+    "analyzer_version": "2.0",
+    "source_platform": "스크래핑 플랫폼",
+    "target_platform": "naver_smartstore"
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "target_language": "ko",
+    "brand_name_policy": "original",
+    "brand_name_original": "MIKIHOUSE HOT BISCUITS",
+    "brand_name_localized": "미키하우스 핫비스킷",
+    "product_name_translation_note": "일본 아동복 브랜드로 한글 병기 권장"
+  },
+  "category": {
+    "primary": "육아/유아용품",
+    "secondary": "유아신발",
+    "naver_category_path": "패션의류/잡화 > 유아동패션 > 신발 > 유아신발",
+    "product_type": "아동용 운동화/스니커즈"
+  },
+  "target_audience": {
+    "primary": "1-3세 자녀를 둔 부모",
+    "demographics": {
+      "age_range": "25-40세",
+      "gender": "여성 중심 (엄마)",
+      "life_stage": "육아 초기 단계"
+    },
+    "psychographics": {
+      "values": ["아이 발 건강", "품질 중시", "일본 브랜드 신뢰"],
+      "pain_points": ["빠른 성장으로 신발 교체 주기 짧음", "걸음마 시기 발 보호 중요", "통기성 좋은 신발 필요"],
+      "purchase_motivators": ["일본 정품 브랜드", "발달 단계 맞춤 설계", "안전성"]
+    }
+  },
+  "design_direction": {
+    "design_tone": "깔끔하고 신뢰감 있는",
+    "color_palette": [
+      "#FF69B4",
+      "#FFFFFF",
+      "#FFD700",
+      "#87CEEB",
+      "#F5F5F5"
+    ],
+    "layout_hint": "상품 이미지 중심으로 색상별 옵션을 명확히 보여주고, 아동화 특성(통기성, 안전성, 편안함)을 강조하는 섹션 구성. HERO는 대표 색상(핑크 또는 멀티컬러) 사용.",
+    "typography_recommendation": "부드러운 산세리프체, 가독성 높은 본문 폰트",
+    "visual_hierarchy": "1. HERO (대표 이미지) → 2. 색상 옵션 소개 → 3. 기능 특징 (통기성/안전성) → 4. 상세 이미지 → 5. 사이즈 안내"
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "발달 단계",
+        "text": "걸음마 시기, 우리 아이 첫 신발은 달라야 합니다",
+        "tone": "전문적이고 신뢰감 있는",
+        "target_emotion": "안전에 대한 확신"
+      },
+      {
+        "angle": "일본 브랜드",
+        "text": "60년 전통 미키하우스, 아이 발 건강을 생각합니다",
+        "tone": "품질 중시",
+        "target_emotion": "브랜드 신뢰"
+      },
+      {
+        "angle": "통기성",
+        "text": "땀 많은 우리 아이 발, 메쉬 소재로 쾌적하게",
+        "tone": "실용적이고 따뜻한",
+        "target_emotion": "아이 편안함에 대한 공감"
+      },
+      {
+        "angle": "착탈 편의성",
+        "text": "벨크로 한 번이면 끝, 아침 등원 준비가 빨라집니다",
+        "tone": "실생활 중심",
+        "target_emotion": "편리함"
+      }
+    ],
+    "feature_highlights": [
+      {
+        "feature": "통기성 메쉬 소재",
+        "benefit": "땀 많은 아이 발을 쾌적하게 유지",
+        "icon_suggestion": "통풍 아이콘"
+      },
+      {
+        "feature": "플렉스 솔 설계",
+        "benefit": "자연스러운 발 움직임을 돕는 유연한 밑창",
+        "icon_suggestion": "발 움직임 아이콘"
+      },
+      {
+        "feature": "탄탄한 뒤꿈치 카운터",
+        "benefit": "걸음마 시기 발목을 안정적으로 지지",
+        "icon_suggestion": "발목 보호 아이콘"
+      },
+      {
+        "feature": "넉넉한 앞코",
+        "benefit": "발가락이 자유롭게 움직이는 여유 공간",
+        "icon_suggestion": "발가락 공간 아이콘"
+      },
+      {
+        "feature": "벨크로 스트랩",
+        "benefit": "빠르고 쉬운 착탈, 아이 스스로도 가능",
+        "icon_suggestion": "착용 편의성 아이콘"
+      }
+    ],
+    "closing_cta": "우리 아이 첫 걸음, 미키하우스와 함께 시작하세요"
+  },
+  "image_inventory": {
+    "pink": [
+      {
+        "filename": "thumbnail.jpg",
+        "path": "../images/ピンク/thumbnail.jpg",
+        "recommended_path": "../images/pink/thumbnail.jpg",
+        "usage": "색상 옵션 썸네일",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 핑크"
+      },
+      {
+        "filename": "image_01.jpg",
+        "path": "../images/ピンク/image_01.jpg",
+        "recommended_path": "../images/pink/image_01.jpg",
+        "usage": "핑크 정면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 핑크 정면"
+      },
+      {
+        "filename": "image_02.jpg",
+        "path": "../images/ピンク/image_02.jpg",
+        "recommended_path": "../images/pink/image_02.jpg",
+        "usage": "핑크 측면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 핑크 측면"
+      },
+      {
+        "filename": "image_03.jpg",
+        "path": "../images/ピンク/image_03.jpg",
+        "recommended_path": "../images/pink/image_03.jpg",
+        "usage": "핑크 후면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 핑크 후면"
+      },
+      {
+        "filename": "image_04.jpg",
+        "path": "../images/ピンク/image_04.jpg",
+        "recommended_path": "../images/pink/image_04.jpg",
+        "usage": "핑크 상단",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 핑크 상단"
+      },
+      {
+        "filename": "image_05.jpg",
+        "path": "../images/ピンク/image_05.jpg",
+        "recommended_path": "../images/pink/image_05.jpg",
+        "usage": "핑크 밑창",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 핑크 밑창"
+      },
+      {
+        "filename": "image_06.jpg",
+        "path": "../images/ピンク/image_06.jpg",
+        "recommended_path": "../images/pink/image_06.jpg",
+        "usage": "핑크 디테일",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 핑크 디테일"
+      }
+    ],
+    "white": [
+      {
+        "filename": "thumbnail.jpg",
+        "path": "../images/ホワイト/thumbnail.jpg",
+        "recommended_path": "../images/white/thumbnail.jpg",
+        "usage": "색상 옵션 썸네일",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 화이트"
+      },
+      {
+        "filename": "image_01.jpg",
+        "path": "../images/ホワイト/image_01.jpg",
+        "recommended_path": "../images/white/image_01.jpg",
+        "usage": "화이트 정면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 화이트 정면"
+      },
+      {
+        "filename": "image_02.jpg",
+        "path": "../images/ホワイト/image_02.jpg",
+        "recommended_path": "../images/white/image_02.jpg",
+        "usage": "화이트 측면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 화이트 측면"
+      },
+      {
+        "filename": "image_03.jpg",
+        "path": "../images/ホワイト/image_03.jpg",
+        "recommended_path": "../images/white/image_03.jpg",
+        "usage": "화이트 후면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 화이트 후면"
+      },
+      {
+        "filename": "image_04.jpg",
+        "path": "../images/ホワイト/image_04.jpg",
+        "recommended_path": "../images/white/image_04.jpg",
+        "usage": "화이트 상단",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 화이트 상단"
+      },
+      {
+        "filename": "image_05.jpg",
+        "path": "../images/ホワイト/image_05.jpg",
+        "recommended_path": "../images/white/image_05.jpg",
+        "usage": "화이트 밑창",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 화이트 밑창"
+      },
+      {
+        "filename": "image_06.jpg",
+        "path": "../images/ホワイト/image_06.jpg",
+        "recommended_path": "../images/white/image_06.jpg",
+        "usage": "화이트 디테일",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 화이트 디테일"
+      }
+    ],
+    "multicolor": [
+      {
+        "filename": "thumbnail.jpg",
+        "path": "../images/マルチカラー/thumbnail.jpg",
+        "recommended_path": "../images/multicolor/thumbnail.jpg",
+        "usage": "색상 옵션 썸네일",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 멀티컬러"
+      },
+      {
+        "filename": "image_01.jpg",
+        "path": "../images/マルチカラー/image_01.jpg",
+        "recommended_path": "../images/multicolor/image_01.jpg",
+        "usage": "멀티컬러 정면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 멀티컬러 정면"
+      },
+      {
+        "filename": "image_02.jpg",
+        "path": "../images/マルチカラー/image_02.jpg",
+        "recommended_path": "../images/multicolor/image_02.jpg",
+        "usage": "멀티컬러 측면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 멀티컬러 측면"
+      },
+      {
+        "filename": "image_03.jpg",
+        "path": "../images/マルチカラー/image_03.jpg",
+        "recommended_path": "../images/multicolor/image_03.jpg",
+        "usage": "멀티컬러 후면",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 멀티컬러 후면"
+      },
+      {
+        "filename": "image_04.jpg",
+        "path": "../images/マルチカラー/image_04.jpg",
+        "recommended_path": "../images/multicolor/image_04.jpg",
+        "usage": "멀티컬러 상단",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 멀티컬러 상단"
+      },
+      {
+        "filename": "image_05.jpg",
+        "path": "../images/マルチカラー/image_05.jpg",
+        "recommended_path": "../images/multicolor/image_05.jpg",
+        "usage": "멀티컬러 밑창",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 멀티컬러 밑창"
+      },
+      {
+        "filename": "image_06.jpg",
+        "path": "../images/マルチカラー/image_06.jpg",
+        "recommended_path": "../images/multicolor/image_06.jpg",
+        "usage": "멀티컬러 디테일",
+        "alt_text": "미키하우스 핫비스킷 아동 운동화 멀티컬러 디테일"
+      }
+    ]
+  },
+  "product_specs": {
+    "sizes": ["16.0cm", "17.0cm", "18.0cm"],
+    "colors": [
+      {
+        "name_ja": "ピンク",
+        "name_ko": "핑크",
+        "hex": "#FFB6C1"
+      },
+      {
+        "name_ja": "ホワイト",
+        "name_ko": "화이트",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name_ja": "マルチカラー",
+        "name_ko": "멀티컬러",
+        "hex": "#FFD700"
+      }
+    ],
+    "materials": {
+      "upper": "폴리에스터 메쉬",
+      "sole": "고무 (플렉스 솔)",
+      "lining": "통기성 소재"
+    },
+    "features": [
+      "벨크로 스트랩",
+      "플렉스 솔 (유연한 밑창)",
+      "탄탄한 뒤꿈치 카운터",
+      "넉넉한 앞코 디자인",
+      "통기성 메쉬 소재",
+      "트리콜로르 테이프 장식",
+      "뒤꿈치 비스킷 자수"
+    ],
+    "age_range": "1-3세 (걸음마~유아기)",
+    "use_cases": ["일상용", "통원용", "외출용", "선물용"]
+  },
+  "compliance_risks": {
+    "group_a": [],
+    "group_b": [],
+    "notes": "아동용 신발이므로 KC인증 관련 내용은 절대 언급하지 않음. 제품 안전성은 '일본 정품 브랜드', '60년 전통' 등으로 간접 표현."
+  },
+  "seo_keywords_suggestion": [
+    "미키하우스",
+    "아동 운동화",
+    "유아 신발",
+    "걸음마 신발",
+    "일본 아동화",
+    "통기성 신발",
+    "벨크로 신발",
+    "유아용 스니커즈",
+    "미키하우스 핫비스킷",
+    "첫 신발"
+  ],
+  "pricing_note": {
+    "original_price": "¥7,920",
+    "display_strategy": "원화 가격만 표시, 엔화 절대 노출 금지",
+    "positioning": "프리미엄 일본 브랜드 (중상 가격대)"
+  }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 곰 로고 티셔츠 - Slide 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: #FFFFFF;
+            position: relative;
+            overflow: hidden;
+        }
+        .stripe-left {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 80px;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                #C8102E 0px,
+                #C8102E 30px,
+                #FFFFFF 30px,
+                #FFFFFF 35px,
+                #1D3557 35px,
+                #1D3557 65px,
+                #FFFFFF 65px,
+                #FFFFFF 70px
+            );
+        }
+        .content {
+            margin-left: 80px;
+            padding: 80px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .brand-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #C8102E;
+            letter-spacing: 3px;
+        }
+        .slide-num {
+            font-size: 18px;
+            color: #999;
+        }
+        .feature-tag {
+            background: linear-gradient(135deg, #C8102E, #E63946);
+            color: white;
+            padding: 10px 24px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 25px;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .main-title {
+            font-size: 50px;
+            font-weight: 900;
+            color: #1D3557;
+            line-height: 1.3;
+            margin-bottom: 50px;
+        }
+        .highlight {
+            color: #C8102E;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            flex: 1;
+        }
+        .feature-card {
+            background: #F8F9FA;
+            border-radius: 20px;
+            padding: 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: 4px solid #FFD700;
+        }
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .feature-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1D3557;
+            margin-bottom: 10px;
+        }
+        .feature-desc {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .gold-accent {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(255,215,0,0.2) 0%, transparent 70%);
+            border-radius: 50%;
+            right: 100px;
+            bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="stripe-left"></div>
+    <div class="gold-accent"></div>
+
+    <div class="content">
+        <div class="header">
+            <div class="brand-logo">MIKIHOUSE</div>
+            <div class="slide-num">04 / 07</div>
+        </div>
+
+        <div class="feature-tag">POINT 03</div>
+        <h2 class="main-title">
+            <span class="highlight">일본 소재</span><br>
+            미키하우스 품질
+        </h2>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🇯🇵</div>
+                <div class="feature-title">일본 소재 사용</div>
+                <div class="feature-desc">아이 피부에 닿는 원단이니까<br>더 신중하게 선택했습니다</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">✨</div>
+                <div class="feature-title">미키하우스 QC</div>
+                <div class="feature-desc">60년 전통 브랜드의<br>꼼꼼한 품질 관리</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">👶</div>
+                <div class="feature-title">베이비 & 키즈</div>
+                <div class="feature-desc">90~120 사이즈<br>1세부터 6세까지</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🧵</div>
+                <div class="feature-title">입체 자수 디테일</div>
+                <div class="feature-desc">프린트가 아닌<br>정성스러운 자수 처리</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

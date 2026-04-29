@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "brand": "미키하우스 핫비스킷",
+    "model_name": "스트라이프 긴팔 티셔츠",
+    "model_number": "70-5207-496",
+    "category": "아동복/유아의류/티셔츠",
+    "target_age": "유아/아동 (80-120cm)",
+    "target_gender": "남아/여아 공용",
+    "made_in": "일본"
+  },
+  "pricing": {
+    "original_price_jpy": 1999,
+    "currency": "JPY"
+  },
+  "colors": [
+    {
+      "name": "네이비/화이트",
+      "name_kr": "네이비 화이트",
+      "folder": "navy_white"
+    },
+    {
+      "name": "멀티컬러",
+      "name_kr": "멀티컬러",
+      "folder": "multicolor"
+    }
+  ],
+  "sizes": [
+    {
+      "name": "80",
+      "available": true
+    },
+    {
+      "name": "90",
+      "available": true
+    },
+    {
+      "name": "100",
+      "available": true
+    },
+    {
+      "name": "110",
+      "available": true
+    },
+    {
+      "name": "120",
+      "available": true
+    }
+  ],
+  "features": {
+    "main_features": [
+      "미키하우스 핫비스킷 브랜드의 보더(스트라이프) 긴팔 티셔츠",
+      "로고 와펜 포인트 디자인",
+      "데일리 캐주얼 스타일링에 적합한 베이직 아이템",
+      "약간 두께감 있는 천축(텐쥬) 원단으로 환절기 착용 추천",
+      "세탁 후에도 변형 없이 튼튼한 소재",
+      "부드러운 촉감의 편안한 착용감",
+      "90cm 이하 사이즈는 어깨 여밈 방식으로 입히기 편리",
+      "이름표 달 수 있는 네임 태그 부착"
+    ],
+    "material": "천축(텐쥬) 면 원단",
+    "care_instructions": "세탁기 가능, 형태 유지력 우수"
+  },
+  "product_story": {
+    "description": "미키하우스 핫비스킷의 스트라이프 긴팔 티셔츠입니다. 두 가지 컬러 모두 코디하기 쉬운 배색으로 구성되어 있으며, 데일리 캐주얼 룩의 메인 아이템으로도 활용 가능합니다. 약간 두께감 있는 천축 원단으로 환절기에 특히 추천하며, 세탁 후에도 변형이 적고 튼튼합니다.",
+    "brand_philosophy": "미키하우스 핫비스킷은 Good Quality를 키워드로, 아이들이 매일 기분 좋게 건강하게 지낼 수 있도록 좋은 품질의 제품을 만듭니다. 안심할 수 있는 품질과 즐거운 디자인을 제공합니다."
+  },
+  "images": {
+    "variant_images": {
+      "navy_white": [
+        "https://m.media-amazon.com/images/I/51tlVtTpegL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/41sPlw7AzLL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61SM+XFd-jL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61CpmmrPGRL._AC_SL1500_.jpg"
+      ],
+      "multicolor": [
+        "https://m.media-amazon.com/images/I/51TwM9Md1NL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/41RynhCw9VL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/41h-EqntXML._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/616g2makS9L._AC_SL1500_.jpg"
+      ]
+    }
+  },
+  "ranking": {
+    "category": "베이비 티셔츠",
+    "rank": 178
+  }
+}

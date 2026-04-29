@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(180deg, #FFFFFF 0%, #F8F4EF 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      width: 140px;
+      height: auto;
+    }
+    .slide-number {
+      color: rgba(0,0,0,0.3);
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .title-section {
+      text-align: center;
+      margin: 40px 0 30px;
+    }
+    .title-section h2 {
+      font-size: 42px;
+      font-weight: 900;
+      color: #2E4057;
+    }
+    .title-section h2 span {
+      color: #C8102E;
+    }
+    .detail-grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      padding: 20px 0;
+    }
+    .detail-item {
+      background: white;
+      border-radius: 24px;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+      transition: transform 0.3s ease;
+    }
+    .detail-image {
+      width: 180px;
+      height: 180px;
+      object-fit: contain;
+      margin-bottom: 15px;
+    }
+    .detail-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #2E4057;
+      margin-bottom: 8px;
+    }
+    .detail-desc {
+      font-size: 16px;
+      color: #666;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .highlight-badge {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: #C8102E;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 15px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .detail-item.featured {
+      background: linear-gradient(135deg, #FFF8E8 0%, #FFE5E5 100%);
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="file:///D:/commerce/assets/brands/mikihouse/logo.png" alt="MIKIHOUSE" class="logo">
+      <span class="slide-number">4 / 7</span>
+    </div>
+
+    <div class="title-section">
+      <h2>실용적인 <span>디테일</span></h2>
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-item featured">
+        <span class="highlight-badge">POINT</span>
+        <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/インディゴブルー/image_04.jpg" alt="로고 자수" class="detail-image">
+        <div class="detail-title">레트로 로고 자수</div>
+        <div class="detail-desc">뒤 주머니에 미키하우스<br>브랜드 시그니처 자수</div>
+      </div>
+      <div class="detail-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/インディゴブルー/image_05.jpg" alt="주머니" class="detail-image">
+        <div class="detail-title">넉넉한 주머니</div>
+        <div class="detail-desc">앞 양쪽 + 뒤 오른쪽<br>총 3개의 실용적 주머니</div>
+      </div>
+      <div class="detail-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/インディゴブルー/image_03.jpg" alt="후면" class="detail-image">
+        <div class="detail-title">9부 기장</div>
+        <div class="detail-desc">발목 위로 오는 기장<br>활동하기 편한 길이</div>
+      </div>
+      <div class="detail-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/インディゴブルー/image_02.jpg" alt="허리" class="detail-image">
+        <div class="detail-title">허리 조절 가능</div>
+        <div class="detail-desc">고무밴드 + 아저스터<br>성장에 맞춰 조절</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+{
+  "product_name": "미키하우스 키즈 레인부츠",
+  "analyzed_at": "2026-04-26T18:30:00+09:00",
+  "meta": {
+    "original_name": "[ミキハウス] レインブーツ 10-9471-684 キッズ",
+    "brand": "MIKIHOUSE (미키하우스)",
+    "price": {
+      "amount": "1,953",
+      "currency": "JPY"
+    },
+    "origin": "일본",
+    "review": {
+      "rating": "",
+      "count": ""
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0D36NRRT5",
+    "product_id": "B0D36NRRT5"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "육아용품",
+    "rationale": "키즈용 장화(레인부츠)로 13~19cm 사이즈는 유아~초등 저학년 대상. 통원/통학용으로 명시되어 있어 육아용품 카테고리가 적합."
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "both",
+    "spec_translation_notes": "브랜드명 '미키하우스'는 한국 시장에서 이미 정착된 표기이므로 한글 음차 우선, 원문 병기. 색상명(マルチカラー, ピンク)은 한글 번역 필수."
+  },
+  "risks": [
+    {
+      "type": "언어 표기 이슈",
+      "severity": "medium",
+      "description": "상품명에 일본어 원문(レインブーツ, キッズ) 포함. 한국어 번역 필요.",
+      "action_required": "상품명을 '미키하우스 키즈 레인부츠'로 번역하여 사용. 옵션명도 '멀티컬러', '핑크'로 번역."
+    },
+    {
+      "type": "KC 인증 대상",
+      "severity": "high",
+      "description": "어린이용 신발류는 KC 안전확인대상 생활용품일 가능성이 있음.",
+      "action_required": "KC 안전확인 필요 여부 확인 필수. 통관 시 KC 인증서 요구될 수 있음."
+    },
+    {
+      "type": "해외직구 고지",
+      "severity": "medium",
+      "description": "일본 직구 상품으로 해외 소비자 보호법 적용 제한.",
+      "action_required": "상세페이지에 '해외 구매대행을 통한 수입 상품', 'A/S 제한', '관세 발생 가능' 고지 필수."
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "비 오는 날도 즐거운 퍼즐블록 디자인",
+      "evidence": "귀여운 동물 얼굴과 알록달록한 퍼즐 블록 패턴이 아이들의 우울한 우천 등원일을 즐거운 외출로 바꿔줌",
+      "emotional_hook": "우산 쓰기 싫다고 떼쓰던 아이가 장화 신고 싶다며 먼저 나서는 순간"
+    },
+    {
+      "priority": 2,
+      "headline": "안전을 지키는 반사테이프",
+      "evidence": "어두운 새벽·저녁 등하원 시간에도 차량에 잘 보이도록 반사 테이프 부착",
+      "emotional_hook": "겨울철 일찍 어두워지는 퇴근 시간, 아이 손 꼭 잡고 걷는 그 길"
+    },
+    {
+      "priority": 3,
+      "headline": "뛰어놀아도 발 편한 중창 구조",
+      "evidence": "키즈 전용 중창 내장으로 뛰거나 점프할 때 충격 흡수, 쿠션감 제공",
+      "emotional_hook": "물웅덩이를 보면 참지 못하고 첨벙첨벙 뛰어드는 우리 아이"
+    },
+    {
+      "priority": 4,
+      "headline": "유치원·어린이집에서 잃어버릴 걱정 없이",
+      "evidence": "이름 스티커 포함으로 신발장에서 쉽게 구분 가능",
+      "emotional_hook": "현관에 똑같은 장화가 10켤레, '우리 애 거 어디 갔지?' 하던 그날 이후"
+    }
+  ],
+  "target": {
+    "primary_persona": "3~7세 자녀를 둔 30대 엄마. 유치원·어린이집 통원 중. 아이 안전을 최우선으로 하며, 실용성과 디자인 모두 놓치지 않는 육아템을 찾는다. 일본 브랜드의 품질 신뢰도가 높음.",
+    "secondary_persona": "초등학교 저학년(1~2학년) 자녀를 둔 엄마. 등하교용 우천 용품 준비 중. 아이가 스스로 신고 벗기 쉬운 구조, 발 성장에 맞는 사이즈 선택 가능 여부를 중시.",
+    "use_moments": [
+      "비 오는 날 아침 등원 준비할 때",
+      "여름철 소나기 예보 있는 날 외출 준비",
+      "물놀이장·공원 놀이터에서 물장난칠 때"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "playful-cheerful-safe",
+    "tone_rationale": "아동용 상품이므로 밝고 경쾌한 톤이 필수. 동시에 '안전' 메시지가 부모에게 전달되어야 하므로, 귀엽되 신뢰감 있는 균형이 중요. 미키하우스 브랜드 자체가 '안심 육아템'으로 인식되므로 그 헤리티지를 살림.",
+    "color_palette": [
+      {
+        "hex": "#E63946",
+        "role": "primary_accent",
+        "source": "멀티컬러 버전 빨강 림 및 밑창에서 추출. 생동감과 활기"
+      },
+      {
+        "hex": "#FFDD4A",
+        "role": "primary_background",
+        "source": "멀티컬러 버전 노란 베이스 컬러. 명랑하고 밝은 느낌"
+      },
+      {
+        "hex": "#FF6B9D",
+        "role": "secondary_accent",
+        "source": "핑크 버전 메인 컬러. 부드럽고 사랑스러운 느낌"
+      },
+      {
+        "hex": "#2A9D8F",
+        "role": "supporting",
+        "source": "멀티컬러 패턴의 초록색 블록. 자연스럽고 안정적인 보조 컬러"
+      },
+      {
+        "hex": "#457B9D",
+        "role": "supporting",
+        "source": "멀티컬러 패턴의 파랑 블록. 신뢰와 안정감"
+      }
+    ],
+    "typography_mood": "sans-serif · rounded · friendly · 둥글고 친근한 고딕체 권장 (예: Noto Sans KR Medium, Spoqa Han Sans Neo)",
+    "copy_voice": "밝고 따뜻한 육아 톤. '~예요', '~할 수 있어요' 부드러운 종결. 부모 공감 포인트 적극 활용.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "grid-modular",
+      "rationale": "아동용 제품은 컬러풀한 이미지가 구매 결정에 큰 영향을 미치므로 photo-dominant 우선. 두 가지 색상 옵션을 명확히 비교할 수 있도록 grid-modular 보조."
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "マルチカラー/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "멀티컬러 버전 정면 풀샷. 퍼즐 블록 패턴과 귀여운 동물 캐릭터가 선명. 밝고 경쾌한 느낌."
+    },
+    {
+      "filename": "マルチカラー/image_02.jpg",
+      "role": "detail_shots",
+      "description": "멀티컬러 버전 측면. 미키하우스 로고와 스트라이프 디테일 확인 가능."
+    },
+    {
+      "filename": "マルチカラー/image_03.jpg",
+      "role": "spec_shots",
+      "description": "멀티컬러 밑창. 빨강 고무 밑창의 미끄럼 방지 패턴과 사이즈 표시('14') 확인."
+    },
+    {
+      "filename": "マルチカラー/image_04.jpg",
+      "role": "spec_shots",
+      "description": "멀티컬러 상단뷰(위에서 내려다본 각도). 발목 입구와 중창 구조 확인."
+    },
+    {
+      "filename": "マルチカラー/image_05.jpg",
+      "role": "detail_shots",
+      "description": "멀티컬러 후면. 뒤꿈치 당김 고리와 반사 테이프 위치 확인."
+    },
+    {
+      "filename": "ピンク/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "핑크 버전 정면 풀샷. 토끼·곰 캐릭터 패턴과 연한 핑크 톤이 부드러운 느낌."
+    },
+    {
+      "filename": "ピンク/image_02.jpg",
+      "role": "spec_shots",
+      "description": "핑크 밑창. 핑크 고무 밑창의 미끄럼 방지 패턴과 사이즈 표시 확인."
+    },
+    {
+      "filename": "ピンク/image_03.jpg",
+      "role": "spec_shots",
+      "description": "핑크 상단뷰. 중창과 insole 구조 확인."
+    },
+    {
+      "filename": "ピンク/image_04.jpg",
+      "role": "detail_shots",
+      "description": "핑크 측면 풀샷. 미키하우스 로고와 전체 실루엣 확인 가능."
+    },
+    {
+      "filename": "マルチカラー/thumbnail.jpg",
+      "role": "option_shots",
+      "description": "멀티컬러 썸네일. 옵션 선택용."
+    },
+    {
+      "filename": "ピンク/thumbnail.jpg",
+      "role": "option_shots",
+      "description": "핑크 썸네일. 옵션 선택용."
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "사용 순간 훅",
+        "text": "우산 챙긴 날은 안 오고, 안 챙긴 날만 비가 오죠.\n갑자기 쏟아지는 소나기에도 당황하지 않게.\n미키하우스 레인부츠, 현관에 하나 두면 든든합니다."
+      },
+      {
+        "angle": "감성 훅",
+        "text": "물웅덩이를 보면 참지 못하고 첨벙첨벙.\n'신발 젖으니까 안 돼!' 대신\n'마음껏 놀아!' 할 수 있는 여유."
+      },
+      {
+        "angle": "기능 훅",
+        "text": "귀여운 디자인 뒤에 숨은 진짜 실력.\n반사테이프·중창 쿠션·이름 스티커까지.\n일본 엄마들이 믿고 선택하는 이유가 있습니다."
+      }
+    ],
+    "for_you_moments": [
+      "비 오는 날 아침, 장화 신는다고 스스로 나서는 아이를 보고 싶은 분께",
+      "어두운 등하원길, 아이 안전이 제일 걱정인 워킹맘께",
+      "유치원 신발장에서 우리 애 거 찾느라 매번 헤매는 분께"
+    ],
+    "scenes": [
+      "아침 등원 시간. 비 예보에 서둘러 준비하는데, 장화 신겠다며 아이가 먼저 현관으로 달려갑니다.",
+      "여름 소나기가 쏟아지는 오후. 물웅덩이를 신나게 첨벙거리는 아이 모습에 웃음이 납니다.",
+      "겨울 해 짧은 저녁, 어린이집 픽업 가는 길. 반사테이프가 반짝이는 작은 발걸음이 보입니다."
+    ],
+    "closing": "비 오는 날도, 즐거운 외출로. 미키하우스."
+  }
+}

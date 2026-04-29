@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>육아맘들 사이에서 난리 난 미키하우스 반팔티, 우리 아이한테 입혀봤어요</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      line-height: 1.8;
+      color: #333;
+      background: #fafafa;
+    }
+
+    .post-container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 40px 24px;
+    }
+
+    /* 히어로 섹션 */
+    .hero {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 6px 16px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-title {
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.4;
+      color: #1a1a1a;
+      margin-bottom: 16px;
+      word-break: keep-all;
+    }
+
+    .hero-subtitle {
+      font-size: 15px;
+      color: #888;
+    }
+
+    /* 훅 섹션 */
+    .hook {
+      background: linear-gradient(135deg, #FFF0F5 0%, #FFE4EC 100%);
+      border-radius: 16px;
+      padding: 32px 24px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .hook-quote {
+      font-size: 24px;
+      font-weight: 700;
+      color: #D4547A;
+      margin-bottom: 16px;
+    }
+
+    .hook-text {
+      font-size: 15px;
+      color: #666;
+      line-height: 1.8;
+    }
+
+    /* 이미지 */
+    .image-container {
+      margin: 32px 0;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .image-caption {
+      background: #f8f8f8;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #888;
+      text-align: center;
+    }
+
+    /* 섹션 */
+    .section {
+      margin-bottom: 48px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #FFB6C1;
+    }
+
+    .section-title-icon {
+      width: 28px;
+      height: 28px;
+      background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .section-content {
+      font-size: 15px;
+      color: #444;
+    }
+
+    .section-content p {
+      margin-bottom: 16px;
+    }
+
+    /* 스펙 박스 */
+    .spec-box {
+      background: #FFFBFC;
+      border: 1px solid #FFE4EC;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .spec-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #D4547A;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .spec-grid {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 12px 16px;
+      font-size: 14px;
+    }
+
+    .spec-label {
+      color: #888;
+      font-weight: 500;
+    }
+
+    .spec-value {
+      color: #333;
+    }
+
+    /* 포인트 박스 */
+    .point-box {
+      background: linear-gradient(135deg, #FFF5F8 0%, #FFF0F5 100%);
+      border-left: 4px solid #FF69B4;
+      padding: 20px 24px;
+      margin: 24px 0;
+      border-radius: 0 12px 12px 0;
+    }
+
+    .point-box p {
+      margin: 0;
+      font-size: 15px;
+      color: #555;
+    }
+
+    /* 장단점 */
+    .pros-cons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+
+    @media (max-width: 500px) {
+      .pros-cons {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .pros, .cons {
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .pros {
+      background: #F0FFF4;
+      border: 1px solid #C6F6D5;
+    }
+
+    .cons {
+      background: #FFF5F5;
+      border: 1px solid #FED7D7;
+    }
+
+    .pros-title, .cons-title {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pros-title {
+      color: #22543D;
+    }
+
+    .cons-title {
+      color: #C53030;
+    }
+
+    .pros-icon, .cons-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .pros-icon {
+      background: #38A169;
+    }
+
+    .cons-icon {
+      background: #E53E3E;
+    }
+
+    .pros ul, .cons ul {
+      list-style: none;
+      font-size: 14px;
+    }
+
+    .pros li, .cons li {
+      margin-bottom: 8px;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .pros li::before {
+      content: "+";
+      position: absolute;
+      left: 0;
+      color: #38A169;
+      font-weight: 700;
+    }
+
+    .cons li::before {
+      content: "-";
+      position: absolute;
+      left: 0;
+      color: #E53E3E;
+      font-weight: 700;
+    }
+
+    /* 추천 대상 */
+    .recommend-box {
+      background: #F7FAFC;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .recommend-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #4A5568;
+      margin-bottom: 16px;
+    }
+
+    .recommend-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .recommend-tag {
+      background: #fff;
+      border: 1px solid #E2E8F0;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: #4A5568;
+    }
+
+    /* CTA 버튼 */
+    .cta-section {
+      background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%);
+      border-radius: 16px;
+      padding: 32px 24px;
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .cta-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+
+    .cta-subtitle {
+      font-size: 14px;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: #fff;
+      color: #D4547A;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 30px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+
+    /* 마무리 */
+    .closing {
+      background: #FFFBFC;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 32px 0;
+      text-align: center;
+    }
+
+    .closing-text {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.8;
+    }
+
+    /* 해시태그 */
+    .hashtags {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid #eee;
+    }
+
+    .hashtags p {
+      font-size: 13px;
+      color: #888;
+      line-height: 2;
+      word-break: keep-all;
+    }
+
+    .hashtags a {
+      color: #D4547A;
+      text-decoration: none;
+    }
+
+    /* 구분선 */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #FFB6C1, transparent);
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+  <article class="post-container">
+
+    <!-- 히어로 -->
+    <header class="hero">
+      <span class="hero-badge">JP 일본 직구 리뷰</span>
+      <h1 class="hero-title">육아맘들 사이에서 난리 난<br>미키하우스 반팔티,<br>우리 아이한테 입혀봤어요</h1>
+      <p class="hero-subtitle">MIKIHOUSE 심플로고 반팔 티셔츠 | 핑크</p>
+    </header>
+
+    <!-- 훅 -->
+    <div class="hook">
+      <p class="hook-quote">"그 옷 어디 거야?"</p>
+      <p class="hook-text">
+        어린이집 등원할 때 다른 엄마가 물어봤어요.<br>
+        사실 저도 인스타에서 보고 혹해서 산 건데,<br>
+        실물이 더 예쁘더라고요.
+      </p>
+    </div>
+
+    <!-- 이미지 1 -->
+    <div class="image-container">
+      <img src="https://m.media-amazon.com/images/I/31YZTe7987L._AC_SL1500_.jpg" alt="미키하우스 심플로고 반팔티 핑크">
+      <p class="image-caption">미키하우스 심플로고 반팔 티셔츠 (핑크)</p>
+    </div>
+
+    <!-- 브랜드 소개 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">01</span>
+        미키하우스가 뭔데?
+      </h2>
+      <div class="section-content">
+        <p>미키하우스는 일본 아동복 브랜드인데요, 일본에서는 진짜 유명해요. 1971년부터 시작한 브랜드라 역사도 오래됐고요.</p>
+        <p>한국에서는 잘 모르는 분들도 있는데, 일본 가면 백화점에 꼭 있는 브랜드예요. 품질 좋기로 유명해서 일본 엄마들이 많이 사거든요.</p>
+
+        <div class="point-box">
+          <p>TIP | 가격대가 좀 있긴 한데, 그만큼 퀄리티는 확실해요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 이미지 2 -->
+    <div class="image-container">
+      <img src="https://m.media-amazon.com/images/I/319d6WzdFmL._AC_SL1500_.jpg" alt="미키하우스 반팔티 디테일">
+      <p class="image-caption">심플한 로고 디테일</p>
+    </div>
+
+    <!-- 상품 정보 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">02</span>
+        상품 정보
+      </h2>
+
+      <div class="spec-box">
+        <p class="spec-title">PRODUCT INFO</p>
+        <div class="spec-grid">
+          <span class="spec-label">브랜드</span>
+          <span class="spec-value">MIKIHOUSE (미키하우스)</span>
+
+          <span class="spec-label">제품명</span>
+          <span class="spec-value">심플로고 반팔 티셔츠</span>
+
+          <span class="spec-label">색상</span>
+          <span class="spec-value">핑크</span>
+
+          <span class="spec-label">사이즈</span>
+          <span class="spec-value">80 / 90 / 100 / 110 / 120</span>
+
+          <span class="spec-label">소재</span>
+          <span class="spec-value">면 100% (리브: 면 73%, 폴리 27%)</span>
+
+          <span class="spec-label">원산지</span>
+          <span class="spec-value">일본</span>
+
+          <span class="spec-label">특이사항</span>
+          <span class="spec-value">80, 90cm 어깨 스냅 버튼 있음</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- 왜 샀냐면 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">03</span>
+        왜 샀냐면요
+      </h2>
+      <div class="section-content">
+        <p>솔직히 아이 옷은 어차피 금방 못 입게 되니까, 저렴한 거 위주로 샀거든요.</p>
+        <p>근데 애가 피부가 좀 예민한 편이라, 싸구려 옷 입히면 긁적거리더라고요. 그래서 소재 좋은 거 찾다가 미키하우스 알게 됐어요.</p>
+
+        <div class="point-box">
+          <p>POINT | 일본 브랜드가 아동복 소재는 진짜 꼼꼼하다고 해서요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 이미지 3 -->
+    <div class="image-container">
+      <img src="https://m.media-amazon.com/images/I/31o4qtIe7FL._AC_SL1500_.jpg" alt="미키하우스 반팔티 착용">
+      <p class="image-caption">부드러운 천축 소재</p>
+    </div>
+
+    <!-- 실제 후기 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">04</span>
+        실제로 입혀보니까
+      </h2>
+      <div class="section-content">
+        <p><strong>일단 촉감이 진짜 부드러워요.</strong></p>
+        <p>천축 소재라고 하는데, 쉽게 말하면 부드러운 면이에요. 아이가 안 긁적거리고 잘 입더라고요.</p>
+        <p>디자인은 심플해요. 앞에 MIKIHOUSE 로고만 있는데, 오히려 그게 좋았어요. 너무 화려하면 코디하기 어렵잖아요. 이건 뭐랑 입혀도 잘 어울려요.</p>
+
+        <div class="point-box">
+          <p>POINT | 핑크색인데 촌스럽지 않고 예쁜 톤이에요. 사진보다 실물이 더 나은 것 같아요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 이미지 4 -->
+    <div class="image-container">
+      <img src="https://m.media-amazon.com/images/I/31rr9r5VLuL._AC_SL1500_.jpg" alt="미키하우스 소재">
+      <p class="image-caption">면 100% 부드러운 촉감</p>
+    </div>
+
+    <!-- 사이즈 & 세탁 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">05</span>
+        사이즈 and 세탁 팁
+      </h2>
+      <div class="section-content">
+        <p>저희 아이 100 사이즈 샀는데요, 적당히 여유 있게 맞더라고요.</p>
+        <p><strong>80, 90 사이즈는 어깨에 스냅 버튼이 있어요.</strong> 아기들 머리 큰 거 생각해서 넣어둔 것 같아요. 이런 세심한 거 진짜 좋더라고요.</p>
+        <p>면 100%라서 세탁 편해요. 근데 첫 세탁 때 살짝 줄어들 수 있으니까 조금 여유 있는 사이즈 사는 게 나을 것 같아요.</p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- 장단점 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">06</span>
+        솔직한 장단점
+      </h2>
+
+      <div class="pros-cons">
+        <div class="pros">
+          <p class="pros-title"><span class="pros-icon">+</span> 장점</p>
+          <ul>
+            <li>촉감이 진짜 부드러움</li>
+            <li>심플해서 코디하기 좋음</li>
+            <li>어깨 스냅 버튼 (80/90)</li>
+            <li>퀄리티 확실함</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <p class="cons-title"><span class="cons-icon">-</span> 단점</p>
+          <ul>
+            <li>가격이 좀 있음 (3만 원대)</li>
+            <li>배송 시간 좀 걸림</li>
+            <li>첫 세탁 시 살짝 줄어들 수 있음</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 추천 대상 -->
+    <section class="section">
+      <h2 class="section-title">
+        <span class="section-title-icon">07</span>
+        이런 분들한테 추천해요
+      </h2>
+
+      <div class="recommend-box">
+        <p class="recommend-title">CHECK LIST</p>
+        <div class="recommend-list">
+          <span class="recommend-tag">아이 피부가 예민한 분</span>
+          <span class="recommend-tag">소재 좋은 아동복 찾는 분</span>
+          <span class="recommend-tag">심플한 디자인 좋아하는 분</span>
+          <span class="recommend-tag">어린이집 등원용 찾는 분</span>
+          <span class="recommend-tag">일본 아동복 관심 있는 분</span>
+          <span class="recommend-tag">조카 선물 고민 중인 분</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="cta-section">
+      <p class="cta-title">일본 정품 미키하우스</p>
+      <p class="cta-subtitle">드리치시에서 만나보세요</p>
+      <a href="https://smartstore.naver.com/drichisi/products/13454786012" class="cta-button" target="_blank">
+        상품 바로가기 &rarr;
+      </a>
+    </div>
+
+    <!-- 마무리 -->
+    <div class="closing">
+      <p class="closing-text">
+        한 달 입혀보니까 왜 엄마들이 미키하우스 찾는지 알겠더라고요.<br><br>
+        소재 부드럽고, 디자인 심플하고, 퀄리티 확실해요.<br>
+        가격이 좀 있긴 한데, 특별한 날이나 등원용으로 입히기 딱 좋아요.<br><br>
+        <strong>저는 만족해서 다른 색상도 추가로 살까 고민 중이에요.</strong>
+      </p>
+    </div>
+
+    <!-- 해시태그 -->
+    <div class="hashtags">
+      <p>
+        <a href="#">#미키하우스</a> <a href="#">#미키하우스반팔</a> <a href="#">#일본아동복</a> <a href="#">#일본유아복</a> <a href="#">#아동복추천</a> <a href="#">#유아복추천</a> <a href="#">#어린이집등원</a> <a href="#">#일본구매대행</a> <a href="#">#일본직구</a> <a href="#">#육아맘추천</a> <a href="#">#아기옷추천</a> <a href="#">#드리치시</a>
+      </p>
+    </div>
+
+  </article>
+</body>
+</html>

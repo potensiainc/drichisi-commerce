@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 세일러 칼라 반팔티셔츠 여아 토끼 자수 일본제 베이비 키즈</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Fraunces:ital,wght@0,400;0,600;1,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #FFFFFF;
+            --bg-alt: #F8D7DA;
+            --text-main: #2C2C2C;
+            --text-sub: #666666;
+            --accent: #FF6B6B;
+            --accent-soft: #FFB6C1;
+            --line-soft: #E8E8E8;
+            --blue-accent: #4A90E2;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Gowun Dodum', sans-serif;
+            color: var(--text-main);
+            background-color: var(--bg-base);
+            line-height: 1.7;
+            word-break: keep-all;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background-color: var(--bg-base);
+        }
+
+        /* HERO Section */
+        .hero {
+            position: relative;
+            background-color: var(--bg-alt);
+            padding: 60px 70px 80px;
+            text-align: center;
+        }
+
+        .hero__seo-label {
+            font-size: 14px;
+            color: var(--text-sub);
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+        }
+
+        .hero__headline {
+            font-family: 'Fraunces', serif;
+            font-size: 38px;
+            font-weight: 600;
+            color: var(--text-main);
+            line-height: 1.4;
+            margin-bottom: 28px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero__subtext {
+            font-size: 16px;
+            color: var(--text-sub);
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .hero__image-wrapper {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .hero__image {
+            width: 48%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        /* STORY Section */
+        .story {
+            padding: 100px 70px;
+            background-color: var(--bg-base);
+        }
+
+        .section__title {
+            font-family: 'DM Serif Display', serif;
+            font-size: 32px;
+            margin-bottom: 24px;
+            color: var(--text-main);
+            letter-spacing: -0.3px;
+        }
+
+        .story__text {
+            font-size: 17px;
+            line-height: 1.9;
+            color: var(--text-main);
+            margin-bottom: 20px;
+        }
+
+        /* DETAILS Section - Photo Dominant */
+        .details {
+            padding: 100px 0;
+            background-color: #FFF9FA;
+        }
+
+        .details__inner {
+            padding: 0 70px;
+        }
+
+        .details__grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            margin-top: 40px;
+        }
+
+        .detail-card {
+            background-color: var(--bg-base);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .detail-card__image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+
+        .detail-card__caption {
+            padding: 20px;
+            font-size: 15px;
+            color: var(--text-sub);
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        /* EMBROIDERY Highlight Section */
+        .embroidery {
+            padding: 100px 70px;
+            background: linear-gradient(135deg, #F8D7DA 0%, #FFE8EC 100%);
+            text-align: center;
+        }
+
+        .embroidery__title {
+            font-family: 'Fraunces', serif;
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 32px;
+            color: var(--accent);
+        }
+
+        .embroidery__images {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+
+        .embroidery__image {
+            width: 45%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+        }
+
+        .embroidery__text {
+            font-size: 17px;
+            line-height: 1.9;
+            color: var(--text-main);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* FOR YOU Section */
+        .for-you {
+            padding: 100px 70px;
+            background-color: var(--bg-base);
+        }
+
+        .for-you__list {
+            list-style: none;
+            margin-top: 32px;
+        }
+
+        .for-you__item {
+            padding: 24px 0;
+            border-bottom: 1px solid var(--line-soft);
+            font-size: 17px;
+            line-height: 1.8;
+            position: relative;
+            padding-left: 28px;
+        }
+
+        .for-you__item:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .for-you__item:last-child {
+            border-bottom: none;
+        }
+
+        /* OPTIONS Section */
+        .options {
+            padding: 100px 70px;
+            background-color: #FFFBF7;
+        }
+
+        .options__grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .option-card {
+            text-align: center;
+            background-color: var(--bg-base);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .option-card__image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            margin-bottom: 24px;
+            border-radius: 8px;
+        }
+
+        .option-card__title {
+            font-family: 'Fraunces', serif;
+            font-size: 24px;
+            margin-bottom: 16px;
+            color: var(--text-main);
+        }
+
+        .option-card__sizes {
+            font-size: 15px;
+            color: var(--text-sub);
+            line-height: 1.6;
+        }
+
+        /* SPECS Section */
+        .specs {
+            padding: 100px 70px;
+            background-color: var(--bg-base);
+        }
+
+        .specs__table {
+            width: 100%;
+            margin-top: 32px;
+            border-collapse: collapse;
+        }
+
+        .specs__table th,
+        .specs__table td {
+            padding: 18px 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--line-soft);
+            font-size: 16px;
+        }
+
+        .specs__table th {
+            background-color: #F8F8F8;
+            font-weight: 600;
+            color: var(--text-main);
+            width: 35%;
+        }
+
+        .specs__table td {
+            color: var(--text-main);
+        }
+
+        .specs__table tr:last-child th,
+        .specs__table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* HERITAGE Section */
+        .heritage {
+            padding: 100px 70px;
+            background: linear-gradient(to bottom, #F0F0F0 0%, #FFFFFF 100%);
+            text-align: center;
+        }
+
+        .heritage__badge {
+            margin: 0 auto 32px;
+            max-width: 400px;
+        }
+
+        .heritage__badge img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .heritage__text {
+            font-family: 'DM Serif Display', serif;
+            font-size: 20px;
+            line-height: 1.8;
+            color: var(--text-main);
+            margin-bottom: 16px;
+        }
+
+        .heritage__quote {
+            font-size: 15px;
+            color: var(--text-sub);
+            font-style: italic;
+            line-height: 1.8;
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        /* CARE Tips Section */
+        .care {
+            padding: 80px 70px;
+            background-color: #FFFEF9;
+        }
+
+        .care__intro {
+            font-size: 17px;
+            line-height: 1.9;
+            color: var(--text-main);
+            margin-bottom: 32px;
+        }
+
+        .care__tips {
+            background-color: var(--bg-base);
+            padding: 32px;
+            border-radius: 12px;
+            border-left: 4px solid var(--accent-soft);
+        }
+
+        .care__tip {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-main);
+            margin-bottom: 16px;
+            padding-left: 24px;
+            position: relative;
+        }
+
+        .care__tip:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--accent-soft);
+            font-size: 20px;
+            line-height: 1.8;
+        }
+
+        .care__tip:last-child {
+            margin-bottom: 0;
+        }
+
+        /* CLOSING Section */
+        .closing {
+            padding: 80px 70px;
+            background-color: var(--bg-alt);
+            text-align: center;
+        }
+
+        .closing__tagline {
+            font-family: 'Fraunces', serif;
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--text-main);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .closing__brand {
+            font-family: 'DM Serif Display', serif;
+            font-size: 24px;
+            color: var(--accent);
+            letter-spacing: 1px;
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .hero {
+                padding: 40px 24px 50px;
+            }
+
+            .hero__headline {
+                font-size: 28px;
+            }
+
+            .hero__image-wrapper {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .hero__image {
+                width: 100%;
+            }
+
+            .story,
+            .details__inner,
+            .for-you,
+            .options,
+            .specs,
+            .heritage,
+            .care,
+            .closing {
+                padding-left: 24px;
+                padding-right: 24px;
+            }
+
+            .section__title {
+                font-size: 26px;
+            }
+
+            .details__grid,
+            .options__grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .embroidery__images {
+                flex-direction: column;
+            }
+
+            .embroidery__image {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO Section -->
+        <section class="hero">
+            <div class="hero__seo-label">미키하우스 세일러 칼라 반팔티셔츠 여아 토끼 자수 일본제 베이비 키즈</div>
+            <h1 class="hero__headline">세일러 칼라 뒤에<br>숨어있는 토끼 자수.</h1>
+            <p class="hero__subtext">앞에서 보면 단정하고, 뒤에서 보면 귀여운 옷.<br>MIKIHOUSE가 매년 내놓는 스테디셀러 디자인입니다.</p>
+            <div class="hero__image-wrapper">
+                <img src="../images/pink/thumbnail.jpg" alt="미키하우스 세일러 칼라 티셔츠 핑크" class="hero__image" loading="eager">
+                <img src="../images/white/thumbnail.jpg" alt="미키하우스 세일러 칼라 티셔츠 화이트" class="hero__image" loading="eager">
+            </div>
+        </section>
+
+        <!-- STORY Section -->
+        <section class="story">
+            <h2 class="section__title">아이 옷에서 디테일을 찾는 순간</h2>
+            <p class="story__text">무지티는 여러 장 있으면 좋잖아요. 빨래 돌릴 때마다 돌려입히기 딱 좋고요.</p>
+            <p class="story__text">근데 매번 똑같은 무지티만 입히다 보면, 문득 '디테일 있는 걸로 하나쯤 갖고 싶다'는 생각이 들 때가 있어요.</p>
+            <p class="story__text">세일러 칼라가 달려있고, 뒷면엔 컬러풀한 토끼 자수가 숨어있는. 앞에서 보면 단정한데 뒤에서 보면 귀여운 그런 옷. 이 티셔츠가 딱 그래요.</p>
+            <p class="story__text">미키하우스가 매년 내놓는 인기 디자인이라, 한 시즌 반짝 나왔다 사라지는 게 아니라 꾸준히 나오는 정석 아동복이에요.</p>
+        </section>
+
+        <!-- DETAILS Section -->
+        <section class="details">
+            <div class="details__inner">
+                <h2 class="section__title">가까이서 보면 더 예쁜 디테일</h2>
+                <div class="details__grid">
+                    <div class="detail-card">
+                        <img src="../images/pink/image_02.jpg" alt="세일러 칼라 클로즈업 핑크" class="detail-card__image" loading="lazy">
+                        <div class="detail-card__caption">화이트 세일러 칼라에 핑크 파이핑 처리. 버튼 하나하나까지 미키하우스 퀄리티.</div>
+                    </div>
+                    <div class="detail-card">
+                        <img src="../images/white/image_02.jpg" alt="세일러 칼라 클로즈업 화이트" class="detail-card__image" loading="lazy">
+                        <div class="detail-card__caption">화이트 버전은 핑크 파이핑이 더 도드라져요. 앞가슴 토끼 와펜도 사랑스러워요.</div>
+                    </div>
+                    <div class="detail-card">
+                        <img src="../images/pink/image_04.jpg" alt="세일러 칼라 앞면 핑크" class="detail-card__image" loading="lazy">
+                        <div class="detail-card__caption">앞트임 버튼 두 개. 아이 머리 넣을 때 편해요.</div>
+                    </div>
+                    <div class="detail-card">
+                        <img src="../images/white/image_04.jpg" alt="세일러 칼라 앞면 화이트" class="detail-card__image" loading="lazy">
+                        <div class="detail-card__caption">심플하지만 칼라 라인이 살아있어서 밋밋하지 않아요.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EMBROIDERY Highlight Section -->
+        <section class="embroidery">
+            <h2 class="embroidery__title">뒤에 숨은 MIKI HOUSE 자수</h2>
+            <div class="embroidery__images">
+                <img src="../images/pink/image_03.jpg" alt="뒷면 토끼 자수 핑크" class="embroidery__image" loading="lazy">
+                <img src="../images/white/image_03.jpg" alt="뒷면 토끼 자수 화이트" class="embroidery__image" loading="lazy">
+            </div>
+            <p class="embroidery__text">세일러 칼라 뒷면에 컬러풀한 MIKI HOUSE 로고와 세일러복 입은 토끼 자수가 들어가요. 빨강·파랑·노랑 섞인 컬러풀한 자수라 귀엽고 화사해요. 뒤에서 안아줄 때마다 이 자수가 보이는 게 포인트예요.</p>
+        </section>
+
+        <!-- FOR YOU Section -->
+        <section class="for-you">
+            <h2 class="section__title">이런 분께 추천해요</h2>
+            <ul class="for-you__list">
+                <li class="for-you__item">아이 옷은 품질 좋은 브랜드로 입히고 싶은데, 국내 가품 걱정되는 분께. 일본 본토 생산 정품입니다.</li>
+                <li class="for-you__item">무지티 여러 장 사두고 돌려입히는데, 디테일 있는 걸로 하나쯤 갖고 싶은 분께. 세일러 칼라와 자수가 포인트예요.</li>
+                <li class="for-you__item">조카나 친구 아기 선물로 특별해 보이는 아이템 찾고 계신 분께. 미키하우스 브랜드 파워가 있어요.</li>
+                <li class="for-you__item">오버롤·점프수트 코디할 때 속에 뭘 입힐지 고민되는 분께. 세일러 칼라가 밖으로 나와도 포인트가 돼요.</li>
+            </ul>
+        </section>
+
+        <!-- OPTIONS Section -->
+        <section class="options">
+            <h2 class="section__title">핑크와 화이트, 사이즈 80부터 130까지</h2>
+            <div class="options__grid">
+                <div class="option-card">
+                    <img src="../images/pink/image_01.jpg" alt="미키하우스 티셔츠 핑크 버전" class="option-card__image" loading="lazy">
+                    <h3 class="option-card__title">핑크</h3>
+                    <p class="option-card__sizes">연한 핑크 본체에 화이트 세일러 칼라<br>사이즈: 80 / 90 / 100 / 110 / 120 / 130</p>
+                </div>
+                <div class="option-card">
+                    <img src="../images/white/image_01.jpg" alt="미키하우스 티셔츠 화이트 버전" class="option-card__image" loading="lazy">
+                    <h3 class="option-card__title">화이트</h3>
+                    <p class="option-card__sizes">화이트 본체에 핑크 파이핑 세일러 칼라<br>사이즈: 80 / 90 / 100 / 110 / 120 / 130</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SPECS Section -->
+        <section class="specs">
+            <h2 class="section__title">상품 상세 정보</h2>
+            <table class="specs__table">
+                <tr>
+                    <th>브랜드</th>
+                    <td>MIKIHOUSE (미키하우스)</td>
+                </tr>
+                <tr>
+                    <th>품명</th>
+                    <td>세일러 칼라 반팔티셔츠 토끼 자수</td>
+                </tr>
+                <tr>
+                    <th>원산지</th>
+                    <td>Made in Japan (일본제)</td>
+                </tr>
+                <tr>
+                    <th>색상</th>
+                    <td>핑크, 화이트 2종</td>
+                </tr>
+                <tr>
+                    <th>사이즈</th>
+                    <td>80 / 90 / 100 / 110 / 120 / 130</td>
+                </tr>
+                <tr>
+                    <th>소재</th>
+                    <td>면 100% (부드러운 천연 소재)</td>
+                </tr>
+                <tr>
+                    <th>특징</th>
+                    <td>화이트 세일러 칼라 + 핑크 파이핑, 뒷면 컬러풀 토끼 자수, 앞트임 버튼 2개</td>
+                </tr>
+                <tr>
+                    <th>제조사</th>
+                    <td>MIKIHOUSE</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- HERITAGE Section -->
+        <section class="heritage">
+            <div class="heritage__badge">
+                <img src="../images/pink/image_05.jpg" alt="Made in Japan 일본제 MIKIHOUSE" loading="lazy">
+            </div>
+            <p class="heritage__text">일본 프리미엄 아동복 브랜드<br>MIKIHOUSE의 일본 본토 생산 정품입니다.</p>
+            <p class="heritage__quote">"아이를 위한 옷은 품질에서 타협하지 않습니다. 미키하우스가 매년 꾸준히 내놓는 세일러 칼라 티셔츠는 그래서 믿고 입히는 정석 아동복이에요."</p>
+        </section>
+
+        <!-- CARE Tips Section -->
+        <section class="care">
+            <h2 class="section__title">오래 입히려면</h2>
+            <p class="care__intro">일본제 면 소재라 튼튼하지만, 자수 디테일이 있어서 조금만 신경 써주면 더 오래 예쁘게 입힐 수 있어요.</p>
+            <div class="care__tips">
+                <div class="care__tip">세탁 시 세탁망 사용하면 자수가 더 오래 유지돼요.</div>
+                <div class="care__tip">세일러 칼라 라인이 접히지 않게 뒤집어서 말리면 모양이 살아요.</div>
+                <div class="care__tip">아이가 땀 많이 흘렸으면 바로 세탁해주는 게 색 유지에 좋아요.</div>
+                <div class="care__tip">다림질은 낮은 온도로, 자수 부분은 피해서 하면 돼요.</div>
+            </div>
+        </section>
+
+        <!-- CLOSING Section -->
+        <section class="closing">
+            <p class="closing__tagline">매년 인기 재출시되는<br>미키하우스 세일러 칼라 티셔츠.</p>
+            <p class="closing__brand">MIKIHOUSE</p>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "sections": [
+    {
+      "type": "hero",
+      "title": "미키하우스 반팔티셔츠",
+      "subtitle": "곰·토끼 로고 자수 일본제",
+      "image": "../images/multicolor/main.jpg"
+    },
+    {
+      "type": "features",
+      "title": "상품 특징",
+      "items": [
+        {
+          "icon": "quality",
+          "title": "일본 현지 생산",
+          "description": "Made in Japan 품질 보장"
+        },
+        {
+          "icon": "material",
+          "title": "면 100% 소재",
+          "description": "부드럽고 피부에 자극 없는 천연 소재"
+        },
+        {
+          "icon": "design",
+          "title": "귀여운 캐릭터",
+          "description": "미키하우스 로고와 곰·토끼 자수"
+        },
+        {
+          "icon": "size",
+          "title": "다양한 사이즈",
+          "description": "베이비(80cm)부터 키즈(130cm)까지"
+        }
+      ]
+    },
+    {
+      "type": "detail_images",
+      "title": "상세 이미지",
+      "images": [
+        {
+          "url": "../images/multicolor/detail_01.jpg",
+          "caption": "전체 디자인"
+        },
+        {
+          "url": "../images/multicolor/detail_02.jpg",
+          "caption": "로고 디테일"
+        },
+        {
+          "url": "../images/multicolor/detail_03.jpg",
+          "caption": "자수 디테일"
+        },
+        {
+          "url": "../images/multicolor/detail_04.jpg",
+          "caption": "착용 예시"
+        }
+      ]
+    },
+    {
+      "type": "specs",
+      "title": "상품 정보",
+      "data": {
+        "브랜드": "MIKIHOUSE (미키하우스)",
+        "제조국": "일본",
+        "소재": "면 100%",
+        "대상": "베이비/키즈 (80-130cm)",
+        "성별": "남아/여아 공용",
+        "컬러": "멀티컬러, 핑크",
+        "사이즈": "80, 90, 100, 110, 120, 130",
+        "품번": "12-5203-685"
+      }
+    }
+  ],
+  "meta": {
+    "platform": "네이버 스마트스토어",
+    "width": "860px",
+    "style": "minimal_clean"
+  }
+}

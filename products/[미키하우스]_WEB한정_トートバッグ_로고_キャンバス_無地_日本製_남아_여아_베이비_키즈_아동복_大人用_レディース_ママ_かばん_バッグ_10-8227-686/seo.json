@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-04-27T00:00:00+09:00",
+  "product_id": "B0FJLNGSYM",
+  "brand_name": "미키하우스",
+  "title_candidates": [
+    {
+      "text": "미키하우스 일본제 캔버스 토트백 6색 엄마가방 에코백",
+      "length": 28,
+      "keyword_density": {
+        "primary": ["미키하우스", "일본제", "토트백"],
+        "secondary": ["캔버스", "엄마가방", "에코백"]
+      },
+      "rationale": "브랜드명 + 원산지 + 소재 + 카테고리 + 타겟 조합. 검색 의도 '일본 브랜드 토트백' 포착.",
+      "naver_score": 85
+    },
+    {
+      "text": "미키하우스 로고 캔버스 토트백 일본직구 엄마 육아가방",
+      "length": 28,
+      "keyword_density": {
+        "primary": ["미키하우스", "토트백", "일본직구"],
+        "secondary": ["캔버스", "엄마", "육아가방"]
+      },
+      "rationale": "'일본직구' 키워드로 직구족 검색 의도 포착. '육아가방' 구체적 용도 명시.",
+      "naver_score": 88
+    },
+    {
+      "text": "미키하우스 토트백 일본제 캔버스 엄마가방 6색상 에코백",
+      "length": 29,
+      "keyword_density": {
+        "primary": ["미키하우스", "토트백", "일본제"],
+        "secondary": ["캔버스", "엄마가방", "6색상", "에코백"]
+      },
+      "rationale": "'6색상' 차별점 강조. 다양한 컬러 옵션이 경쟁력임을 반영.",
+      "naver_score": 90
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 토트백 일본제 캔버스 엄마가방 6색상 에코백",
+    "length": 29,
+    "selection_reason": "네이버 검색 점수 90점으로 최고. '6색상'이라는 차별점이 클릭률 향상 예상. 브랜드명, 카테고리, 원산지, 타겟, 차별점이 모두 포함되어 검색 최적화.",
+    "keyword_breakdown": {
+      "brand": "미키하우스",
+      "category": "토트백",
+      "origin": "일본제",
+      "material": "캔버스",
+      "target": "엄마가방",
+      "differentiator": "6색상",
+      "alternative_use": "에코백"
+    }
+  },
+  "tags": [
+    "미키하우스",
+    "토트백",
+    "일본직구",
+    "엄마가방",
+    "육아가방",
+    "에코백",
+    "캔버스가방",
+    "일본제가방",
+    "미키하우스가방",
+    "베이지토트백"
+  ],
+  "tag_rationale": "네이버 쇼핑 검색어 분석 기반. '일본직구', '엄마가방', '육아가방'은 실제 검색량 높은 키워드. '베이지토트백'은 색상 검색 의도 포착.",
+  "category_recommendation": {
+    "path": "패션/잡화 > 여성가방 > 에코백/숄더백",
+    "alternative_path": "출산/육아 > 육아용품 > 엄마가방",
+    "rationale": "메인 카테고리는 범용성 높은 '여성가방'. 서브 카테고리로 '육아용품'도 가능하나 타겟층이 한정되므로 메인은 패션잡화 추천.",
+    "naver_category_id": "50000742"
+  },
+  "brand_field": {
+    "display": "미키하우스",
+    "english": "MIKIHOUSE",
+    "policy": "original",
+    "rationale": "일본 유명 아동복 브랜드로 한글 '미키하우스' 표기가 일반적. 괄호 내 영문 병기 가능."
+  },
+  "manufacturer_field": {
+    "display": "미키하우스",
+    "origin": "일본",
+    "rationale": "일본 자체 제조. 제조사와 브랜드가 동일."
+  },
+  "seo_check": {
+    "title_length_valid": true,
+    "title_length": 29,
+    "title_max": 50,
+    "brand_included": true,
+    "category_included": true,
+    "differentiator_included": true,
+    "forbidden_words_found": [],
+    "all_passed": true
+  },
+  "optimization_notes": [
+    "상품명에 '6색상' 차별점 명시로 클릭률 향상 예상",
+    "타겟 키워드 '엄마가방'과 '에코백' 모두 포함하여 검색 범위 확대",
+    "브랜드 신뢰도 높은 '미키하우스' + '일본제' 조합으로 품질 신뢰 강화",
+    "일본어 상품명 완전 제거로 네이버 검색 노출 최적화"
+  ]
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 곰 로고 티셔츠 - Slide 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: #C8102E;
+            position: relative;
+            overflow: hidden;
+        }
+        .pattern-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle, rgba(255,255,255,0.05) 2px, transparent 2px);
+            background-size: 30px 30px;
+        }
+        .content {
+            padding: 80px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .brand-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #FFD700;
+            letter-spacing: 3px;
+        }
+        .slide-num {
+            font-size: 18px;
+            color: rgba(255,255,255,0.6);
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+        .text-section {
+            flex: 1;
+        }
+        .feature-tag {
+            background: #FFD700;
+            color: #C8102E;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 25px;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .main-title {
+            font-size: 48px;
+            font-weight: 900;
+            color: white;
+            line-height: 1.4;
+            margin-bottom: 30px;
+        }
+        .description {
+            font-size: 22px;
+            color: rgba(255,255,255,0.9);
+            line-height: 1.8;
+        }
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .product-image {
+            width: 450px;
+            height: 450px;
+            object-fit: contain;
+            filter: drop-shadow(0 20px 50px rgba(0,0,0,0.3));
+        }
+        .gold-circle {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border: 3px solid rgba(255,215,0,0.3);
+            border-radius: 50%;
+            right: 100px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .gold-circle-2 {
+            width: 400px;
+            height: 400px;
+            right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pattern-overlay"></div>
+    <div class="gold-circle"></div>
+    <div class="gold-circle gold-circle-2"></div>
+
+    <div class="content">
+        <div class="header">
+            <div class="brand-logo">MIKIHOUSE</div>
+            <div class="slide-num">02 / 07</div>
+        </div>
+
+        <div class="main-content">
+            <div class="text-section">
+                <div class="feature-tag">POINT 01</div>
+                <h2 class="main-title">
+                    5가지 컬러<br>
+                    곰 자수 디테일
+                </h2>
+                <p class="description">
+                    입체적으로 수놓은<br>
+                    다섯 마리 곰 친구들이<br>
+                    아이의 첫 번째 친구가 되어줍니다
+                </p>
+            </div>
+            <div class="image-section">
+                <img src="../../products/[미키하우스]_반팔티셔츠_くま_로고_남아_여아_베이비_키즈_아동복_10-5253-686/images/nobg/image_02_nobg.png"
+                     alt="곰 자수 디테일"
+                     class="product-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundrin 란드린 디퓨저 Classic Floral</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #1A1A1A;
+            line-height: 1.6;
+            background: #ffffff;
+        }
+
+        .container {
+            width: 860px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+
+        /* HERO 섹션 */
+        .hero {
+            position: relative;
+            background: #F5F5F0;
+            padding: 60px 80px;
+            text-align: center;
+        }
+
+        .hero__seo-title {
+            font-size: 16px;
+            font-weight: 500;
+            color: #3D2418;
+            margin-bottom: 24px;
+            letter-spacing: 0.3px;
+        }
+
+        .hero__headline {
+            font-size: 42px;
+            font-weight: 400;
+            color: #1A1A1A;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero__subtext {
+            font-size: 18px;
+            color: #3D2418;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+
+        .hero__image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        /* STORY 섹션 */
+        .story {
+            background: #FFFFFF;
+            padding: 80px 80px;
+        }
+
+        .story__badge {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 600;
+            color: #C9A65C;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #C9A65C;
+            padding-bottom: 4px;
+        }
+
+        .story__title {
+            font-size: 32px;
+            font-weight: 500;
+            color: #1A1A1A;
+            margin-bottom: 24px;
+            line-height: 1.4;
+        }
+
+        .story__text {
+            font-size: 16px;
+            color: #3D2418;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .story__grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .story__item {
+            text-align: left;
+        }
+
+        .story__item-number {
+            font-size: 48px;
+            font-weight: 300;
+            color: #C9A65C;
+            margin-bottom: 12px;
+        }
+
+        .story__item-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 12px;
+        }
+
+        .story__item-desc {
+            font-size: 15px;
+            color: #3D2418;
+            line-height: 1.7;
+        }
+
+        /* DETAILS 섹션 */
+        .details {
+            background: #F5F5F0;
+            padding: 80px 80px;
+        }
+
+        .details__image-wrapper {
+            margin-bottom: 60px;
+        }
+
+        .details__image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .details__content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .details__title {
+            font-size: 28px;
+            font-weight: 500;
+            color: #1A1A1A;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .details__text {
+            font-size: 16px;
+            color: #3D2418;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        /* FOR YOU 섹션 */
+        .for-you {
+            background: #FFFFFF;
+            padding: 80px 80px;
+        }
+
+        .for-you__title {
+            font-size: 32px;
+            font-weight: 500;
+            color: #1A1A1A;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .for-you__list {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .for-you__item {
+            padding: 28px 0;
+            border-bottom: 1px solid #E5E5E0;
+        }
+
+        .for-you__item:first-child {
+            border-top: 1px solid #E5E5E0;
+        }
+
+        .for-you__item-icon {
+            font-size: 20px;
+            color: #C9A65C;
+            margin-right: 12px;
+        }
+
+        .for-you__item-text {
+            font-size: 16px;
+            color: #3D2418;
+            line-height: 1.7;
+        }
+
+        /* SCENES 섹션 */
+        .scenes {
+            background: #F5F5F0;
+            padding: 80px 80px;
+        }
+
+        .scenes__title {
+            font-size: 32px;
+            font-weight: 500;
+            color: #1A1A1A;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .scenes__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        .scenes__item {
+            background: #FFFFFF;
+            padding: 48px;
+            border-radius: 4px;
+        }
+
+        .scenes__item-number {
+            font-size: 14px;
+            font-weight: 600;
+            color: #C9A65C;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .scenes__item-text {
+            font-size: 17px;
+            color: #1A1A1A;
+            line-height: 1.7;
+        }
+
+        /* SPECS 섹션 */
+        .specs {
+            background: #FFFFFF;
+            padding: 80px 80px;
+        }
+
+        .specs__title {
+            font-size: 32px;
+            font-weight: 500;
+            color: #1A1A1A;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .specs__table {
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        .specs__row {
+            border-bottom: 1px solid #E5E5E0;
+        }
+
+        .specs__label {
+            padding: 20px 0;
+            font-size: 15px;
+            font-weight: 600;
+            color: #3D2418;
+            width: 200px;
+            vertical-align: top;
+        }
+
+        .specs__value {
+            padding: 20px 0;
+            font-size: 15px;
+            color: #1A1A1A;
+            line-height: 1.6;
+        }
+
+        /* OPTIONS 섹션 */
+        .options {
+            background: #F5F5F0;
+            padding: 80px 80px;
+        }
+
+        .options__title {
+            font-size: 32px;
+            font-weight: 500;
+            color: #1A1A1A;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+
+        .options__grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 24px;
+        }
+
+        .options__item {
+            background: #FFFFFF;
+            padding: 24px;
+            text-align: center;
+            border-radius: 4px;
+            transition: transform 0.2s;
+        }
+
+        .options__item:hover {
+            transform: translateY(-4px);
+        }
+
+        .options__item-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 16px;
+        }
+
+        .options__item-name {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 4px;
+        }
+
+        .options__item-desc {
+            font-size: 13px;
+            color: #3D2418;
+        }
+
+        /* NOTICE 섹션 */
+        .notice {
+            background: #FFFFFF;
+            padding: 80px 80px;
+            border-top: 2px solid #E5E5E0;
+        }
+
+        .notice__title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        .notice__item {
+            margin-bottom: 24px;
+            padding-left: 28px;
+            position: relative;
+        }
+
+        .notice__item::before {
+            content: '•';
+            position: absolute;
+            left: 12px;
+            color: #C9A65C;
+            font-weight: 600;
+        }
+
+        .notice__item-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #3D2418;
+            margin-bottom: 8px;
+        }
+
+        .notice__item-text {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        /* CLOSING 섹션 */
+        .closing {
+            background: #3D2418;
+            padding: 100px 80px;
+            text-align: center;
+        }
+
+        .closing__text {
+            font-size: 36px;
+            font-weight: 300;
+            color: #F5F5F0;
+            line-height: 1.5;
+            letter-spacing: 0.5px;
+        }
+
+        .closing__brand {
+            font-size: 18px;
+            font-weight: 400;
+            color: #C9A65C;
+            margin-top: 32px;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero__seo-title">Laundrin 란드린 디퓨저 Classic Floral 80ml 일본</div>
+            <h1 class="hero__headline">향수병처럼 아름다운 디퓨저.<br>현관에 두기만 해도 공간이 달라집니다.</h1>
+            <p class="hero__subtext">Laundrin', TOKYO</p>
+            <img src="../images/thumbnail.jpg" alt="Laundrin 란드린 디퓨저 Classic Floral" class="hero__image">
+        </section>
+
+        <!-- STORY -->
+        <section class="story">
+            <span class="story__badge">Premium Home Fragrance</span>
+            <h2 class="story__title">집 들어올 때마다 맡는 은은한 향.<br>'이거 어디 거야?' 손님이 물어보는 바로 그 디퓨저입니다.</h2>
+            <p class="story__text">
+                현관문을 열 때, 은은하게 퍼진 향이 '집에 왔구나' 느끼게 해주는 순간이 있습니다.
+                향초는 불 켜야 해서 번거롭고, 일반 방향제는 디자인이 마음에 안 들었던 분들을 위해.
+            </p>
+            <p class="story__text">
+                란드린 디퓨저는 향수병처럼 아름다운 사각 유리병에 골드 캡, 블랙 리드 스틱으로 완성됩니다.
+                인테리어 오브제로도 손색없는 비주얼입니다.
+            </p>
+
+            <div class="story__grid">
+                <div class="story__item">
+                    <div class="story__item-number">01</div>
+                    <h3 class="story__item-title">일본 인기 1위 향</h3>
+                    <p class="story__item-desc">메이커 조사 기준 란드린 향 중 인기 No.1. 피치·애플에서 로즈·뮤게·재스민으로, 마지막은 우디·머스크로 이어지는 3단 구조. 너무 달지도, 너무 무겁지도 않은 그 미묘한 균형.</p>
+                </div>
+                <div class="story__item">
+                    <div class="story__item-number">02</div>
+                    <h3 class="story__item-title">약 1.5~3개월 지속</h3>
+                    <p class="story__item-desc">80ml 용량. 스틱 개수와 공간 환기 정도에 따라 사용 기간을 조절할 수 있습니다. 한 번 사두면 한 시즌 내내 쓸 수 있어요. 스프레이처럼 자주 뿌릴 필요 없이 그냥 두기만 하면 됩니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DETAILS -->
+        <section class="details">
+            <div class="details__image-wrapper">
+                <img src="../images/image_02.jpg" alt="란드린 디퓨저 창가 연출" class="details__image">
+            </div>
+            <div class="details__content">
+                <h2 class="details__title">상질한 향을 즐기는 디퓨저</h2>
+                <p class="details__text">
+                    향수병 같은 고급스러운 유리 용기에 향 오일을 흡수하기 쉬운 수지 스틱을 꽂아 사용합니다.
+                </p>
+                <p class="details__text">
+                    현관이나 거실 선반 위에 두면 공간 전체에 은은한 향이 퍼집니다.
+                    인테리어를 오시려하게 연출하면서 동시에 상질한 향을 즐길 수 있습니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- FOR YOU -->
+        <section class="for-you">
+            <h2 class="for-you__title">이런 분께 추천합니다</h2>
+            <div class="for-you__list">
+                <div class="for-you__item">
+                    <span class="for-you__item-icon">✓</span>
+                    <span class="for-you__item-text">현관·거실 인테리어에 포인트를 주고 싶은데, 너무 요란하지 않은 오브제를 찾는 분께</span>
+                </div>
+                <div class="for-you__item">
+                    <span class="for-you__item-icon">✓</span>
+                    <span class="for-you__item-text">향초는 불 켜야 해서 번거롭고, 일반 방향제는 디자인이 마음에 안 들었던 분께</span>
+                </div>
+                <div class="for-you__item">
+                    <span class="for-you__item-icon">✓</span>
+                    <span class="for-you__item-text">센스 있는 집들이 선물을 찾는데 향수는 부담스럽고 실용적인 걸 원하는 분께</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SCENES -->
+        <section class="scenes">
+            <h2 class="scenes__title">사용하는 순간</h2>
+            <div class="scenes__grid">
+                <div class="scenes__item">
+                    <div class="scenes__item-number">SCENE 01</div>
+                    <p class="scenes__item-text">퇴근하고 현관문 열 때, 은은하게 퍼진 향이 '집에 왔구나' 느끼게 해주는 순간</p>
+                </div>
+                <div class="scenes__item">
+                    <div class="scenes__item-number">SCENE 02</div>
+                    <p class="scenes__item-text">주말 오후 거실 소파에 앉아 책 읽을 때, 사이드 테이블 위 디퓨저 보며 흐뭇해지는 시간</p>
+                </div>
+                <div class="scenes__item">
+                    <div class="scenes__item-number">SCENE 03</div>
+                    <p class="scenes__item-text">집들이 온 친구가 '여긴 왜 이렇게 좋은 향이 나?' 물어볼 때 슬쩍 가리키는 순간</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SPECS -->
+        <section class="specs">
+            <h2 class="specs__title">제품 사양</h2>
+            <table class="specs__table">
+                <tr class="specs__row">
+                    <td class="specs__label">브랜드</td>
+                    <td class="specs__value">Laundrin' (란드린)</td>
+                </tr>
+                <tr class="specs__row">
+                    <td class="specs__label">제품명</td>
+                    <td class="specs__value">디퓨저 Classic Floral</td>
+                </tr>
+                <tr class="specs__row">
+                    <td class="specs__label">용량</td>
+                    <td class="specs__value">80ml</td>
+                </tr>
+                <tr class="specs__row">
+                    <td class="specs__label">크기</td>
+                    <td class="specs__value">가로 95mm × 세로 72mm × 높이 195mm</td>
+                </tr>
+                <tr class="specs__row">
+                    <td class="specs__label">원산지</td>
+                    <td class="specs__value">일본</td>
+                </tr>
+                <tr class="specs__row">
+                    <td class="specs__label">성분</td>
+                    <td class="specs__value">향료, 용제</td>
+                </tr>
+                <tr class="specs__row">
+                    <td class="specs__label">사용 기간</td>
+                    <td class="specs__value">약 1.5~3개월 (사용 환경에 따라 상이)</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- OPTIONS -->
+        <section class="options">
+            <h2 class="options__title">선택 가능한 향</h2>
+            <div class="options__grid">
+                <div class="options__item">
+                    <img src="../images/thumbnail.jpg" alt="Classic Floral" class="options__item-image">
+                    <div class="options__item-name">Classic Floral</div>
+                    <div class="options__item-desc">클래식 플로럴</div>
+                </div>
+                <div class="options__item">
+                    <img src="../images/image_08.jpg" alt="Classic Fiore" class="options__item-image">
+                    <div class="options__item-name">Classic Fiore</div>
+                    <div class="options__item-desc">클래식 피오레</div>
+                </div>
+                <div class="options__item">
+                    <img src="../images/image_09.jpg" alt="Aromatic Oud" class="options__item-image">
+                    <div class="options__item-name">Aromatic Oud</div>
+                    <div class="options__item-desc">아로마틱 우드</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOTICE -->
+        <section class="notice">
+            <h2 class="notice__title">상품 고유 주의사항</h2>
+            <div class="notice__item">
+                <div class="notice__item-title">생활화학제품 표시 사항</div>
+                <div class="notice__item-text">본 제품은 생활화학제품법 적용 대상입니다. 제품명·용도·내용량·전성분(향료, 용제)·제조사·사용 기한·주의사항이 제품에 표기되어 있습니다. 사용 전 반드시 제품 라벨을 확인하세요.</div>
+            </div>
+            <div class="notice__item">
+                <div class="notice__item-title">화기 주의</div>
+                <div class="notice__item-text">알코올 성분이 포함되어 있습니다. 화기 근처에서 사용하거나 보관하지 마세요. 불이 붙을 위험이 있습니다.</div>
+            </div>
+            <div class="notice__item">
+                <div class="notice__item-title">사용법 안내</div>
+                <div class="notice__item-text">
+                    1) 캡을 열고 향기 오일 주입구를 완전히 개방한 후 향을 흡수하는 스틱을 전체에 퍼지도록 삽입합니다.<br>
+                    2) 스틱의 개수에 따라 향의 강도를 조절할 수 있습니다. 처음에는 적은 개수로 시작해 취향에 맞게 추가하세요.<br>
+                    3) 사용 중 스틱을 위아래 뒤집으면 향이 더 잘 퍼집니다.
+                </div>
+            </div>
+            <div class="notice__item">
+                <div class="notice__item-title">제품 라벨 언어</div>
+                <div class="notice__item-text">제품 라벨과 설명서는 일본어로 되어 있습니다. 주요 사용법과 주의사항은 위 안내를 참고하세요.</div>
+            </div>
+        </section>
+
+        <!-- CLOSING -->
+        <section class="closing">
+            <p class="closing__text">Classic Floral. 80ml.</p>
+            <p class="closing__brand">LAUNDRIN' TOKYO</p>
+        </section>
+
+    </div>
+</body>
+</html>

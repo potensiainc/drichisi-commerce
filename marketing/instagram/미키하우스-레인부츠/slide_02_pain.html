@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px;
+    }
+    .cloud {
+      position: absolute;
+      background: #ccc;
+      border-radius: 50%;
+      opacity: 0.6;
+    }
+    .cloud-1 {
+      width: 200px;
+      height: 80px;
+      top: 50px;
+      left: 100px;
+    }
+    .cloud-2 {
+      width: 150px;
+      height: 60px;
+      top: 80px;
+      right: 150px;
+    }
+    .emoji {
+      font-size: 120px;
+      margin-bottom: 40px;
+    }
+    .pain-title {
+      font-size: 48px;
+      font-weight: 900;
+      color: #333;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .pain-list {
+      width: 100%;
+      max-width: 800px;
+    }
+    .pain-item {
+      background: white;
+      border-radius: 20px;
+      padding: 30px 40px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+    .pain-icon {
+      width: 60px;
+      height: 60px;
+      background: #C8102E;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 28px;
+      flex-shrink: 0;
+    }
+    .pain-text {
+      font-size: 28px;
+      font-weight: 500;
+      color: #333;
+      line-height: 1.5;
+    }
+    .pain-text strong {
+      color: #C8102E;
+    }
+    .slide-number {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+
+    <div class="emoji">☔</div>
+
+    <h2 class="pain-title">비 오는 날 아침,<br>이런 고민 있으시죠?</h2>
+
+    <div class="pain-list">
+      <div class="pain-item">
+        <div class="pain-icon">1</div>
+        <p class="pain-text">"<strong>장화 신기 싫어!</strong>" 떼쓰는 아이</p>
+      </div>
+      <div class="pain-item">
+        <div class="pain-icon">2</div>
+        <p class="pain-text">어두운 등원길, <strong>아이 안전</strong>이 걱정</p>
+      </div>
+      <div class="pain-item">
+        <div class="pain-icon">3</div>
+        <p class="pain-text">유치원 신발장에서 <strong>우리 애 거 찾기</strong> 힘듦</p>
+      </div>
+    </div>
+
+    <p class="slide-number">2 / 7</p>
+  </div>
+</body>
+</html>

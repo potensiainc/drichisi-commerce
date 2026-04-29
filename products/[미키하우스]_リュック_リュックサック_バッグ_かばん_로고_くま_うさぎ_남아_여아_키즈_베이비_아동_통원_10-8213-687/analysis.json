@@ -1,0 +1,218 @@
+{
+  "product_name": "미키하우스 퍼즐블록 로고 백팩",
+  "analyzed_at": "2026-04-26T23:30:00+09:00",
+  "meta": {
+    "original_name": "[ミキハウス] リュック リュックサック バッグ かばん ロゴ くま うさぎ 男の子 女の子 キッズ ベビー 子供 通園 10-8213-687",
+    "brand": "MIKIHOUSE(ミキハウス)",
+    "price": {
+      "amount": "",
+      "currency": "JPY"
+    },
+    "origin": "일본",
+    "review": {
+      "rating": "4.7",
+      "count": "5"
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0CQ3K8BCR",
+    "product_id": "B0CQ3K8BCR"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "육아용품 > 아동가방",
+    "rationale": "유아·아동용 통원·외출용 백팩. 3-6세 대상, 곰·토끼 캐릭터 디자인, 안전 반사판 포함"
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "original",
+    "spec_translation_notes": "브랜드명 '미키하우스'는 한글 음차 통용. 상품 설명 내 일본어는 전체 한글 번역. 사이즈 단위(cm, 리터)는 그대로 유지."
+  },
+  "risks": [
+    {
+      "type": "언어 표기 이슈",
+      "severity": "low",
+      "description": "원본 상품명에 일본어 가타카나 혼용 ('リュック', 'バッグ', 'かばん')",
+      "action_required": "상세페이지에서는 '백팩', '가방'으로 통일 번역"
+    },
+    {
+      "type": "해외직구 고지",
+      "severity": "medium",
+      "description": "일본 아마존 직구 상품. 전자상거래법상 해외직구 고지 필요",
+      "action_required": "상세페이지 하단에 '본 제품은 해외 구매대행을 통해 유통되는 상품입니다' 문구 삽입"
+    },
+    {
+      "type": "A/S 및 품질보증",
+      "severity": "medium",
+      "description": "해외 구매대행 특성상 제조사 직접 A/S 불가",
+      "action_required": "구매대행 업체 자체 교환/환불 정책 명시 필요"
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "미키하우스만의 귀여운 퍼즐블록 디자인",
+      "evidence": "파스텔 톤 핑크·오렌지·옐로우·블루 컬러 조합. 곰·토끼·로고 캐릭터가 파즐 타일처럼 배치된 총 패턴",
+      "emotional_hook": "유치원 가방이 이렇게 예쁠 수 있나요? 아이가 '이 가방만 멜래요'라고 할 만큼 사랑스러운 디자인"
+    },
+    {
+      "priority": 2,
+      "headline": "아이 안전을 위한 실용 디테일",
+      "evidence": "체스트 벨트로 어깨끈 고정, 리플렉터 반사판 (어깨끈·앞면 곰 모양), 조절 가능한 어깨끈, 내부 네임택",
+      "emotional_hook": "등원길 차도 옆에서도 안심. 체스트 벨트가 있어서 뛰어다녀도 가방이 흘러내리지 않아요"
+    },
+    {
+      "priority": 3,
+      "headline": "성장에 맞춘 두 가지 사이즈",
+      "evidence": "S사이즈 6L (3-4세), M사이즈 10L (5-6세). 사이즈별 권장 연령 제시",
+      "emotional_hook": "3살 때 산 가방을 내년에도 못 쓴다는 게 아쉬웠는데, 미키하우스는 사이즈를 딱 맞춰 선택할 수 있어요"
+    },
+    {
+      "priority": 4,
+      "headline": "통원·외출·소풍까지 만능 활용",
+      "evidence": "6~10리터 적정 용량으로 도시락·물병·여벌옷 수납 가능. 가벼운 소재",
+      "emotional_hook": "유치원 등원용으로 샀는데 주말 외출이나 할머니 댁 갈 때도 이 가방만 챙기게 돼요"
+    },
+    {
+      "priority": 5,
+      "headline": "1948년부터 이어온 미키하우스의 아동복 철학",
+      "evidence": "일본 대표 아동복 브랜드. 안전성·내구성·디자인 모두 검증된 브랜드",
+      "emotional_hook": "할머니 세대도 아는 그 미키하우스. 믿고 쓸 수 있는 브랜드라 선물용으로도 좋아요"
+    }
+  ],
+  "target": {
+    "primary_persona": "3-6세 자녀를 둔 30대 초중반 엄마. 유치원 등원용 가방을 찾고 있으며, 안전성과 디자인을 모두 중시. SNS에서 육아 정보를 적극 찾아보는 스타일.",
+    "secondary_persona": "조카·손주 선물을 찾는 40-50대. 믿을 수 있는 브랜드, 실용적이면서도 귀여운 디자인 선호.",
+    "use_moments": [
+      "유치원 등원길, 아이가 스스로 가방을 메고 싶어하는 순간",
+      "주말 가족 나들이, 아이 물건만 따로 챙겨야 할 때",
+      "할머니 댁 방문, 1박 2일치 아이 짐을 가볍게 꾸릴 때"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "playful · soft · friendly · kawaii",
+    "tone_rationale": "미키하우스 브랜드 정체성은 '귀여움'과 '아이다움'. 퍼즐블록 패턴의 경쾌함, 파스텔 컬러의 부드러움, 캐릭터의 친근함을 모두 살려야 한다. 하지만 유아용이라고 해서 유치하게 보여서는 안 되며, 부모가 보기에도 '세련된 귀여움'이어야 한다. 따라서 playful하되 정돈된 레이아웃, soft하되 명료한 정보 전달을 지향한다.",
+    "color_palette": [
+      {
+        "hex": "#FF6B9D",
+        "role": "Primary - 메인 핑크",
+        "source": "상품 본체 어깨끈 및 하단 테두리 핑크색 실제 추출"
+      },
+      {
+        "hex": "#FFB6C1",
+        "role": "Secondary - 연핑크",
+        "source": "상품 퍼즐 패턴 내 연한 핑크 블록 색상"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "Accent - 옐로우",
+        "source": "상품 어깨끈 내부 옐로우 스트랩 실제 색상"
+      },
+      {
+        "hex": "#87CEEB",
+        "role": "Accent - 스카이블루",
+        "source": "상품 어깨끈 내부 블루 스트랩 실제 색상"
+      },
+      {
+        "hex": "#FFF5EE",
+        "role": "Background - 아이보리",
+        "source": "상품 배경 베이지·아이보리 톤 (부드러운 느낌 보조)"
+      }
+    ],
+    "typography_mood": "sans-serif · rounded · playful (둥근 산세리프 선호, 미키하우스 로고체처럼 귀여운 느낌)",
+    "copy_voice": "친근하고 따뜻한. '~예요', '~죠?' 같은 부드러운 어미 적극 활용. 엄마들끼리 수다 떨듯 자연스럽게.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "grid-modular",
+      "rationale": "아동용품은 시각적 귀여움이 구매 전환의 핵심. 큰 상품 이미지를 먼저 보여주고 (photo-dominant), 기능·스펙은 그리드 모듈로 정리 (grid-modular)하여 엄마들이 빠르게 스캔할 수 있게 한다."
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "pink/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "핑크 백팩 정면 전체샷 2컷 (S, M 사이즈 비교). 깔끔한 흰 배경, 퍼즐블록 패턴 명확히 보임"
+    },
+    {
+      "filename": "pink/image_02.jpg",
+      "role": "detail_shots",
+      "description": "핑크 백팩 측면·후면 디테일. 어깨끈 조절 버클, 체스트 벨트, 옐로우·블루 스트랩 색상 확인 가능"
+    },
+    {
+      "filename": "pink/image_03.jpg",
+      "role": "spec_shots",
+      "description": "핑크 백팩 뒷면 (어깨끈·체스트벨트 중심). 반사판 위치, 어깨끈 패딩 두께 확인용"
+    },
+    {
+      "filename": "pink/image_04.jpg",
+      "role": "detail_shots",
+      "description": "핑크 백팩 상세 각도 (지퍼, 손잡이, 로고 클로즈업)"
+    },
+    {
+      "filename": "pink/image_05.jpg",
+      "role": "spec_shots",
+      "description": "핑크 백팩 내부 구조 또는 추가 각도"
+    },
+    {
+      "filename": "pink/thumbnail.jpg",
+      "role": "option_shots",
+      "description": "핑크 옵션 썸네일"
+    },
+    {
+      "filename": "multicolor/image_01.jpg",
+      "role": "option_shots",
+      "description": "멀티컬러 백팩 정면 전체샷 2컷 (S, M 사이즈 비교)"
+    },
+    {
+      "filename": "multicolor/image_02.jpg",
+      "role": "detail_shots",
+      "description": "멀티컬러 백팩 측면·후면 디테일"
+    },
+    {
+      "filename": "multicolor/image_03.jpg",
+      "role": "spec_shots",
+      "description": "멀티컬러 백팩 뒷면 (어깨끈·체스트벨트 중심)"
+    },
+    {
+      "filename": "multicolor/image_04.jpg",
+      "role": "detail_shots",
+      "description": "멀티컬러 백팩 상세 각도"
+    },
+    {
+      "filename": "multicolor/image_05.jpg",
+      "role": "spec_shots",
+      "description": "멀티컬러 백팩 내부 구조 또는 추가 각도"
+    },
+    {
+      "filename": "multicolor/thumbnail.jpg",
+      "role": "option_shots",
+      "description": "멀티컬러 옵션 썸네일"
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "감성 훅 - 아이의 첫 가방",
+        "text": "유치원 가는 날, 아이가 스스로 메고 싶어하는 가방.\n미키하우스 퍼즐블록 백팩."
+      },
+      {
+        "angle": "기능 훅 - 안전 디테일",
+        "text": "체스트 벨트로 흘러내리지 않고,\n반사판으로 어두운 등원길도 안심.\n엄마가 찾던 그 가방."
+      },
+      {
+        "angle": "브랜드 스토리 훅",
+        "text": "Since 1948, Japan.\n할머니 세대도 기억하는 미키하우스의 아동복 철학.\n3-6세를 위한 첫 백팩."
+      }
+    ],
+    "for_you_moments": [
+      "유치원 등원 가방을 찾고 있는데, 안전성과 귀여움 둘 다 놓치고 싶지 않은 분께",
+      "아이가 '이 가방 멜래요!'라고 스스로 고를 만큼 예쁜 디자인을 찾는 분께",
+      "조카·손주 선물로 믿을 수 있는 브랜드, 실용적인 아이템을 찾는 분께"
+    ],
+    "scenes": [
+      "오전 8시, 유치원 등원 준비.\n아이가 스스로 가방을 메고 현관 앞에 서 있어요.\n체스트 벨트를 딱 채워주면 가방이 흘러내리지 않아 안심이죠.",
+      "주말 오후, 가족 나들이.\n아이 물병·간식·여벌옷을 미키하우스 백팩에 쏙.\n6리터면 딱 필요한 것만 챙길 수 있어요.",
+      "할머니 댁 1박.\n평소 쓰던 가방에 아이 옷·칫솔만 넣으면 준비 끝.\n가벼워서 아이 혼자서도 들 수 있어요."
+    ],
+    "closing": "매일 메는 가방이니까,\n아이도 엄마도 만족하는 걸로."
+  }
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>란도린 디퓨저 - Slide 07 CTA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Noto+Serif+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Serif KR', serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background-image: url('file:///D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/image_03.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .dim-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(26, 24, 21, 0.75) 0%,
+        rgba(26, 24, 21, 0.65) 50%,
+        rgba(26, 24, 21, 0.8) 100%
+      );
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 50px;
+    }
+
+    .brand-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .brand-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 72px;
+      font-weight: 500;
+      font-style: italic;
+      color: #F5D88A;
+      letter-spacing: 0.05em;
+      text-shadow:
+        0 2px 4px rgba(0,0,0,0.8),
+        0 4px 20px rgba(0,0,0,0.6);
+    }
+
+    .brand-location {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.4em;
+      color: rgba(245, 216, 138, 0.85);
+      text-transform: uppercase;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .divider {
+      width: 80px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #C9A65C, transparent);
+    }
+
+    .fragrance-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      color: #FDFCFA;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .cta-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .cta-text {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 40px;
+      font-weight: 500;
+      color: #FFFFFF;
+      line-height: 1.6;
+      text-shadow:
+        0 2px 4px rgba(0,0,0,0.8),
+        0 4px 20px rgba(0,0,0,0.6);
+    }
+
+    .cta-highlight {
+      color: #F5D88A;
+      font-weight: 600;
+    }
+
+    .instagram-handle {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 18px 40px;
+      border: 1px solid rgba(201, 166, 92, 0.5);
+      border-radius: 50px;
+    }
+
+    .instagram-icon {
+      width: 28px;
+      height: 28px;
+    }
+
+    .handle-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 26px;
+      font-weight: 500;
+      color: #FFFFFF;
+      letter-spacing: 0.05em;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+
+    .gift-badge {
+      position: absolute;
+      top: 100px;
+      right: 100px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: rgba(201, 166, 92, 0.15);
+      border: 1px solid rgba(201, 166, 92, 0.4);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .gift-icon {
+      font-size: 32px;
+    }
+
+    .gift-text {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #FDFCFA;
+      text-align: center;
+      line-height: 1.4;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: rgba(201, 166, 92, 0.4);
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 1px; border-left-width: 1px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 1px; border-right-width: 1px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 1px; border-left-width: 1px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 1px; border-right-width: 1px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(253, 252, 250, 0.4);
+    }
+
+    .dot.active {
+      background: #C9A65C;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="dim-overlay"></div>
+
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <div class="gift-badge">
+      <span class="gift-icon">🎁</span>
+      <span class="gift-text">집들이<br>선물 추천</span>
+    </div>
+
+    <div class="content">
+      <div class="brand-section">
+        <span class="brand-logo">Laundrin'</span>
+        <span class="brand-location">Tokyo</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <span class="fragrance-name">Classic Floral</span>
+
+      <div class="cta-section">
+        <p class="cta-text">
+          <span class="cta-highlight">프로필 링크</span>에서<br>
+          만나요
+        </p>
+
+        <div class="instagram-handle">
+          <svg class="instagram-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="5" stroke="#FDFCFA" stroke-width="1.5"/>
+            <circle cx="12" cy="12" r="5" stroke="#FDFCFA" stroke-width="1.5"/>
+            <circle cx="18" cy="6" r="1.5" fill="#C9A65C"/>
+          </svg>
+          <span class="handle-text">@drichisi_</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+    </div>
+  </div>
+</body>
+</html>

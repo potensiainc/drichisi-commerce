@@ -1,0 +1,108 @@
+{
+  "product_name": "미키하우스 핫비스킷 아동 운동화 71-9401-495",
+  "generated_at": "2026-04-27T10:32:00+09:00",
+  "source_analysis": "products/[미키하우스_HOT_BISCUITS]_[미키하우스_ホットビスケッツ]_키즈_シューズ_남아_여아_아동_靴_71-9401-495/analysis.json",
+
+  "title_candidates": [
+    {
+      "id": "A",
+      "type": "표준형",
+      "text": "미키하우스 핫비스킷 유아 운동화 메쉬 벨크로 71-9401-495",
+      "length": 35,
+      "keywords_used": ["미키하우스", "핫비스킷", "유아 운동화", "메쉬", "벨크로", "모델번호"],
+      "target_search_terms": ["미키하우스 유아 운동화", "핫비스킷 신발", "유아 벨크로 운동화", "메쉬 아동화", "미키하우스 71-9401"],
+      "rationale": "브랜드+상품유형+핵심기능을 간결하게 담은 가장 안전한 조합. 네이버 가이드 정석 준수."
+    },
+    {
+      "id": "B",
+      "type": "세부 키워드 강화형",
+      "text": "미키하우스 걸음마 신발 통기성 메쉬 운동화 16-18cm",
+      "length": 32,
+      "keywords_used": ["미키하우스", "걸음마 신발", "통기성", "메쉬", "운동화", "사이즈"],
+      "target_search_terms": ["걸음마 신발", "유아 첫 신발", "통기성 유아 운동화", "1-3세 신발", "미키하우스 걸음마"],
+      "rationale": "신규 셀러 유리한 롱테일 검색어 공략. '걸음마 신발' 키워드로 타겟 명확화."
+    },
+    {
+      "id": "C",
+      "type": "최소형",
+      "text": "미키하우스 핫비스킷 아동 운동화 71-9401-495",
+      "length": 29,
+      "keywords_used": ["미키하우스", "핫비스킷", "아동 운동화", "모델번호"],
+      "target_search_terms": ["미키하우스 아동화", "핫비스킷", "미키하우스 운동화", "일본 유아 신발"],
+      "rationale": "브랜드 인지도가 높아 간결한 상품명으로도 검색 유입 가능. 모델번호로 재구매 고객 유입."
+    }
+  ],
+
+  "recommended_title": {
+    "candidate_id": "B",
+    "text": "미키하우스 걸음마 신발 통기성 메쉬 운동화 16-18cm",
+    "selection_reason": "신규 셀러 환경에서 '걸음마 신발' 롱테일 키워드가 경쟁 회피에 유리. analysis.json의 1순위 셀링포인트 '발달 단계'와 '통기성'을 모두 반영하여 타겟 페르소나(1-3세 자녀 부모)에게 직접 소구."
+  },
+
+  "tags": [
+    {
+      "tag": "유아신발",
+      "type": "core",
+      "search_intent": "일반적인 유아 신발 검색"
+    },
+    {
+      "tag": "걸음마신발",
+      "type": "core",
+      "search_intent": "발달 단계 특화 검색 (1-3세 부모)"
+    },
+    {
+      "tag": "벨크로운동화",
+      "type": "long-tail",
+      "search_intent": "착탈 편의성 중시 검색"
+    },
+    {
+      "tag": "통기성운동화",
+      "type": "long-tail",
+      "search_intent": "땀 많은 아이를 위한 기능 검색"
+    },
+    {
+      "tag": "첫신발",
+      "type": "emotional",
+      "search_intent": "아이 첫 신발 구매 부모의 감성 검색"
+    },
+    {
+      "tag": "일본유아용품",
+      "type": "emotional",
+      "search_intent": "일본 브랜드 신뢰 기반 검색"
+    },
+    {
+      "tag": "통원신발",
+      "type": "long-tail",
+      "search_intent": "유치원·어린이집 통원용 실용 검색"
+    },
+    {
+      "tag": "아동메쉬신발",
+      "type": "long-tail",
+      "search_intent": "소재 특화 검색 (여름철 쾌적함)"
+    },
+    {
+      "tag": "미키하우스정품",
+      "type": "emotional",
+      "search_intent": "브랜드 직접 검색 + 정품 확인"
+    },
+    {
+      "tag": "유아선물",
+      "type": "seasonal",
+      "search_intent": "돌·생일 선물 용도 검색"
+    }
+  ],
+
+  "category_recommendation": {
+    "path": "패션의류/잡화 > 유아동패션 > 신발 > 유아신발",
+    "rationale": "1-3세 대상 유아 신발로 analysis.json 카테고리 매칭. 네이버 표준 카테고리 구조 준수.",
+    "note": "네이버 스마트스토어 센터에서 정확한 카테고리명 최종 확인 필요"
+  },
+
+  "brand_field": "MIKIHOUSE HOT BISCUITS",
+  "manufacturer_field": "MIKIHOUSE",
+
+  "seo_check": {
+    "all_passed": true,
+    "failed_items": []
+  }
+}

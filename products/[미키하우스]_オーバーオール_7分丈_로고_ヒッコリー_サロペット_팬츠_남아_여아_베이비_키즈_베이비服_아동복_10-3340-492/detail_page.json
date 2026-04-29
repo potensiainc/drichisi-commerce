@@ -1,0 +1,43 @@
+{
+  "product_title": "[미키하우스] 오버롤 7부 로고 히코리 서스펜더 팬츠 남아 여아 베이비 키즈 아동복 10-3340-492",
+  "brand": "미키하우스",
+  "category": "베이비·키즈 > 아동복 > 팬츠",
+  "main_features": [
+    "클래식 히코리 스트라이프",
+    "미키하우스 로고 자수",
+    "7부 기장으로 활동성 우수",
+    "남녀공용 디자인",
+    "어깨끈 조절 가능"
+  ],
+  "detailed_specs": {
+    "소재": "면 100%",
+    "사이즈": "80, 90, 100",
+    "색상": "네이비 스트라이프",
+    "기장": "7부",
+    "원산지": "일본",
+    "세탁방법": "세탁기 가능(약하게), 표백제 금지, 건조기 금지"
+  },
+  "target_customer": {
+    "age": "0-3세 영유아",
+    "gender": "남아, 여아 모두",
+    "usage": "일상복, 외출복"
+  },
+  "selling_points": [
+    "일본 프리미엄 브랜드 미키하우스의 정품",
+    "고급 면 소재로 피부에 자극 없음",
+    "활동성 좋은 7부 기장",
+    "세탁이 간편한 실용적 디자인",
+    "사계절 착용 가능"
+  ],
+  "images": {
+    "main": "../images/default/image_01.jpg",
+    "detail": [
+      "../images/default/image_02.jpg",
+      "../images/default/image_03.jpg",
+      "../images/default/image_04.jpg",
+      "../images/default/image_05.jpg",
+      "../images/default/image_06.jpg"
+    ],
+    "thumbnail": "../images/default/thumbnail.jpg"
+  }
+}

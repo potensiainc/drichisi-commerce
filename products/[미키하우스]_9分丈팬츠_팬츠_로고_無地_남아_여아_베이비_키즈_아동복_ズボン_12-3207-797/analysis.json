@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "product_id": "B0GGRFL4C2",
+    "brand": "MIKIHOUSE",
+    "analyzed_at": "2026-04-26T23:30:00+09:00",
+    "analyzer_version": "2.0"
+  },
+  "language_handling": {
+    "brand_name_policy": "original",
+    "brand_name_original": "MIKIHOUSE",
+    "brand_name_kr": "미키하우스",
+    "brand_reasoning": "일본 대표 아동복 브랜드로 국내에서도 원어 표기로 인지도가 높음",
+    "model_name_policy": "translate",
+    "model_name_original": "9分丈パンツ",
+    "model_name_kr": "9부 팬츠",
+    "model_reasoning": "일반 의류 품목명은 한글 번역이 명확하고 검색에 유리함"
+  },
+  "category": {
+    "main": "패션의류",
+    "sub": "유아동의류",
+    "detail": "베이비/유아동팬츠",
+    "naver_standard_category": "패션의류>유아동의류>유아동하의>유아동팬츠",
+    "reasoning": "80~130 사이즈로 베이비부터 키즈까지 전 연령 대응 팬츠"
+  },
+  "design_direction": {
+    "design_tone": "minimal_classic",
+    "tone_reasoning": "레트로 로고 자수만 포인트로 둔 심플한 디자인, 전 연령 커버하는 베이직 아이템",
+    "color_palette": [
+      "#2E4057",
+      "#F5F5DC",
+      "#FFFFFF",
+      "#333333"
+    ],
+    "palette_reasoning": "인디고블루(네이비 계열)와 베이지 두 컬러, 클래식하고 코디 용이한 색상",
+    "layout_hint": "hero_product_specs_trust",
+    "layout_reasoning": "옵션이 많고(2컬러 x 6사이즈) 기능 설명이 중요한 베이직 아이템이므로 스펙 중심 구성"
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "versatility",
+        "text": "인디고블루는 데님, 베이지는 속건 소재. 상황에 맞춰 선택하는 똑똑한 팬츠",
+        "reasoning": "두 컬러의 소재 차이를 강조하여 구매 포인트 명확화"
+      },
+      {
+        "angle": "brand_heritage",
+        "text": "미키하우스의 레트로 로고 자수가 포인트. 심플하지만 브랜드 감성이 살아있는 9부 팬츠",
+        "reasoning": "브랜드 헤리티지와 디자인 포인트 강조"
+      },
+      {
+        "angle": "practicality",
+        "text": "허리 조절 가능, 주머니 3개, 9부 기장. 아이들 활동을 고려한 실용 설계",
+        "reasoning": "실용적 디테일 나열로 엄마들의 구매 결정 지원"
+      },
+      {
+        "angle": "age_range",
+        "text": "80부터 130까지. 한 벌 사두면 오래 입히는 미키하우스 베이직 팬츠",
+        "reasoning": "넓은 사이즈 범위로 장기 착용 가능성 어필"
+      }
+    ],
+    "why_japan_exclusive": "미키하우스의 시즌 베이직 라인. 국내 미입고 사이즈와 컬러 옵션 제공",
+    "trust_badge_candidates": [
+      "미키하우스 정품 보증",
+      "일본 직구 정품",
+      "2컬러 x 6사이즈 풀 옵션"
+    ]
+  },
+  "image_inventory": [
+    {
+      "variant": "indigo_blue",
+      "folder": "images/indigo_blue",
+      "count": 7,
+      "recommended_usage": {
+        "hero": "417KUmj05-L.jpg (정면 풀샷)",
+        "detail": [
+          "41PwpDVvNDL.jpg (측면)",
+          "71hCE7re0kL.jpg (후면)",
+          "61k+yQ9GZSL.jpg (디테일-로고 자수)",
+          "61C-d2cg5VL.jpg (디테일-주머니)",
+          "51LX-Z+B3TL.jpg (착용컷-앞)",
+          "511Hfu1X3UL.jpg (착용컷-옆)"
+        ]
+      }
+    },
+    {
+      "variant": "beige",
+      "folder": "images/beige",
+      "count": 7,
+      "recommended_usage": {
+        "hero": "4167i18iZZL.jpg (정면 풀샷)",
+        "detail": [
+          "51RCVBPZDFL.jpg (측면)",
+          "31EWVyynYvL.jpg (후면)",
+          "51Wp393MBKL.jpg (디테일-로고 자수)",
+          "51GlkoLVdrL.jpg (디테일-주머니)",
+          "51Kkv6F4pkL.jpg (착용컷-앞)",
+          "51854gb6SXL.jpg (착용컷-옆)"
+        ]
+      }
+    }
+  ],
+  "spec_highlights": [
+    {
+      "key": "소재",
+      "value": "인디고블루: 스트레치 데님 / 베이지: 폴리에스터(흡한속건)",
+      "priority": "high",
+      "reasoning": "컬러별 소재 차이가 주요 구매 결정 요소"
+    },
+    {
+      "key": "기장",
+      "value": "9부 (발목 위)",
+      "priority": "medium",
+      "reasoning": "계절감과 활동성에 영향을 주는 정보"
+    },
+    {
+      "key": "사이즈",
+      "value": "80, 90, 100, 110, 120, 130",
+      "priority": "high",
+      "reasoning": "베이비부터 주니어까지 폭넓은 사이즈 제공"
+    },
+    {
+      "key": "허리",
+      "value": "고무밴드 + 조절 가능한 아저스터",
+      "priority": "medium",
+      "reasoning": "성장에 맞춰 조절 가능한 실용적 디테일"
+    },
+    {
+      "key": "주머니",
+      "value": "앞 양쪽, 뒤 오른쪽 (총 3개)",
+      "priority": "low",
+      "reasoning": "실용성 디테일"
+    },
+    {
+      "key": "디자인 포인트",
+      "value": "작은 레트로 로고 자수 (뒤 주머니 부분)",
+      "priority": "medium",
+      "reasoning": "미키하우스 브랜드 아이덴티티"
+    }
+  ],
+  "risk_assessment": {
+    "group_a_critical": [],
+    "group_b_moderate": [
+      {
+        "type": "사이즈 가이드 부재",
+        "mitigation": "일본 아동복 사이즈 특성상 국내보다 작을 수 있으니 실측 사이즈 확인 권장",
+        "display_in_notice": true
+      },
+      {
+        "type": "컬러별 소재 차이",
+        "mitigation": "인디고블루는 데님(면 혼방), 베이지는 폴리에스터 소재로 세탁 방법이 다를 수 있음",
+        "display_in_notice": true
+      }
+    ],
+    "group_c_minor": [
+      {
+        "type": "A+ 콘텐츠 한정",
+        "note": "브랜드 소개 이미지만 있고 상품 상세 이미지는 없음"
+      }
+    ]
+  },
+  "options_structure": {
+    "type": "matrix",
+    "dimensions": [
+      {
+        "name": "컬러",
+        "values": [
+          "인디고블루",
+          "베이지"
+        ]
+      },
+      {
+        "name": "사이즈",
+        "values": [
+          "80",
+          "90",
+          "100",
+          "110",
+          "120",
+          "130"
+        ]
+      }
+    ],
+    "total_skus": 12,
+    "all_available": true,
+    "display_strategy": "컬러별 대표 이미지 + 사이즈 드롭다운 선택 방식 권장"
+  }
+}

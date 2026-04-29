@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 점퍼스커트 - Slide 6</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: #1a2a3a;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px;
+    }
+    .stripe-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: repeating-linear-gradient(
+        90deg,
+        transparent 0px,
+        transparent 60px,
+        rgba(244, 244, 240, 0.02) 60px,
+        rgba(244, 244, 240, 0.02) 120px
+      );
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+    }
+    .label {
+      color: #d62839;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    .specs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      margin-bottom: 60px;
+    }
+    .spec {
+      background: rgba(244, 244, 240, 0.05);
+      border: 1px solid rgba(244, 244, 240, 0.1);
+      border-radius: 12px;
+      padding: 36px;
+      text-align: center;
+    }
+    .spec-label {
+      color: rgba(244, 244, 240, 0.5);
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .spec-value {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: #f4f4f0;
+    }
+    .spec-value .accent {
+      color: #d62839;
+    }
+    .origin-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(214, 40, 57, 0.15);
+      border: 1px solid #d62839;
+      border-radius: 8px;
+      padding: 16px 32px;
+    }
+    .origin-flag {
+      width: 32px;
+      height: 24px;
+      background: white;
+      border-radius: 2px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .origin-flag::after {
+      content: '';
+      width: 14px;
+      height: 14px;
+      background: #d62839;
+      border-radius: 50%;
+    }
+    .origin-text {
+      color: #f4f4f0;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="stripe-overlay"></div>
+    <div class="content">
+      <div class="label">Product Spec</div>
+      <div class="specs">
+        <div class="spec">
+          <div class="spec-label">Size</div>
+          <div class="spec-value">80 - <span class="accent">130</span> cm</div>
+        </div>
+        <div class="spec">
+          <div class="spec-label">Material</div>
+          <div class="spec-value">히코리<br>스트라이프</div>
+        </div>
+        <div class="spec">
+          <div class="spec-label">Brand</div>
+          <div class="spec-value">MIKI<span class="accent">HOUSE</span></div>
+        </div>
+        <div class="spec">
+          <div class="spec-label">Review</div>
+          <div class="spec-value"><span class="accent">4.5</span> / 5.0</div>
+        </div>
+      </div>
+      <div class="origin-badge">
+        <div class="origin-flag"></div>
+        <span class="origin-text">MADE IN JAPAN</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>HOT BISCUITS - Slide 05</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(180deg, #E8F4FD 0%, #FFFFFF 100%);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .header h2 {
+      font-size: 44px;
+      font-weight: 900;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .header p {
+      font-size: 22px;
+      color: #666;
+    }
+
+    .size-table {
+      background: white;
+      border-radius: 30px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+      margin-bottom: 40px;
+    }
+
+    .size-row {
+      display: flex;
+      align-items: center;
+      padding: 25px 0;
+      border-bottom: 2px solid #F0F0F0;
+    }
+
+    .size-row:last-child {
+      border-bottom: none;
+    }
+
+    .size-row.header-row {
+      background: linear-gradient(135deg, #FF6B9D, #FFB6C1);
+      border-radius: 20px;
+      margin: -20px -20px 20px -20px;
+      padding: 20px 40px;
+    }
+
+    .size-row.header-row span {
+      color: white;
+      font-weight: 700;
+    }
+
+    .size-col {
+      flex: 1;
+      text-align: center;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .size-col.size-num {
+      font-weight: 800;
+      font-size: 32px;
+      color: #4A90E2;
+    }
+
+    .size-col.age {
+      color: #666;
+    }
+
+    .tip-box {
+      background: linear-gradient(135deg, #FFF5F8, #FFE4EC);
+      border-radius: 25px;
+      padding: 35px;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .tip-icon {
+      width: 80px;
+      height: 80px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      flex-shrink: 0;
+      box-shadow: 0 8px 25px rgba(255, 107, 157, 0.2);
+    }
+
+    .tip-content h3 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #FF6B9D;
+      margin-bottom: 10px;
+    }
+
+    .tip-content p {
+      font-size: 22px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .tip-content span {
+      color: #FF6B9D;
+      font-weight: 700;
+    }
+
+    .footer-badge {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #4A90E2;
+      color: white;
+      padding: 15px 40px;
+      border-radius: 30px;
+      font-size: 20px;
+      font-weight: 700;
+      box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>사이즈 가이드</h2>
+      <p>12-24개월 걸음마기 아기에게 딱!</p>
+    </div>
+
+    <div class="size-table">
+      <div class="size-row header-row">
+        <span class="size-col">사이즈</span>
+        <span class="size-col">발길이</span>
+        <span class="size-col">권장연령</span>
+      </div>
+
+      <div class="size-row">
+        <span class="size-col size-num">14.0cm</span>
+        <span class="size-col">약 13.0~13.5cm</span>
+        <span class="size-col age">12~15개월</span>
+      </div>
+
+      <div class="size-row">
+        <span class="size-col size-num">14.5cm</span>
+        <span class="size-col">약 13.5~14.0cm</span>
+        <span class="size-col age">15~18개월</span>
+      </div>
+
+      <div class="size-row">
+        <span class="size-col size-num">15.0cm</span>
+        <span class="size-col">약 14.0~14.5cm</span>
+        <span class="size-col age">18~24개월</span>
+      </div>
+    </div>
+
+    <div class="tip-box">
+      <div class="tip-icon">💡</div>
+      <div class="tip-content">
+        <h3>사이즈 선택 TIP</h3>
+        <p>실측 발 길이 + <span>0.5~1cm 여유</span>를 두고<br>선택하시면 편안하게 신을 수 있어요!</p>
+      </div>
+    </div>
+
+    <div class="footer-badge">
+      2E 라스트 - 넉넉한 발볼
+    </div>
+  </div>
+</body>
+</html>

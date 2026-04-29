@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(135deg, #FFFAF0 0%, #FFF5F5 50%, #F8F4FF 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px;
+      position: relative;
+    }
+    .brand-tag {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background: #2C3E5F;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .japan-badge {
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      background: #E8D4D4;
+      color: #2C3E5F;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .japan-badge::before {
+      content: "";
+      width: 24px;
+      height: 16px;
+      background: linear-gradient(to bottom, white 50%, white 50%);
+      border-radius: 2px;
+      position: relative;
+      display: inline-block;
+    }
+    .japan-badge::after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #BC002D;
+      border-radius: 50%;
+      right: 100px;
+    }
+    .product-image {
+      width: 500px;
+      height: 600px;
+      object-fit: contain;
+      filter: drop-shadow(0 20px 40px rgba(44, 62, 95, 0.15));
+      margin-bottom: 30px;
+    }
+    .headline {
+      font-size: 52px;
+      font-weight: 900;
+      color: #2C3E5F;
+      text-align: center;
+      line-height: 1.3;
+      margin-bottom: 20px;
+    }
+    .headline .accent {
+      color: #FFC0CB;
+      position: relative;
+    }
+    .subline {
+      font-size: 24px;
+      color: #666;
+      text-align: center;
+      font-weight: 400;
+    }
+    .decorative-circle {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.3;
+    }
+    .circle-1 {
+      width: 200px;
+      height: 200px;
+      background: #FFC0CB;
+      top: -50px;
+      right: 100px;
+    }
+    .circle-2 {
+      width: 150px;
+      height: 150px;
+      background: #87CEEB;
+      bottom: 100px;
+      left: -30px;
+    }
+    .circle-3 {
+      width: 100px;
+      height: 100px;
+      background: #FFD700;
+      bottom: 200px;
+      right: 50px;
+    }
+    .swipe-hint {
+      position: absolute;
+      bottom: 40px;
+      right: 50px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #999;
+      font-size: 14px;
+    }
+    .swipe-hint svg {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="decorative-circle circle-1"></div>
+  <div class="decorative-circle circle-2"></div>
+  <div class="decorative-circle circle-3"></div>
+
+  <div class="container">
+    <div class="brand-tag">MIKIHOUSE</div>
+    <div class="japan-badge">MADE IN JAPAN</div>
+
+    <img src="../../products/[미키하우스]_팬츠_ロング팬츠_로고_うさぎ_10分丈_長ズボン_日本製_여아_베이비_키즈_아동복_13-3226-146/images/nobg/thumbnail_nobg.png" class="product-image" alt="미키하우스 토끼 팬츠">
+
+    <h1 class="headline">
+      일본 엄마들의<br>
+      <span class="accent">첫 번째</span> 선택
+    </h1>
+    <p class="subline">미키하우스 토끼 와펜 긴 바지</p>
+
+    <div class="swipe-hint">
+      밀어서 더 보기
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+      </svg>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1320 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-28",
+  "platforms": {
+    "threads": {
+      "total_posts": 24,
+      "posts": [
+        {
+          "id": "threads-2026-04-26-001",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "품격/고급스러움",
+          "title": "품격 있는 사람들의 공통점 8가지",
+          "keywords": [
+            "품격",
+            "공통점",
+            "태도",
+            "행동",
+            "책임"
+          ],
+          "item_count": 8,
+          "items_summary": [
+            "남 탓을 하지 않는다",
+            "화를 쉽게 내지 않는다",
+            "자랑하지 않는다",
+            "말보다 행동이 먼저다",
+            "약속을 가볍게 여기지 않는다",
+            "듣는 시간이 말하는 시간보다 길다",
+            "다른 사람의 시간을 존중한다",
+            "자기 일에 책임을 진다"
+          ],
+          "closing": "품격은 태어나는 게 아니라 만들어지는 것.",
+          "file_path": "marketing/threads/2026-04-26-품격있는사람특징.md"
+        },
+        {
+          "id": "threads-2026-04-26-002",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "돈/소비 철학",
+          "title": "30대 초반에 끊은 소비 7가지",
+          "keywords": [
+            "30대",
+            "소비",
+            "끊은것",
+            "절제",
+            "집중"
+          ],
+          "item_count": 7,
+          "items_summary": [
+            "아무 브랜드나 로고 달린 옷",
+            "트렌드만 좇는 가구",
+            "싸다는 이유로 사는 물건",
+            "남 보여주려고 가는 곳",
+            "SNS용으로만 존재하는 경험",
+            "쓰지도 않을 멤버십과 구독",
+            "감동 없는 선물"
+          ],
+          "closing": "대신 늘린 건, 진짜 좋아하는 것에 집중하기.",
+          "file_path": "marketing/threads/2026-04-26-30대소비습관.md",
+          "performance": {
+            "elapsed_time": "9시간",
+            "views": 1000,
+            "likes": 8,
+            "comments": 2,
+            "reposts": 0,
+            "rating": "A",
+            "recorded_at": "2026-04-26T21:15:00"
+          }
+        },
+        {
+          "id": "threads-2026-04-26-003",
+          "date": "2026-04-26",
+          "status": "published",
+          "published_time": "2026-04-26T약18:00",
+          "category": "취향/라이프스타일",
+          "title": "고급스러운 취향 있는 집에 꼭 있는 10가지",
+          "keywords": [
+            "고급스러운",
+            "취향",
+            "집",
+            "인테리어",
+            "소품",
+            "공간"
+          ],
+          "item_count": 10,
+          "items_summary": [
+            "디퓨저보다 좋은 룸스프레이",
+            "편한 소파가 아닌 예쁜 의자",
+            "무드등 하나 정도",
+            "계절마다 바꾸는 작은 소품",
+            "직접 고른 그림이나 포스터",
+            "손님용 슬리퍼와 컵",
+            "아날로그 시계",
+            "책장에 꽂힌 읽은 책",
+            "블루투스 스피커 대신 제대로 된 스피커",
+            "이름 있는 브랜드의 작은 오브제"
+          ],
+          "closing": "집은 남에게 보여주는 공간이 아닌, 나를 위한 공간이다.",
+          "file_path": "marketing/threads/2026-04-26-취향있는집.md",
+          "performance": {
+            "elapsed_time": "20시간",
+            "views": 2400,
+            "likes": 33,
+            "comments": 2,
+            "reposts": 2,
+            "rating": "S",
+            "recorded_at": "2026-04-26T21:15:00"
+          }
+        },
+        {
+          "id": "threads-2026-04-26-004",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "언어/태도",
+          "title": "연봉 1억 넘는 사람들이 절대 안 하는 말 9가지",
+          "keywords": [
+            "연봉",
+            "1억",
+            "대화법",
+            "말",
+            "태도"
+          ],
+          "item_count": 9,
+          "items_summary": [
+            "내가 그럴 줄 알았어",
+            "원래 다 그런 거야",
+            "너는 왜 항상 그래?",
+            "그건 네 문제야",
+            "나는 절대 안 그래",
+            "내 말이 맞지?",
+            "그게 뭐가 어려워?",
+            "나였으면 안 그랬어",
+            "그래서 어쩌라고?"
+          ],
+          "closing": "말이 연봉을 만든다.",
+          "file_path": "marketing/threads/2026-04-26-성숙한대화법.md",
+          "performance": {
+            "elapsed_time": "5시간",
+            "views": 607,
+            "likes": 4,
+            "comments": 2,
+            "reposts": 1,
+            "rating": "B",
+            "recorded_at": "2026-04-26T21:15:00"
+          }
+        },
+        {
+          "id": "threads-2026-04-26-005",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "돈/소비 철학",
+          "title": "돈을 아끼지 않는 것들 8가지",
+          "keywords": [
+            "돈",
+            "투자",
+            "가치",
+            "소비",
+            "아끼지않는"
+          ],
+          "item_count": 8,
+          "items_summary": [
+            "매일 쓰는 침구류",
+            "오래 앉아 있는 의자",
+            "매일 신는 신발",
+            "직접 만나는 식사 자리",
+            "건강 검진",
+            "좋아하는 사람에게 주는 선물",
+            "새로운 경험을 위한 여행",
+            "나를 성장시키는 배움"
+          ],
+          "closing": "싼 게 비싼 거였던 적이 한두 번이 아니다.",
+          "file_path": "marketing/threads/2026-04-26-돈아끼지않는것.md"
+        },
+        {
+          "id": "threads-2026-04-26-006",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "품격/고급스러움",
+          "title": "진짜 부자들의 아침 루틴 7가지",
+          "keywords": [
+            "부자",
+            "아침",
+            "루틴",
+            "습관",
+            "시간"
+          ],
+          "item_count": 7,
+          "items_summary": [
+            "알람 없이 일어난다",
+            "핸드폰보다 물 한 잔이 먼저다",
+            "뉴스 대신 책을 본다",
+            "운동을 미루지 않는다",
+            "아침 식사를 거르지 않는다",
+            "하루 계획을 10분 안에 정리한다",
+            "출근 전 30분은 자기 시간이다"
+          ],
+          "closing": "부자는 시간을 쓰는 방식부터 다르다.",
+          "file_path": "marketing/threads/2026-04-26-부자들아침루틴.md"
+        },
+        {
+          "id": "threads-2026-04-26-007",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "취향/라이프스타일",
+          "title": "40대 여성의 옷장에 꼭 있는 8가지",
+          "keywords": [
+            "40대",
+            "여성",
+            "옷장",
+            "패션",
+            "스타일"
+          ],
+          "item_count": 8,
+          "items_summary": [
+            "어디든 입고 나갈 수 있는 흰 셔츠 한 벌",
+            "10년은 입을 캐시미어 니트",
+            "편한데 멋있어 보이는 와이드 팬츠",
+            "신발장 한쪽을 차지한 로퍼",
+            "계절 안 타는 트렌치코트",
+            "브랜드보다 핏으로 고른 블랙 재킷",
+            "딱 하나만 남긴 가방",
+            "아무것도 걸치지 않아도 되는 원피스"
+          ],
+          "closing": "유행은 지나가지만, 나를 아는 옷은 남는다.",
+          "file_path": "marketing/threads/2026-04-26-40대여성옷장.md"
+        },
+        {
+          "id": "threads-2026-04-26-008",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "돈/소비 철학",
+          "title": "자산 10억 부자들이 절대 안 사는 것들 9가지",
+          "keywords": [
+            "자산10억",
+            "부자",
+            "소비",
+            "안사는것",
+            "절제"
+          ],
+          "item_count": 9,
+          "items_summary": [
+            "할인한다고 광고하는 명품",
+            "빚내서 사는 자동차",
+            "SNS에서 유행하는 잡템",
+            "한 번 쓰고 버릴 가전",
+            "광고비가 가격인 제품",
+            "무이자 할부가 필요한 소비",
+            "남 보여주려고 가는 식당",
+            "포장만 화려한 선물",
+            "쓰지도 않을 멤버십"
+          ],
+          "closing": "진짜 부자는 돈을 함부로 쓰지 않는다.",
+          "file_path": "marketing/threads/2026-04-26-자산10억안사는것.md"
+        },
+        {
+          "id": "threads-2026-04-26-009",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "30대 라이프스타일",
+          "title": "진짜 여유 있는 사람들의 주말 7가지",
+          "keywords": [
+            "여유",
+            "주말",
+            "라이프스타일",
+            "시간",
+            "루틴"
+          ],
+          "item_count": 7,
+          "items_summary": [
+            "알람 없이 일어난다",
+            "핸드폰은 오후에 본다",
+            "천천히 요리해서 먹는다",
+            "책 한 권을 끝까지 읽는다",
+            "집 안 작은 것 하나를 정리한다",
+            "사람을 만나거나, 혼자 있거나 둘 중 하나만 한다",
+            "일요일 밤에 월요일을 준비하지 않는다"
+          ],
+          "closing": "바쁜 척하지 않아도 되는 시간. 스친들의 주말은 어때?",
+          "file_path": "marketing/threads/2026-04-26-여유있는주말.md",
+          "performance": {
+            "elapsed_time": "11시간",
+            "views": 435,
+            "likes": 1,
+            "comments": 0,
+            "reposts": 0,
+            "rating": "C",
+            "recorded_at": "2026-04-26T21:15:00"
+          }
+        },
+        {
+          "id": "threads-2026-04-26-010",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "취향/라이프스타일",
+          "title": "들어가자마자 향이 좋은 집들의 공통점 8가지",
+          "keywords": [
+            "향",
+            "집",
+            "디퓨저",
+            "인테리어",
+            "공간"
+          ],
+          "item_count": 8,
+          "items_summary": [
+            "현관에 디퓨저 하나가 있다",
+            "화장실 방향제가 싸구려가 아니다",
+            "침구에서 섬유유연제 냄새가 아닌 향이 난다",
+            "음식 냄새가 거실까지 안 퍼진다",
+            "환기를 자주 한다",
+            "신발장 관리를 신경 쓴다",
+            "공간마다 향이 다르지 않다",
+            "향이 은은하다"
+          ],
+          "closing": "좋은 향은 뿌리는 게 아니라 스며드는 거다.",
+          "file_path": "marketing/threads/2026-04-26-집향기좋은집.md",
+          "related_product": "란도린 리드디퓨저 클래식 플로럴",
+          "marketing_type": "indirect"
+        },
+        {
+          "id": "threads-2026-04-26-011",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "30대 라이프스타일",
+          "title": "30대 후반이 되고 깨달은 9가지",
+          "keywords": [
+            "30대",
+            "후반",
+            "깨달음",
+            "인생",
+            "성찰"
+          ],
+          "item_count": 9,
+          "items_summary": [
+            "관계는 넓히는 것보다 깊게 유지하는 게 낫다",
+            "건강은 잃기 전에 챙겨야 한다",
+            "시간은 돈보다 귀하다",
+            "남의 평가에 신경 쓸 여유가 없다",
+            "좋은 사람 옆에 있으면 나도 좋아진다",
+            "돈은 모으는 것보다 쓰는 법이 더 어렵다",
+            "부모님이 늙어가고 있다는 걸 체감한다",
+            "체력 관리가 곧 경쟁력이다",
+            "인생은 생각보다 짧다"
+          ],
+          "closing": "20대는 빨리 지나가고, 30대는 더 빨리 지나간다.",
+          "file_path": "marketing/threads/2026-04-26-30대후반깨달음.md"
+        },
+        {
+          "id": "threads-2026-04-26-012",
+          "date": "2026-04-26",
+          "status": "draft",
+          "category": "돈/성공 루틴",
+          "title": "월 1천 버는 사람들의 저녁 습관 8가지",
+          "keywords": [
+            "월1천",
+            "저녁",
+            "습관",
+            "루틴",
+            "성공"
+          ],
+          "item_count": 8,
+          "items_summary": [
+            "퇴근하면 핸드폰부터 내려놓는다",
+            "저녁은 가볍게 먹는다",
+            "TV보다 책이나 팟캐스트를 듣는다",
+            "다음 날 할 일을 10분 안에 정리한다",
+            "운동이나 산책으로 하루를 끊는다",
+            "자기 전 술을 마시지 않는다",
+            "11시 전에 잠자리에 든다",
+            "주말에도 크게 다르지 않다"
+          ],
+          "closing": "돈 버는 사람들은 아침보다 저녁 루틴이 중요하다는 걸 안다.",
+          "file_path": "marketing/threads/2026-04-26-월1천버는사람습관.md"
+        },
+        {
+          "id": "threads-2026-04-30-001",
+          "date": "2026-04-30",
+          "status": "scheduled",
+          "scheduled_time": "07:30",
+          "category": "취향/아이템 리스트",
+          "title": "센스 있다는 말 듣는 사람들의 선물 8가지",
+          "keywords": [
+            "센스",
+            "선물",
+            "취향",
+            "아이템"
+          ],
+          "item_count": 8,
+          "closing": "비싼 게 아니라 생각이 담긴 게 센스다.",
+          "file_path": "marketing/threads/2026-04-30-목요일-01-센스있는사람선물.md",
+          "expected_rating": "A~S"
+        },
+        {
+          "id": "threads-2026-04-30-002",
+          "date": "2026-04-30",
+          "status": "scheduled",
+          "scheduled_time": "12:00",
+          "category": "취향/공간 아이템",
+          "title": "자취 5년 차 방에 꼭 있는 것들 10가지",
+          "keywords": [
+            "자취",
+            "5년차",
+            "방",
+            "필수템",
+            "인테리어"
+          ],
+          "item_count": 10,
+          "closing": "자취 오래 하면 물건이 줄고, 필요한 것만 남는다.",
+          "file_path": "marketing/threads/2026-04-30-목요일-02-자취5년차필수템.md",
+          "expected_rating": "S",
+          "related_product": "란도린 리드디퓨저",
+          "marketing_type": "indirect"
+        },
+        {
+          "id": "threads-2026-04-30-003",
+          "date": "2026-04-30",
+          "status": "scheduled",
+          "scheduled_time": "18:00",
+          "category": "30대 라이프/관계",
+          "title": "35살에 정리한 관계 7가지",
+          "keywords": [
+            "35살",
+            "관계",
+            "정리",
+            "30대"
+          ],
+          "item_count": 7,
+          "closing": "남은 사람들에게 더 잘하기로 했다.",
+          "file_path": "marketing/threads/2026-04-30-목요일-03-35살에정리한관계.md",
+          "expected_rating": "A"
+        },
+        {
+          "id": "threads-2026-05-01-001",
+          "date": "2026-05-01",
+          "status": "scheduled",
+          "scheduled_time": "07:30",
+          "category": "취향/공간 아이템",
+          "title": "돈 많아 보이는 집에 꼭 있는 9가지",
+          "keywords": [
+            "돈",
+            "부자",
+            "집",
+            "인테리어",
+            "공간"
+          ],
+          "item_count": 9,
+          "closing": "돈 많아 보이는 건 물건이 많아서가 아니다.",
+          "file_path": "marketing/threads/2026-05-01-금요일-01-돈많아보이는집.md",
+          "expected_rating": "S",
+          "related_product": "란도린 리드디퓨저",
+          "marketing_type": "indirect"
+        },
+        {
+          "id": "threads-2026-05-01-002",
+          "date": "2026-05-01",
+          "status": "scheduled",
+          "scheduled_time": "12:00",
+          "category": "돈/소비 철학",
+          "title": "월급 300으로 여유롭게 사는 사람들의 공통점 8가지",
+          "keywords": [
+            "월급300",
+            "여유",
+            "소비",
+            "저축"
+          ],
+          "item_count": 8,
+          "closing": "부자는 버는 돈이 아니라 쓰는 방식이 다르다.",
+          "file_path": "marketing/threads/2026-05-01-금요일-02-월급300쓰는법.md",
+          "expected_rating": "A"
+        },
+        {
+          "id": "threads-2026-05-01-003",
+          "date": "2026-05-01",
+          "status": "scheduled",
+          "scheduled_time": "18:00",
+          "category": "취향/아이템 리스트",
+          "title": "일 잘하는 직장인 가방 속에 꼭 있는 것들 8가지",
+          "keywords": [
+            "직장인",
+            "가방",
+            "아이템",
+            "필수템"
+          ],
+          "item_count": 8,
+          "closing": "정리된 가방이 정리된 일을 만든다.",
+          "file_path": "marketing/threads/2026-05-01-금요일-03-직장인가방속.md",
+          "expected_rating": "A~S"
+        },
+        {
+          "id": "threads-2026-05-02-001",
+          "date": "2026-05-02",
+          "status": "scheduled",
+          "scheduled_time": "10:00",
+          "category": "취향/아이템 리스트",
+          "title": "세련된 30대 여성 화장대에 꼭 있는 것들 9가지",
+          "keywords": [
+            "30대",
+            "여성",
+            "화장대",
+            "뷰티",
+            "아이템"
+          ],
+          "item_count": 9,
+          "closing": "화장대가 깔끔한 사람이 피부도 좋더라.",
+          "file_path": "marketing/threads/2026-05-02-토요일-01-세련된사람화장대.md",
+          "expected_rating": "S"
+        },
+        {
+          "id": "threads-2026-05-02-002",
+          "date": "2026-05-02",
+          "status": "scheduled",
+          "scheduled_time": "14:00",
+          "category": "30대 라이프/성장",
+          "title": "30대에 시작해서 다행인 것들 8가지",
+          "keywords": [
+            "30대",
+            "시작",
+            "성장",
+            "다행"
+          ],
+          "item_count": 8,
+          "closing": "20대에 시작했으면 더 좋았겠지만, 30대에라도 시작한 게 다행이다.",
+          "file_path": "marketing/threads/2026-05-02-토요일-02-30대에시작한것.md",
+          "expected_rating": "A"
+        },
+        {
+          "id": "threads-2026-05-02-003",
+          "date": "2026-05-02",
+          "status": "scheduled",
+          "scheduled_time": "18:00",
+          "category": "취향/공간 아이템",
+          "title": "감각 있다는 말 듣는 카페에 꼭 있는 것들 9가지",
+          "keywords": [
+            "카페",
+            "감각",
+            "인테리어",
+            "공간"
+          ],
+          "item_count": 9,
+          "closing": "카페 감각은 디테일에서 나온다.",
+          "file_path": "marketing/threads/2026-05-02-토요일-03-감각있는카페.md",
+          "expected_rating": "A~S",
+          "related_product": "란도린 리드디퓨저",
+          "marketing_type": "indirect"
+        },
+        {
+          "id": "threads-2026-05-03-001",
+          "date": "2026-05-03",
+          "status": "scheduled",
+          "scheduled_time": "10:00",
+          "category": "취향/공간 아이템",
+          "title": "여유 있어 보이는 사람 주방에 꼭 있는 것들 8가지",
+          "keywords": [
+            "주방",
+            "여유",
+            "정리",
+            "인테리어"
+          ],
+          "item_count": 8,
+          "closing": "주방이 깔끔한 사람은 마음도 정리된 사람이다.",
+          "file_path": "marketing/threads/2026-05-03-일요일-01-여유있는사람주방.md",
+          "expected_rating": "A~S"
+        },
+        {
+          "id": "threads-2026-05-03-002",
+          "date": "2026-05-03",
+          "status": "scheduled",
+          "scheduled_time": "14:00",
+          "category": "취향/아이템 리스트",
+          "title": "진짜 부자 옷장에 꼭 있는 것들 10가지",
+          "keywords": [
+            "부자",
+            "옷장",
+            "패션",
+            "미니멀"
+          ],
+          "item_count": 10,
+          "closing": "부자의 옷장은 비어 있고, 가난한 옷장은 가득 차 있다.",
+          "file_path": "marketing/threads/2026-05-03-일요일-02-진짜부자옷장.md",
+          "expected_rating": "S"
+        },
+        {
+          "id": "threads-2026-05-03-003",
+          "date": "2026-05-03",
+          "status": "scheduled",
+          "scheduled_time": "20:00",
+          "category": "30대 라이프/성찰",
+          "title": "40대에 후회할 30대의 선택 7가지",
+          "keywords": [
+            "40대",
+            "후회",
+            "30대",
+            "선택",
+            "성찰"
+          ],
+          "item_count": 7,
+          "closing": "후회는 하지 않은 것에서 온다.",
+          "file_path": "marketing/threads/2026-05-03-일요일-03-40대에후회할것.md",
+          "expected_rating": "A"
+        }
+      ],
+      "used_titles": [
+        "품격 있는 사람들의 공통점 8가지",
+        "30대 초반에 끊은 소비 7가지",
+        "고급스러운 취향 있는 집에 꼭 있는 10가지",
+        "연봉 1억 넘는 사람들이 절대 안 하는 말 9가지",
+        "돈을 아끼지 않는 것들 8가지",
+        "진짜 부자들의 아침 루틴 7가지",
+        "40대 여성의 옷장에 꼭 있는 8가지",
+        "자산 10억 부자들이 절대 안 사는 것들 9가지",
+        "진짜 여유 있는 사람들의 주말 7가지",
+        "들어가자마자 향이 좋은 집들의 공통점 8가지",
+        "30대 후반이 되고 깨달은 9가지",
+        "월 1천 버는 사람들의 저녁 습관 8가지",
+        "센스 있다는 말 듣는 사람들의 선물 8가지",
+        "자취 5년 차 방에 꼭 있는 것들 10가지",
+        "35살에 정리한 관계 7가지",
+        "돈 많아 보이는 집에 꼭 있는 9가지",
+        "월급 300으로 여유롭게 사는 사람들의 공통점 8가지",
+        "일 잘하는 직장인 가방 속에 꼭 있는 것들 8가지",
+        "세련된 30대 여성 화장대에 꼭 있는 것들 9가지",
+        "30대에 시작해서 다행인 것들 8가지",
+        "감각 있다는 말 듣는 카페에 꼭 있는 것들 9가지",
+        "여유 있어 보이는 사람 주방에 꼭 있는 것들 8가지",
+        "진짜 부자 옷장에 꼭 있는 것들 10가지",
+        "40대에 후회할 30대의 선택 7가지"
+      ],
+      "used_topics": [
+        "품격-공통점",
+        "30대-소비-끊은것",
+        "취향-집-인테리어",
+        "연봉1억-대화법-말",
+        "돈-투자-가치",
+        "부자-아침-루틴",
+        "40대여성-옷장-패션",
+        "자산10억-안사는것-소비",
+        "여유-주말-라이프스타일",
+        "향-집-디퓨저-공간",
+        "30대후반-깨달음-인생",
+        "월1천-저녁-습관-루틴"
+      ],
+      "reference_posts": [
+        {
+          "title": "37살 아재가 즐겨 입는 옷 브랜드",
+          "category": "취향/라이프스타일",
+          "performance": "high"
+        },
+        {
+          "title": "30대가 되고 배운 돈 쓰는 법 9가지",
+          "category": "돈/소비 철학",
+          "performance": "high"
+        },
+        {
+          "title": "고급스러워 보이는 사람들의 10가지 특징",
+          "category": "품격/고급스러움",
+          "performance": "high"
+        },
+        {
+          "title": "진짜 여유 있는 사람들의 언어 10가지",
+          "category": "언어/태도",
+          "performance": "high"
+        },
+        {
+          "title": "말 한마디로 품격이 드러나는 순간 10가지",
+          "category": "언어/태도",
+          "performance": "high"
+        },
+        {
+          "title": "진짜 부자들의 고급 취미 10가지",
+          "category": "품격/고급스러움",
+          "performance": "high"
+        },
+        {
+          "title": "진짜 고급스러운 부자집의 특징 10가지",
+          "category": "품격/고급스러움",
+          "performance": "high"
+        }
+      ]
+    },
+    "instagram": {
+      "total_posts": 2,
+      "posts": [
+        {
+          "id": "instagram-2026-04-26-란도린디퓨저",
+          "date": "2026-04-26",
+          "status": "draft",
+          "product_name": "란도린 리드디퓨저 클래식 플로럴",
+          "content_type": "carousel",
+          "slide_count": 7,
+          "hashtag_count": 15,
+          "hook": "집에 들어오면 향수 가게 같다는 말",
+          "file_path": "marketing/instagram/란도린-디퓨저-carousel.json"
+        },
+        {
+          "id": "instagram-2026-04-26-란도린디퓨저-v2",
+          "date": "2026-04-26",
+          "status": "draft",
+          "product_name": "란도린 리드디퓨저 클래식 플로럴",
+          "content_type": "carousel",
+          "slide_count": 7,
+          "hashtag_count": 15,
+          "hook": "일본에서 난리 난 이 디퓨저, 드디어 입고",
+          "file_path": "marketing/instagram/란도린-디퓨저-carousel-v2.json"
+        }
+      ],
+      "used_products": [
+        "란도린 리드디퓨저 클래식 플로럴"
+      ]
+    },
+    "naver_blog": {
+      "total_posts": 17,
+      "posts": [
+        {
+          "id": "blog-2026-04-26-란도린디퓨저",
+          "date": "2026-04-26",
+          "status": "draft",
+          "product_name": "Laundrin 란도린 디퓨저 Classic Floral",
+          "title": "집들이 선물로 난리 난 란도린 디퓨저, 직접 써봤습니다",
+          "category": "인테리어/리빙",
+          "keywords": [
+            "란도린디퓨저",
+            "일본디퓨저",
+            "리드디퓨저",
+            "클래식플로럴",
+            "인테리어방향제",
+            "홈프래그런스",
+            "일본구매대행",
+            "현관인테리어",
+            "집들이선물"
+          ],
+          "word_count": 1850,
+          "image_count": 6,
+          "store_link_count": 2,
+          "file_path": "marketing/naver-blog/란도린-디퓨저-클래식플로럴-리뷰.txt"
+        },
+        {
+          "id": "blog-2026-04-26-미키하우스반팔티",
+          "date": "2026-04-26",
+          "status": "draft",
+          "product_name": "미키하우스 심플로고 반팔티셔츠 핑크",
+          "title": "육아맘들 사이에서 난리 난 미키하우스 반팔티, 우리 아이한테 입혀봤어요",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "미키하우스반팔",
+            "일본아동복",
+            "일본유아복",
+            "아동복추천",
+            "유아복추천",
+            "어린이집등원",
+            "일본구매대행",
+            "육아맘추천"
+          ],
+          "word_count": 1650,
+          "image_count": 5,
+          "store_link_count": 2,
+          "file_path": "marketing/naver-blog/미키하우스-심플로고반팔티-핑크-리뷰.txt"
+        },
+        {
+          "id": "blog-2026-04-27-미키하우스백팩",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 8L 백팩 (3-4세)",
+          "title": "육아맘들 사이에서 난리 난 미키하우스 유아백팩, 어린이집 가방으로 딱이에요",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "미키하우스백팩",
+            "유아백팩",
+            "키즈백팩",
+            "어린이집가방",
+            "유치원가방",
+            "3세백팩",
+            "4세백팩",
+            "일본구매대행",
+            "육아맘추천"
+          ],
+          "word_count": 1700,
+          "image_count": 14,
+          "store_link_count": 2,
+          "color_options": [
+            "멀티컬러",
+            "네이비",
+            "레드"
+          ],
+          "price_range": "20만 원대",
+          "file_path": "marketing/naver-blog/미키하우스-8L-백팩-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-8L-백팩-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-미키하우스세일러칼라반팔티",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 세일러 칼라 토끼 자수 반팔티셔츠",
+          "title": "일본 육아맘들 사이에서 난리 난 미키하우스 세일러 칼라 반팔티, 우리 아이한테 입혀보니",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "미키하우스반팔티",
+            "세일러칼라티셔츠",
+            "일본아동복",
+            "일본유아복",
+            "베이비티셔츠",
+            "여아반팔",
+            "일본구매대행",
+            "일본직구",
+            "드리치시",
+            "육아맘추천",
+            "어린이집옷",
+            "오버롤이너",
+            "일본제아동복",
+            "MIKIHOUSE"
+          ],
+          "word_count": 1800,
+          "image_count": 7,
+          "store_link_count": 3,
+          "color_options": [
+            "핑크",
+            "화이트"
+          ],
+          "price_range": "1,999엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/미키하우스-세일러칼라-토끼반팔티-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-세일러칼라-토끼반팔티-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-미키하우스우산45cm",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 어린이 우산 45cm",
+          "title": "비 오는 날이 기다려지는 미키하우스 어린이 우산 45cm, 유치원 통원용 우산 추천",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "어린이우산",
+            "유아우산",
+            "45cm우산",
+            "유치원우산",
+            "통원용우산",
+            "키즈우산",
+            "일본브랜드우산",
+            "일본구매대행",
+            "드리치시",
+            "육아용품추천",
+            "레인용품",
+            "어린이집우산",
+            "유아레인용품",
+            "미키하우스정품"
+          ],
+          "word_count": 1750,
+          "image_count": 10,
+          "store_link_count": 3,
+          "color_options": [
+            "핑크(곰 로고)",
+            "멀티컬러(토끼 로고)"
+          ],
+          "price_range": "1,953엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/미키하우스-우산45cm-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-우산45cm-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-미키하우스레인코트",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 레인코트 (랜드셀 대응)",
+          "title": "비 오는 날 우리 아이 안전하게 지켜줄 미키하우스 레인코트, 일본 육아맘들이 먼저 알아본 이유",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "미키하우스레인코트",
+            "어린이레인코트",
+            "일본레인코트",
+            "유아우의",
+            "키즈레인웨어",
+            "어린이집우의",
+            "유치원우의",
+            "랜드셀대응",
+            "일본구매대행",
+            "일본직구",
+            "드리치시",
+            "육아맘추천",
+            "비오는날필수템",
+            "MIKIHOUSE"
+          ],
+          "word_count": 1650,
+          "image_count": 8,
+          "store_link_count": 3,
+          "color_options": [
+            "멀티컬러",
+            "핑크"
+          ],
+          "price_range": "2,659엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/미키하우스-레인코트-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-레인코트-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-프랑프랑에모벽시계",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "프랑프랑 에모 월클락 화이트",
+          "title": "집에 들어올 때마다 시간 확인하게 되는 프랑프랑 에모 벽시계 리뷰",
+          "category": "인테리어/리빙",
+          "keywords": [
+            "프랑프랑",
+            "프랑프랑벽시계",
+            "에모벽시계",
+            "일본인테리어",
+            "일본구매대행",
+            "일본직구",
+            "벽시계추천",
+            "인테리어시계",
+            "화이트시계",
+            "북유럽인테리어",
+            "모던인테리어",
+            "인테리어소품",
+            "집들이선물",
+            "드리치시",
+            "Francfranc"
+          ],
+          "word_count": 1650,
+          "image_count": 7,
+          "store_link_count": 2,
+          "color_options": [
+            "화이트"
+          ],
+          "price_range": "5,000엔대",
+          "file_path": "marketing/naver-blog/프랑프랑-에모벽시계-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/프랑프랑-에모벽시계-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-미키하우스베이비백팩데님",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 데님 베이비 백팩",
+          "title": "육아맘들 사이에서 난리 난 미키하우스 베이비 백팩, 우리 아기 첫 가방으로 딱이에요",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "미키하우스백팩",
+            "베이비백팩",
+            "유아백팩",
+            "아기가방",
+            "첫백팩",
+            "돌선물",
+            "어린이집가방",
+            "데님백팩",
+            "일본구매대행",
+            "드리치시",
+            "육아맘추천",
+            "일본유아용품",
+            "미키하우스정품",
+            "외출용품"
+          ],
+          "word_count": 1650,
+          "image_count": 12,
+          "store_link_count": 3,
+          "color_options": [
+            "핑크",
+            "멀티컬러"
+          ],
+          "price_range": "4,290엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/미키하우스-베이비리유크-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-베이비리유크-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-핫비스킷긴팔티",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 핫비스킷 스트라이프 긴팔 티셔츠",
+          "title": "육아맘들 사이에서 난리 난 미키하우스 핫비스킷 긴팔티, 환절기 등원복으로 딱이에요",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "핫비스킷",
+            "환절기아기옷",
+            "어린이집등원복",
+            "베이비긴팔티",
+            "일본아기옷",
+            "유아면티",
+            "스트라이프티셔츠",
+            "일본구매대행",
+            "드리치시"
+          ],
+          "word_count": 1850,
+          "image_count": 8,
+          "store_link_count": 3,
+          "color_options": [
+            "네이비/화이트",
+            "멀티컬러"
+          ],
+          "price_range": "1,999엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/핫비스킷-스트라이프긴팔티-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/핫비스킷-스트라이프긴팔티-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-핫비스킷긴팔티",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 핫비스킷 스트라이프 긴팔 티셔츠",
+          "title": "육아맘들 사이에서 난리 난 미키하우스 핫비스킷 긴팔티, 환절기 등원복으로 딱이에요",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "핫비스킷",
+            "환절기아기옷",
+            "어린이집등원복",
+            "베이비긴팔티",
+            "일본아기옷",
+            "유아면티",
+            "스트라이프티셔츠",
+            "일본구매대행",
+            "드리치시"
+          ],
+          "word_count": 1850,
+          "image_count": 8,
+          "store_link_count": 3,
+          "color_options": [
+            "네이비/화이트",
+            "멀티컬러"
+          ],
+          "price_range": "1,999엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/핫비스킷-스트라이프긴팔티-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/핫비스킷-스트라이프긴팔티-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-프랑프랑에코퍼슬리퍼",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "프랑프랑 에코퍼 × 플레이트 룸슈즈",
+          "title": "프랑프랑 에코퍼 슬리퍼 일본구매대행 후기, 집에서도 예쁘게 신는 법",
+          "category": "인테리어/리빙",
+          "keywords": [
+            "프랑프랑",
+            "프랑프랑슬리퍼",
+            "일본구매대행",
+            "일본직구",
+            "에코퍼슬리퍼",
+            "실내화추천",
+            "겨울슬리퍼",
+            "홈웨어",
+            "일본인테리어",
+            "드리치시",
+            "Francfranc",
+            "룸슈즈",
+            "인테리어소품",
+            "집꾸미기"
+          ],
+          "word_count": 1700,
+          "image_count": 8,
+          "store_link_count": 3,
+          "color_options": [
+            "핑크",
+            "베이지"
+          ],
+          "file_path": "marketing/naver-blog/프랑프랑-에코퍼슬리퍼-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/프랑프랑-에코퍼슬리퍼-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-핫비스킷키즈슈즈",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 핫비스킷 키즈 운동화 71-9401-495",
+          "title": "육아맘들 사이에서 난리 난 미키하우스 핫비스킷 운동화, 우리 아이 첫 신발로 딱이에요",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "핫비스킷",
+            "아동운동화",
+            "유아신발",
+            "걸음마신발",
+            "일본유아용품",
+            "일본구매대행",
+            "일본직구",
+            "드리치시",
+            "첫신발",
+            "어린이집신발",
+            "유치원신발",
+            "통기성운동화",
+            "벨크로신발",
+            "육아맘추천"
+          ],
+          "word_count": 1650,
+          "image_count": 9,
+          "store_link_count": 3,
+          "color_options": [
+            "핑크",
+            "화이트",
+            "멀티컬러"
+          ],
+          "price_range": "7,920엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/핫비스킷-키즈슈즈-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/핫비스킷-키즈슈즈-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-27-미키하우스토끼텐갤론햇",
+          "date": "2026-04-27",
+          "status": "draft",
+          "product_name": "미키하우스 토끼 텐갤론햇 (12-9106-144)",
+          "title": "여름나들이 필수템! 미키하우스 토끼 텐갤론햇 자외선 차단 햇빛가리개 모자",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "일본구매대행",
+            "일본직구",
+            "유아모자",
+            "아기여름모자",
+            "텐갤론햇",
+            "자외선차단모자",
+            "햇빛가리개모자",
+            "여름아기템",
+            "육아맘추천",
+            "일본유아용품",
+            "드리치시",
+            "MIKIHOUSE",
+            "베이비햇",
+            "키즈모자"
+          ],
+          "word_count": 1750,
+          "image_count": 6,
+          "store_link_count": 3,
+          "color_options": [
+            "핑크 (토끼 자수)"
+          ],
+          "price_range": "1,650엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/미키하우스-토끼텐갤론햇-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-토끼텐갤론햇-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-28-미키하우스레슨백",
+          "date": "2026-04-28",
+          "status": "draft",
+          "product_name": "미키하우스 레슨백 (10-8299-575)",
+          "title": "미키하우스 레슨백 일본구매대행 후기, 유치원 가방으로 딱이에요",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "레슨백",
+            "일본구매대행",
+            "일본직구",
+            "유치원가방",
+            "어린이집가방",
+            "통원가방",
+            "레슨가방",
+            "나일론가방",
+            "일본제",
+            "육아맘추천",
+            "드리치시",
+            "MIKIHOUSE",
+            "키즈백",
+            "준비물가방"
+          ],
+          "word_count": 1600,
+          "image_count": 7,
+          "store_link_count": 3,
+          "color_options": [
+            "레드",
+            "네이비",
+            "핑크"
+          ],
+          "price_range": "5,500엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/미키하우스-레슨백-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-레슨백-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-28-젤라토피케사쿠라원피스",
+          "date": "2026-04-28",
+          "status": "draft",
+          "product_name": "젤라토피케 사쿠라 원피스 PWCO261306",
+          "title": "봄 감성 가득 젤라토피케 사쿠라 원피스 일본구매대행 후기",
+          "category": "인테리어/리빙",
+          "keywords": [
+            "젤라토피케",
+            "gelato pique",
+            "사쿠라원피스",
+            "일본구매대행",
+            "일본직구",
+            "홈웨어",
+            "룸웨어",
+            "벚꽃원피스",
+            "봄원피스",
+            "카ップ인원피스",
+            "일본패션",
+            "드리치시"
+          ],
+          "word_count": 1650,
+          "image_count": 7,
+          "store_link_count": 2,
+          "color_options": [
+            "라이트 핑크 (LPNK)",
+            "핑크 (PNK)"
+          ],
+          "price_range": "10,780엔 (일본 정가)",
+          "file_path": "marketing/naver-blog/젤라토피케-사쿠라원피스-blogspot.html",
+          "blogspot_file": "marketing/naver-blog/젤라토피케-사쿠라원피스-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-28-미키하우스6부하프팬츠",
+          "date": "2026-04-28",
+          "status": "draft",
+          "product_name": "미키하우스 6부 하프팬츠 (10-3129-688)",
+          "title": "여름철 활동적인 우리 아이를 위한 미키하우스 6부 하프팬츠, 색상 선택의 즐거움",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "6부하프팬츠",
+            "미키하우스팬츠",
+            "여름아동복",
+            "일본아동복",
+            "키즈하프팬츠",
+            "통원복",
+            "통학복",
+            "일본구매대행",
+            "일본직구",
+            "드리치시",
+            "육아맘추천",
+            "MIKIHOUSE",
+            "트윌팬츠",
+            "베이비하프팬츠"
+          ],
+          "word_count": 1850,
+          "image_count": 10,
+          "store_link_count": 3,
+          "color_options": [
+            "레드",
+            "살몬핑크",
+            "그린",
+            "블루",
+            "블랙",
+            "라이트브라운"
+          ],
+          "price_range": "일본 현지가",
+          "file_path": "marketing/naver-blog/미키하우스-6부하프팬츠-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-6부하프팬츠-blogspot.html"
+        },
+        {
+          "id": "blog-2026-04-28-미키하우스데님7부팬츠",
+          "date": "2026-04-28",
+          "status": "draft",
+          "product_name": "미키하우스 데님 7부팬츠 (로고/곰/토끼)",
+          "title": "여름 아동복 필수템! 미키하우스 데님 7부팬츠, 일본구매대행으로 만나다",
+          "category": "육아/유아용품",
+          "keywords": [
+            "미키하우스",
+            "데님팬츠",
+            "7부팬츠",
+            "일본아동복",
+            "여름아동복",
+            "일본구매대행",
+            "일본직구",
+            "드리치시",
+            "MIKIHOUSE",
+            "육아맘추천",
+            "어린이집옷",
+            "일본제",
+            "키즈팬츠",
+            "유치원옷"
+          ],
+          "word_count": 1850,
+          "image_count": 13,
+          "store_link_count": 3,
+          "color_options": [
+            "네이비",
+            "핑크"
+          ],
+          "price_range": "3,690엔 (일본 현지가)",
+          "file_path": "marketing/naver-blog/미키하우스-데님7부팬츠-리뷰.txt",
+          "blogspot_file": "marketing/naver-blog/미키하우스-데님7부팬츠-blogspot.html"
+        }
+      ],
+      "used_products": [
+        "Laundrin 란도린 디퓨저 Classic Floral",
+        "미키하우스 심플로고 반팔티셔츠 핑크",
+        "미키하우스 8L 백팩",
+        "미키하우스 로고 캔버스 토트백",
+        "미키하우스 세일러 칼라 토끼 자수 반팔티셔츠",
+        "미키하우스 어린이 우산 45cm",
+        "미키하우스 레인코트",
+        "미키하우스 데님 베이비 백팩",
+        "미키하우스 핫비스킷 스트라이프 긴팔 티셔츠",
+        "프랑프랑 에코퍼 × 플레이트 룸슈즈",
+        "미키하우스 핫비스킷 키즈 운동화",
+        "미키하우스 토끼 텐갤론햇",
+        "미키하우스 레슨백",
+        "젤라토피케 사쿠라 원피스",
+        "미키하우스 데님 7부팬츠"
+      ]
+    }
+  },
+  "duplicate_prevention": {
+    "threads": {
+      "blocked_title_patterns": [
+        "30대가 되고 배운",
+        "고급스러워 보이는 사람들의",
+        "여유 있는 사람들의 언어",
+        "품격이 드러나는 순간",
+        "부자들의 고급 취미",
+        "부자집의 특징",
+        "품격 있는 사람들의 공통점",
+        "30대 초반에 끊은 소비",
+        "취향 있는 집에 꼭 있는 것들",
+        "연봉 1억 넘는 사람들이 절대 안 하는 말",
+        "돈을 아끼지 않는 것들",
+        "진짜 부자들의 아침 루틴",
+        "40대 여성의 옷장에 꼭 있는",
+        "자산 10억 부자들이 절대 안 사는",
+        "진짜 여유 있는 사람들의 주말"
+      ],
+      "blocked_item_themes": [
+        "비싼 게 아니라 오래 쓸 걸",
+        "유행보다 내 취향",
+        "로고보다 브랜드 철학",
+        "침대와 의자엔 돈을 아끼지",
+        "은은한 향이 먼저 느껴진다",
+        "조명이 부드럽다",
+        "공간에 여백이 있다",
+        "알람 없이 일어난다",
+        "핸드폰보다 물 한 잔",
+        "유행은 지나가지만 취향은 남는다"
+      ]
+    }
+  }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 곰 로고 티셔츠 - Slide 5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, #FFD700 0%, #FFC000 50%, #FFB700 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .pattern-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle, rgba(255,255,255,0.2) 2px, transparent 2px);
+            background-size: 25px 25px;
+        }
+        .content {
+            padding: 80px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        .brand-logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: #C8102E;
+            letter-spacing: 3px;
+        }
+        .slide-num {
+            font-size: 18px;
+            color: rgba(0,0,0,0.4);
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .feature-tag {
+            background: #C8102E;
+            color: white;
+            padding: 10px 24px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 25px;
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+        .main-title {
+            font-size: 56px;
+            font-weight: 900;
+            color: #1D3557;
+            line-height: 1.3;
+            margin-bottom: 30px;
+        }
+        .description {
+            font-size: 24px;
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 50px;
+        }
+        .unisex-visual {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .gender-icon {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .plus-sign {
+            font-size: 50px;
+            font-weight: 300;
+            color: #C8102E;
+        }
+        .equal-sign {
+            font-size: 50px;
+            font-weight: 300;
+            color: #1D3557;
+        }
+        .heart-icon {
+            width: 120px;
+            height: 120px;
+            background: #C8102E;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            box-shadow: 0 10px 30px rgba(200,16,46,0.3);
+        }
+        .benefits {
+            display: flex;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .benefit-tag {
+            background: white;
+            color: #1D3557;
+            padding: 15px 25px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 600;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="pattern-overlay"></div>
+
+    <div class="content">
+        <div class="header">
+            <div class="brand-logo">MIKIHOUSE</div>
+            <div class="slide-num">05 / 07</div>
+        </div>
+
+        <div class="main-content">
+            <div class="feature-tag">POINT 04</div>
+            <h2 class="main-title">
+                남녀공용<br>유니섹스 디자인
+            </h2>
+            <p class="description">
+                형제자매가 함께 입어도 좋고<br>
+                물려줘도 좋은 디자인
+            </p>
+
+            <div class="unisex-visual">
+                <div class="gender-icon">👦</div>
+                <div class="plus-sign">+</div>
+                <div class="gender-icon">👧</div>
+                <div class="equal-sign">=</div>
+                <div class="heart-icon">💛</div>
+            </div>
+
+            <div class="benefits">
+                <div class="benefit-tag">형제자매룩</div>
+                <div class="benefit-tag">물려입기 Good</div>
+                <div class="benefit-tag">선물용 추천</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

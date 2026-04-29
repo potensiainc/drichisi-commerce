@@ -1,0 +1,175 @@
+{
+  "product_name": "미키하우스 히코리 스트라이프 점퍼스커트",
+  "analyzed_at": "2026-04-26T23:30:00+09:00",
+  "meta": {
+    "original_name": "[ミキハウス] ジャンパースカート スカート ヒッコリー ロゴ 女の子 ベビー キッズ ベビー服 子供服 10-1826-495",
+    "brand": "MIKIHOUSE(ミキハウス)",
+    "price": {
+      "amount": "2,480",
+      "currency": "JPY"
+    },
+    "origin": "일본",
+    "review": {
+      "rating": "4.5",
+      "count": "2"
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0BSN7XHH6",
+    "product_id": "B0BSN7XHH6"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "아동의류",
+    "rationale": "베이비/키즈 여아용 점퍼스커트로, 80-130cm 사이즈 전개로 보아 유아~초등 저학년 대상 의류 카테고리"
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "original",
+    "spec_translation_notes": "일본어 상품명 및 설명을 한국어로 완전 번역. 브랜드명 '미키하우스'는 한국에서 통용되는 명칭 사용. 히코리 스트라이프는 패션 용어로 그대로 사용."
+  },
+  "risks": [
+    {
+      "type": "해외직구 고지",
+      "severity": "high",
+      "description": "일본 직구 상품으로 전자상거래법 상 해외 구매대행 고지 필수",
+      "action_required": "상품 상세페이지에 '본 제품은 해외 구매대행을 통해 유통되는 상품입니다' 고지문 삽입 필수"
+    },
+    {
+      "type": "A/S 및 품질보증",
+      "severity": "medium",
+      "description": "일본 브랜드 정품이나 국내 A/S 불가능할 수 있음",
+      "action_required": "교환/반품 정책 명시, A/S 제한 사항 안내"
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "일본 프리미엄 아동복 브랜드의 클래식 디자인",
+      "evidence": "미키하우스는 일본에서 40년 이상 사랑받는 프리미엄 아동복 브랜드. 히코리 스트라이프는 브랜드의 시그니처 패턴으로 타임리스한 디자인",
+      "emotional_hook": "아이가 자라도 물려줄 수 있는 옷. 세탁해도 변하지 않는 품질이 주는 안심."
+    },
+    {
+      "priority": 2,
+      "headline": "레드 타탄 체크 안감의 디테일",
+      "evidence": "안감은 레드 타탄 체크 패턴으로 처리되어 뒤집어도 예쁨. 어깨끈 조절 가능한 금속 버튼과 미키하우스 로고 자수",
+      "emotional_hook": "치마 안쪽까지 신경 쓴 디자인. 앉았다 일어날 때마다 보이는 빨간 체크 안감이 포인트."
+    },
+    {
+      "priority": 3,
+      "headline": "실용적인 점퍼 스타일",
+      "evidence": "어깨끈 길이 조절 가능, 앞가슴 포켓, 착탈 간편한 금속 버튼. 티셔츠와 레이어링하기 좋은 구조",
+      "emotional_hook": "아침마다 옷 고르느라 실랑이하던 시간이 사라진다. 흰 티 하나면 바로 완성되는 코디."
+    }
+  ],
+  "target": {
+    "primary_persona": "30-40대 워킹맘. 아이에게 질 좋은 옷을 입히고 싶지만 매번 새로 사기엔 부담스러운 분. 오래 입을 수 있는 베이직 아이템을 찾는다.",
+    "secondary_persona": "20-30대 육아 초보맘. SNS에서 본 일본 아동복 브랜드가 궁금했던 분. 귀엽지만 튀지 않는 디자인을 선호.",
+    "use_moments": [
+      "유치원/어린이집 등원복으로 매일 입기",
+      "주말 외출 시 티셔츠 하나만 바꿔가며 코디",
+      "동생이 생겼을 때 물려줄 수 있는 내구성"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "classic-nautical-heritage",
+    "tone_rationale": "히코리 스트라이프는 원래 작업복에서 유래한 내구성 강한 소재. 네이비 스트라이프와 레드 체크 조합은 미국 헤리티지 워크웨어의 정석. 미키하우스 특유의 클래식한 아동복 철학이 묻어나는 디자인으로, 트렌디하기보다는 타임리스하고 신뢰감 있는 톤이 적합.",
+    "color_palette": [
+      {
+        "hex": "#1a2a3a",
+        "role": "primary - 히코리 스트라이프 네이비",
+        "source": "상품 본체 스트라이프 네이비 컬러 추출"
+      },
+      {
+        "hex": "#d62839",
+        "role": "accent - 레드 타탄 체크 & 로고",
+        "source": "안감 레드 체크와 가슴 자수 로고 컬러"
+      },
+      {
+        "hex": "#f4f4f0",
+        "role": "secondary - 히코리 화이트 스트라이프",
+        "source": "상품 본체 흰색 스트라이프 라인"
+      },
+      {
+        "hex": "#b8975a",
+        "role": "detail - 골드 메탈 버튼",
+        "source": "어깨끈 조절 버튼 골드 컬러"
+      },
+      {
+        "hex": "#e8e4dc",
+        "role": "background - 내추럴 화이트",
+        "source": "상품 촬영 배경 톤 (중립 배경)"
+      }
+    ],
+    "typography_mood": "sans-serif clean with serif accent / 고딕 본문 + 명조 헤드라인 믹스 / 클래식하되 딱딱하지 않게",
+    "copy_voice": "신뢰감 있고 담백한 톤. 과장 없이 상품의 실체를 정직하게 전달. 엄마들이 궁금해하는 실용 정보(세탁, 내구성, 사이즈)에 집중.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "editorial-magazine",
+      "rationale": "히코리 소재의 질감과 디테일(스티치, 버튼, 안감)이 중요하므로 큰 사진으로 보여주되, 브랜드 헤리티지와 착용 시나리오는 에디토리얼 톤으로 설명"
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "thumbnail.jpg",
+      "role": "hero_candidate",
+      "description": "정면 풀샷, 히코리 스트라이프 전체 패턴과 레드 안감 보임, 클린한 화이트 배경"
+    },
+    {
+      "filename": "image_01.jpg",
+      "role": "hero_candidate",
+      "description": "후면 풀샷, 백 포켓과 레드 박스 로고 명확히 보임"
+    },
+    {
+      "filename": "image_02.jpg",
+      "role": "detail_shots",
+      "description": "가슴 포켓 클로즈업, mikihouse 레드 자수 로고와 금속 버튼 디테일"
+    },
+    {
+      "filename": "image_03.jpg",
+      "role": "scene_shots",
+      "description": "핸드헬드 촬영, 스커트의 움직임과 입체감 표현"
+    },
+    {
+      "filename": "image_04.jpg",
+      "role": "detail_shots",
+      "description": "어깨끈과 안감 레드 체크 디테일, miki house 브랜드 태그 보임"
+    },
+    {
+      "filename": "image_05.jpg",
+      "role": "spec_shots",
+      "description": "어깨끈 버튼 디테일과 스티치 마감 클로즈업"
+    },
+    {
+      "filename": "image_06.jpg",
+      "role": "detail_shots",
+      "description": "뒷주머니 mikihouse 자수와 miki house 브랜드 태그 클로즈업"
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 헤리티지",
+        "text": "일본 프리미엄 아동복,\n미키하우스의 시그니처 히코리 스트라이프."
+      },
+      {
+        "angle": "실용성 + 내구성",
+        "text": "세탁기 돌려도 변하지 않는 품질.\n동생에게 물려줄 수 있는 옷."
+      },
+      {
+        "angle": "디자인 완성도",
+        "text": "앞면은 네이비 스트라이프,\n안쪽은 레드 체크.\n뒤집어도 예쁜 점퍼스커트."
+      }
+    ],
+    "for_you_moments": [
+      "아이 옷장에 베이직 아이템 하나 제대로 갖추고 싶은 분께",
+      "유치원 등원복으로 매일 입혀도 질리지 않는 디자인 찾는 분께",
+      "일본 아동복 브랜드가 궁금했지만 어디서 살지 몰랐던 분께"
+    ],
+    "scenes": [
+      "등원 준비. 흰 티셔츠 하나만 입혀도 바로 완성되는 코디.",
+      "주말 나들이. 안감 빨간 체크가 살짝 보일 때마다 귀여운.",
+      "세탁기에 넣고 돌려도 걱정 없는. 내구성 좋은 히코리 소재."
+    ],
+    "closing": "매일 입는 옷이니까,\n오래 입을 수 있는 걸로."
+  }
+}

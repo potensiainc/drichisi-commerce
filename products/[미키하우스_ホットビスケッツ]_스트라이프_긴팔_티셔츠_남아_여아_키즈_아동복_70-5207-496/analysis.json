@@ -1,0 +1,202 @@
+{
+  "product_name": "미키하우스 핫비스킷 스트라이프 긴팔 티셔츠",
+  "analyzed_at": "2026-04-27T00:00:00+09:00",
+  "meta": {
+    "original_name": "ホットビスケッツ ボーダー長袖Tシャツ",
+    "brand": "미키하우스 핫비스킷 (MIKIHOUSE HOT BISCUITS)",
+    "price": {
+      "amount": "1999",
+      "currency": "JPY"
+    },
+    "origin": "일본",
+    "review": {
+      "rating": "불명",
+      "count": "불명"
+    },
+    "source_url": "불명",
+    "product_id": "70-5207-496",
+    "ranking": {
+      "category": "베이비 티셔츠",
+      "rank": 178
+    }
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "아동의류",
+    "rationale": "유아/아동 대상 긴팔 티셔츠로, 사이즈 80-120cm 범위의 베이비/키즈 카테고리에 해당"
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "both",
+    "spec_translation_notes": "브랜드명은 '미키하우스 핫비스킷'과 'MIKIHOUSE HOT BISCUITS' 병기. 소재명 '천축(텐쥬)'은 일본 원단 용어이므로 괄호로 원어 병기 권장"
+  },
+  "risks": [
+    {
+      "type": "KC 인증 대상",
+      "severity": "high",
+      "description": "아동용 섬유제품으로 KC 인증 필수 품목. 안전확인 대상 어린이제품 공급자 적합성 확인 필요",
+      "action_required": "KC 안전확인 인증번호 확보 또는 '해외직구 상품으로 KC 인증 대상 아님' 고지 필수"
+    },
+    {
+      "type": "해외직구 병행수입 고지",
+      "severity": "high",
+      "description": "일본 직구 상품으로 전자상거래법상 해외직구 고지 의무",
+      "action_required": "상세페이지에 '본 제품은 해외 직구 상품입니다', 'A/S는 판매자 또는 제조사 해외 본사를 통해 진행' 등 고지 필수"
+    },
+    {
+      "type": "언어 표기 이슈",
+      "severity": "medium",
+      "description": "원본 데이터에 일본어 표기 다수 (ボーダー, 長袖Tシャツ 등)",
+      "action_required": "모든 일본어 표기를 한국어로 자연스럽게 번역. 단, 브랜드명 'ホットビスケッツ'는 '핫비스킷'으로 음차"
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "환절기 체온 조절에 딱 맞는 두께감",
+      "evidence": "약간 두께감 있는 천축(텐쥬) 면 원단 사용. 너무 얇지도 두껍지도 않아 봄/가을 환절기 착용 최적화",
+      "emotional_hook": "아침엔 쌀쌀하고 낮엔 따뜻한 요즘 같은 날, 외출복 고민 없이 입히기 딱 좋은 두께예요"
+    },
+    {
+      "priority": 2,
+      "headline": "세탁기 돌려도 변형 없는 튼튼한 원단",
+      "evidence": "천축 면 소재로 세탁 후에도 형태 유지력 우수. 잦은 세탁에도 내구성 유지",
+      "emotional_hook": "아이 옷은 하루에도 몇 번씩 갈아입히는데, 세탁 걱정 없이 편하게 입힐 수 있어요"
+    },
+    {
+      "priority": 3,
+      "headline": "어깨 여밈으로 입히기 편한 디자인 (90cm 이하)",
+      "evidence": "90cm 이하 사이즈는 어깨 부분에 스냅 버튼 여밈 방식 적용",
+      "emotional_hook": "아직 팔을 잘 못 올리는 아기에게 옷 입히는 건 전쟁인데, 어깨 여밈이라 머리 눌러 끼울 걱정이 없어요"
+    },
+    {
+      "priority": 4,
+      "headline": "어린이집 단체생활에 필수, 네임 태그 부착",
+      "evidence": "이름표를 달 수 있는 네임 태그가 기본 부착",
+      "emotional_hook": "어린이집 가방에서 내 아이 옷 찾기, 이름표 하나면 끝이죠"
+    },
+    {
+      "priority": 5,
+      "headline": "미키하우스의 Good Quality 철학",
+      "evidence": "일본 제조, 미키하우스 핫비스킷 브랜드의 품질 기준. 안심할 수 있는 소재와 마감",
+      "emotional_hook": "아이 피부에 닿는 옷이니까, 믿을 수 있는 브랜드가 중요해요"
+    }
+  ],
+  "target": {
+    "primary_persona": "생후 12개월~5세 유아/아동을 키우는 30대 엄마. 어린이집/유치원 통원 중이며 실용성과 품질을 동시에 중시. 일본 육아 브랜드에 대한 신뢰도가 높고, 세탁 편의성과 내구성을 구매 결정 요인으로 꼽음",
+    "secondary_persona": "첫 아이를 출산한 20대 후반 초보 엄마. 아기 옷 입히기에 아직 서툴러 편의 기능(어깨 여밈 등)을 중요시하며, SNS 육아 커뮤니티에서 추천받은 제품을 선호",
+    "use_moments": [
+      "어린이집 등원복으로 매일 아침 입히는 순간",
+      "환절기 외출 시 카디건 안에 레이어링하는 순간",
+      "집에서 편하게 놀 때 데일리 홈웨어로 입히는 순간"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "natural · soft · playful",
+    "tone_rationale": "유아 의류라는 카테고리 특성상 부드럽고 친근한 분위기가 필요하며, 멀티컬러 옵션의 밝은 스트라이프는 playful함을 더함. 동시에 네이비/화이트 옵션은 내추럴하고 베이직한 감성. 브랜드 철학인 'Good Quality'를 신뢰감 있게 전달하되, 딱딱하지 않은 부모 공감형 톤이 적합",
+    "color_palette": [
+      {
+        "hex": "#2B3E50",
+        "role": "primary - 네이비 스트라이프",
+        "source": "네이비/화이트 옵션의 스트라이프 네이비 컬러에서 추출"
+      },
+      {
+        "hex": "#F5F3ED",
+        "role": "secondary - 베이직 베이지/화이트",
+        "source": "두 옵션 모두의 베이스 화이트/베이지 톤에서 추출"
+      },
+      {
+        "hex": "#C8434E",
+        "role": "accent 1 - 멀티컬러 레드",
+        "source": "멀티컬러 옵션의 레드 스트라이프에서 추출"
+      },
+      {
+        "hex": "#4A9B7F",
+        "role": "accent 2 - 멀티컬러 그린",
+        "source": "멀티컬러 옵션의 그린 스트라이프에서 추출"
+      },
+      {
+        "hex": "#D9A866",
+        "role": "accent 3 - 곰 와펜 브라운",
+        "source": "로고 와펜의 곰 캐릭터 베이지/브라운 톤에서 추출"
+      }
+    ],
+    "typography_mood": "sans-serif + rounded · 부드럽고 읽기 편한 폰트. 헤드라인은 약간의 라운드감이 있는 산세리프(예: Noto Sans KR Medium)로 친근함 표현. 본문은 가독성 좋은 일반 산세리프",
+    "copy_voice": "친근하고 공감하는 엄마 친구 톤. '~죠', '~예요' 어미 적절히 활용. 딱딱한 상품 설명보다는 육아 현장의 고민을 건드리는 공감형 카피",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "grid-modular",
+      "rationale": "아동복은 실물 착용 이미지가 구매 결정에 가장 중요. 멀티컬러 옵션의 모델 착용 컷과 디테일 클로즈업을 크게 배치하는 photo-dominant 레이아웃 우선. 두 가지 컬러 옵션과 5가지 사이즈를 명확히 보여주기 위해 grid-modular 방식으로 옵션 비교 섹션 추가"
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "ネイビー_ホワイト/thumbnail.jpg",
+      "role": "hero_candidate",
+      "description": "네이비/화이트 스트라이프 정면 플랫 레이(평면 촬영). 어깨 여밈 버튼과 곰 와펜 로고 명확히 노출"
+    },
+    {
+      "filename": "ネイビー_ホワイト/image_01.jpg",
+      "role": "option_shots",
+      "description": "네이비/화이트 후면 플랫 레이. 스트라이프 패턴 전체 확인 가능"
+    },
+    {
+      "filename": "ネイビー_ホワイト/image_02.jpg",
+      "role": "detail_shots",
+      "description": "곰 와펜 로고 초클로즈업. 'HOT BISCUITS' 자수 디테일과 원단 질감 확인 가능"
+    },
+    {
+      "filename": "ネイビー_ホワイト/image_03.jpg",
+      "role": "detail_shots",
+      "description": "네임 태그 클로즈업. 어깨 여밈 스냅 버튼과 'NAME' 태그 위치 확인"
+    },
+    {
+      "filename": "マルチカラー/thumbnail.jpg",
+      "role": "hero_candidate",
+      "description": "멀티컬러 스트라이프 정면 플랫 레이. 레드/그린/퍼플/옐로우 등 다채로운 스트라이프와 곰 와펜 노출"
+    },
+    {
+      "filename": "マルチカラー/image_01.jpg",
+      "role": "scene_shots",
+      "description": "멀티컬러 착용 모델 컷 (남아). 실제 착용 시 핏과 분위기 확인 가능. 밝은 표정의 아이 이미지로 상품의 playful함 전달"
+    },
+    {
+      "filename": "マルチカラー/image_02.jpg",
+      "role": "option_shots",
+      "description": "멀티컬러 후면 플랫 레이. 전체 스트라이프 패턴 확인"
+    },
+    {
+      "filename": "マルチカラー/image_03.jpg",
+      "role": "detail_shots",
+      "description": "멀티컬러 곰 와펜 초클로즈업. 컬러풀한 'HOT BISCUITS' 자수와 원단 질감 디테일"
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "사용 순간 훅",
+        "text": "아침엔 쌀쌀하고 낮엔 따뜻한 요즘 같은 날,\n외출복 고민 없이 입히기 딱 좋은 두께예요."
+      },
+      {
+        "angle": "기능 훅",
+        "text": "세탁기 돌려도 변형 없이 튼튼하고,\n어깨 여밈이라 입히기도 편해요.\n환절기 데일리 베이직, 한 장이면 충분합니다."
+      },
+      {
+        "angle": "브랜드 스토리 훅",
+        "text": "미키하우스 핫비스킷의 Good Quality.\n아이 피부에 닿는 옷이니까,\n믿을 수 있는 브랜드로 선택했어요."
+      }
+    ],
+    "for_you_moments": [
+      "어린이집 등원복으로 매일 입히는데 세탁 걱정 없는 튼튼한 옷이 필요한 분께",
+      "아직 팔을 잘 못 올리는 아기에게 옷 입히기가 힘드셨던 분께",
+      "환절기 아이 외출복 레이어링 고민이 많으셨던 분께"
+    ],
+    "scenes": [
+      "어린이집 아침 등원 준비. 서둘러 입혀야 하는데 어깨 여밈이라 10초 컷.",
+      "주말 공원 나들이. 아침 햇살에 카디건 입혔다가 낮에는 벗기고, 티셔츠 한 장으로도 딱 좋은 기온.",
+      "집에서 뛰어노는 평일 저녁. 부드러운 천축 원단이라 온종일 입혀도 편안해 보여요."
+    ],
+    "closing": "매일 기분 좋게, 건강하게.\n미키하우스 핫비스킷"
+  }
+}

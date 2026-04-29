@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: linear-gradient(135deg, #C8102E 0%, #8B0000 100%);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 80px;
+    }
+    .gold-accent {
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(255,215,0,0.2) 0%, transparent 60%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .brand-logo {
+      font-size: 28px;
+      font-weight: 700;
+      color: #FFD700;
+      letter-spacing: 4px;
+      margin-bottom: 60px;
+      z-index: 10;
+    }
+    .product-images {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 60px;
+      z-index: 10;
+    }
+    .product-img {
+      width: 280px;
+      height: 280px;
+      object-fit: contain;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      padding: 20px;
+    }
+    .closing-text {
+      font-size: 52px;
+      font-weight: 900;
+      color: white;
+      text-align: center;
+      line-height: 1.4;
+      margin-bottom: 50px;
+      z-index: 10;
+    }
+    .closing-text span {
+      color: #FFD700;
+    }
+    .cta-button {
+      background: #FFD700;
+      color: #333;
+      padding: 25px 80px;
+      font-size: 28px;
+      font-weight: 700;
+      border-radius: 50px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      z-index: 10;
+    }
+    .price-info {
+      margin-top: 30px;
+      color: rgba(255,255,255,0.9);
+      font-size: 24px;
+      z-index: 10;
+    }
+    .price-info .price {
+      font-size: 36px;
+      font-weight: 700;
+      color: #FFD700;
+    }
+    .footer-info {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      z-index: 10;
+    }
+    .footer-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.8);
+      font-size: 16px;
+    }
+    .footer-icon {
+      width: 24px;
+      height: 24px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="gold-accent"></div>
+
+    <p class="brand-logo">MIKIHOUSE</p>
+
+    <div class="product-images">
+      <img class="product-img" src="../../products/[미키하우스]_レインブーツ_10-9471-684_키즈/images/multicolor/image_01.jpg" alt="멀티컬러">
+      <img class="product-img" src="../../products/[미키하우스]_レインブーツ_10-9471-684_키즈/images/pink/image_01.jpg" alt="핑크">
+    </div>
+
+    <h2 class="closing-text">비 오는 날도,<br><span>즐거운 외출로.</span></h2>
+
+    <div class="cta-button">프로필 링크에서 구매하기</div>
+
+    <p class="price-info">일본 직구가 <span class="price">1,953엔~</span></p>
+
+    <div class="footer-info">
+      <div class="footer-item">
+        <div class="footer-icon">✓</div>
+        <span>일본 정품</span>
+      </div>
+      <div class="footer-item">
+        <div class="footer-icon">✓</div>
+        <span>반사테이프</span>
+      </div>
+      <div class="footer-item">
+        <div class="footer-icon">✓</div>
+        <span>이름스티커 포함</span>
+      </div>
+      <div class="footer-item">
+        <div class="footer-icon">✓</div>
+        <span>13-19cm</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

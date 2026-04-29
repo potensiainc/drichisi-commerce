@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "analyzed_at": "2026-04-26T23:30:00+09:00",
+    "product_name": "미키하우스 데님 베이비 백팩",
+    "brand": "미키하우스",
+    "model_number": "10-8202-496",
+    "category": "육아/유아용품 > 외출용품 > 유아백팩",
+    "target_age": "베이비~키즈 (6개월~3세)",
+    "target_gender": "남아/여아 공용"
+  },
+  "language_handling": {
+    "brand_name_policy": "original",
+    "brand_name_original": "MIKIHOUSE",
+    "brand_name_kr": "미키하우스",
+    "brand_name_final": "미키하우스",
+    "rationale": "미키하우스는 한국에서도 원어 '미키하우스'로 널리 알려진 일본 프리미엄 아동복 브랜드입니다. 공식 한국 표기도 '미키하우스'를 사용하므로 original 정책을 적용합니다."
+  },
+  "product_summary": {
+    "main_category": "유아 백팩",
+    "key_features": [
+      "일본 프리미엄 베이비 브랜드 미키하우스의 데님 백팩",
+      "부드러운 데님 소재로 아기 피부에 자극 없음",
+      "귀여운 미키하우스 로고 자수",
+      "가벼운 무게로 아기가 메기 편함",
+      "조절 가능한 어깨끈",
+      "2가지 컬러 옵션: 핑크, 멀티컬러"
+    ],
+    "target_customer": "생후 6개월~3세 아기를 둔 부모",
+    "use_cases": [
+      "처음 백팩 데뷔하는 아기",
+      "어린이집/놀이터 외출용",
+      "간식/기저귀/물티슈 등 간단한 소지품 보관",
+      "아기 생일/돌 선물"
+    ],
+    "unique_selling_points": [
+      "미키하우스 프리미엄 품질 보장",
+      "부드럽고 가벼운 데님 소재",
+      "아기 체형에 맞는 작은 사이즈",
+      "귀여운 디자인"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "warm",
+    "color_palette": [
+      "#FFB6C1",
+      "#87CEEB",
+      "#FFE4E1",
+      "#FFF8DC",
+      "#F0F8FF"
+    ],
+    "layout_hint": "귀여운 아기가 백팩을 멘 이미지를 HERO로 배치하고, 부드러운 데님 소재와 디테일을 강조하는 섹션 구성. 파스텔 톤의 부드러운 분위기.",
+    "mood_keywords": [
+      "사랑스러운",
+      "부드러운",
+      "안전한",
+      "귀여운",
+      "프리미엄"
+    ]
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "first_backpack",
+        "text": "우리 아기 첫 백팩, 미키하우스로 시작하세요",
+        "why_effective": "아기의 첫 백팩이라는 특별한 순간을 강조하여 부모의 감성을 자극"
+      },
+      {
+        "angle": "premium_quality",
+        "text": "일본 프리미엄 베이비 브랜드의 부드러운 데님 백팩",
+        "why_effective": "미키하우스의 프리미엄 브랜드 가치와 소재의 부드러움을 동시에 강조"
+      },
+      {
+        "angle": "lightweight_comfort",
+        "text": "가벼워서 아기가 좋아하는 백팩",
+        "why_effective": "아기의 편안함을 최우선으로 생각하는 부모의 니즈 직접 반영"
+      },
+      {
+        "angle": "cute_design",
+        "text": "어디서나 눈에 띄는 미키하우스 로고 백팩",
+        "why_effective": "미키하우스의 상징성과 귀여운 디자인을 강조"
+      }
+    ],
+    "feature_headlines": [
+      {
+        "feature": "소재",
+        "headline": "부드러운 데님 소재",
+        "body": "아기 피부에 자극 없는 부드러운 데님 소재를 사용했습니다. 가볍고 통기성이 좋아 여름에도 쾌적합니다."
+      },
+      {
+        "feature": "디자인",
+        "headline": "귀여운 미키하우스 로고",
+        "body": "미키하우스의 시그니처 로고가 자수로 새겨져 있어 어디서나 눈에 띕니다."
+      },
+      {
+        "feature": "기능성",
+        "headline": "조절 가능한 어깨끈",
+        "body": "아기 체형에 맞게 어깨끈 길이를 조절할 수 있어 오래 사용할 수 있습니다."
+      },
+      {
+        "feature": "크기",
+        "headline": "아기에게 딱 맞는 사이즈",
+        "body": "간식, 물병, 작은 장난감 등을 넣기에 적당한 크기입니다. 너무 크지 않아 아기가 메기 편합니다."
+      }
+    ]
+  },
+  "image_inventory": [
+    {
+      "filename": "pink/image_01.jpg",
+      "suggested_use": "hero",
+      "caption": "핑크 색상 베이비 백팩 전면",
+      "alt_text": "미키하우스 데님 베이비 백팩 핑크"
+    },
+    {
+      "filename": "pink/image_02.jpg",
+      "suggested_use": "detail",
+      "caption": "아기가 핑크 백팩을 멘 모습",
+      "alt_text": "아기가 미키하우스 백팩을 메고 있는 모습"
+    },
+    {
+      "filename": "pink/image_03.jpg",
+      "suggested_use": "detail",
+      "caption": "핑크 백팩 측면",
+      "alt_text": "미키하우스 베이비 백팩 측면 디테일"
+    },
+    {
+      "filename": "pink/image_04.jpg",
+      "suggested_use": "detail",
+      "caption": "핑크 백팩 후면",
+      "alt_text": "미키하우스 베이비 백팩 후면"
+    },
+    {
+      "filename": "pink/image_05.jpg",
+      "suggested_use": "detail",
+      "caption": "핑크 백팩 내부",
+      "alt_text": "미키하우스 베이비 백팩 내부"
+    },
+    {
+      "filename": "pink/image_06.jpg",
+      "suggested_use": "detail",
+      "caption": "핑크 백팩 어깨끈 디테일",
+      "alt_text": "미키하우스 베이비 백팩 어깨끈"
+    },
+    {
+      "filename": "pink/image_07.jpg",
+      "suggested_use": "size_reference",
+      "caption": "핑크 백팩 사이즈 비교",
+      "alt_text": "미키하우스 베이비 백팩 사이즈"
+    },
+    {
+      "filename": "multicolor/image_01.jpg",
+      "suggested_use": "hero",
+      "caption": "멀티컬러 색상 베이비 백팩 전면",
+      "alt_text": "미키하우스 데님 베이비 백팩 멀티컬러"
+    },
+    {
+      "filename": "multicolor/image_02.jpg",
+      "suggested_use": "detail",
+      "caption": "아기가 멀티컬러 백팩을 멘 모습",
+      "alt_text": "아기가 미키하우스 백팩을 메고 있는 모습"
+    },
+    {
+      "filename": "multicolor/image_03.jpg",
+      "suggested_use": "detail",
+      "caption": "멀티컬러 백팩 측면",
+      "alt_text": "미키하우스 베이비 백팩 측면 디테일"
+    },
+    {
+      "filename": "multicolor/image_04.jpg",
+      "suggested_use": "detail",
+      "caption": "멀티컬러 백팩 후면",
+      "alt_text": "미키하우스 베이비 백팩 후면"
+    },
+    {
+      "filename": "multicolor/image_05.jpg",
+      "suggested_use": "detail",
+      "caption": "멀티컬러 백팩 내부",
+      "alt_text": "미키하우스 베이비 백팩 내부"
+    },
+    {
+      "filename": "multicolor/image_06.jpg",
+      "suggested_use": "detail",
+      "caption": "멀티컬러 백팩 어깨끈 디테일",
+      "alt_text": "미키하우스 베이비 백팩 어깨끈"
+    },
+    {
+      "filename": "multicolor/image_07.jpg",
+      "suggested_use": "size_reference",
+      "caption": "멀티컬러 백팩 사이즈 비교",
+      "alt_text": "미키하우스 베이비 백팩 사이즈"
+    }
+  ],
+  "compliance_check": {
+    "kc_certification": {
+      "required": false,
+      "rationale": "백팩은 KC인증 대상이 아닙니다. 절대 언급하지 않습니다."
+    },
+    "age_warning": {
+      "required": true,
+      "text": "36개월 미만 영유아는 보호자의 지도 하에 사용해주세요."
+    },
+    "material_safety": {
+      "verified": true,
+      "notes": "미키하우스는 일본의 안전 기준을 충족하는 프리미엄 브랜드입니다."
+    }
+  },
+  "risk_assessment": {
+    "group_a": [],
+    "group_b": [
+      {
+        "risk": "소재 표시 부족",
+        "mitigation": "데님 소재 명시, 단 정확한 혼용율은 제공되지 않음"
+      },
+      {
+        "risk": "세탁 방법 정보 부족",
+        "mitigation": "일반적인 데님 제품 세탁 방법 안내 가능"
+      }
+    ],
+    "overall_safety": "low_risk"
+  },
+  "seo_hints": {
+    "primary_keywords": [
+      "미키하우스 백팩",
+      "베이비 백팩",
+      "유아 백팩",
+      "아기 가방",
+      "미키하우스"
+    ],
+    "secondary_keywords": [
+      "데님 백팩",
+      "첫 백팩",
+      "어린이집 가방",
+      "돌선물",
+      "일본 유아용품"
+    ],
+    "avoid_terms": [
+      "아마존",
+      "일본 직구",
+      "해외 직구",
+      "엔화",
+      "¥"
+    ]
+  }
+}

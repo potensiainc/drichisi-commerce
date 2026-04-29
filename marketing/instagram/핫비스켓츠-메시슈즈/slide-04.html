@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>HOT BISCUITS - Slide 04</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #FFF8E7;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header .label {
+      display: inline-block;
+      background: #FFD700;
+      color: #333;
+      padding: 10px 28px;
+      border-radius: 25px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .header h2 {
+      font-size: 44px;
+      font-weight: 900;
+      color: #333;
+    }
+
+    .color-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      flex: 1;
+    }
+
+    .color-card {
+      background: white;
+      border-radius: 25px;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    }
+
+    .color-preview {
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 80px;
+      margin-bottom: 15px;
+    }
+
+    .color-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .color-tag {
+      font-size: 16px;
+      color: #999;
+    }
+
+    .pink-bg { background: linear-gradient(135deg, #FFE4EC, #FFB6C1); }
+    .blue-bg { background: linear-gradient(135deg, #E0F0FF, #87CEEB); }
+    .beige-bg { background: linear-gradient(135deg, #FFF5E6, #F5DEB3); }
+    .white-blue-bg { background: linear-gradient(135deg, #FFFFFF, #87CEEB); border: 2px solid #E8E8E8; }
+    .multi-bg { background: linear-gradient(135deg, #FFB6C1 0%, #87CEEB 50%, #F5DEB3 100%); }
+    .multi-n-bg { background: linear-gradient(45deg, #FF6B9D 0%, #4A90E2 50%, #FFD700 100%); }
+
+    .footer-note {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    .footer-note p {
+      font-size: 22px;
+      color: #666;
+    }
+
+    .footer-note span {
+      color: #FF6B9D;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="label">COLOR OPTIONS</span>
+      <h2>6가지 컬러 라인업</h2>
+    </div>
+
+    <div class="color-grid">
+      <div class="color-card">
+        <div class="color-preview pink-bg">👟</div>
+        <span class="color-name">핑크</span>
+        <span class="color-tag">#여아추천</span>
+      </div>
+
+      <div class="color-card">
+        <div class="color-preview blue-bg">👟</div>
+        <span class="color-name">블루</span>
+        <span class="color-tag">#남아추천</span>
+      </div>
+
+      <div class="color-card">
+        <div class="color-preview beige-bg">👟</div>
+        <span class="color-name">베이지</span>
+        <span class="color-tag">#유니섹스</span>
+      </div>
+
+      <div class="color-card">
+        <div class="color-preview white-blue-bg">👟</div>
+        <span class="color-name">화이트/블루</span>
+        <span class="color-tag">#청량감</span>
+      </div>
+
+      <div class="color-card">
+        <div class="color-preview multi-bg">👟</div>
+        <span class="color-name">멀티컬러</span>
+        <span class="color-tag">#인기컬러</span>
+      </div>
+
+      <div class="color-card">
+        <div class="color-preview multi-n-bg">👟</div>
+        <span class="color-name">멀티컬러(N)</span>
+        <span class="color-tag">#뉴컬렉션</span>
+      </div>
+    </div>
+
+    <div class="footer-note">
+      <p>우리 아기 <span>취향에 맞는 컬러</span>를 선택하세요!</p>
+    </div>
+  </div>
+</body>
+</html>

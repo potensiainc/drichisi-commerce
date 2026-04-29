@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "analyzed_at": "2026-04-26T23:30:00",
+    "product_id": "B0BSB636F2",
+    "source_platform": "해외 직구",
+    "brand": "MIKIHOUSE"
+  },
+  "language_handling": {
+    "brand_name_policy": "original",
+    "brand_name_display": "미키하우스",
+    "product_type_kr": "오버롤",
+    "mixed_usage_allowed": false,
+    "translation_notes": "브랜드명은 '미키하우스'로 한글 표기, 상품명은 순수 한글 번역"
+  },
+  "category": {
+    "primary": "유아동패션",
+    "secondary": "베이비/아동복",
+    "tags": ["오버롤", "사로펫", "여름옷", "면100%", "남녀공용", "베이비", "키즈", "심플로고"]
+  },
+  "design_direction": {
+    "color_palette": [
+      "#FFB6B0",
+      "#7FA68E",
+      "#000000",
+      "#E74C3C",
+      "#5B8DB8",
+      "#D4A574"
+    ],
+    "design_tone": "깔끔하고 심플한 베이직 디자인",
+    "layout_hint": "색상별 착용 이미지 강조, 디테일 샷 활용, 사이즈 표 필수"
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "brand_trust",
+        "text": "일본 아동복 1위 브랜드 미키하우스의 여름 필수템"
+      },
+      {
+        "angle": "material_quality",
+        "text": "순면 100% 통풍 좋은 6부 기장 오버롤"
+      },
+      {
+        "angle": "versatility",
+        "text": "남아 여아 모두 입기 좋은 베이직 디자인"
+      },
+      {
+        "angle": "color_variety",
+        "text": "6가지 컬러로 취향대로 선택하는 즐거움"
+      }
+    ],
+    "benefit_points": [
+      "면 100% 순면 소재로 피부 자극 최소화",
+      "6부 기장으로 여름철 시원하게",
+      "심플한 로고 디자인으로 오래 입어도 질리지 않음",
+      "어깨끈 조절 가능으로 오래 착용 가능",
+      "남녀 공용 디자인으로 형제자매 물려입기 좋음",
+      "6가지 컬러 옵션으로 다양한 코디 가능",
+      "3가지 사이즈(S/M/L)로 80~120cm 커버",
+      "일본 프리미엄 브랜드 품질"
+    ],
+    "risk_disclosure": {
+      "group_a": [],
+      "group_b": [
+        "해외 구매대행 상품으로 배송에 7-14일 소요될 수 있습니다",
+        "색상은 모니터 환경에 따라 실제와 다를 수 있습니다",
+        "사이즈는 일본 기준이므로 사이즈표를 필히 확인해주세요"
+      ]
+    }
+  },
+  "image_inventory": {
+    "hero_candidates": [
+      "images/salmon_pink/01.jpg",
+      "images/storm_green/01.jpg",
+      "images/black/01.jpg",
+      "images/red/01.jpg",
+      "images/storm_blue/01.jpg",
+      "images/light_brown/01.jpg"
+    ],
+    "lifestyle_images": [
+      "images/salmon_pink/02.jpg",
+      "images/storm_green/02.jpg",
+      "images/black/02.jpg",
+      "images/red/02.jpg",
+      "images/storm_blue/02.jpg",
+      "images/light_brown/02.jpg"
+    ],
+    "detail_shots": [
+      "images/salmon_pink/03.jpg",
+      "images/salmon_pink/04.jpg",
+      "images/salmon_pink/05.jpg",
+      "images/salmon_pink/06.jpg",
+      "images/salmon_pink/07.jpg"
+    ],
+    "color_variants": {
+      "salmon_pink": {
+        "name_kr": "샐몬핑크",
+        "images": [
+          "images/salmon_pink/01.jpg",
+          "images/salmon_pink/02.jpg",
+          "images/salmon_pink/03.jpg",
+          "images/salmon_pink/04.jpg",
+          "images/salmon_pink/05.jpg",
+          "images/salmon_pink/06.jpg",
+          "images/salmon_pink/07.jpg"
+        ]
+      },
+      "storm_green": {
+        "name_kr": "스톰그린",
+        "images": [
+          "images/storm_green/01.jpg",
+          "images/storm_green/02.jpg",
+          "images/storm_green/03.jpg",
+          "images/storm_green/04.jpg",
+          "images/storm_green/05.jpg",
+          "images/storm_green/06.jpg",
+          "images/storm_green/07.jpg"
+        ]
+      },
+      "black": {
+        "name_kr": "블랙",
+        "images": [
+          "images/black/01.jpg",
+          "images/black/02.jpg",
+          "images/black/03.jpg",
+          "images/black/04.jpg",
+          "images/black/05.jpg",
+          "images/black/06.jpg",
+          "images/black/07.jpg"
+        ]
+      },
+      "red": {
+        "name_kr": "레드",
+        "images": [
+          "images/red/01.jpg",
+          "images/red/02.jpg",
+          "images/red/03.jpg",
+          "images/red/04.jpg",
+          "images/red/05.jpg",
+          "images/red/06.jpg",
+          "images/red/07.jpg"
+        ]
+      },
+      "storm_blue": {
+        "name_kr": "스톰블루",
+        "images": [
+          "images/storm_blue/01.jpg",
+          "images/storm_blue/02.jpg",
+          "images/storm_blue/03.jpg",
+          "images/storm_blue/04.jpg",
+          "images/storm_blue/05.jpg",
+          "images/storm_blue/06.jpg",
+          "images/storm_blue/07.jpg"
+        ]
+      },
+      "light_brown": {
+        "name_kr": "라이트브라운",
+        "images": [
+          "images/light_brown/01.jpg",
+          "images/light_brown/02.jpg",
+          "images/light_brown/03.jpg",
+          "images/light_brown/04.jpg",
+          "images/light_brown/05.jpg",
+          "images/light_brown/06.jpg",
+          "images/light_brown/07.jpg"
+        ]
+      }
+    }
+  },
+  "spec_table": {
+    "브랜드": "미키하우스 (MIKIHOUSE)",
+    "원산지": "일본",
+    "소재": "면 100%",
+    "색상": "샐몬핑크, 스톰그린, 블랙, 레드, 스톰블루, 라이트브라운 (6종)",
+    "사이즈": "S, M, L",
+    "기장": "6부 (무릎 위)",
+    "디자인": "오버롤, 사로펫",
+    "성별": "남녀공용 (유니섹스)",
+    "연령": "베이비, 키즈 (약 80~120cm)",
+    "특징": "어깨끈 조절 가능, 심플 로고"
+  },
+  "trust_signals": {
+    "rating": "5점 만점 4.5점",
+    "review_count": 15,
+    "ranking": "베이비 로퍼스/커버올 카테고리 894위",
+    "brand_authority": "일본 프리미엄 아동복 브랜드 미키하우스",
+    "quality_indicators": [
+      "순면 100% 소재",
+      "일본 제조",
+      "어깨끈 조절 가능한 실용적 설계",
+      "6가지 컬러 옵션"
+    ]
+  }
+}

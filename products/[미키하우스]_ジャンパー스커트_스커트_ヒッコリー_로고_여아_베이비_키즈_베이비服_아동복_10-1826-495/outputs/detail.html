@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 여아 점퍼스커트 히코리 스트라이프 유치원 등원복</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&family=Pretendard:wght@300;400;500;600&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, sans-serif;
+            font-size: 15px;
+            line-height: 1.7;
+            color: #1a2a3a;
+            background: #ffffff;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+
+        /* SEO 상품명 라벨 */
+        .seo-label {
+            background: rgba(26, 42, 58, 0.08);
+            padding: 12px 24px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 500;
+            color: #1a2a3a;
+            letter-spacing: -0.02em;
+        }
+
+        /* HERO 섹션 */
+        .hero {
+            position: relative;
+            background: #e8e4dc;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .hero-brand {
+            font-family: 'Space Mono', monospace;
+            font-size: 12px;
+            letter-spacing: 0.08em;
+            color: #b8975a;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+        }
+
+        .hero-title {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 1.5;
+            color: #1a2a3a;
+            margin-bottom: 24px;
+        }
+
+        .hero-subtitle {
+            font-size: 16px;
+            line-height: 1.8;
+            color: rgba(26, 42, 58, 0.75);
+            margin-bottom: 40px;
+        }
+
+        .hero-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            border-radius: 4px;
+        }
+
+        /* 섹션 공통 */
+        .section {
+            padding: 80px 40px;
+        }
+
+        .section-alt {
+            background: #f4f4f0;
+        }
+
+        .section-dark {
+            background: #1a2a3a;
+            color: #ffffff;
+        }
+
+        .section-title {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 24px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 16px;
+            color: inherit;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 15px;
+            color: rgba(26, 42, 58, 0.65);
+            margin-bottom: 48px;
+            line-height: 1.8;
+        }
+
+        .section-dark .section-subtitle {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* STORY 섹션 */
+        .story-content {
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        .story-paragraph {
+            margin-bottom: 24px;
+            line-height: 1.9;
+            text-align: center;
+        }
+
+        .story-highlight {
+            font-weight: 600;
+            color: #d62839;
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .story-item {
+            text-align: center;
+        }
+
+        .story-item-title {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #1a2a3a;
+        }
+
+        .story-item-text {
+            font-size: 14px;
+            line-height: 1.8;
+            color: rgba(26, 42, 58, 0.75);
+        }
+
+        /* DETAILS 섹션 */
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .detail-item {
+            text-align: center;
+        }
+
+        .detail-image {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 16px;
+        }
+
+        .detail-title {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #1a2a3a;
+        }
+
+        .detail-text {
+            font-size: 14px;
+            line-height: 1.7;
+            color: rgba(26, 42, 58, 0.7);
+        }
+
+        /* FOR YOU 섹션 */
+        .for-you-list {
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        .for-you-item {
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(26, 42, 58, 0.1);
+            line-height: 1.8;
+        }
+
+        .for-you-item:last-child {
+            border-bottom: none;
+        }
+
+        .for-you-icon {
+            color: #d62839;
+            margin-right: 8px;
+        }
+
+        /* SPECS 테이블 */
+        .specs-table {
+            max-width: 640px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .specs-table tr {
+            border-bottom: 1px solid rgba(26, 42, 58, 0.1);
+        }
+
+        .specs-table th {
+            text-align: left;
+            padding: 16px 20px;
+            font-weight: 600;
+            background: #f4f4f0;
+            width: 30%;
+        }
+
+        .specs-table td {
+            padding: 16px 20px;
+            line-height: 1.7;
+        }
+
+        /* SIZE GUIDE */
+        .size-guide-intro {
+            text-align: center;
+            margin-bottom: 32px;
+            color: rgba(26, 42, 58, 0.75);
+            line-height: 1.8;
+        }
+
+        .size-table {
+            max-width: 560px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .size-table th {
+            background: #1a2a3a;
+            color: #ffffff;
+            padding: 14px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .size-table td {
+            padding: 14px;
+            text-align: center;
+            border-bottom: 1px solid rgba(26, 42, 58, 0.1);
+        }
+
+        .size-table tbody tr:hover {
+            background: rgba(184, 151, 90, 0.05);
+        }
+
+        /* GALLERY */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .gallery-image {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        /* CLOSING */
+        .closing {
+            text-align: center;
+            font-family: 'Noto Serif KR', serif;
+            font-size: 20px;
+            line-height: 1.8;
+            padding: 80px 40px;
+            background: #1a2a3a;
+            color: #ffffff;
+        }
+
+        /* 모바일 대응 */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 40px 24px;
+            }
+
+            .hero-title {
+                font-size: 22px;
+            }
+
+            .section {
+                padding: 60px 24px;
+            }
+
+            .story-grid,
+            .details-grid,
+            .gallery-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .specs-table th {
+                width: 35%;
+                font-size: 13px;
+            }
+
+            .specs-table td {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- SEO 상품명 라벨 -->
+        <div class="seo-label">
+            미키하우스 여아 점퍼스커트 히코리 스트라이프 유치원 등원복
+        </div>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-brand">MIKIHOUSE</div>
+            <h1 class="hero-title">
+                일본 프리미엄 아동복,<br>
+                미키하우스의 시그니처 히코리 스트라이프.
+            </h1>
+            <p class="hero-subtitle">
+                세탁기 돌려도 변하지 않는 품질.<br>
+                동생에게 물려줄 수 있는 옷.
+            </p>
+            <img src="../images/default/thumbnail.jpg" alt="미키하우스 히코리 스트라이프 점퍼스커트" class="hero-image">
+        </section>
+
+        <!-- STORY -->
+        <section class="section">
+            <h2 class="section-title">오래 입을 수 있는 옷</h2>
+            <p class="section-subtitle">매일 입히는 옷이니까, 제대로 고르고 싶었어요</p>
+            <div class="story-content">
+                <p class="story-paragraph">
+                    아이 옷은 빨래가 잦아요. 색이 바래고 모양이 틀어지는 게 당연하다고 생각했죠.
+                </p>
+                <p class="story-paragraph">
+                    미키하우스는 다릅니다. <span class="story-highlight">세탁할수록 더 부드러워지고, 몇 번을 빨아도 처음 그대로.</span>
+                </p>
+                <p class="story-paragraph">
+                    동생에게 물려주고, 또 물려주고. 그렇게 오래 입을 수 있는 옷.
+                </p>
+            </div>
+            <div class="story-grid">
+                <div class="story-item">
+                    <h3 class="story-item-title">디테일의 완성도</h3>
+                    <p class="story-item-text">
+                        앞면은 네이비 스트라이프, 안쪽은 레드 체크.<br>
+                        뒤집어도 예쁜 점퍼스커트.
+                    </p>
+                </div>
+                <div class="story-item">
+                    <h3 class="story-item-title">실용적인 디자인</h3>
+                    <p class="story-item-text">
+                        어깨끈 길이 조절 가능, 앞가슴 포켓, 착탈 간편한 금속 버튼.<br>
+                        티셔츠 하나면 바로 완성.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DETAILS -->
+        <section class="section section-alt">
+            <h2 class="section-title">디테일</h2>
+            <p class="section-subtitle">작은 부분까지 정성스럽게</p>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <img src="../images/default/image_02.jpg" alt="미키하우스 로고 자수" class="detail-image">
+                    <h3 class="detail-title">가슴 포켓 로고</h3>
+                    <p class="detail-text">MIKIHOUSE 레드 자수 로고와 금속 버튼 디테일</p>
+                </div>
+                <div class="detail-item">
+                    <img src="../images/default/image_04.jpg" alt="어깨끈과 안감" class="detail-image">
+                    <h3 class="detail-title">레드 타탄 체크 안감</h3>
+                    <p class="detail-text">어깨끈 조절 가능, 안감까지 신경 쓴 디자인</p>
+                </div>
+                <div class="detail-item">
+                    <img src="../images/default/image_05.jpg" alt="버튼과 스티치" class="detail-image">
+                    <h3 class="detail-title">골드 메탈 버튼</h3>
+                    <p class="detail-text">정교한 스티치 마감과 튼튼한 금속 버튼</p>
+                </div>
+                <div class="detail-item">
+                    <img src="../images/default/image_06.jpg" alt="뒷주머니" class="detail-image">
+                    <h3 class="detail-title">뒷주머니 자수</h3>
+                    <p class="detail-text">MIKIHOUSE 브랜드 태그와 로고 자수</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOR YOU -->
+        <section class="section">
+            <h2 class="section-title">이런 분께 추천해요</h2>
+            <div class="for-you-list">
+                <div class="for-you-item">
+                    <span class="for-you-icon">✓</span>
+                    아이 옷장에 베이직 아이템 하나 제대로 갖추고 싶은 분께
+                </div>
+                <div class="for-you-item">
+                    <span class="for-you-icon">✓</span>
+                    유치원 등원복으로 매일 입혀도 질리지 않는 디자인 찾는 분께
+                </div>
+                <div class="for-you-item">
+                    <span class="for-you-icon">✓</span>
+                    일본 아동복 브랜드가 궁금했지만 어디서 살지 몰랐던 분께
+                </div>
+            </div>
+        </section>
+
+        <!-- SIZE GUIDE -->
+        <section class="section section-alt">
+            <h2 class="section-title">사이즈 가이드</h2>
+            <p class="size-guide-intro">
+                처음 일본 아동복 구매하시는 분들이 많이 궁금해하시는 사이즈예요.<br>
+                일반적으로 한국 사이즈와 비슷하지만, 브랜드별로 차이가 있을 수 있어요.
+            </p>
+            <table class="size-table">
+                <thead>
+                    <tr>
+                        <th>사이즈</th>
+                        <th>적정 키 (cm)</th>
+                        <th>권장 연령</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>80</td>
+                        <td>75-85cm</td>
+                        <td>12-18개월</td>
+                    </tr>
+                    <tr>
+                        <td>90</td>
+                        <td>85-95cm</td>
+                        <td>18-24개월</td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>95-105cm</td>
+                        <td>2-3세</td>
+                    </tr>
+                    <tr>
+                        <td>110</td>
+                        <td>105-115cm</td>
+                        <td>4-5세</td>
+                    </tr>
+                    <tr>
+                        <td>120</td>
+                        <td>115-125cm</td>
+                        <td>6-7세</td>
+                    </tr>
+                    <tr>
+                        <td>130</td>
+                        <td>125-135cm</td>
+                        <td>8-9세</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- SPECS -->
+        <section class="section">
+            <h2 class="section-title">제품 스펙</h2>
+            <table class="specs-table">
+                <tr>
+                    <th>브랜드</th>
+                    <td>MIKIHOUSE (미키하우스)</td>
+                </tr>
+                <tr>
+                    <th>원산지</th>
+                    <td>일본</td>
+                </tr>
+                <tr>
+                    <th>소재</th>
+                    <td>히코리 스트라이프 (면 100%)</td>
+                </tr>
+                <tr>
+                    <th>사이즈</th>
+                    <td>80 / 90 / 100 / 110 / 120 / 130</td>
+                </tr>
+                <tr>
+                    <th>세탁 방법</th>
+                    <td>세탁기 사용 가능 (중성 세제, 단독 세탁 권장)</td>
+                </tr>
+                <tr>
+                    <th>상품 형태</th>
+                    <td>해외 구매대행을 통해 유통되는 정품 상품입니다</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="section section-alt">
+            <h2 class="section-title">더 많은 이미지</h2>
+            <div class="gallery-grid">
+                <img src="../images/default/image_01.jpg" alt="후면" class="gallery-image">
+                <img src="../images/default/image_03.jpg" alt="착용감" class="gallery-image">
+            </div>
+        </section>
+
+        <!-- CARE -->
+        <section class="section">
+            <h2 class="section-title">세탁 및 관리 안내</h2>
+            <div class="story-content">
+                <p class="story-paragraph">
+                    오래 입히고 싶으시죠? 간단한 관리 방법만 알아두시면 처음 그대로 유지할 수 있답니다.
+                </p>
+                <div class="for-you-list" style="margin-top: 32px;">
+                    <div class="for-you-item">
+                        <span class="for-you-icon">•</span>
+                        중성 세제로 단독 세탁을 권장해요 (색상 혼합 방지)
+                    </div>
+                    <div class="for-you-item">
+                        <span class="for-you-icon">•</span>
+                        세탁 후 그늘에서 자연 건조하시면 더 오래 입을 수 있어요
+                    </div>
+                    <div class="for-you-item">
+                        <span class="for-you-icon">•</span>
+                        다림질은 중온으로 안쪽에서 하시면 로고 자수가 더 오래 유지돼요
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLOSING -->
+        <section class="closing">
+            매일 입는 옷이니까,<br>
+            오래 입을 수 있는 걸로.
+        </section>
+    </div>
+</body>
+</html>

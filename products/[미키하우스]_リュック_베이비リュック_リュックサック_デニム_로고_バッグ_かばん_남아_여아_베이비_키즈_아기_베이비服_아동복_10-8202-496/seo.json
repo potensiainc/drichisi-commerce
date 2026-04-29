@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "generated_at": "2026-04-26T23:35:00+09:00",
+    "based_on_analysis": "analysis.json v1.0",
+    "target_platform": "네이버 스마트스토어"
+  },
+  "title_candidates": [
+    {
+      "text": "미키하우스 데님 베이비 백팩 유아 가방 첫 백팩 돌선물",
+      "length": 28,
+      "score": 95,
+      "rationale": "주요 키워드 '미키하우스', '베이비 백팩', '유아 가방' 포함. '첫 백팩', '돌선물'로 타겟 명확화. 50자 이내."
+    },
+    {
+      "text": "미키하우스 베이비 백팩 데님 로고 유아 가방 어린이집",
+      "length": 28,
+      "score": 92,
+      "rationale": "'데님', '로고' 디자인 포인트 강조. '어린이집' 실사용 용도 명시."
+    },
+    {
+      "text": "미키하우스 유아 백팩 가벼운 데님 아기 첫 가방",
+      "length": 25,
+      "score": 90,
+      "rationale": "'가벼운' 기능 강조. 간결하고 읽기 쉬운 구조."
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 데님 베이비 백팩 유아 가방 첫 백팩 돌선물",
+    "length": 28,
+    "why_best": "브랜드(미키하우스) + 소재(데님) + 제품(베이비 백팩) + 용도(첫 백팩, 돌선물) 구조로 검색 의도와 감성 모두 충족. 28자로 네이버 검색 노출에 최적."
+  },
+  "tags": [
+    "미키하우스",
+    "베이비백팩",
+    "유아백팩",
+    "아기가방",
+    "첫백팩",
+    "돌선물",
+    "어린이집가방",
+    "데님백팩",
+    "일본유아용품",
+    "미키하우스백팩"
+  ],
+  "category_recommendation": {
+    "path": "출산/육아 > 외출용품 > 유아동 가방/소품 > 유아동 백팩",
+    "naver_category_id": "미정(스마트스토어 센터에서 직접 매칭 필요)",
+    "rationale": "네이버 스마트스토어의 표준 카테고리 구조에 따라 '출산/육아' 대분류 하위 '외출용품 > 유아동 가방/소품 > 유아동 백팩'이 가장 적합합니다."
+  },
+  "brand_field": {
+    "value": "미키하우스",
+    "display_name": "MIKIHOUSE",
+    "rationale": "스마트스토어 브랜드 필드에는 한글 '미키하우스' 입력, 상세페이지에서는 'MIKIHOUSE' 영문 로고 병기 가능"
+  },
+  "manufacturer_field": {
+    "value": "미키하우스",
+    "country": "일본",
+    "rationale": "미키하우스는 일본 브랜드로 제조사도 동일"
+  },
+  "search_keywords": {
+    "primary": [
+      "미키하우스 백팩",
+      "베이비 백팩",
+      "유아 백팩",
+      "아기 첫 백팩",
+      "돌선물 가방"
+    ],
+    "secondary": [
+      "어린이집 가방",
+      "데님 백팩",
+      "유아 외출용품",
+      "일본 유아 브랜드",
+      "미키하우스 가방"
+    ],
+    "longtail": [
+      "돌 선물 추천",
+      "아기 첫 백팩 추천",
+      "어린이집 준비물 가방",
+      "가벼운 유아 백팩",
+      "미키하우스 정품"
+    ]
+  },
+  "meta_description": {
+    "text": "일본 프리미엄 베이비 브랜드 미키하우스의 부드러운 데님 백팩. 가벼워서 아기가 메기 편하고, 조절 가능한 어깨끈으로 오래 사용. 첫 백팩, 돌선물로 인기.",
+    "length": 78,
+    "rationale": "네이버 검색 결과 요약문(160자 이내)에 노출될 내용. 핵심 USP와 검색 키워드 자연스럽게 포함."
+  },
+  "seo_check": {
+    "title_length_ok": true,
+    "brand_name_consistent": true,
+    "no_forbidden_terms": true,
+    "keyword_density_ok": true,
+    "all_passed": true,
+    "notes": "50자 이내 상품명, 브랜드 일관성, 금지어 미포함 모두 통과"
+  },
+  "competitor_analysis": {
+    "similar_products": [
+      "미키하우스 베이비 백팩 (경쟁 상품)",
+      "베이비 백팩 (일반 키워드)",
+      "유아 백팩 (일반 키워드)"
+    ],
+    "differentiation": [
+      "데님 소재 강조",
+      "첫 백팩/돌선물 용도 명시",
+      "미키하우스 프리미엄 브랜드 가치"
+    ]
+  },
+  "naver_shopping_optimization": {
+    "price_display": "네이버페이 최저가 정책 준수 필요",
+    "option_naming": [
+      "핑크",
+      "멀티컬러"
+    ],
+    "option_naming_rationale": "색상 옵션은 한글 단일 표기. 일본어(ピンク, マルチカラー) 절대 노출 금지.",
+    "delivery_info": "구매대행 특성상 배송 기간 명시 권장 (7-14일)",
+    "review_strategy": "첫 백팩, 돌선물 사용 후기 유도"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "product_name": "미키하우스 핫비스킷 세컨드 베이비 슈즈",
+  "analyzed_at": "2026-04-27T00:00:00Z",
+  "meta": {
+    "original_name": "[MIKIHOUSE HOT BISCUITS] [ミキハウス ホットビスケッツ] セカンド ベビーシューズ 男の子 女の子 ベビー キッズ 子供服 72-9305-143",
+    "brand": "MIKIHOUSE HOT BISCUITS",
+    "price": {
+      "amount": "2,448",
+      "currency": "JPY"
+    },
+    "origin": "일본",
+    "review": {
+      "rating": "",
+      "count": ""
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0DZ62CQSY",
+    "product_id": "B0DZ62CQSY"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "육아용품",
+    "rationale": "걸음마 단계 아기(14.0-15.5cm)를 위한 세컨드 슈즈로, 육아용품 카테고리에 해당. 미키하우스는 일본의 대표적인 유아동 브랜드."
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "original",
+    "spec_translation_notes": "브랜드명 '미키하우스 핫비스킷'은 한국에서 익숙한 표기. 세컨드 슈즈는 그대로 사용. 제품 특징은 한국어로 자연스럽게 번역."
+  },
+  "risks": [
+    {
+      "type": "해외직구 고지",
+      "severity": "high",
+      "description": "일본 아마존 직구 상품으로 전자상거래법상 해외구매대행 고지 필수",
+      "action_required": "상세페이지 상단에 '본 제품은 해외 구매대행을 통해 유통되는 제품입니다' 명시. A/S 및 교환/반품 정책 명확히 표기."
+    },
+    {
+      "type": "KC 인증",
+      "severity": "medium",
+      "description": "아동용 신발은 KC 안전인증 대상일 수 있음",
+      "action_required": "KC 인증 여부 확인 필요. 미인증 시 '해외 제품으로 국내 KC 인증 대상이 아님' 표기 권장."
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "미키하우스 핫비스킷의 Good Quality 철학",
+      "evidence": "1948년 창립 이래 일본 No.1 유아동 브랜드로 안심 품질과 즐거운 디자인을 제공. Amazon 베이비슈즈 카테고리 399위 판매 실적.",
+      "emotional_hook": "첫걸음을 떼는 우리 아이에게 믿을 수 있는 브랜드를 신기고 싶은 마음. 핫비스킷은 70년 넘게 아이들을 위한 좋은 것만 만들어왔습니다."
+    },
+    {
+      "priority": 2,
+      "headline": "세컨드 슈즈 전용 설계",
+      "evidence": "걸음마를 시작한 아기(14.0-15.5cm)를 위한 전용 신발. 메쉬 소재로 통기성 확보, 벨크로 스트랩 2개로 발목 안정감, 넓은 발등 디자인.",
+      "emotional_hook": "아장아장 걷기 시작한 아이. 넘어질까 조마조마한 순간마다 발목을 잡아주는 든든한 신발이 필요해요."
+    },
+    {
+      "priority": 3,
+      "headline": "귀여운 플라워 포인트와 파스텔 컬러",
+      "evidence": "측면 꽃 장식, 핑크 메쉬와 아이보리 조합, 라벤더 밑창. 깜찍하면서도 세련된 디자인.",
+      "emotional_hook": "동네 산책 나갈 때마다 '신발 너무 예쁘다' 소리 듣는 순간. 작은 발에 꽃이 핀 것 같은 느낌이에요."
+    }
+  ],
+  "target": {
+    "primary_persona": "생후 12-24개월 아기를 둔 30대 초중반 엄마. 첫 아이인 경우가 많고, 브랜드 신뢰도와 품질을 중시. 일본 육아 브랜드에 익숙하며, 조금 비싸더라도 검증된 제품 선호.",
+    "secondary_persona": "손주를 위한 선물을 찾는 50-60대 할머니. 백화점급 브랜드를 원하지만 온라인 직구로 가격 부담을 낮추고 싶음.",
+    "use_moments": [
+      "처음으로 혼자 걷기 시작한 아기에게 세컨드 슈즈를 찾을 때",
+      "동네 놀이터나 키즈카페에 갈 때 신기는 외출화로",
+      "돌 선물이나 백일 선물로 브랜드 유아화를 선물하고 싶을 때"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "soft · playful · trustworthy",
+    "tone_rationale": "유아동 제품 특성상 부드럽고 따뜻한 느낌이 중요. 하지만 미키하우스는 70년 헤리티지 브랜드이므로 신뢰감도 함께 전달. 파스텔 핑크 컬러와 꽃 장식이 주는 playful함과 일본 장인 정신이 주는 trustworthy함의 조화.",
+    "color_palette": [
+      {
+        "hex": "#F8B4D0",
+        "role": "primary - 신발 메쉬 핑크",
+        "source": "image_01, image_04 실제 제품 메쉬 컬러"
+      },
+      {
+        "hex": "#F5EFE6",
+        "role": "secondary - 신발 토캡 아이보리",
+        "source": "image_01, image_05 실제 제품 토캡/밑창 컬러"
+      },
+      {
+        "hex": "#D4A5D6",
+        "role": "accent - 라벤더 밑창",
+        "source": "image_05 밑창 실제 컬러"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "background - 깔끔한 여백",
+        "source": "모든 이미지 배경, 청결감 강조"
+      },
+      {
+        "hex": "#FF9AAA",
+        "role": "point - 꽃 장식 코랄핑크",
+        "source": "image_01, image_04 꽃 장식 실제 컬러"
+      }
+    ],
+    "typography_mood": "sans-serif rounded · gentle",
+    "copy_voice": "친근하고 따뜻하되 과도한 애교 없이. '~예요' 어미 활용. 육아 선배가 조언하듯 자연스럽게.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "editorial-magazine",
+      "rationale": "유아동 제품은 신뢰감을 주는 제품 컷이 가장 중요 (photo-dominant). 브랜드 헤리티지와 Good Quality 철학을 전달하기 위해 editorial 요소 부분 활용."
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "default/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "아기 발에 신긴 착화컷. 핑크 메쉬, 아이보리 토캡, 꽃 장식이 모두 보이는 메인 앵글. 실제 착용감 전달."
+    },
+    {
+      "filename": "default/image_02.jpg",
+      "role": "detail_shots",
+      "description": "뒷굽 각도. 핑크 PU 소재 힐컵, 라벤더 안감, 꽃무늬 패브릭 디테일 확인 가능."
+    },
+    {
+      "filename": "default/image_03.jpg",
+      "role": "detail_shots",
+      "description": "탑뷰. 핫비스킷 로고, 인솔 핑크 메쉬, 벨크로 스트랩 2개 구조 확인."
+    },
+    {
+      "filename": "default/image_04.jpg",
+      "role": "scene_shots",
+      "description": "측면 각도. 꽃 장식 포인트, 메쉬 통기성, 토캡 보호 기능 강조."
+    },
+    {
+      "filename": "default/image_05.jpg",
+      "role": "spec_shots",
+      "description": "밑창 클로즈업. 라벤더 러버 소재, 미끄럼 방지 패턴, MIKIHOUSE 각인 확인."
+    },
+    {
+      "filename": "default/image_06.jpg",
+      "role": "detail_shots",
+      "description": "인솔 오픈컷. 핑크 메쉬 라이닝, 벨크로 스트랩 내부 구조."
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 헤리티지 훅",
+        "text": "1948년 일본에서 시작된 미키하우스.\n70년 넘게 아이들을 위한 좋은 것만 만들어온 브랜드의 첫걸음 신발이에요."
+      },
+      {
+        "angle": "감성 순간 훅",
+        "text": "아장아장 걷기 시작한 우리 아이.\n넘어질까 조마조마한 순간마다 발목을 잡아주는 든든한 신발이 필요해요."
+      },
+      {
+        "angle": "기능 가치 훅",
+        "text": "세컨드 슈즈는 첫걸음과 달라요.\n걸음마를 시작한 아기를 위한 전용 설계. 통기성 메쉬, 2개 스트랩, 넓은 발등."
+      }
+    ],
+    "for_you_moments": [
+      "혼자 걷기 시작한 아기에게 첫 제대로 된 신발을 찾는 분께",
+      "브랜드 신뢰도와 품질을 함께 잡고 싶은 분께",
+      "동네 산책이나 놀이터 외출 시 예쁘고 안전한 신발이 필요한 분께"
+    ],
+    "scenes": [
+      "오전 동네 놀이터. 모래밭에서 아장아장 걷는 아이 발목을 잡아주는 든든한 신발.",
+      "키즈카페 입구. 신발 벗기고 신기기 편한 벨크로 2개. 엄마도 아이도 편해요.",
+      "주말 공원 산책. '신발 너무 예쁘다' 소리 들으며 뿌듯한 순간."
+    ],
+    "closing": "Good Quality. 아이들을 위한 좋은 것."
+  }
+}

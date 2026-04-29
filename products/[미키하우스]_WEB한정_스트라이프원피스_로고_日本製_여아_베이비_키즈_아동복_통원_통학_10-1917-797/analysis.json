@@ -1,0 +1,222 @@
+{
+  "product_name": "미키하우스 스트라이프 원피스",
+  "analyzed_at": "2026-04-26T18:30:00+09:00",
+  "meta": {
+    "original_name": "[ミキハウス] WEB限定 ボーダーワンピース ロゴ 日本製 女の子 ベビー キッズ 子供服 通園 通学 10-1917-797",
+    "brand": "MIKIHOUSE(ミキハウス)",
+    "price": {
+      "amount": "2,899",
+      "currency": "JPY"
+    },
+    "origin": "日本製 (일본 제조)",
+    "review": {
+      "rating": "",
+      "count": ""
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0GQSY85SG",
+    "product_id": "B0GQSY85SG"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "아동의류",
+    "rationale": "여아용 원피스로 사이즈 80-130cm(베이비~키즈), 통원·통학 용도 명시. 미키하우스는 대표적 일본 아동복 브랜드."
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "original",
+    "spec_translation_notes": "브랜드명 '미키하우스'는 한국에서 이미 정착된 명칭이므로 원어 병기 불필요. 소재명(40/2 天竺)은 '40수 천축 면'으로 번역. '日本製'는 '일본 제조'로 번역하되 헤리티지 강조 시 원문 병기 가능."
+  },
+  "risks": [
+    {
+      "type": "언어 표기 이슈",
+      "severity": "low",
+      "description": "상품명에 '日本製' 한자 표기 포함. 한국 소비자 가독성을 위해 '일본제조' 또는 '일본산'으로 변환 권장.",
+      "action_required": "상품명 한글화 (SEO 단계에서 처리)"
+    },
+    {
+      "type": "케어 라벨 안내",
+      "severity": "low",
+      "description": "제품 이미지에 '자수로 인한 피부 자극 경감을 위해 사전 천 가공이 되어 있으나, 접착 가공은 영구적이지 않아 세탁 반복 시 박리될 수 있음' 주의사항 명시됨.",
+      "action_required": "상세페이지 하단에 케어 방법 안내 포함 권장"
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "미키하우스 정품 일본 직수입",
+      "evidence": "MIKIHOUSE 공식 제품, 日本製 품질 보증, ASIN B0GQSY85SG",
+      "emotional_hook": "아이 옷은 믿을 수 있는 브랜드로만 입히고 싶은 엄마들. 미키하우스라는 이름 자체가 안심."
+    },
+    {
+      "priority": 2,
+      "headline": "4가지 뉴앙스 컬러 스트라이프",
+      "evidence": "핑크·블루·포레스트그린·베이지 4색, 각각 크림 베이스와 배색. 계절감 없는 중간톤.",
+      "emotional_hook": "형제자매 색깔만 다르게 입혀서 포토존 찍을 때, '어머 색깔만 다른 거예요?' 하는 반응"
+    },
+    {
+      "priority": 3,
+      "headline": "40수 천축 면 소재 - 여름에도 시원하게",
+      "evidence": "40/2 天竺 소재. 얇고 부드러우며 통기성 우수. 리브 넥라인으로 머리 넣기 편함.",
+      "emotional_hook": "여름 통원복으로 입혔는데 땀 안 차고 시원해서 아이가 싫어하지 않는 옷."
+    },
+    {
+      "priority": 4,
+      "headline": "100cm부터 오른쪽 포켓 디테일",
+      "evidence": "100cm 이상 사이즈는 우측 옆선에 포켓 추가. 실용성과 디자인 포인트 겸비.",
+      "emotional_hook": "유치원 가면서 주머니에 손수건 넣어주면 아이 스스로 꺼내 쓰는 모습에 뿌듯함."
+    },
+    {
+      "priority": 5,
+      "headline": "WEB한정 데일리 프라이스",
+      "evidence": "정가 대비 접근성 높은 웹 한정 가격. 미키하우스 퀄리티를 부담 없이.",
+      "emotional_hook": "미키하우스 좋은 건 알지만 가격 때문에 망설였는데, 웹 한정이라 기회 놓치기 싫어서 장바구니 담음."
+    }
+  ],
+  "target": {
+    "primary_persona": "30대 초중반 여성, 첫째 딸 키우는 엄마. SNS에서 미키하우스 입은 아이들 보고 '나도 저런 옷 입히고 싶다' 생각했지만 가격 부담으로 미루던 사람. 유치원 입학 앞두고 '똑같은 옷만 입히기 싫다'는 마음에 브랜드 옷 검색 중.",
+    "secondary_persona": "20대 후반 여성, 조카 선물 고민 중. '엄마들이 좋아하는 브랜드'로 검색해서 미키하우스 알게 됨. 센스 있다는 소리 듣고 싶어서 백화점 브랜드급으로 준비.",
+    "use_moments": [
+      "유치원 입학식이나 첫 등원 날 특별하게 입히고 싶을 때",
+      "돌잔치·백일 같은 가족 행사에서 깔끔한 옷차림 필요할 때",
+      "여름 휴가지에서 가볍게 입히면서도 사진 찍기 좋은 옷 찾을 때"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "soft-classic-timeless",
+    "tone_rationale": "미키하우스 고유의 깔끔하고 절제된 디자인. 유행 타지 않는 스트라이프 패턴과 중간톤 컬러. 헤리티지 브랜드의 신뢰감을 유지하면서도 WEB한정 시리즈의 접근성을 강조. 과하지 않은 따뜻함.",
+    "color_palette": [
+      {
+        "hex": "#D4989C",
+        "role": "primary_pink",
+        "source": "핑크 옵션 스트라이프 실제 색상 추출"
+      },
+      {
+        "hex": "#6B9AB8",
+        "role": "primary_blue",
+        "source": "블루 옵션 스트라이프 실제 색상 추출"
+      },
+      {
+        "hex": "#4A9B89",
+        "role": "primary_green",
+        "source": "포레스트그린 옵션 스트라이프 실제 색상 추출"
+      },
+      {
+        "hex": "#C8A882",
+        "role": "primary_beige",
+        "source": "베이지 옵션 스트라이프 실제 색상 추출"
+      },
+      {
+        "hex": "#F5F1E8",
+        "role": "background_cream",
+        "source": "모든 옵션의 베이스 크림색 (공통)"
+      }
+    ],
+    "typography_mood": "sans-serif clean, 가독성 중심. 미키하우스 브랜드의 모던하면서도 친근한 느낌. 헤드라인은 약간의 라운드감, 본문은 깔끔한 고딕.",
+    "copy_voice": "부드럽고 신뢰감 있는. '~예요', '~할 수 있어요' 어미로 친근감 유지하되 과도한 구어체 지양. 엄마의 시선에서 아이를 바라보는 따뜻한 톤.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "grid-modular",
+      "rationale": "4가지 컬러 옵션이 핵심 차별점이므로 큰 비주얼로 색상별 매력 전달 필요. 동시에 스펙(사이즈별 치수, 소재, 케어 방법)도 명확히 보여줘야 하므로 그리드로 정리. 아동복 특성상 부모가 빠르게 정보 스캔할 수 있어야 함."
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "ピンク/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "핑크 원피스 접힌 상태. 스트라이프 패턴과 색감이 가장 명확하게 보임. 헤리티지 라벨 'mikihouse' 가독."
+    },
+    {
+      "filename": "ピンク/image_02.jpg",
+      "role": "option_shots",
+      "description": "핑크 원피스 정면 전체 샷. 뒷목 리브 디테일, 밑단 곡선 라인 확인 가능."
+    },
+    {
+      "filename": "ピンク/image_03.jpg",
+      "role": "detail_shots",
+      "description": "넥라인 클로즈업. 'mikihouse' 자수 로고와 40/2 천축 소재 질감 확인."
+    },
+    {
+      "filename": "ピンク/image_04.jpg",
+      "role": "spec_shots",
+      "description": "케어 라벨 주의사항 (자수 가공 안내). 상세페이지 하단 스펙 섹션에 활용."
+    },
+    {
+      "filename": "ブルー/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "블루 원피스 접힌 상태. 남성적 느낌 없는 중간톤 블루, 유니섹스 가능성 어필."
+    },
+    {
+      "filename": "フォレストグリーン/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "포레스트그린 원피스. 가장 차분하고 고급스러운 느낌. 사계절 활용도 높은 색."
+    },
+    {
+      "filename": "ベージュ/image_01.jpg",
+      "role": "detail_shots",
+      "description": "베이지 옵션 넥라인 클로즈업. 따뜻한 톤으로 피부톤 보정 효과."
+    },
+    {
+      "filename": "ピンク/image_05.jpg",
+      "role": "spec_shots",
+      "description": "추가 스펙 정보 또는 디테일"
+    },
+    {
+      "filename": "ブルー/image_02.jpg",
+      "role": "option_shots",
+      "description": "블루 옵션 전체 샷"
+    },
+    {
+      "filename": "ブルー/image_03.jpg",
+      "role": "detail_shots",
+      "description": "블루 넥라인 클로즈업"
+    },
+    {
+      "filename": "フォレストグリーン/image_02.jpg",
+      "role": "option_shots",
+      "description": "그린 옵션 전체 샷"
+    },
+    {
+      "filename": "フォレストグリーン/image_03.jpg",
+      "role": "detail_shots",
+      "description": "그린 넥라인 클로즈업"
+    },
+    {
+      "filename": "ベージュ/image_02.jpg",
+      "role": "option_shots",
+      "description": "베이지 옵션 전체 샷"
+    },
+    {
+      "filename": "ベージュ/image_03.jpg",
+      "role": "detail_shots",
+      "description": "베이지 넥라인 클로즈업"
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 헤리티지 훅",
+        "text": "미키하우스 정품.\n일본에서 직접 가져온 WEB한정 원피스예요."
+      },
+      {
+        "angle": "사용 순간 훅",
+        "text": "유치원 입학식 날,\n'어머 어디 옷이에요?' 소리 들을 만한 원피스 한 벌."
+      },
+      {
+        "angle": "컬러 옵션 훅",
+        "text": "자매 옷 맞출 때 색깔만 다르게.\n미키하우스 스트라이프 원피스 4가지 컬러."
+      }
+    ],
+    "for_you_moments": [
+      "아이 옷은 믿을 수 있는 브랜드로만 입히고 싶은 분께",
+      "유치원 입학 앞두고 특별한 옷 한두 벌 장만하려는 분께",
+      "조카 선물로 센스 있다는 소리 듣고 싶은 분께"
+    ],
+    "scenes": [
+      "유치원 첫 등원 날, 선생님이 '옷 예쁘다' 칭찬해주는 순간",
+      "돌잔치 하객으로 갔다가 주인공보다 예쁘다는 소리 듣는 순간",
+      "여름 휴가지에서 가볍게 입히고 사진 찍었는데 인생샷 나온 순간"
+    ],
+    "closing": "미키하우스가 만든 매일 입고 싶은 원피스."
+  }
+}

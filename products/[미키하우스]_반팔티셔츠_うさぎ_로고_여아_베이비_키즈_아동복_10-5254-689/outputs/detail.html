@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 토끼 로고 반팔 티셔츠 여아 베이비</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum:wght@400&family=Fraunces:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #FFFFFF;
+            --bg-alt: #F5F5DC;
+            --text-main: #2C2C2C;
+            --accent: #FFB6C1;
+            --accent-soft: #87CEEB;
+            --line-soft: #E8E8E8;
+            --detail-brown: #8B4513;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Gowun Dodum', sans-serif;
+            color: var(--text-main);
+            background: var(--bg-base);
+            line-height: 1.7;
+            word-break: keep-all;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--bg-base);
+        }
+
+        /* HERO Section */
+        .hero {
+            position: relative;
+            background: var(--bg-base);
+            padding: 0;
+            text-align: center;
+        }
+
+        .hero-label {
+            font-size: 16px;
+            color: var(--text-main);
+            font-weight: 500;
+            padding: 24px 60px;
+            letter-spacing: -0.3px;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .hero-content {
+            padding: 48px 60px 80px;
+        }
+
+        .hero-headline {
+            font-family: 'Fraunces', serif;
+            font-size: 32px;
+            line-height: 1.3;
+            color: var(--text-main);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .hero-subtext {
+            font-size: 15px;
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .hero-brand {
+            margin-top: 32px;
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 14px;
+            color: var(--detail-brown);
+            letter-spacing: 0.5px;
+        }
+
+        /* STORY Section */
+        .story {
+            background: var(--bg-alt);
+            padding: 80px 60px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            color: var(--text-main);
+        }
+
+        .story-text {
+            font-size: 15px;
+            line-height: 1.9;
+            margin-bottom: 20px;
+        }
+
+        .story-text:last-child {
+            margin-bottom: 0;
+        }
+
+        /* DETAILS Section */
+        .details {
+            background: var(--bg-base);
+            padding: 80px 60px;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            margin-top: 32px;
+        }
+
+        .detail-item img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            margin-bottom: 16px;
+        }
+
+        .detail-caption {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* FOR YOU Section */
+        .for-you {
+            background: var(--bg-alt);
+            padding: 80px 60px;
+        }
+
+        .for-you-list {
+            margin-top: 32px;
+            list-style: none;
+        }
+
+        .for-you-list li {
+            font-size: 15px;
+            line-height: 1.8;
+            margin-bottom: 16px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .for-you-list li:before {
+            content: "·";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-size: 20px;
+        }
+
+        /* SCENES Section */
+        .scenes {
+            background: var(--bg-base);
+            padding: 80px 60px;
+        }
+
+        .scene-item {
+            margin-bottom: 28px;
+        }
+
+        .scene-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .scene-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--accent);
+        }
+
+        .scene-text {
+            font-size: 15px;
+            line-height: 1.8;
+            color: var(--text-main);
+        }
+
+        /* SIZE GUIDE Section */
+        .size-guide {
+            background: var(--bg-alt);
+            padding: 80px 60px;
+        }
+
+        .size-table {
+            width: 100%;
+            margin-top: 32px;
+            border-collapse: collapse;
+        }
+
+        .size-table th,
+        .size-table td {
+            padding: 16px;
+            text-align: center;
+            border: 1px solid var(--line-soft);
+            font-size: 14px;
+        }
+
+        .size-table th {
+            background: var(--bg-base);
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .size-table td {
+            background: var(--bg-base);
+        }
+
+        .size-note {
+            margin-top: 16px;
+            font-size: 14px;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        /* SPECS Section */
+        .specs {
+            background: var(--bg-base);
+            padding: 80px 60px;
+        }
+
+        .specs-table {
+            width: 100%;
+            margin-top: 32px;
+        }
+
+        .specs-table tr {
+            border-bottom: 1px solid var(--line-soft);
+        }
+
+        .specs-table th {
+            text-align: left;
+            padding: 16px 20px;
+            font-weight: 600;
+            font-size: 14px;
+            width: 30%;
+            background: var(--bg-alt);
+        }
+
+        .specs-table td {
+            padding: 16px 20px;
+            font-size: 14px;
+            background: var(--bg-base);
+        }
+
+        /* NOTICE Section */
+        .notice {
+            background: #FFF9F0;
+            padding: 80px 60px;
+        }
+
+        .notice-content {
+            font-size: 15px;
+            line-height: 1.9;
+        }
+
+        .notice-content p {
+            margin-bottom: 16px;
+        }
+
+        .notice-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* CLOSING Section */
+        .closing {
+            background: var(--bg-base);
+            padding: 100px 60px;
+            text-align: center;
+        }
+
+        .closing-text {
+            font-family: 'Fraunces', serif;
+            font-size: 18px;
+            font-style: italic;
+            color: var(--detail-brown);
+            letter-spacing: 1px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 480px) {
+            .hero-label {
+                padding: 20px 24px;
+                font-size: 14px;
+            }
+
+            .hero-content {
+                padding: 32px 24px 60px;
+            }
+
+            .hero-headline {
+                font-size: 24px;
+            }
+
+            .hero-subtext {
+                font-size: 14px;
+            }
+
+            .story,
+            .details,
+            .for-you,
+            .scenes,
+            .size-guide,
+            .specs,
+            .notice {
+                padding: 60px 24px;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+
+            .section-title {
+                font-size: 16px;
+            }
+
+            .story-text,
+            .scene-text,
+            .notice-content {
+                font-size: 14px;
+            }
+
+            .closing {
+                padding: 80px 24px;
+            }
+
+            .closing-text {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO Section -->
+        <section class="hero">
+            <div class="hero-label">미키하우스 토끼 로고 반팔 티셔츠 여아 베이비 데일리 화이트 일본 원단</div>
+            <img src="../images/default/thumbnail.jpg" alt="미키하우스 토끼 자수 반팔티셔츠 정면" class="hero-image">
+            <div class="hero-content">
+                <h1 class="hero-headline">아이 피부에 닿는 옷이니까,<br>일본 원단으로 만든 미키하우스를 입혀요.</h1>
+                <p class="hero-subtext">민감한 아이 피부에 닿는 옷, 소재 하나까지 신경 쓰게 되죠.<br>일본 원단으로 만든 미키하우스 티셔츠는 하루 종일 입어도 보송한 느낌을 유지해요.</p>
+                <div class="hero-brand">Since 1978, MIKIHOUSE</div>
+            </div>
+        </section>
+
+        <!-- STORY Section -->
+        <section class="story">
+            <h2 class="section-title">일본 프리미엄 원단, 부드러운 착용감</h2>
+            <p class="story-text">일본 디자인, 일본 원단 사용, 베트남 미키하우스 품질 관리 하 제조. 면 소재로 부드러운 터치감을 느낄 수 있어요.</p>
+            <p class="story-text">민감한 아이 피부를 생각하면 소재부터 달라야 한다고 생각해요. 미키하우스는 1978년부터 엄마들이 신뢰해온 브랜드예요.</p>
+        </section>
+
+        <!-- DETAILS Section -->
+        <section class="details">
+            <h2 class="section-title">귀여운 토끼 자수와 미키하우스 로고</h2>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <img src="../images/default/image_01.jpg" alt="미키하우스 반팔티셔츠 후면 토끼 귀 자수" loading="lazy">
+                    <p class="detail-caption">뒷면 토끼 귀 자수 + MIKIHOUSE 로고. 뒷모습까지 귀여운 디테일.</p>
+                </div>
+                <div class="detail-item">
+                    <img src="../images/default/image_02.jpg" alt="미키하우스 토끼 자수 클로즈업 디테일" loading="lazy">
+                    <p class="detail-caption">토끼 자수 클로즈업. 핑크 귀 안쪽, 하트 자수 디테일까지 견고하게 처리되었어요.</p>
+                </div>
+            </div>
+            <p class="story-text" style="margin-top: 32px;">프론트에 핑크 토끼 얼굴 자수 5개, 핑크·블루 하트 자수. 소매에 핑크 3줄 스트라이프로 포인트를 주었어요.</p>
+            <p class="story-text">심플한 화이트 티에 토끼 자수 하나만으로도 아이가 훨씬 사랑스러워 보여요.</p>
+        </section>
+
+        <!-- FOR YOU Section -->
+        <section class="for-you">
+            <h2 class="section-title">이런 분께 추천해요</h2>
+            <ul class="for-you-list">
+                <li>아이 옷은 무엇보다 소재가 중요하다고 생각하는 분께</li>
+                <li>일본 유아복 브랜드의 품질을 신뢰하는 엄마에게</li>
+                <li>귀엽지만 과하지 않은, 오래 입힐 수 있는 디자인을 찾는 분께</li>
+            </ul>
+        </section>
+
+        <!-- SCENES Section -->
+        <section class="scenes">
+            <h2 class="section-title">이렇게 입혀요</h2>
+            <div class="scene-item">
+                <h3 class="scene-title">유치원 데일리 착용</h3>
+                <p class="scene-text">유치원 갈 때 매일 입히는 데일리 티. 흰색이지만 세탁 쉬워서 부담 없어요.</p>
+            </div>
+            <div class="scene-item">
+                <h3 class="scene-title">여름 나들이 이너</h3>
+                <p class="scene-text">여름 나들이, 얇은 원피스 안에 이너로. 소매 핑크 줄이 살짝 보이는 것도 예뻐요.</p>
+            </div>
+            <div class="scene-item">
+                <h3 class="scene-title">돌잔치 선물</h3>
+                <p class="scene-text">돌잔치 선물로 준비할 때. 미키하우스 브랜드에 토끼 자수까지, 받는 분도 만족할 거예요.</p>
+            </div>
+        </section>
+
+        <!-- SIZE GUIDE Section -->
+        <section class="size-guide">
+            <h2 class="section-title">우리 아이에게 딱 맞는 사이즈, 이렇게 고르세요</h2>
+            <table class="size-table">
+                <thead>
+                    <tr>
+                        <th>사이즈</th>
+                        <th>권장 연령</th>
+                        <th>권장 신장</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>80</td>
+                        <td>12~18개월</td>
+                        <td>75~85cm</td>
+                    </tr>
+                    <tr>
+                        <td>110</td>
+                        <td>4~5세</td>
+                        <td>105~115cm</td>
+                    </tr>
+                    <tr>
+                        <td>120</td>
+                        <td>6~7세</td>
+                        <td>115~125cm</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="size-note">처음 일본 아동복 구매하시는 분들이 많이 궁금해하시는 사이즈예요. 일본 사이즈는 한국 사이즈보다 약간 작게 나올 수 있어요.</p>
+        </section>
+
+        <!-- SPECS Section -->
+        <section class="specs">
+            <h2 class="section-title">상품 정보</h2>
+            <table class="specs-table">
+                <tr>
+                    <th>브랜드</th>
+                    <td>MIKIHOUSE (미키하우스)</td>
+                </tr>
+                <tr>
+                    <th>제조국</th>
+                    <td>일본 디자인, 베트남 제조 (일본 원단 사용)</td>
+                </tr>
+                <tr>
+                    <th>소재</th>
+                    <td>면 100%</td>
+                </tr>
+                <tr>
+                    <th>색상</th>
+                    <td>화이트 (핑크·블루 자수 포인트)</td>
+                </tr>
+                <tr>
+                    <th>사이즈</th>
+                    <td>80 / 110 / 120 (옵션별 선택)</td>
+                </tr>
+                <tr>
+                    <th>특징</th>
+                    <td>토끼 자수 5개, 미키하우스 로고, 소매 핑크 스트라이프</td>
+                </tr>
+            </table>
+            <div style="margin-top: 32px;">
+                <img src="../images/default/image_03.jpg" alt="미키하우스 제조 정보" loading="lazy" style="width: 100%; height: auto; object-fit: contain;">
+            </div>
+        </section>
+
+        <!-- NOTICE Section -->
+        <section class="notice">
+            <h2 class="section-title">오래 입히고 싶으시죠?</h2>
+            <div class="notice-content">
+                <p>부드럽게 손세탁해주시면 처음 그대로 유지돼요. 자수 처리가 견고해서 세탁 후에도 형태가 잘 유지돼요.</p>
+                <p>동생에게 물려줄 만큼 튼튼한 옷. 한 번 사면 여러 번 입히는 엄마들의 단골 브랜드예요.</p>
+            </div>
+        </section>
+
+        <!-- CLOSING Section -->
+        <section class="closing">
+            <p class="closing-text">Since 1978, MIKIHOUSE.</p>
+        </section>
+    </div>
+</body>
+</html>

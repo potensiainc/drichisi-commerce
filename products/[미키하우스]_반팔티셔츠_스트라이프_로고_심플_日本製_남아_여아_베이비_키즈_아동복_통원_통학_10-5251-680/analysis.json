@@ -1,0 +1,259 @@
+{
+  "product_name": "미키하우스 반팔티셔츠 스트라이프 로고 심플",
+  "analyzed_at": "2026-04-26T23:30:00+09:00",
+  "meta": {
+    "original_name": "[ミキハウス] 半袖Ｔシャツ ボーダー ロゴ シンプル 日本製 男の子 女の子 ベビー キッズ 子供服 通園 通学 10-5251-680",
+    "brand": "MIKIHOUSE (미키하우스)",
+    "price": {
+      "amount": "3,960",
+      "currency": "JPY"
+    },
+    "origin": "일본 (MADE IN JAPAN)",
+    "review": {
+      "rating": "",
+      "count": ""
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0CT5QTP2G",
+    "product_id": "B0CT5QTP2G",
+    "ranking": "베이비용 티셔츠 - 362위"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "아동의류",
+    "rationale": "베이비·키즈 대상 반팔티셔츠로 80~150 사이즈 구성. 통원·통학용 일상복"
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "both",
+    "spec_translation_notes": "일본 원산지 표기('日本製', 'MADE IN JAPAN')는 품질 신뢰도를 높이는 핵심 셀링포인트이므로 한영 병기 권장. 컬러명은 한국어로 완전 번역 (ネイビー→네이비, グリーン→그린, コーラルピンク→코랄핑크, ストームブルー→스톰블루, パープル→퍼플). 이미지 폴더명도 영문 변환 필요."
+  },
+  "risks": [
+    {
+      "type": "언어 표기 이슈",
+      "severity": "medium",
+      "description": "상품명 및 설명에 일본어 원문 다수 포함. 한국어 완전 번역 필요",
+      "action_required": "상세페이지 제작 시 모든 일본어를 한국어로 번역. 단, 브랜드명 'MIKIHOUSE'와 'MADE IN JAPAN'은 원문 유지"
+    },
+    {
+      "type": "해외직구 고지",
+      "severity": "high",
+      "description": "일본 직구 상품으로 전자상거래법상 해외 구매대행 고지 필수",
+      "action_required": "상품 상세페이지에 '본 제품은 일본 현지 구매 후 국내 배송되는 해외 구매대행 상품입니다' 고지문 필수 삽입"
+    },
+    {
+      "type": "이미지 폴더명",
+      "severity": "low",
+      "description": "이미지 폴더명이 일본어(ネイビー, グリーン 등)로 되어 있어 HTML 경로 설정 시 오류 가능성",
+      "action_required": "상세페이지 빌드 시 폴더명을 영문(navy, green, coral_pink, storm_blue, purple)으로 변환하여 경로 참조"
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "일본 장인 정신의 결정체, MADE IN JAPAN",
+      "evidence": "미키하우스 본사 직영 일본 제조. image_03.jpg에서 '日本製 MADE IN JAPAN' 명확 표기",
+      "emotional_hook": "아이 옷 하나 고를 때도 타협하고 싶지 않은 부모님께. 미키하우스는 1971년부터 일본에서 아이들의 행복을 디자인해왔어요"
+    },
+    {
+      "priority": 2,
+      "headline": "5가지 컬러, 비비드한 스트라이프 + 포인트 소매",
+      "evidence": "네이비(레드소매), 그린(퍼플소매), 코랄핑크(핑크소매), 스톰블루(옐로우소매), 퍼플(오렌지소매) 각 컬러마다 대비색 소매 배색으로 활기찬 디자인",
+      "emotional_hook": "단조로운 티셔츠는 이제 그만. 스트라이프 몸판에 포인트 컬러 소매가 더해져 어디서도 눈에 띄는 우리 아이"
+    },
+    {
+      "priority": 3,
+      "headline": "80부터 150까지, 8단계 사이즈로 오래 입는다",
+      "evidence": "베이비(80~90)부터 키즈(100~150)까지 8개 사이즈 전개. 80·90은 어깨 트임 디자인으로 탈착 편의",
+      "emotional_hook": "자라나는 속도만큼이나 다양한 사이즈. 형제자매가 함께 입어도, 몇 년 후 동생에게 물려줘도 좋아요"
+    },
+    {
+      "priority": 4,
+      "headline": "mikihouse 로고 자수, 브랜드 시그너처",
+      "evidence": "가슴에 브랜드 컬러(네이비+레드) 조합의 'mikihouse' 로고 자수. image_02.jpg 디테일 확인",
+      "emotional_hook": "작은 로고 하나에도 정성을. 수놓인 브랜드명이 말해주는 미키하우스의 자부심"
+    },
+    {
+      "priority": 5,
+      "headline": "통원·통학·외출까지 만능 데일리",
+      "evidence": "심플한 디자인으로 어떤 하의와도 매치. 면 100% 쾌적함",
+      "emotional_hook": "어린이집 갈 때도, 놀이터 갈 때도, 할머니댁 갈 때도. 입히기 편하고 세탁 걱정 없는 그런 티셔츠"
+    }
+  ],
+  "target": {
+    "primary_persona": "30~40대 엄마, 아이 옷 품질에 민감. 일본 브랜드 신뢰도 높음. 베이직하면서도 디자인 포인트 있는 아이템 선호. 유치원·어린이집 등원복으로 실용적이면서 예쁜 옷 찾는 중",
+    "secondary_persona": "20~30대 육아 초보 부모, 선물용 아동복 탐색. 브랜드 네임밸류와 품질 보증을 중시. 조카·친구 아이 선물로 실패 없는 아이템 원함",
+    "use_moments": [
+      "어린이집 등원 아침, 아이가 스스로 입기 편한 옷",
+      "주말 공원 나들이, 활동성 좋고 세탁 편한 티셔츠",
+      "출산 선물이나 돌잔치 답례품으로 실용적이면서 고급스러운 아이템"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "playful-heritage (경쾌한 헤리티지)",
+    "tone_rationale": "미키하우스는 1971년 창립 이래 50년 넘는 헤리티지를 지닌 일본 대표 아동복 브랜드. 하지만 이 제품은 비비드한 컬러와 스트라이프 패턴, 대비색 소매로 경쾌함을 강조. 'Since 1971, Japan'처럼 헤리티지를 간결히 드러내되, 밝고 활기찬 어린이다운 무드가 주가 되어야 함. 격식 있는 editorial보다는 playful한 에너지가 우선.",
+    "color_palette": [
+      {
+        "hex": "#2C3E7C",
+        "role": "primary (네이비 스트라이프)",
+        "source": "네이비 컬러 옵션 image_01.jpg 스트라이프 본체 색상에서 추출"
+      },
+      {
+        "hex": "#E74C3C",
+        "role": "accent-1 (레드 포인트)",
+        "source": "네이비 옵션 소매 및 mikihouse 로고 레드 부분에서 추출"
+      },
+      {
+        "hex": "#1ABC9C",
+        "role": "accent-2 (그린 스트라이프)",
+        "source": "그린 컬러 옵션 image_01.jpg 스트라이프 본체 색상에서 추출"
+      },
+      {
+        "hex": "#F39C9F",
+        "role": "accent-3 (코랄핑크)",
+        "source": "코랄핑크 옵션 image_01.jpg 스트라이프 본체 색상에서 추출"
+      },
+      {
+        "hex": "#F7F7F7",
+        "role": "background (화이트 베이스)",
+        "source": "모든 컬러 옵션의 흰색 상의 부분 및 스튜디오 배경에서 추출"
+      }
+    ],
+    "typography_mood": "sans-serif + playful. 고딕 계열 폰트로 가독성 확보하되, 헤드라인은 약간의 라운드감 있는 서체(예: Noto Sans KR Medium~Bold) 권장. 숫자(80~150 사이즈)나 브랜드명은 영문 sans(예: Montserrat)로 포인트",
+    "copy_voice": "밝고 친근한 엄마 톤. '~예요', '~잖아요' 어미 적극 활용. 품질·안전 강조할 땐 '~입니다' 단정형. playful 톤이 주이되 일본 장인정신 언급 시에만 절제된 표현",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "grid-modular",
+      "rationale": "5가지 컬러 옵션을 시각적으로 강하게 보여주는 것이 핵심. HERO에서 대표 컬러(네이비 또는 코랄핑크) 큰 이미지로 임팩트 후, 5컬러 그리드로 옵션 비교. 스트라이프 패턴이 반복적이므로 그리드 레이아웃이 자연스럽게 어울림. 디테일(로고 자수, MADE IN JAPAN 태그)은 클로즈업 사진 삽입"
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "images/navy/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "네이비 스트라이프 + 레드 소매. 평면 상태 전체 컷. 클린한 구도로 HERO 적합"
+    },
+    {
+      "filename": "images/navy/image_02.jpg",
+      "role": "detail_shots",
+      "description": "mikihouse 로고 자수 클로즈업. 브랜드 디테일 강조용"
+    },
+    {
+      "filename": "images/navy/image_03.jpg",
+      "role": "spec_shots",
+      "description": "'日本製 MADE IN JAPAN' + mikihouse 로고 태그 상세. 원산지 신뢰도 어필용"
+    },
+    {
+      "filename": "images/navy/image_04.jpg",
+      "role": "spec_shots",
+      "description": "네이비 옵션 추가 디테일 (추정: 소재감 또는 뒷면)"
+    },
+    {
+      "filename": "images/green/image_01.jpg",
+      "role": "option_shots",
+      "description": "그린 스트라이프 + 퍼플 소매. 컬러 옵션 비교용"
+    },
+    {
+      "filename": "images/green/image_02.jpg",
+      "role": "detail_shots",
+      "description": "그린 옵션 로고 자수 클로즈업"
+    },
+    {
+      "filename": "images/green/image_03.jpg",
+      "role": "spec_shots",
+      "description": "그린 옵션 태그 상세"
+    },
+    {
+      "filename": "images/green/image_04.jpg",
+      "role": "spec_shots",
+      "description": "그린 옵션 추가 디테일"
+    },
+    {
+      "filename": "images/coral_pink/image_01.jpg",
+      "role": "hero_candidate",
+      "description": "코랄핑크 스트라이프 + 핑크 소매. 여아 타겟 HERO 후보"
+    },
+    {
+      "filename": "images/coral_pink/image_02.jpg",
+      "role": "detail_shots",
+      "description": "코랄핑크 옵션 로고 자수 클로즈업"
+    },
+    {
+      "filename": "images/coral_pink/image_03.jpg",
+      "role": "spec_shots",
+      "description": "코랄핑크 옵션 태그 상세"
+    },
+    {
+      "filename": "images/coral_pink/image_04.jpg",
+      "role": "spec_shots",
+      "description": "코랄핑크 옵션 추가 디테일"
+    },
+    {
+      "filename": "images/storm_blue/image_01.jpg",
+      "role": "option_shots",
+      "description": "스톰블루 스트라이프 + 옐로우 소매. 컬러 옵션 비교용"
+    },
+    {
+      "filename": "images/storm_blue/image_02.jpg",
+      "role": "detail_shots",
+      "description": "스톰블루 옵션 로고 자수 클로즈업"
+    },
+    {
+      "filename": "images/storm_blue/image_03.jpg",
+      "role": "spec_shots",
+      "description": "스톰블루 옵션 태그 상세"
+    },
+    {
+      "filename": "images/storm_blue/image_04.jpg",
+      "role": "spec_shots",
+      "description": "스톰블루 옵션 추가 디테일"
+    },
+    {
+      "filename": "images/purple/image_01.jpg",
+      "role": "option_shots",
+      "description": "퍼플 스트라이프 + 오렌지 소매. 컬러 옵션 비교용"
+    },
+    {
+      "filename": "images/purple/image_02.jpg",
+      "role": "detail_shots",
+      "description": "퍼플 옵션 로고 자수 클로즈업"
+    },
+    {
+      "filename": "images/purple/image_03.jpg",
+      "role": "spec_shots",
+      "description": "퍼플 옵션 태그 상세"
+    },
+    {
+      "filename": "images/purple/image_04.jpg",
+      "role": "spec_shots",
+      "description": "퍼플 옵션 추가 디테일"
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 헤리티지 훅",
+        "text": "Since 1971, Japan.\n미키하우스가 50년 넘게 지켜온 약속.\n아이들의 웃음을 가장 먼저 생각합니다."
+      },
+      {
+        "angle": "컬러 선택의 즐거움 훅",
+        "text": "오늘은 네이비 입을까, 코랄핑크 입을까.\n5가지 컬러, 매일 고르는 재미.\n스트라이프 하나로 이렇게 다채로울 수 있어요."
+      },
+      {
+        "angle": "일본 제조 신뢰 훅",
+        "text": "MADE IN JAPAN.\n아이 옷 하나에도 타협하지 않는 부모님께.\n미키하우스는 일본에서 정성껏 만듭니다."
+      }
+    ],
+    "for_you_moments": [
+      "아이 옷장에 믿고 입히는 기본템이 필요한 분께",
+      "일본 브랜드 특유의 꼼꼼한 마감을 원하는 분께",
+      "형제자매가 함께 입을 수 있는 사이즈 전개를 찾는 분께"
+    ],
+    "scenes": [
+      "어린이집 등원 아침. 아이가 스스로 골라 입는 5가지 컬러",
+      "주말 공원 나들이. 활동적으로 뛰어놀아도 형태 유지되는 면 100%",
+      "친구 아이 돌잔치 선물. 브랜드 네임과 실용성을 모두 잡은 아이템"
+    ],
+    "closing": "매일 입어도 질리지 않는 스트라이프.\n미키하우스가 만든 일상의 기본."
+  }
+}

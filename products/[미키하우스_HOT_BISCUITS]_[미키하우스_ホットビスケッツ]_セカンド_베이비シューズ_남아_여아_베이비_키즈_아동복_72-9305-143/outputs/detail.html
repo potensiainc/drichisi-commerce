@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 핫비스킷 걸음마 신발 세컨드슈즈</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum:wght@400&family=Fraunces:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #FFFFFF;
+            --bg-alt: #F5EFE6;
+            --text-main: #2D2D2D;
+            --text-sub: #6B6B6B;
+            --accent: #F8B4D0;
+            --accent-soft: #D4A5D6;
+            --line-soft: #E8E8E8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Gowun Dodum', sans-serif;
+            color: var(--text-main);
+            background: var(--bg-base);
+            line-height: 1.7;
+            word-break: keep-all;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        /* HERO */
+        .hero {
+            position: relative;
+            background: linear-gradient(135deg, #FFF5F8 0%, #FFFBF5 100%);
+            padding: 80px 60px;
+            text-align: center;
+        }
+
+        .hero__seo-label {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-sub);
+            letter-spacing: 0.5px;
+            margin-bottom: 24px;
+        }
+
+        .hero__headline {
+            font-family: 'Fraunces', serif;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 20px;
+            color: var(--text-main);
+        }
+
+        .hero__subtext {
+            font-size: 16px;
+            color: var(--text-sub);
+            margin-bottom: 40px;
+        }
+
+        .hero__image {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .hero__image img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        /* STORY */
+        .story {
+            background: var(--bg-base);
+            padding: 100px 60px;
+        }
+
+        .section__title {
+            font-family: 'Fraunces', serif;
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .story__content {
+            max-width: 640px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.9;
+        }
+
+        .story__content p {
+            margin-bottom: 20px;
+        }
+
+        .story__brand-mark {
+            font-family: 'Fraunces', serif;
+            font-style: italic;
+            font-size: 18px;
+            color: var(--accent);
+            margin-top: 32px;
+        }
+
+        /* DETAILS */
+        .details {
+            background: var(--bg-alt);
+            padding: 100px 60px;
+        }
+
+        .details__grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .details__item img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            margin-bottom: 16px;
+        }
+
+        .details__caption {
+            font-size: 14px;
+            color: var(--text-sub);
+            text-align: center;
+        }
+
+        /* FEATURES */
+        .features {
+            background: var(--bg-base);
+            padding: 100px 60px;
+        }
+
+        .features__list {
+            max-width: 700px;
+            margin: 48px auto 0;
+        }
+
+        .features__item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+        .features__number {
+            font-family: 'Fraunces', serif;
+            font-size: 48px;
+            font-weight: 600;
+            color: var(--accent);
+            min-width: 80px;
+            line-height: 1;
+        }
+
+        .features__text {
+            flex: 1;
+        }
+
+        .features__text h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .features__text p {
+            font-size: 15px;
+            color: var(--text-sub);
+            line-height: 1.8;
+        }
+
+        /* FOR YOU */
+        .for-you {
+            background: var(--bg-alt);
+            padding: 100px 60px;
+        }
+
+        .for-you__items {
+            max-width: 640px;
+            margin: 48px auto 0;
+        }
+
+        .for-you__item {
+            background: var(--bg-base);
+            padding: 32px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .for-you__item::before {
+            content: '✓';
+            color: var(--accent);
+            font-size: 24px;
+            margin-right: 12px;
+        }
+
+        /* GALLERY */
+        .gallery {
+            background: var(--bg-base);
+            padding: 100px 60px;
+        }
+
+        .gallery__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 48px;
+        }
+
+        .gallery__grid img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        /* SPECS */
+        .specs {
+            background: var(--bg-alt);
+            padding: 100px 60px;
+        }
+
+        .specs__table {
+            max-width: 700px;
+            margin: 48px auto 0;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .specs__table tr {
+            border-bottom: 1px solid var(--line-soft);
+        }
+
+        .specs__table th {
+            text-align: left;
+            padding: 20px;
+            font-weight: 600;
+            width: 30%;
+            background: rgba(248, 180, 208, 0.1);
+        }
+
+        .specs__table td {
+            padding: 20px;
+            color: var(--text-sub);
+        }
+
+        /* SIZE GUIDE */
+        .size-guide {
+            background: var(--bg-base);
+            padding: 100px 60px;
+        }
+
+        .size-guide__content {
+            max-width: 700px;
+            margin: 48px auto 0;
+            text-align: center;
+        }
+
+        .size-guide__note {
+            font-size: 15px;
+            color: var(--text-sub);
+            margin-top: 24px;
+            line-height: 1.8;
+        }
+
+        /* CLOSING */
+        .closing {
+            background: linear-gradient(135deg, #FFF5F8 0%, #FFFBF5 100%);
+            padding: 120px 60px;
+            text-align: center;
+        }
+
+        .closing__text {
+            font-family: 'Fraunces', serif;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .closing__subtext {
+            font-size: 16px;
+            color: var(--text-sub);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 480px) {
+            .hero {
+                padding: 60px 30px;
+            }
+
+            .hero__headline {
+                font-size: 28px;
+            }
+
+            .story, .details, .features, .for-you, .gallery, .specs, .size-guide, .closing {
+                padding: 60px 30px;
+            }
+
+            .section__title {
+                font-size: 24px;
+            }
+
+            .details__grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery__grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .features__number {
+                font-size: 36px;
+                min-width: 60px;
+            }
+
+            .closing__text {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <p class="hero__seo-label">미키하우스 핫비스킷 걸음마 신발 세컨드슈즈 여아 남아 통기성 메쉬 14-15.5cm</p>
+            <h1 class="hero__headline">아장아장 걷기 시작한 우리 아이.<br>넘어질까 조마조마한 순간마다<br>발목을 잡아주는 든든한 신발이 필요해요.</h1>
+            <p class="hero__subtext">MIKIHOUSE HOT BISCUITS 세컨드 베이비 슈즈</p>
+            <div class="hero__image">
+                <img src="../images/default/image_01.jpg" alt="미키하우스 핫비스킷 세컨드 베이비슈즈 착화컷" loading="eager">
+            </div>
+        </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story">
+        <div class="container">
+            <h2 class="section__title">Good Quality<br>아이들을 위한 좋은 것</h2>
+            <div class="story__content">
+                <p>1948년 일본에서 시작된 미키하우스.<br>70년 넘게 아이들을 위한 좋은 것만 만들어온 브랜드예요.</p>
+                <p>첫걸음을 떼는 우리 아이에게 믿을 수 있는 브랜드를 신기고 싶은 마음. 핫비스킷은 그 마음을 알기에, 안심의 품질과 즐거운 디자인을 함께 담았어요.</p>
+                <p class="story__brand-mark">Since 1948, Japan</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DETAILS -->
+    <section class="details">
+        <div class="container">
+            <h2 class="section__title">디테일에서 느껴지는 설계</h2>
+            <div class="details__grid">
+                <div class="details__item">
+                    <img src="../images/default/image_02.jpg" alt="뒷굽 디테일" loading="lazy">
+                    <p class="details__caption">핑크 PU 소재 힐컵과 라벤더 안감</p>
+                </div>
+                <div class="details__item">
+                    <img src="../images/default/image_03.jpg" alt="탑뷰 디테일" loading="lazy">
+                    <p class="details__caption">벨크로 스트랩 2개로 발목 안정감</p>
+                </div>
+                <div class="details__item">
+                    <img src="../images/default/image_04.jpg" alt="측면 꽃 장식" loading="lazy">
+                    <p class="details__caption">꽃 장식 포인트와 메쉬 통기성</p>
+                </div>
+                <div class="details__item">
+                    <img src="../images/default/image_05.jpg" alt="밑창 클로즈업" loading="lazy">
+                    <p class="details__caption">라벤더 러버 밑창, 미끄럼 방지 패턴</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section__title">세컨드 슈즈 전용 설계</h2>
+            <div class="features__list">
+                <div class="features__item">
+                    <div class="features__number">01</div>
+                    <div class="features__text">
+                        <h3>통기성 메쉬 소재</h3>
+                        <p>아기 발은 땀이 많이 나요. 메쉬 소재로 통기성을 확보해 하루 종일 뽀송뽀송하게 유지해줘요.</p>
+                    </div>
+                </div>
+                <div class="features__item">
+                    <div class="features__number">02</div>
+                    <div class="features__text">
+                        <h3>발목 안정감 2개 스트랩</h3>
+                        <p>아장아장 걷는 아이. 넘어질까 조마조마한 순간마다 발목을 잡아주는 벨크로 스트랩 2개가 든든해요.</p>
+                    </div>
+                </div>
+                <div class="features__item">
+                    <div class="features__number">03</div>
+                    <div class="features__text">
+                        <h3>넓은 발등과 토캡 보호</h3>
+                        <p>아기 발은 통통하고 넓어요. 넓은 발등 디자인으로 편안하게, 아이보리 토캡으로 발가락을 보호해줘요.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOR YOU -->
+    <section class="for-you">
+        <div class="container">
+            <h2 class="section__title">이런 분께 추천해요</h2>
+            <div class="for-you__items">
+                <div class="for-you__item">혼자 걷기 시작한 아기에게 첫 제대로 된 신발을 찾는 분께</div>
+                <div class="for-you__item">브랜드 신뢰도와 품질을 함께 잡고 싶은 분께</div>
+                <div class="for-you__item">동네 산책이나 놀이터 외출 시 예쁘고 안전한 신발이 필요한 분께</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section__title">더 자세히 보기</h2>
+            <div class="gallery__grid">
+                <img src="../images/default/image_06.jpg" alt="인솔 오픈컷" loading="lazy">
+                <img src="../images/default/thumbnail.jpg" alt="제품 썸네일" loading="lazy">
+                <img src="../images/default/image_01.jpg" alt="착화컷 정면" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- SPECS -->
+    <section class="specs">
+        <div class="container">
+            <h2 class="section__title">제품 정보</h2>
+            <table class="specs__table">
+                <tr>
+                    <th>브랜드</th>
+                    <td>MIKIHOUSE HOT BISCUITS (미키하우스 핫비스킷)</td>
+                </tr>
+                <tr>
+                    <th>모델명</th>
+                    <td>72-9305-143</td>
+                </tr>
+                <tr>
+                    <th>제품 유형</th>
+                    <td>세컨드 베이비 슈즈</td>
+                </tr>
+                <tr>
+                    <th>대상</th>
+                    <td>남아 / 여아 (걸음마 단계 아기)</td>
+                </tr>
+                <tr>
+                    <th>사이즈</th>
+                    <td>14.0cm / 14.5cm / 15.0cm / 15.5cm</td>
+                </tr>
+                <tr>
+                    <th>색상</th>
+                    <td>핑크 메쉬 + 아이보리 토캡 + 라벤더 밑창</td>
+                </tr>
+                <tr>
+                    <th>특징</th>
+                    <td>통기성 메쉬 소재, 벨크로 스트랩 2개, 꽃 장식 포인트, 미끄럼 방지 밑창</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- SIZE GUIDE -->
+    <section class="size-guide">
+        <div class="container">
+            <h2 class="section__title">우리 아이에게 딱 맞는 사이즈</h2>
+            <div class="size-guide__content">
+                <p class="size-guide__note">처음 일본 아동화 구매하시는 분들이 많이 궁금해하시는 사이즈예요.<br><br>아기 발 실측 사이즈에서 0.5~1cm 여유 있게 선택하시면 돼요. 걸음마 단계에서는 발이 빠르게 자라니까 성장 여유를 두고 고르시는 걸 추천해요.<br><br>14.0cm: 발 실측 13.0~13.5cm<br>14.5cm: 발 실측 13.5~14.0cm<br>15.0cm: 발 실측 14.0~14.5cm<br>15.5cm: 발 실측 14.5~15.0cm</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing">
+        <div class="container">
+            <p class="closing__text">Good Quality.<br>아이들을 위한 좋은 것.</p>
+            <p class="closing__subtext">MIKIHOUSE HOT BISCUITS</p>
+        </div>
+    </section>
+</body>
+</html>

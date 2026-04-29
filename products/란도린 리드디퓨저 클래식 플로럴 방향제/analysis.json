@@ -1,0 +1,208 @@
+{
+  "product_name": "[란드린] 디퓨저",
+  "analyzed_at": "2026-04-25T11:15:00+09:00",
+  "meta": {
+    "original_name": "Laundrin'(ランドリン) ディフューザー クラシックフローラル 芳香剤 80ml",
+    "brand": "Laundrin'",
+    "price": {
+      "amount": "불명",
+      "currency": "JPY"
+    },
+    "origin": "일본",
+    "review": {
+      "rating": "불명",
+      "count": "불명"
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B01CCDQV9G/",
+    "product_id": "B01CCDQV9G"
+  },
+  "category": {
+    "main": "인테리어/리빙",
+    "sub": "홈데코",
+    "rationale": "리드 디퓨저 형태의 실내 방향제로, 인테리어 오브제 역할을 겸하는 홈 프래그런스 제품. 기능성 생활용품이 아닌 공간 연출·분위기 조성용 리빙 아이템."
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "original",
+    "spec_translation_notes": "향명(Classic Floral, Classic Fiore, No.7, Aromatic Oud)은 원어 표기 유지. 용량·사이즈·사용법은 한국어 번역. '香水のような'는 '향수처럼'으로 자연스럽게 번역."
+  },
+  "risks": [
+    {
+      "type": "생활화학제품 표시 의무",
+      "severity": "high",
+      "description": "방향제는 생활화학제품법 적용 대상. 제품명·용도·내용량·전성분·제조사·수입사·사용기한·주의사항 표기 필수.",
+      "action_required": "스마트스토어 상세페이지에 전성분(향료, 용제) 및 안전 주의사항 명시. 일본어 원문 라벨 이미지를 한국어 번역 텍스트로 보완."
+    },
+    {
+      "type": "해외직구 고지",
+      "severity": "medium",
+      "description": "일본 제품 병행수입 시 '개인통관고유부호 필요', 'A/S 불가' 고지 필요.",
+      "action_required": "상세페이지 하단에 해외직구 상품 고지문 삽입 (환불·교환 불가 조건 명시)."
+    },
+    {
+      "type": "언어 표기",
+      "severity": "low",
+      "description": "제품 라벨과 설명서가 일본어로 되어 있음. 사용법·주의사항 한국어 번역 필요.",
+      "action_required": "상세페이지에 사용법 한국어 번역 텍스트 추가."
+    },
+    {
+      "type": "화기 주의 표시",
+      "severity": "medium",
+      "description": "원본 라벨에 '火気厳禁' 표시. 알코올 성분 포함으로 화재 위험 존재.",
+      "action_required": "주의사항 섹션에 '화기 근처 사용 금지' 명시."
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "향수병처럼 아름다운 인테리어 오브제",
+      "evidence": "고급스러운 사각 유리병 + 골드 캡 + 블랙 리드스틱 디자인. 향수 브랜드 패키징 수준의 비주얼.",
+      "emotional_hook": "현관 선반에 두기만 해도 공간이 달라지는 순간. '집들이 갔더니 이 디퓨저 있던데, 어디 거야?' 물어보게 만드는 존재감."
+    },
+    {
+      "priority": 2,
+      "headline": "일본 향수 인기 1위, 클래식 플로럴 향",
+      "evidence": "메이커 조사 기준 란드린 향 중 인기 No.1. 피치·애플(톱) → 로즈·뮤게·재스민(미들) → 우디·머스크·시더·발사믹(라스트) 3단 구조.",
+      "emotional_hook": "너무 달지도, 너무 무겁지도 않은 그 미묘한 균형. 손님이 '무슨 향이에요?' 물어보는 바로 그 향."
+    },
+    {
+      "priority": 3,
+      "headline": "80ml, 약 1.5~3개월 지속",
+      "evidence": "용량 80ml. 스틱 개수·공간 환기 정도에 따라 사용 기간 조절 가능.",
+      "emotional_hook": "한 번 사두면 한 시즌 내내 쓸 수 있어요. 스프레이처럼 자주 뿌릴 필요 없이 그냥 두기만 하면 되니까."
+    },
+    {
+      "priority": 4,
+      "headline": "수입 향수 브랜드 감성, TOKYO 오리지널",
+      "evidence": "Laundrin' TOKYO. 일본 프리미엄 홈 프래그런스 브랜드. 세련된 영문 로고타입 + 골드 프레임 라벨.",
+      "emotional_hook": "외국 잡지 화보에 나올 법한 디자인. 한국 브랜드 아니냐고 물어보는 사람도 있을 정도로 세련됨."
+    }
+  ],
+  "target": {
+    "primary_persona": "25~39세 여성. 자취 또는 신혼. 원룸·투룸 인테리어에 관심 많고, 집에서 보내는 시간을 소중하게 생각함. '있어 보이는' 소품 구매에 거부감 없음. 인스타그램 홈 인테리어 계정 팔로우 중.",
+    "secondary_persona": "30~45세 여성. 집들이 선물·센스 있는 실용 선물 찾는 사람. 향초는 불 켜야 해서 번거롭고, 방향제는 싸 보이는 게 싫어서 디퓨저 선호.",
+    "use_moments": [
+      "현관 신발장 위에 두고 집 들어올 때마다 은은한 향 맡을 때",
+      "거실 사이드 테이블에 두고 소파에 앉아 책 읽을 때 옆에 있는 디퓨저 보면서 만족감 느낄 때",
+      "집들이 온 친구가 '이거 어디 거야?' 물어볼 때 뿌듯함 느끼는 순간"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "refined luxury meets soft feminine — 프리미엄하지만 과하지 않은, 세련된 여성스러움",
+    "tone_rationale": "향수병 같은 유리 재질 + 골드 캡 + 블랙 스틱 조합은 '고급'을 말하지만, Classic Floral이라는 향명과 핑크 옵션 라벨은 '부드러운 여성성'을 드러냄. 오버하지 않고 절제된 럭셔리. modern premium이 아니라 classic premium 지향.",
+    "color_palette": [
+      {
+        "hex": "#C9A65C",
+        "role": "primary accent — 골드 캡에서 추출",
+        "source": "실제 제품 금속 캡 컬러. 프리미엄·헤리티지·고급 이미지 전달"
+      },
+      {
+        "hex": "#3D2418",
+        "role": "secondary — 앰버 브라운 액체",
+        "source": "병 안 향 오일 실제 컬러. 따뜻하고 깊은 느낌"
+      },
+      {
+        "hex": "#1A1A1A",
+        "role": "text/stick — 블랙 리드 스틱",
+        "source": "스틱 실제 컬러. 명료한 대비, 모던함 부여"
+      },
+      {
+        "hex": "#F5F5F0",
+        "role": "background — 라벨 배경",
+        "source": "라벨의 아이보리 화이트. 깨끗하고 절제된 배경"
+      },
+      {
+        "hex": "#F5C8D1",
+        "role": "option variant — Classic Fiore 라벨",
+        "source": "핑크 옵션 라벨 실제 컬러. 부드럽고 여성스러운 무드"
+      }
+    ],
+    "typography_mood": "serif-script hybrid — 헤드라인은 우아한 스크립트(Laundrin' 로고), 본문은 절제된 세리프체. 클래식하되 읽기 쉬운 조합.",
+    "copy_voice": "친근하지만 절제됨. '~예요'보다는 '~입니다' 종결로 격조 유지하되, 딱딱하지 않게. '당신'같은 2인칭 호칭 지양. 감성적이되 오버하지 않음.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "editorial-magazine",
+      "rationale": "비주얼이 강력한 상품이므로 큰 이미지로 임팩트 전달이 우선. 향 구성(톱·미들·라스트)이나 옵션 라인업 같은 정보성 콘텐츠는 editorial 방식으로 정리해 매거진 화보처럼 연출."
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "thumbnail.jpg",
+      "role": "hero_candidate",
+      "description": "정면 클로즈업. 골드 캡 + 블랙 스틱 + 사각 유리병. 라벨 텍스트 선명. 대표 이미지로 최적."
+    },
+    {
+      "filename": "image_01.jpg",
+      "role": "spec_shots",
+      "description": "향 라인업 비교. Classic Floral 향 설명 + 향 피라미드(TOP/MIDDLE/LAST) 도해. 정보성 콘텐츠."
+    },
+    {
+      "filename": "image_02.jpg",
+      "role": "scene_shots",
+      "description": "창가 연출컷. 자연광 아래 두 개 사이즈 디퓨저 배치. 실제 사용 분위기 전달."
+    },
+    {
+      "filename": "image_03.jpg",
+      "role": "scene_shots",
+      "description": "화이트 선반 위 단독 배치. 미니멀 인테리어 연출. 깔끔한 공간감."
+    },
+    {
+      "filename": "image_04.jpg",
+      "role": "scene_shots",
+      "description": "베이지 선반 + 골드 액자와 함께 연출. 따뜻한 톤 인테리어 예시."
+    },
+    {
+      "filename": "image_05.jpg",
+      "role": "option_shots",
+      "description": "란드린 디퓨저 전체 라인업. 5가지 향 옵션(Classic Floral 2종, Classic Fiore, No.7, Aromatic Oud). 옵션 선택 참고용."
+    },
+    {
+      "filename": "image_06.jpg",
+      "role": "detail_shots",
+      "description": "패키지 정면 클로즈업. 라벨 디테일 + 골드 캡 질감. '클래식 플로럴의 향' 핑크 스티커 강조."
+    },
+    {
+      "filename": "image_07.jpg",
+      "role": "spec_shots",
+      "description": "제품 설명서 이미지. 사용법·주의사항·성분 표기(일본어). 한국어 번역 필요."
+    },
+    {
+      "filename": "image_08.jpg",
+      "role": "option_shots",
+      "description": "Classic Fiore 옵션 정면. 핑크 라벨 + 로즈골드 캡. 여성스러운 대체 옵션."
+    },
+    {
+      "filename": "image_09.jpg",
+      "role": "option_shots",
+      "description": "Aromatic Oud 옵션 정면. 블랙 라벨 + 골드 캡. 중성적·고급스러운 대체 옵션."
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "감성 인테리어 훅",
+        "text": "향수병처럼 아름다운 디퓨저.\n현관에 두기만 해도 공간이 달라집니다."
+      },
+      {
+        "angle": "일본 브랜드 헤리티지 훅",
+        "text": "Laundrin', TOKYO.\n일본 프리미엄 홈 프래그런스 브랜드가 만든 클래식 플로럴 향."
+      },
+      {
+        "angle": "사용 순간 공감 훅",
+        "text": "집 들어올 때마다 맡는 은은한 향.\n'이거 어디 거야?' 손님이 물어보는 바로 그 디퓨저입니다."
+      }
+    ],
+    "for_you_moments": [
+      "현관·거실 인테리어에 포인트를 주고 싶은데, 너무 요란하지 않은 오브제를 찾는 분께",
+      "향초는 불 켜야 해서 번거롭고, 일반 방향제는 디자인이 마음에 안 들었던 분께",
+      "센스 있는 집들이 선물을 찾는데 향수는 부담스럽고 실용적인 걸 원하는 분께"
+    ],
+    "scenes": [
+      "퇴근하고 현관문 열 때, 은은하게 퍼진 향이 '집에 왔구나' 느끼게 해주는 순간",
+      "주말 오후 거실 소파에 앉아 책 읽을 때, 사이드 테이블 위 디퓨저 보며 흐뭇해지는 시간",
+      "집들이 온 친구가 '여긴 왜 이렇게 좋은 향이 나?' 물어볼 때 슬쩍 가리키는 순간"
+    ],
+    "closing": "Classic Floral. 80ml."
+  }
+}

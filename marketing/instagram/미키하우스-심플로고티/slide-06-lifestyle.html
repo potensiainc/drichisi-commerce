@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 - Slide 06 Lifestyle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background: linear-gradient(180deg, #FFF9E6 0%, #FFF5D6 100%);
+    }
+
+    .top-label {
+      position: absolute;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      color: #C8102E;
+      text-transform: uppercase;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .scene-grid {
+      display: flex;
+      gap: 50px;
+    }
+
+    .scene-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .scene-circle {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid rgba(200, 16, 46, 0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .scene-icon {
+      font-size: 52px;
+    }
+
+    .scene-name {
+      font-size: 26px;
+      font-weight: 700;
+      color: #1A1A1A;
+    }
+
+    .scene-desc {
+      font-size: 18px;
+      font-weight: 400;
+      color: #666;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .headline {
+      font-size: 44px;
+      font-weight: 700;
+      color: #1A1A1A;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #C8102E;
+      font-weight: 800;
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: rgba(200, 16, 46, 0.2);
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 2px; border-left-width: 2px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 2px; border-right-width: 2px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 2px; border-left-width: 2px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 2px; border-right-width: 2px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(200, 16, 46, 0.3);
+    }
+
+    .dot.active {
+      background: #C8102E;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <span class="top-label">Daily Wear</span>
+
+    <div class="content">
+      <div class="scene-grid">
+        <div class="scene-item">
+          <div class="scene-circle">
+            <span class="scene-icon">🏫</span>
+          </div>
+          <span class="scene-name">등원복</span>
+          <span class="scene-desc">매일 입혀도<br>질리지 않아요</span>
+        </div>
+
+        <div class="scene-item">
+          <div class="scene-circle">
+            <span class="scene-icon">🌳</span>
+          </div>
+          <span class="scene-name">나들이</span>
+          <span class="scene-desc">공원에서<br>뛰어놀 때</span>
+        </div>
+
+        <div class="scene-item">
+          <div class="scene-circle">
+            <span class="scene-icon">🏠</span>
+          </div>
+          <span class="scene-name">집에서</span>
+          <span class="scene-desc">편하게<br>입히기 좋아요</span>
+        </div>
+      </div>
+
+      <h2 class="headline">
+        어디서든 <span class="highlight">데일리템</span>으로 딱이에요
+      </h2>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+{
+  "product_name": "미키하우스 곰 자수 데님 멜빵바지 7부 (남아/여아 공용)",
+  "analyzed_at": "2026-04-26T23:30:00+09:00",
+  "meta": {
+    "original_name": "[ミキハウス] オーバーオール 7分丈 サロペット デニム くま ロゴ パンツ 男の子 女の子 ベビー キッズ ベビー服 子供服 13-3301-689",
+    "brand": "MIKIHOUSE (미키하우스)",
+    "price": {
+      "amount": "2,980",
+      "currency": "JPY"
+    },
+    "origin": "일본",
+    "review": {
+      "rating": "",
+      "count": ""
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0D491QDFZ",
+    "product_id": "B0D491QDFZ"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "아동의류",
+    "rationale": "베이비/키즈용 데님 멜빵바지로 0~3세 유아 의류에 해당. 남아/여아 공용 디자인."
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "original",
+    "spec_translation_notes": "일본어 상품명·설명은 모두 한글로 번역. 브랜드명 'MIKIHOUSE'는 영문 유지하되 '미키하우스' 병기. 옵션명(S/M/L/LL)은 그대로 유지."
+  },
+  "risks": [
+    {
+      "type": "언어 표기",
+      "severity": "low",
+      "description": "일본어 원문 제목·설명이 포함되어 있으나 이미 한글 번역 완료",
+      "action_required": "상세페이지 작성 시 일본어 표기 완전 제거"
+    },
+    {
+      "type": "KC 인증",
+      "severity": "medium",
+      "description": "아동용품(의류)은 KC 인증 대상이지만, 일본 정품 브랜드 병행수입 시 일부 면제 가능",
+      "action_required": "KC 인증 언급하지 말고 '정품 보장' 강조. 필요 시 KC 인증 관련 고지는 스토어 공지사항으로 처리"
+    },
+    {
+      "type": "해외직구 고지",
+      "severity": "high",
+      "description": "해외구매대행 상품으로 전자상거래법에 따른 고지 필수",
+      "action_required": "통합 NOTICE 이미지(drichisi-notice.png) 상세페이지 최상단 배치로 충족"
+    },
+    {
+      "type": "가격 표기",
+      "severity": "high",
+      "description": "원본 가격이 일본 엔화(¥2,980)로 표기되어 있음",
+      "action_required": "상세페이지에 엔화 가격 절대 노출 금지. 원가 정보 비공개. 스마트스토어 옵션에서 원화 가격만 설정."
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "미키하우스 정품, 일본 품질의 안심",
+      "evidence": "일본 아동복 1위 브랜드 미키하우스. 꼼꼼한 봉제와 안전한 소재로 유명.",
+      "emotional_hook": "아이 피부에 닿는 옷이니까, 믿을 수 있는 브랜드가 중요하죠."
+    },
+    {
+      "priority": 2,
+      "headline": "귀여운 곰 자수와 체크 스트랩",
+      "evidence": "엉덩이 양쪽에 큼지막한 곰 자수, 베이지 체크 스트랩으로 포인트",
+      "emotional_hook": "입히고 나면 뒤에서 봐도 귀여워서 사진 찍게 되는 옷."
+    },
+    {
+      "priority": 3,
+      "headline": "스냅 버튼으로 기저귀 갈이 편리",
+      "evidence": "다리 안쪽 스냅 버튼 개폐식, 전체를 벗기지 않고도 기저귀 교체 가능",
+      "emotional_hook": "외출 중 화장실에서 바지 전부 벗기느라 고생한 적 있죠? 이건 스냅만 풀면 끝."
+    },
+    {
+      "priority": 4,
+      "headline": "7부 길이로 봄·여름·초가을 3시즌 활용",
+      "evidence": "종아리 중간 길이로 덥지도 춥지도 않은 계절에 딱",
+      "emotional_hook": "긴바지는 더워하고 반바지는 추울 때, 애매한 날씨에 정답인 길이."
+    },
+    {
+      "priority": 5,
+      "headline": "남아/여아 구분 없는 유니섹스 디자인",
+      "evidence": "심플한 데님 블루에 중성적인 곰 캐릭터, 성별 제한 없이 활용 가능",
+      "emotional_hook": "동생에게 물려 입히기도 좋고, 중고 판매할 때도 수요 많은 스타일."
+    }
+  ],
+  "target": {
+    "primary_persona": "30대 초반 엄마, 첫째 18개월 육아 중. 일본 브랜드 아동복 선호. SNS로 육아 정보 공유하며 예쁜 옷 입히는 걸 좋아함. 실용성도 중요하게 생각.",
+    "secondary_persona": "30대 후반 맘, 둘째 출산 예정. 첫째가 입던 옷을 동생에게 물려줄 계획이라 내구성 좋은 브랜드 선호. 기저귀 갈이 편의성 중시.",
+    "use_moments": [
+      "주말 놀이터나 키즈카페 갈 때 편하게 입히는 옷",
+      "봄·가을 외출복으로 가디건이나 티셔츠와 레이어링",
+      "여름 실내(에어컨 가동)에서 반팔과 매치"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "playful-classic",
+    "tone_rationale": "미키하우스는 일본 아동복의 대표 브랜드로 클래식하면서도 귀여운 감성. 과하지 않은 장난기와 안정감 있는 품질감을 동시에 전달해야 함. 깔끔한 스튜디오 컷과 디테일 클로즈업으로 고급스러움 유지하되, 곰 자수나 체크 스트랩 같은 귀여운 요소는 확실히 부각.",
+    "color_palette": [
+      {
+        "hex": "#5B7BA5",
+        "role": "primary",
+        "source": "데님 본체 미디엄 블루 (상품 실제 컬러)"
+      },
+      {
+        "hex": "#D4B896",
+        "role": "accent",
+        "source": "체크 스트랩의 베이지 톤 (상품 실제 컬러)"
+      },
+      {
+        "hex": "#E41E2C",
+        "role": "brand-accent",
+        "source": "MIKIHOUSE 로고 레드 (상품 실제 컬러)"
+      },
+      {
+        "hex": "#E07020",
+        "role": "detail",
+        "source": "오렌지 스티치 컬러 (상품 실제 컬러)"
+      },
+      {
+        "hex": "#F8F6F0",
+        "role": "background",
+        "source": "화이트 배경 (스튜디오 촬영 톤)"
+      }
+    ],
+    "typography_mood": "sans-serif, 친근하고 읽기 쉬운. 제목은 medium~semibold로 안정감, 본문은 regular로 부담 없이.",
+    "copy_voice": "친근하고 따뜻한 엄마 친구 톤. '~죠?', '~예요' 같은 공감 어미 적절히 사용. 미키하우스 브랜드 신뢰감은 살리되 딱딱하지 않게.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "grid-modular",
+      "rationale": "아동복은 시각적 귀여움이 구매 결정의 80%. 큰 이미지로 곰 자수·체크 디테일 확실히 보여주고, 기능(스냅 버튼, 7부 길이)은 그리드로 깔끔하게 정리."
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "thumbnail.jpg",
+      "role": "hero_candidate",
+      "description": "정면 전체샷. 데님 멜빵바지 전체 실루엣과 엉덩이 곰 자수가 선명하게 보임."
+    },
+    {
+      "filename": "image_01.jpg",
+      "role": "hero_candidate",
+      "description": "뒷면 전체샷. 뒷주머니 곰 자수와 전체 핏이 깔끔하게 보임."
+    },
+    {
+      "filename": "image_02.jpg",
+      "role": "detail_shots",
+      "description": "체크 스트랩 클로즈업. MIKIHOUSE 로고 주머니와 브랜드 라벨, 우드 버튼 디테일."
+    },
+    {
+      "filename": "image_03.jpg",
+      "role": "spec_shots",
+      "description": "다리 안쪽 스냅 버튼 개폐 모습. 기저귀 갈이 편의성 설명용."
+    },
+    {
+      "filename": "image_04.jpg",
+      "role": "detail_shots",
+      "description": "엉덩이 곰 자수 초클로즈업. 흰색/그레이 아웃라인 디테일과 귀여운 표정."
+    },
+    {
+      "filename": "image_05.jpg",
+      "role": "detail_shots",
+      "description": "MIKIHOUSE 로고 주머니 클로즈업. 빨강/흰색 로고와 우드 버튼."
+    },
+    {
+      "filename": "image_06.jpg",
+      "role": "detail_shots",
+      "description": "곰 아웃라인 자수와 브랜드 레드 라벨. 오렌지 스티치 디테일."
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 신뢰",
+        "text": "일본 엄마들이 먼저 선택한 브랜드.\n미키하우스 데님 멜빵바지."
+      },
+      {
+        "angle": "귀여움 + 실용",
+        "text": "뒤에서 봐도 귀여운 곰 자수,\n스냅 버튼으로 기저귀 갈이도 편하게."
+      },
+      {
+        "angle": "3시즌 활용",
+        "text": "봄부터 초가을까지.\n애매한 날씨에 딱 맞는 7부 길이 데님."
+      }
+    ],
+    "for_you_moments": [
+      "아이 옷은 믿을 수 있는 브랜드로만 고르는 분께",
+      "기저귀 갈이 때마다 바지 전부 벗기느라 불편했던 분께",
+      "동생에게 물려 입힐 옷이라 튼튼한 걸 찾는 분께"
+    ],
+    "scenes": [
+      "주말 오전, 놀이터 갈 때 후다닥 입히기 좋은 옷",
+      "키즈카페나 백화점 나들이, 편하면서도 예쁜 차림",
+      "봄·가을 환절기, 가디건 하나만 걸쳐도 완성되는 코디"
+    ],
+    "closing": "아이에게 입히는 옷,\n브랜드 하나는 확실하게."
+  }
+}

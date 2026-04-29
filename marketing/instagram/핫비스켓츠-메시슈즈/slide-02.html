@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>HOT BISCUITS - Slide 02</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #FFF5F8;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      position: relative;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .header .label {
+      display: inline-block;
+      background: #FF6B9D;
+      color: white;
+      padding: 10px 28px;
+      border-radius: 25px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .header h2 {
+      font-size: 44px;
+      font-weight: 900;
+      color: #333;
+      line-height: 1.4;
+    }
+
+    .header h2 span {
+      color: #FF6B9D;
+    }
+
+    .problem-box {
+      background: white;
+      border-radius: 30px;
+      padding: 50px;
+      box-shadow: 0 10px 40px rgba(255, 107, 157, 0.15);
+      margin-bottom: 40px;
+    }
+
+    .problem-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .problem-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .problem-icon {
+      width: 60px;
+      height: 60px;
+      background: #FFE4EC;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      flex-shrink: 0;
+    }
+
+    .problem-text {
+      flex: 1;
+    }
+
+    .problem-text h3 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 8px;
+    }
+
+    .problem-text p {
+      font-size: 20px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .bottom-accent {
+      position: absolute;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+
+    .bottom-accent p {
+      font-size: 24px;
+      color: #FF6B9D;
+      font-weight: 700;
+    }
+
+    .arrow-down {
+      font-size: 36px;
+      margin-top: 10px;
+      animation: bounce 1s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(10px); }
+    }
+
+    .decorative-circle {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.1;
+    }
+
+    .circle-1 {
+      width: 200px;
+      height: 200px;
+      background: #FF6B9D;
+      top: -50px;
+      right: -50px;
+    }
+
+    .circle-2 {
+      width: 150px;
+      height: 150px;
+      background: #4A90E2;
+      bottom: 100px;
+      left: -50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="decorative-circle circle-1"></div>
+  <div class="decorative-circle circle-2"></div>
+
+  <div class="container">
+    <div class="header">
+      <span class="label">이런 고민 있으신가요?</span>
+      <h2>걸음마 아기 <span>신발 고민</span></h2>
+    </div>
+
+    <div class="problem-box">
+      <div class="problem-item">
+        <div class="problem-icon">👣</div>
+        <div class="problem-text">
+          <h3>발볼이 넓어서 신발이 안 맞아요</h3>
+          <p>일반 신발은 발볼이 좁아 우리 아이에게 꽉 끼어요</p>
+        </div>
+      </div>
+
+      <div class="problem-item">
+        <div class="problem-icon">💦</div>
+        <div class="problem-text">
+          <h3>여름에 땀이 많이 나요</h3>
+          <p>통기성이 부족해서 땀띠가 생기기 쉬워요</p>
+        </div>
+      </div>
+
+      <div class="problem-item">
+        <div class="problem-icon">🦶</div>
+        <div class="problem-text">
+          <h3>갑이 높아서 신기기 어려워요</h3>
+          <p>발등이 높은 아기는 신발 신고 벗기기가 힘들어요</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-accent">
+      <p>HOT BISCUITS가 해결해 드릴게요!</p>
+      <div class="arrow-down">↓</div>
+    </div>
+  </div>
+</body>
+</html>

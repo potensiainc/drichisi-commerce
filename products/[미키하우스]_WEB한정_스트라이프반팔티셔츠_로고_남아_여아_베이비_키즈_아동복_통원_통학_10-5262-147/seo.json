@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "generated_at": "2026-04-26T23:35:00Z",
+    "source_analysis": "analysis.json",
+    "target_platform": "네이버 스마트스토어"
+  },
+  "title_candidates": [
+    {
+      "text": "미키하우스 스트라이프 반팔티셔츠 남아여아 아동복 여름 통학복",
+      "length": 30,
+      "reasoning": "브랜드 + 디자인 + 용도 + 계절 조합, 검색 최적화"
+    },
+    {
+      "text": "미키하우스 로고 반팔티 베이비 키즈 통원복 여름티셔츠 4색",
+      "length": 30,
+      "reasoning": "브랜드 + 핵심 특징 + 타겟 + 컬러 옵션 강조"
+    },
+    {
+      "text": "미키하우스 WEB한정 스트라이프 반팔티 남아 여아 여름 티셔츠",
+      "length": 31,
+      "reasoning": "한정판 강조 + 성별 명시 + 계절 타겟팅"
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 스트라이프 반팔티셔츠 남아여아 아동복 여름 통학복",
+    "length": 30,
+    "selection_reason": "검색 키워드 최적 조합: 브랜드(미키하우스) + 디자인(스트라이프) + 상품(반팔티셔츠) + 타겟(남아여아 아동복) + 계절(여름) + 용도(통학복). 네이버 검색에서 '미키하우스 아동복', '여름 통학복', '남아여아 반팔' 등 다양한 검색어에 노출 가능."
+  },
+  "tags": [
+    "미키하우스",
+    "아동복",
+    "반팔티셔츠",
+    "여름티셔츠",
+    "통학복",
+    "남아",
+    "여아",
+    "베이비복",
+    "키즈티셔츠",
+    "일본브랜드"
+  ],
+  "category_recommendation": {
+    "path": "패션의류 > 아동의류/잡화 > 아동의류 > 티셔츠/상의",
+    "reasoning": "네이버 쇼핑 표준 카테고리 기준, 아동복 티셔츠에 최적화된 카테고리"
+  },
+  "brand_field": {
+    "value": "미키하우스",
+    "reasoning": "한국에서 널리 알려진 원어 표기 사용, 검색 최적화"
+  },
+  "manufacturer_field": {
+    "value": "미키하우스",
+    "reasoning": "제조사명 동일, 브랜드 일관성 유지"
+  },
+  "seo_check": {
+    "title_length_ok": true,
+    "title_length": 30,
+    "brand_included": true,
+    "category_match": true,
+    "search_keywords_covered": [
+      "미키하우스",
+      "아동복",
+      "반팔티셔츠",
+      "여름",
+      "통학복",
+      "남아여아"
+    ],
+    "all_passed": true,
+    "warnings": []
+  },
+  "search_optimization": {
+    "primary_keywords": [
+      "미키하우스",
+      "아동복 반팔",
+      "여름 티셔츠",
+      "통학복"
+    ],
+    "secondary_keywords": [
+      "베이비 티셔츠",
+      "키즈 반팔",
+      "일본 아동복",
+      "브랜드 아동복"
+    ],
+    "long_tail_keywords": [
+      "미키하우스 반팔티셔츠",
+      "남아여아 통학복",
+      "여름 아동복 반팔",
+      "브랜드 키즈티셔츠"
+    ]
+  },
+  "naver_smartstore_tips": {
+    "product_name_display": "미키하우스 스트라이프 반팔티셔츠 남아여아 아동복 여름 통학복",
+    "option_display_format": "색상: 그레이 / 블랙화이트 / 멀티컬러 / 레드네이비 | 사이즈: 80~150cm",
+    "main_image_suggestion": "대표 색상(멀티컬러 또는 레드네이비) 착용 이미지 사용 권장",
+    "detail_page_hook": "WEB 한정 에디션 강조, 4가지 컬러 옵션 비주얼 강조"
+  }
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>란도린 디퓨저 - Slide 06 Lifestyle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Noto+Serif+KR:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Serif KR', serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background-image: url('file:///D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/화면 캡처 2026-04-25 172028.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .dim-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(247, 246, 243, 0.85) 0%,
+        rgba(247, 246, 243, 0.7) 50%,
+        rgba(247, 246, 243, 0.9) 100%
+      );
+    }
+
+    .top-label {
+      position: absolute;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 0.35em;
+      color: #B8922D;
+      text-transform: uppercase;
+    }
+
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .space-grid {
+      display: flex;
+      gap: 60px;
+    }
+
+    .space-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .space-circle {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.7);
+      border: 1px solid rgba(201, 166, 92, 0.3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .space-icon {
+      font-size: 48px;
+    }
+
+    .space-name {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: #1A1510;
+    }
+
+    .space-desc {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #5A5550;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .headline {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 50px;
+      font-weight: 600;
+      color: #1A1510;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #B8922D;
+      font-weight: 700;
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: #D4CFC8;
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 1px; border-left-width: 1px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 1px; border-right-width: 1px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 1px; border-left-width: 1px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 1px; border-right-width: 1px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #D4CFC8;
+    }
+
+    .dot.active {
+      background: #C9A65C;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="dim-overlay"></div>
+
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <span class="top-label">Where to place</span>
+
+    <div class="content">
+      <div class="space-grid">
+        <div class="space-item">
+          <div class="space-circle">
+            <span class="space-icon">🚪</span>
+          </div>
+          <span class="space-name">현관</span>
+          <span class="space-desc">집에 들어오는<br>첫 인상</span>
+        </div>
+
+        <div class="space-item">
+          <div class="space-circle">
+            <span class="space-icon">🛋️</span>
+          </div>
+          <span class="space-name">거실</span>
+          <span class="space-desc">가족과 함께<br>보내는 공간</span>
+        </div>
+
+        <div class="space-item">
+          <div class="space-circle">
+            <span class="space-icon">🛏️</span>
+          </div>
+          <span class="space-name">침실</span>
+          <span class="space-desc">편안한 휴식을<br>위한 향</span>
+        </div>
+      </div>
+
+      <h2 class="headline">
+        어디에 둬도 <span class="highlight">분위기</span>가 달라져요
+      </h2>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

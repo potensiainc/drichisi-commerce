@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 블라우스 - Slide 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: linear-gradient(180deg, #E8F5E9 0%, #FFF8E1 100%);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding: 50px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .section-label {
+            background: #2E7D32;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .page-num {
+            font-size: 20px;
+            color: #999;
+            font-weight: 500;
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 80px;
+        }
+        .main-title {
+            font-size: 50px;
+            font-weight: 900;
+            color: #333;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .main-title span {
+            color: #C8102E;
+        }
+        .gender-cards {
+            display: flex;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        .gender-card {
+            width: 350px;
+            background: white;
+            border-radius: 30px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        .gender-icon {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+        .gender-icon.boy {
+            background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);
+        }
+        .gender-icon.girl {
+            background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+        }
+        .gender-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .gender-desc {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+        }
+        .unisex-badge {
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            color: #333;
+            padding: 20px 50px;
+            border-radius: 50px;
+            font-size: 26px;
+            font-weight: 700;
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="section-label">UNISEX</span>
+        <span class="page-num">04</span>
+    </div>
+    <div class="main-content">
+        <h2 class="main-title">남아 여아 <span>모두</span><br>착용 가능!</h2>
+        <div class="gender-cards">
+            <div class="gender-card">
+                <div class="gender-icon boy">B</div>
+                <h3 class="gender-title">남아</h3>
+                <p class="gender-desc">깔끔한 화이트 블라우스에<br>포인트 로고로 멋스럽게</p>
+            </div>
+            <div class="gender-card">
+                <div class="gender-icon girl">G</div>
+                <h3 class="gender-title">여아</h3>
+                <p class="gender-desc">크리스마스 컬러 로고로<br>사랑스럽고 귀엽게</p>
+            </div>
+        </div>
+        <div class="unisex-badge">형제자매 커플룩 가능</div>
+    </div>
+</body>
+</html>

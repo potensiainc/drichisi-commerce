@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 캔버스 토트백 - Slide 6</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #2B3E50;
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px;
+      position: relative;
+    }
+    .logo {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      width: 140px;
+      height: auto;
+      filter: brightness(0) invert(1);
+    }
+    .rating-section {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .stars {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+    .star {
+      width: 48px;
+      height: 48px;
+      fill: #FFD700;
+    }
+    .rating-text {
+      font-size: 72px;
+      font-weight: 900;
+      color: white;
+    }
+    .rating-text span {
+      font-size: 36px;
+      color: rgba(255,255,255,0.7);
+    }
+    .review-count {
+      font-size: 24px;
+      color: rgba(255,255,255,0.8);
+      margin-top: 8px;
+    }
+    .reviews {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      width: 100%;
+      max-width: 850px;
+    }
+    .review {
+      background: rgba(255,255,255,0.1);
+      padding: 30px 40px;
+      border-radius: 20px;
+      border-left: 4px solid #FFD700;
+    }
+    .review-text {
+      font-size: 24px;
+      font-weight: 500;
+      color: white;
+      line-height: 1.6;
+    }
+    .review-author {
+      font-size: 18px;
+      color: rgba(255,255,255,0.6);
+      margin-top: 12px;
+    }
+    .bottom-badge {
+      position: absolute;
+      bottom: 50px;
+      background: #C8102E;
+      color: white;
+      padding: 16px 40px;
+      border-radius: 40px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="../../../assets/brands/mikihouse/logo_nobg.png" alt="MIKIHOUSE" class="logo">
+    <div class="rating-section">
+      <div class="stars">
+        <svg class="star" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <svg class="star" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <svg class="star" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <svg class="star" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <svg class="star" viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" fill="#FFD700" fill-opacity="0.5"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" fill="none" stroke="#FFD700" stroke-width="1"/></svg>
+      </div>
+      <div class="rating-text">4.6 <span>/ 5.0</span></div>
+      <div class="review-count">11개의 리뷰</div>
+    </div>
+    <div class="reviews">
+      <div class="review">
+        <p class="review-text">"튼튼하고 깔끔해서 자주 들고 다녀요. 아이 짐 넣기에도 딱이에요!"</p>
+        <span class="review-author">- 구매자 A</span>
+      </div>
+      <div class="review">
+        <p class="review-text">"일본 직구했는데 품질이 정말 좋아요. 색상도 예쁘고 마감도 꼼꼼해요."</p>
+        <span class="review-author">- 구매자 B</span>
+      </div>
+    </div>
+    <div class="bottom-badge">Amazon Japan 베스트셀러</div>
+  </div>
+</body>
+</html>

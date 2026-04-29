@@ -1,0 +1,106 @@
+{
+  "product_name": "란도린 리드디퓨저 클래식 플로럴",
+  "content_type": "carousel",
+  "version": "2.0",
+  "created_at": "2026-04-26",
+  "slides": [
+    {
+      "order": 1,
+      "type": "cover",
+      "image_suggestion": "images/thumbnail.jpg",
+      "text_overlay": "일본에서 난리 난\n이 디퓨저,\n드디어 입고",
+      "text_position": "center",
+      "design_note": "큰 폰트로 임팩트. 제품 이미지 중앙 배치. 골드 캡과 블랙 스틱이 눈에 띄게"
+    },
+    {
+      "order": 2,
+      "type": "problem",
+      "image_suggestion": "images/image_02.jpg (창가 연출컷)",
+      "text_overlay": "디퓨저 사면\n항상 고민이었던 것\n\n✓ 디자인이 별로\n✓ 향이 너무 인공적\n✓ 금방 증발해서 아까움",
+      "text_position": "top-left",
+      "design_note": "문제 공감. 체크리스트 형식으로"
+    },
+    {
+      "order": 3,
+      "type": "feature-1",
+      "image_suggestion": "images/image_03.jpg (화이트 선반 연출)",
+      "text_overlay": "향수병처럼 예쁜\n디자인\n\n사각 유리병 × 골드 캡\n× 블랙 스틱\n\n인테리어 소품이냐고\n물어볼 정도예요",
+      "text_position": "bottom",
+      "design_note": "디자인 강조. 세련된 비주얼 부각"
+    },
+    {
+      "order": 4,
+      "type": "feature-2",
+      "image_suggestion": "images/image_01.jpg (향 피라미드)",
+      "text_overlay": "일본 인기 1위\nClassic Floral 향\n\n톱: 복숭아·사과\n미들: 장미·자스민\n라스트: 머스크·우디\n\n너무 달지도, 무겁지도 않은\n그 미묘한 균형",
+      "text_position": "right",
+      "design_note": "향 구조 설명. 3단 향 피라미드 이미지 활용"
+    },
+    {
+      "order": 5,
+      "type": "feature-3",
+      "image_suggestion": "images/image_04.jpg (베이지 인테리어)",
+      "text_overlay": "80ml,\n약 2~3개월 지속\n\n스틱만 꽂아두면 끝\n불 켤 필요도\n뿌릴 필요도 없어요\n\n일주일에 한 번\n스틱 뒤집어주면 OK",
+      "text_position": "top-right",
+      "design_note": "실용성 강조. 간편함 어필"
+    },
+    {
+      "order": 6,
+      "type": "usage-scene",
+      "image_suggestion": "images/image_05.jpg (라인업)",
+      "text_overlay": "이런 분들께 추천해요\n\n□ 현관 분위기 바꾸고 싶을 때\n□ 향초는 불 켜기 귀찮을 때\n□ 집들이 선물 고민될 때\n□ 싸구려 방향제는 싫을 때",
+      "text_position": "center-left",
+      "design_note": "타겟 맞춤 추천. 체크박스 형식"
+    },
+    {
+      "order": 7,
+      "type": "cta",
+      "image_suggestion": "images/thumbnail.jpg",
+      "text_overlay": "Laundrin'\nClassic Floral\n80ml\n\n일본 정품\n드리치시에서 만나요",
+      "text_position": "center",
+      "design_note": "제품명과 브랜드 강조. 프로필 링크 유도"
+    }
+  ],
+  "caption": {
+    "hook": "일본에서 난리 난 란도린 디퓨저, 드디어 입고했어요",
+    "body": "친구 집에 갔다가 현관에서부터 너무 좋은 향이 나는 거예요.\n\"이거 뭐야?\" 물어봤더니 란도린 디퓨저래요.\n\n향수병처럼 예쁜 사각 유리병에 골드 캡, 블랙 스틱 조합인데\n진짜 수입 향수 같은 비주얼이더라고요.\n\n향도 진짜 좋아요.\n톱은 복숭아·사과로 상큼하게 시작해서\n미들은 장미·자스민으로 우아하게,\n라스트는 머스크·우디로 은은하게 마무리돼요.\n\n너무 달지도, 무겁지도 않아서\n누가 와도 \"여긴 왜 이렇게 좋은 향 나?\" 물어봐요.\n\n80ml 용량에 약 2~3개월 가니까\n한 번 사두면 한 시즌은 거뜬해요.\n\n스틱만 꽂아두면 알아서 향 퍼지니까\n향초처럼 불 켤 필요도 없고,\n스프레이처럼 자주 뿌릴 필요도 없어요.\n\n일주일에 한 번 스틱 뒤집어주면 끝이에요.",
+    "cta": "프로필 링크에서 일본 정품으로 만나요!\n궁금한 점은 DM 주세요 💌",
+    "hashtags": [
+      "#일본구매대행",
+      "#일본직구",
+      "#드리치시",
+      "#란도린디퓨저",
+      "#일본디퓨저",
+      "#리드디퓨저",
+      "#클래식플로럴",
+      "#홈프래그런스",
+      "#인테리어방향제",
+      "#현관인테리어",
+      "#집들이선물",
+      "#감성인테리어",
+      "#고급디퓨저",
+      "#향수같은향",
+      "#일본쇼핑"
+    ]
+  },
+  "full_caption": "일본에서 난리 난 란도린 디퓨저, 드디어 입고했어요\n\n친구 집에 갔다가 현관에서부터 너무 좋은 향이 나는 거예요.\n\"이거 뭐야?\" 물어봤더니 란도린 디퓨저래요.\n\n향수병처럼 예쁜 사각 유리병에 골드 캡, 블랙 스틱 조합인데\n진짜 수입 향수 같은 비주얼이더라고요.\n\n향도 진짜 좋아요.\n톱은 복숭아·사과로 상큼하게 시작해서\n미들은 장미·자스민으로 우아하게,\n라스트는 머스크·우디로 은은하게 마무리돼요.\n\n너무 달지도, 무겁지도 않아서\n누가 와도 \"여긴 왜 이렇게 좋은 향 나?\" 물어봐요.\n\n80ml 용량에 약 2~3개월 가니까\n한 번 사두면 한 시즌은 거뜬해요.\n\n스틱만 꽂아두면 알아서 향 퍼지니까\n향초처럼 불 켤 필요도 없고,\n스프레이처럼 자주 뿌릴 필요도 없어요.\n\n일주일에 한 번 스틱 뒤집어주면 끝이에요.\n\n프로필 링크에서 일본 정품으로 만나요!\n궁금한 점은 DM 주세요 💌\n\n#일본구매대행 #일본직구 #드리치시 #란도린디퓨저 #일본디퓨저 #리드디퓨저 #클래식플로럴 #홈프래그런스 #인테리어방향제 #현관인테리어 #집들이선물 #감성인테리어 #고급디퓨저 #향수같은향 #일본쇼핑",
+  "image_files": [
+    "D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/thumbnail.jpg",
+    "D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/image_02.jpg",
+    "D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/image_03.jpg",
+    "D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/image_01.jpg",
+    "D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/image_04.jpg",
+    "D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/image_05.jpg",
+    "D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/thumbnail.jpg"
+  ],
+  "design_notes": {
+    "color_palette": {
+      "primary": "#C9A65C (골드 - 캡 컬러)",
+      "secondary": "#3D2418 (앰버 브라운 - 액체 컬러)",
+      "text": "#1A1A1A (블랙 - 스틱 컬러)",
+      "background": "#F5F5F0 (아이보리 - 라벨 배경)"
+    },
+    "typography": "세리프 헤드라인 + 산세리프 본문, 우아하고 절제된 느낌",
+    "tone": "친근하고 따뜻한 (~했어요, ~거예요 체), 블로그 글과 동일한 톤"
+  }
+}

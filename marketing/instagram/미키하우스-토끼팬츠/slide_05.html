@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(135deg, #2C3E5F 0%, #1a2744 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      position: relative;
+    }
+    .left-section {
+      width: 55%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .right-section {
+      width: 45%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 60px;
+    }
+    .slide-number {
+      position: absolute;
+      top: 50px;
+      left: 60px;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.4);
+      letter-spacing: 2px;
+    }
+    .feature-label {
+      background: #FFD700;
+      color: #2C3E5F;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: 700;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+    .headline {
+      font-size: 40px;
+      font-weight: 900;
+      color: white;
+      line-height: 1.4;
+      margin-bottom: 30px;
+    }
+    .headline .highlight {
+      color: #FFD700;
+    }
+    .feature-list {
+      list-style: none;
+    }
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+    .feature-icon {
+      width: 36px;
+      height: 36px;
+      background: rgba(255, 215, 0, 0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    .product-image {
+      width: 450px;
+      height: 550px;
+      object-fit: contain;
+      filter: drop-shadow(10px 20px 40px rgba(0, 0, 0, 0.3));
+    }
+    .glow-circle {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(255, 192, 203, 0.15) 0%, transparent 70%);
+      border-radius: 50%;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="glow-circle"></div>
+
+  <div class="container">
+    <div class="slide-number">05 / 07</div>
+
+    <div class="left-section">
+      <img src="../../products/[미키하우스]_팬츠_ロング팬츠_로고_うさぎ_10分丈_長ズボン_日本製_여아_베이비_키즈_아동복_13-3226-146/images/nobg/image_02_nobg.png" class="product-image" alt="미키하우스 팬츠 뒷면">
+    </div>
+
+    <div class="right-section">
+      <span class="feature-label">POINT 04</span>
+      <h2 class="headline">
+        <span class="highlight">실용적인</span><br>
+        디테일까지
+      </h2>
+      <ul class="feature-list">
+        <li class="feature-item">
+          <span class="feature-icon">&#10003;</span>
+          허리 고무 조절 가능
+        </li>
+        <li class="feature-item">
+          <span class="feature-icon">&#10003;</span>
+          앞 양쪽 포켓 + 뒷주머니
+        </li>
+        <li class="feature-item">
+          <span class="feature-icon">&#10003;</span>
+          성장에 맞춰 오래 입혀요
+        </li>
+        <li class="feature-item">
+          <span class="feature-icon">&#10003;</span>
+          세탁해도 형태 유지
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

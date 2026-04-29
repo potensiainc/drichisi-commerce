@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>HOT BISCUITS - Slide 03</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(180deg, #4A90E2 0%, #87CEEB 100%);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header h2 {
+      font-size: 44px;
+      font-weight: 900;
+      color: white;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      flex: 1;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: 30px;
+      padding: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+
+    .feature-icon {
+      width: 90px;
+      height: 90px;
+      background: linear-gradient(135deg, #FF6B9D, #FFB6C1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 25px rgba(255, 107, 157, 0.3);
+    }
+
+    .feature-card h3 {
+      font-size: 26px;
+      font-weight: 800;
+      color: #333;
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    .feature-card p {
+      font-size: 18px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .highlight {
+      color: #FF6B9D;
+      font-weight: 700;
+    }
+
+    .brand-footer {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .brand-footer span {
+      background: white;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #4A90E2;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>핵심 기능 4가지</h2>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🌬️</div>
+        <h3>통기성<br>메쉬 소재</h3>
+        <p>여름에도 <span class="highlight">쾌적하게</span><br>땀띠 걱정 없이</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">👟</div>
+        <h3>2E 라스트<br>넉넉한 발볼</h3>
+        <p>발볼 넓은 아기도<br><span class="highlight">편안하게</span></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🔧</div>
+        <h3>면 파스너<br>갑높이 조절</h3>
+        <p>발등 높이에 맞춰<br><span class="highlight">쉽게 조절</span></p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">🦶</div>
+        <h3>플렉스 솔<br>+ 카운터</h3>
+        <p><span class="highlight">올바른 보행</span><br>발달 지원</p>
+      </div>
+    </div>
+
+    <div class="brand-footer">
+      <span>MIKIHOUSE HOT BISCUITS</span>
+    </div>
+  </div>
+</body>
+</html>

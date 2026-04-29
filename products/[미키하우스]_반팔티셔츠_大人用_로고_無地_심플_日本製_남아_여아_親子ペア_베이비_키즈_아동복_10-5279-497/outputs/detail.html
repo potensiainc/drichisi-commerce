@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>미키하우스 반팔티셔츠 가족 페어룩</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #FFFFFF;
+      --bg-alt: #F8F9FA;
+      --text-main: #1D3557;
+      --accent: #E63946;
+      --line-soft: #E0E0E0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      color: var(--text-main);
+      background: var(--bg-base);
+      line-height: 1.7;
+      word-break: keep-all;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      background: var(--bg-base);
+      padding: 80px 60px;
+      text-align: center;
+    }
+
+    .hero-seo-tag {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-main);
+      background: var(--bg-alt);
+      padding: 8px 20px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+      letter-spacing: -0.3px;
+    }
+
+    .hero-headline {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 32px;
+      color: var(--text-main);
+      letter-spacing: -1px;
+    }
+
+    .hero-subtext {
+      font-size: 16px;
+      font-weight: 400;
+      color: #666;
+      margin-bottom: 48px;
+      line-height: 1.6;
+    }
+
+    .hero-image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    /* STORY */
+    .story {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .section-title {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 32px;
+      color: var(--text-main);
+      letter-spacing: -0.5px;
+    }
+
+    .story-content p {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    /* OPTIONS */
+    .options {
+      background: var(--bg-base);
+      padding: 100px 60px;
+    }
+
+    .options-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .option-card {
+      text-align: center;
+      padding: 32px;
+      background: var(--bg-alt);
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .option-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .option-image {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin: 0 auto 24px;
+      display: block;
+      object-fit: contain;
+    }
+
+    .option-name {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .option-desc {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    /* DETAILS */
+    .details {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .details-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-top: 40px;
+    }
+
+    .detail-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+
+    /* SPECS */
+    .specs {
+      background: var(--bg-base);
+      padding: 100px 60px;
+    }
+
+    .specs-table {
+      width: 100%;
+      margin-top: 40px;
+      border-collapse: collapse;
+    }
+
+    .specs-table tr {
+      border-bottom: 1px solid var(--line-soft);
+    }
+
+    .specs-table th {
+      text-align: left;
+      padding: 20px 0;
+      font-size: 14px;
+      font-weight: 600;
+      color: #666;
+      width: 30%;
+    }
+
+    .specs-table td {
+      padding: 20px 0;
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--text-main);
+    }
+
+    /* SIZE GUIDE */
+    .size-guide {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .size-table {
+      width: 100%;
+      margin-top: 40px;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    .size-table thead {
+      background: var(--bg-base);
+    }
+
+    .size-table th {
+      padding: 16px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-main);
+      border: 1px solid var(--line-soft);
+    }
+
+    .size-table td {
+      padding: 16px;
+      font-size: 15px;
+      color: #333;
+      border: 1px solid var(--line-soft);
+    }
+
+    .size-note {
+      margin-top: 24px;
+      font-size: 14px;
+      color: #666;
+      line-height: 1.7;
+    }
+
+    /* GALLERY */
+    .gallery {
+      background: var(--bg-base);
+      padding: 100px 60px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .gallery-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+
+    /* CLOSING */
+    .closing {
+      background: var(--text-main);
+      color: white;
+      text-align: center;
+      padding: 80px 60px;
+    }
+
+    .closing-text {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    .closing-brand {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.7);
+      letter-spacing: 2px;
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .hero {
+        padding: 60px 24px;
+      }
+
+      .hero-headline {
+        font-size: 28px;
+      }
+
+      .story,
+      .options,
+      .details,
+      .specs,
+      .size-guide,
+      .gallery,
+      .closing {
+        padding: 60px 24px;
+      }
+
+      .section-title {
+        font-size: 24px;
+      }
+
+      .options-grid,
+      .details-grid,
+      .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .specs-table th {
+        font-size: 13px;
+      }
+
+      .specs-table td {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-seo-tag">미키하우스 반팔티셔츠 가족 페어룩 일본제 심플 로고 청소년 성인</div>
+      <h1 class="hero-headline">온 가족이 함께 입는<br>특별한 순간</h1>
+      <p class="hero-subtext">일본 명품 브랜드 미키하우스의 심플한 로고 티셔츠.<br>부모와 아이가 함께 입을 수 있는 페어룩으로 소중한 순간을 더 특별하게.</p>
+      <img src="../images/ホワイト/thumbnail.jpg" alt="미키하우스 반팔티셔츠 화이트" class="hero-image">
+    </section>
+
+    <!-- STORY -->
+    <section class="story">
+      <h2 class="section-title">언제나 함께, 같은 마음으로</h2>
+      <div class="story-content">
+        <p>아이가 자라는 모습을 보며 "같은 옷 입고 싶다"는 생각, 한 번쯤 해보셨을 거예요. 미키하우스 반팔티셔츠는 청소년부터 성인까지 입을 수 있는 사이즈로, 가족이 함께 입는 페어룩을 완성할 수 있어요.</p>
+        <p>심플한 미키하우스 로고가 포인트. 유행 타지 않는 디자인이라 몇 년이 지나도 질리지 않고 입을 수 있습니다. 일본제 고품질 원단으로 세탁해도 형태가 그대로 유지돼요.</p>
+        <p>가족 나들이, 여행, 집에서 편하게. 어떤 순간에도 자연스럽게 어울리는 베이직 티셔츠입니다.</p>
+      </div>
+    </section>
+
+    <!-- OPTIONS -->
+    <section class="options">
+      <h2 class="section-title">2가지 컬러로 선택하는 즐거움</h2>
+      <div class="options-grid">
+        <div class="option-card">
+          <img src="../images/ホワイト/image_01.jpg" alt="미키하우스 반팔티셔츠 화이트" class="option-image" loading="lazy">
+          <div class="option-name">화이트</div>
+          <div class="option-desc">깔끔하고 시원한 화이트 컬러. 어떤 하의와도 잘 어울려요.</div>
+        </div>
+        <div class="option-card">
+          <img src="../images/赤×紺/image_01.jpg" alt="미키하우스 반팔티셔츠 빨강×남색" class="option-image" loading="lazy">
+          <div class="option-name">빨강×남색</div>
+          <div class="option-desc">활기찬 빨강 톤과 차분한 남색의 조화. 포인트 컬러로 완벽해요.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAILS -->
+    <section class="details">
+      <h2 class="section-title">디테일에서 느껴지는 프리미엄</h2>
+      <div class="details-grid">
+        <img src="../images/ホワイト/image_02.jpg" alt="미키하우스 티셔츠 디테일 화이트" class="detail-image" loading="lazy">
+        <img src="../images/赤×紺/image_02.jpg" alt="미키하우스 티셔츠 디테일 빨강×남색" class="detail-image" loading="lazy">
+        <img src="../images/ホワイト/image_03.jpg" alt="미키하우스 티셔츠 착용 화이트" class="detail-image" loading="lazy">
+        <img src="../images/赤×紺/image_03.jpg" alt="미키하우스 티셔츠 착용 빨강×남색" class="detail-image" loading="lazy">
+      </div>
+    </section>
+
+    <!-- SPECS -->
+    <section class="specs">
+      <h2 class="section-title">제품 정보</h2>
+      <table class="specs-table">
+        <tr>
+          <th>브랜드</th>
+          <td>MIKIHOUSE (미키하우스)</td>
+        </tr>
+        <tr>
+          <th>상품명</th>
+          <td>심플 로고 반팔티셔츠</td>
+        </tr>
+        <tr>
+          <th>모델번호</th>
+          <td>10-5279-497</td>
+        </tr>
+        <tr>
+          <th>색상</th>
+          <td>화이트, 빨강×남색</td>
+        </tr>
+        <tr>
+          <th>사이즈</th>
+          <td>165, 175, 185 (청소년~성인용)</td>
+        </tr>
+        <tr>
+          <th>제조국</th>
+          <td>일본 (Made in Japan)</td>
+        </tr>
+        <tr>
+          <th>특징</th>
+          <td>일본 정품, 가족 페어룩 가능, 고품질 원단</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- SIZE GUIDE -->
+    <section class="size-guide">
+      <h2 class="section-title">우리 가족에게 딱 맞는 사이즈 찾기</h2>
+      <table class="size-table">
+        <thead>
+          <tr>
+            <th>사이즈</th>
+            <th>가슴둘레 (cm)</th>
+            <th>총 길이 (cm)</th>
+            <th>권장 키 (cm)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>165</td>
+            <td>약 92</td>
+            <td>약 65</td>
+            <td>155-165</td>
+          </tr>
+          <tr>
+            <td>175</td>
+            <td>약 98</td>
+            <td>약 68</td>
+            <td>165-175</td>
+          </tr>
+          <tr>
+            <td>185</td>
+            <td>약 104</td>
+            <td>약 71</td>
+            <td>175-185</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="size-note">※ 일본 사이즈 기준이에요. 처음 일본 아동복 구매하시는 분들은 평소 입는 사이즈보다 한 치수 크게 선택하시면 여유롭게 입으실 수 있어요.</p>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery">
+      <h2 class="section-title">더 자세히 보기</h2>
+      <div class="gallery-grid">
+        <img src="../images/ホワイト/image_04.jpg" alt="미키하우스 티셔츠 상세 화이트" class="gallery-image" loading="lazy">
+        <img src="../images/赤×紺/image_04.jpg" alt="미키하우스 티셔츠 상세 빨강×남색" class="gallery-image" loading="lazy">
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing">
+      <p class="closing-text">함께하는 모든 순간이 특별해집니다</p>
+      <p class="closing-brand">MIKIHOUSE</p>
+    </section>
+
+  </div>
+</body>
+</html>

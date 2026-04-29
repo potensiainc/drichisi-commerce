@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(145deg, #2E4057 0%, #1a2636 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    .logo {
+      width: 200px;
+      height: auto;
+      margin-bottom: 40px;
+    }
+    .headline {
+      color: white;
+      font-size: 52px;
+      font-weight: 900;
+      line-height: 1.4;
+      margin-bottom: 25px;
+    }
+    .headline span {
+      color: #FFD700;
+    }
+    .subheadline {
+      color: rgba(255,255,255,0.7);
+      font-size: 24px;
+      line-height: 1.6;
+      margin-bottom: 50px;
+    }
+    .badges-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+    .badge {
+      padding: 16px 30px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .badge.red {
+      background: #C8102E;
+      color: white;
+    }
+    .badge.gold {
+      background: #FFD700;
+      color: #2E4057;
+    }
+    .badge.outline {
+      background: transparent;
+      border: 2px solid rgba(255,255,255,0.3);
+      color: white;
+    }
+    .cta-section {
+      background: rgba(255,255,255,0.1);
+      border-radius: 24px;
+      padding: 35px 60px;
+      backdrop-filter: blur(10px);
+    }
+    .cta-text {
+      color: rgba(255,255,255,0.8);
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .cta-action {
+      color: #FFD700;
+      font-size: 28px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+    .cta-action svg {
+      width: 28px;
+      height: 28px;
+      fill: #FFD700;
+    }
+    .decorative-dots {
+      position: absolute;
+      display: flex;
+      gap: 10px;
+    }
+    .decorative-dots.top-left {
+      top: 60px;
+      left: 60px;
+    }
+    .decorative-dots.bottom-right {
+      bottom: 60px;
+      right: 60px;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.2);
+    }
+    .dot.active {
+      background: #C8102E;
+    }
+    .products-preview {
+      display: flex;
+      gap: -30px;
+      margin-bottom: 40px;
+    }
+    .preview-img {
+      width: 220px;
+      height: 260px;
+      object-fit: contain;
+      filter: drop-shadow(0 10px 30px rgba(0,0,0,0.3));
+    }
+    .preview-img:last-child {
+      margin-left: -60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="decorative-dots top-left">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+    </div>
+
+    <img src="file:///D:/commerce/assets/brands/mikihouse/logo_nobg.png" alt="MIKIHOUSE" class="logo">
+
+    <div class="products-preview">
+      <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/インディゴブルー/nobg/thumbnail_nobg.png" alt="인디고블루" class="preview-img">
+      <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/ベージュ/nobg/thumbnail_nobg.png" alt="베이지" class="preview-img">
+    </div>
+
+    <h1 class="headline"><span>미키하우스</span> 9부 팬츠</h1>
+    <p class="subheadline">데님 & 속건 소재 | 6가지 사이즈<br>남여공용 베이직 팬츠</p>
+
+    <div class="badges-row">
+      <div class="badge red">일본 직구 정품</div>
+      <div class="badge gold">80-130 SIZE</div>
+      <div class="badge outline">2 COLORS</div>
+    </div>
+
+    <div class="cta-section">
+      <div class="cta-text">구매를 원하시면</div>
+      <div class="cta-action">
+        프로필 링크 클릭
+        <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+      </div>
+    </div>
+
+    <div class="decorative-dots bottom-right">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "title_candidates": [
+    {
+      "text": "미키하우스 핫비스킷 아동 반팔티 보더 남아여아 80-120",
+      "length": 31,
+      "rationale": "브랜드명+제품타입+패턴+성별+사이즈 핵심 키워드 포함. 간결하고 검색 친화적."
+    },
+    {
+      "text": "미키하우스 반팔티셔츠 유아 키즈 보더 티셔츠 80-120",
+      "length": 30,
+      "rationale": "유아/키즈 키워드 강조. 티셔츠 반복으로 검색 확률 증가."
+    },
+    {
+      "text": "일본 미키하우스 아동복 반팔티 남아여아 보더 80-120",
+      "length": 30,
+      "rationale": "일본 원산지 강조로 신뢰도 증가. 아동복 카테고리 명시."
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 핫비스킷 아동 반팔티 보더 남아여아 80-120",
+    "length": 31,
+    "rationale": "브랜드 정식 라인명(핫비스킷) 포함으로 차별화. 보더 패턴은 이 제품의 핵심 디자인 요소로 검색 가치 높음. 유니섹스 특성을 '남아여아'로 표현하여 검색 범위 확대."
+  },
+  "tags": [
+    "미키하우스",
+    "일본아동복",
+    "유아반팔티",
+    "키즈티셔츠",
+    "보더티셔츠",
+    "남아티셔츠",
+    "여아티셔츠",
+    "아동복",
+    "일본구매대행",
+    "유아복"
+  ],
+  "category_recommendation": {
+    "path": "패션의류 > 아동의류/잡화 > 아동의류 > 티셔츠",
+    "rationale": "스마트스토어 표준 카테고리 구조. 아동의류 > 티셔츠가 가장 직접적인 분류."
+  },
+  "brand_field": "MIKIHOUSE HOT BISCUITS",
+  "manufacturer_field": "MIKIHOUSE HOT BISCUITS",
+  "seo_check": {
+    "all_passed": true,
+    "details": {
+      "length_ok": true,
+      "no_platform_name": true,
+      "no_foreign_currency": true,
+      "brand_policy_followed": true,
+      "keyword_density_ok": true
+    },
+    "warnings": [],
+    "penalties": []
+  },
+  "search_keywords": {
+    "primary": [
+      "미키하우스",
+      "아동 반팔티",
+      "유아 티셔츠",
+      "키즈 반팔"
+    ],
+    "secondary": [
+      "보더 티셔츠",
+      "일본 아동복",
+      "남아 여아 티셔츠",
+      "유아복"
+    ],
+    "long_tail": [
+      "미키하우스 핫비스킷",
+      "일본 구매대행 아동복",
+      "유니섹스 아동 티셔츠",
+      "네임태그 티셔츠"
+    ]
+  },
+  "meta_description": "일본 대표 브랜드 미키하우스 핫비스킷 아동 반팔티. 부드러운 면 100% 소재로 땀 흡수 탁월. 귀여운 보더 패턴과 와펜 디자인. 남아여아 모두 착용 가능. 80-120 사이즈.",
+  "competitor_analysis": {
+    "differentiation": [
+      "일본 정품 브랜드 (vs 무명 브랜드)",
+      "천연 소재 100% (vs 혼방)",
+      "네임태그 기본 제공 (vs 별도 구매)",
+      "어깨 스냅 버튼 (80-90cm) (vs 일반 목 넓힘)"
+    ],
+    "price_positioning": "프리미엄 (일본 정품 브랜드 특성)"
+  }
+}

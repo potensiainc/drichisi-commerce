@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 핫비스킷 아동 반팔티 보더 남아여아 80-120</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+
+        /* HERO 섹션 */
+        .hero {
+            background: linear-gradient(135deg, #FFF5F5 0%, #FFF9E6 100%);
+            padding: 60px 40px;
+            text-align: center;
+            border-bottom: 3px solid #FFD700;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+            font-weight: 700;
+            color: #DC143C;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .hero .subtitle {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .hero-image-container {
+            margin: 30px 0;
+        }
+
+        .hero-image-container img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+
+        /* 섹션 공통 스타일 */
+        .section {
+            padding: 50px 40px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: #DC143C;
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #DC143C, #FFD700);
+            border-radius: 2px;
+        }
+
+        /* 스토리 섹션 */
+        .story-text {
+            font-size: 16px;
+            line-height: 1.9;
+            color: #444;
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        /* 특징 리스트 */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .feature-item {
+            background: #FFF9E6;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid #FFD700;
+            transition: transform 0.2s;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .feature-item h3 {
+            font-size: 18px;
+            color: #DC143C;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .feature-item p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.7;
+        }
+
+        /* 이미지 갤러리 */
+        .image-gallery {
+            margin-top: 30px;
+        }
+
+        .image-row {
+            margin-bottom: 20px;
+        }
+
+        .image-row img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .image-grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .image-grid-2 img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        /* 스펙 테이블 */
+        .spec-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .spec-table tr {
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .spec-table tr:last-child {
+            border-bottom: none;
+        }
+
+        .spec-table th {
+            background: #FFF5F5;
+            color: #DC143C;
+            font-weight: 600;
+            padding: 18px 20px;
+            text-align: left;
+            width: 30%;
+            font-size: 15px;
+        }
+
+        .spec-table td {
+            padding: 18px 20px;
+            color: #444;
+            font-size: 15px;
+        }
+
+        /* 공감 안내 박스 */
+        .notice-box {
+            background: linear-gradient(135deg, #FFF9E6 0%, #FFF5F5 100%);
+            border: 2px solid #FFD700;
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        .notice-box h3 {
+            font-size: 20px;
+            color: #DC143C;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .notice-box p {
+            font-size: 15px;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .notice-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .notice-box ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            font-size: 14px;
+            color: #555;
+            line-height: 1.7;
+        }
+
+        .notice-box ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #FFD700;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* 신뢰 신호 */
+        .trust-signals {
+            background: #f8f8f8;
+            padding: 40px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .trust-item {
+            background: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+
+        .trust-item .icon {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .trust-item h4 {
+            font-size: 16px;
+            color: #DC143C;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .trust-item p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* 반응형 */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 40px 20px;
+            }
+
+            .hero h1 {
+                font-size: 24px;
+            }
+
+            .hero .subtitle {
+                font-size: 16px;
+            }
+
+            .section {
+                padding: 35px 20px;
+            }
+
+            .section-title {
+                font-size: 22px;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .image-grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            .spec-table th,
+            .spec-table td {
+                padding: 12px 15px;
+                font-size: 14px;
+            }
+
+            .notice-box {
+                padding: 20px;
+            }
+
+            .trust-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HERO 섹션 -->
+        <section class="hero">
+            <h1>미키하우스 핫비스킷 아동 반팔티 보더 남아여아 80-120</h1>
+            <p class="subtitle">일본 엄마들의 첫 선택, 미키하우스 핫비스킷</p>
+
+            <div class="hero-image-container">
+                <img src="../images/red/image_06.jpg" alt="미키하우스 핫비스킷 보더 티셔츠 착용 모습">
+            </div>
+        </section>
+
+        <!-- 브랜드 스토리 -->
+        <section class="section">
+            <h2 class="section-title">1971년부터 일본 엄마들이 신뢰하는 브랜드</h2>
+
+            <p class="story-text">
+                미키하우스는 1971년부터 일본 엄마들의 신뢰를 받아온 아동복 브랜드입니다.
+                핫비스킷 라인은 '매일 입어도 좋은 품질'을 철학으로, 편안하고 튼튼한 일상복을 제안합니다.
+            </p>
+
+            <p class="story-text">
+                아이들은 움직임이 많고 땀을 많이 흘립니다.
+                이 티셔츠는 통기성이 뛰어난 천연 면 소재로 만들어져 하루 종일 쾌적하게 착용할 수 있습니다.
+            </p>
+
+            <div class="image-row">
+                <img src="../images/red/thumbnail.jpg" alt="레드 보더 티셔츠 정면">
+            </div>
+
+            <div class="image-grid-2">
+                <img src="../images/multicolor/thumbnail.jpg" alt="멀티컬러 보더 티셔츠 정면">
+                <img src="../images/red/image_01.jpg" alt="레드 티셔츠 디테일">
+            </div>
+        </section>
+
+        <!-- 제품 특징 -->
+        <section class="section" style="background: #f9f9f9;">
+            <h2 class="section-title">왜 엄마들이 선택할까요?</h2>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>부드럽고 튼튼한 천연 소재</h3>
+                    <p>면 100% 천축 소재로 피부가 예민한 아이들도 안심. 세탁 후에도 변형 없이 오래 입힙니다.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>통기성과 흡습성 탁월</h3>
+                    <p>땀 많은 아이들을 위해 설계된 소재. 여름에도 뽀송뽀송 쾌적하게 유지됩니다.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>착탈 편리한 어깨 버튼</h3>
+                    <p>80-90cm 사이즈는 어깨 스냅 버튼으로 갈아입히기 훨씬 쉽습니다. 기저귀 착용 아기에게 특히 편리해요.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>네임태그 기본 제공</h3>
+                    <p>어린이집, 유치원에서 필수인 네임태그가 이미 달려있어 별도 준비 불필요합니다.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>유니섹스 디자인</h3>
+                    <p>남아도 여아도 자유롭게. 형제자매가 함께 입기 좋은 활용도 높은 디자인입니다.</p>
+                </div>
+
+                <div class="feature-item">
+                    <h3>귀여운 와펜 포인트</h3>
+                    <p>가슴의 펠트 와펜이 심플한 보더 티셔츠에 포인트를 더해줍니다.</p>
+                </div>
+            </div>
+
+            <div class="image-gallery">
+                <div class="image-row">
+                    <img src="../images/red/image_02.jpg" alt="레드 티셔츠 앞면 클로즈업">
+                </div>
+
+                <div class="image-grid-2">
+                    <img src="../images/red/image_03.jpg" alt="레드 티셔츠 뒷면">
+                    <img src="../images/multicolor/image_01.jpg" alt="멀티컬러 티셔츠 앞면">
+                </div>
+
+                <div class="image-row">
+                    <img src="../images/multicolor/image_02.jpg" alt="멀티컬러 티셔츠 디테일">
+                </div>
+            </div>
+        </section>
+
+        <!-- 디테일 섹션 -->
+        <section class="section">
+            <h2 class="section-title">디테일이 다릅니다</h2>
+
+            <p class="story-text">
+                어린이집이나 유치원에서 옷에 이름을 써야 하는 경우가 많죠.
+                이 제품에는 안쪽에 네임태그가 달려있어 별도로 준비할 필요가 없습니다.
+            </p>
+
+            <p class="story-text">
+                90cm 이하 사이즈는 어깨에 스냅 버튼이 있어 아이가 스스로 입고 벗기 편리합니다.
+                기저귀를 차는 아기들도 갈아입히기 훨씬 수월합니다.
+            </p>
+
+            <div class="image-gallery">
+                <div class="image-grid-2">
+                    <img src="../images/red/image_05.jpg" alt="네임태그 클로즈업 레드">
+                    <img src="../images/multicolor/image_05.jpg" alt="네임태그 클로즈업 멀티컬러">
+                </div>
+
+                <div class="image-row">
+                    <img src="../images/red/image_04.jpg" alt="레드 티셔츠 추가 디테일">
+                </div>
+
+                <div class="image-grid-2">
+                    <img src="../images/multicolor/image_03.jpg" alt="멀티컬러 티셔츠 뒷면">
+                    <img src="../images/multicolor/image_04.jpg" alt="멀티컬러 티셔츠 추가 디테일">
+                </div>
+
+                <div class="image-row">
+                    <img src="../images/multicolor/image_06.jpg" alt="멀티컬러 티셔츠 추가 컷">
+                </div>
+            </div>
+        </section>
+
+        <!-- 상세 스펙 -->
+        <section class="section" style="background: #f9f9f9;">
+            <h2 class="section-title">상세 스펙</h2>
+
+            <table class="spec-table">
+                <tr>
+                    <th>브랜드</th>
+                    <td>MIKIHOUSE HOT BISCUITS</td>
+                </tr>
+                <tr>
+                    <th>소재</th>
+                    <td>면 100% (천축 소재)</td>
+                </tr>
+                <tr>
+                    <th>사이즈</th>
+                    <td>80 / 90 / 100 / 110 / 120</td>
+                </tr>
+                <tr>
+                    <th>컬러</th>
+                    <td>레드&화이트 보더 / 멀티컬러 보더</td>
+                </tr>
+                <tr>
+                    <th>특징</th>
+                    <td>반팔, 어깨 스냅 버튼 (80~90cm), 네임태그</td>
+                </tr>
+                <tr>
+                    <th>원산지</th>
+                    <td>일본</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 구매 안내 -->
+        <section class="section">
+            <div class="notice-box">
+                <h3>구매 전 꼭 확인해주세요</h3>
+
+                <p>
+                    <strong>이 제품은 일본 구매대행 상품입니다.</strong>
+                    일본 정품을 국내로 가져오는 과정에서 2-3주 정도의 배송 기간이 소요됩니다.
+                    급하게 필요하신 경우에는 구매 전 배송 일정을 꼭 확인해주세요.
+                </p>
+
+                <p>
+                    <strong>사이즈 선택 가이드:</strong>
+                </p>
+                <ul>
+                    <li>80cm: 12-18개월 (키 75-85cm)</li>
+                    <li>90cm: 18-24개월 (키 85-95cm)</li>
+                    <li>100cm: 2-3세 (키 95-105cm)</li>
+                    <li>110cm: 4-5세 (키 105-115cm)</li>
+                    <li>120cm: 6-7세 (키 115-125cm)</li>
+                </ul>
+
+                <p>
+                    아이마다 체형이 다르므로, 평소 입는 옷의 사이즈를 참고하여 선택해주세요.
+                    일본 사이즈는 한국 사이즈와 유사한 편입니다.
+                </p>
+
+                <p>
+                    <strong>세탁 및 관리:</strong>
+                    세탁기 사용 가능합니다. 단, 섬세한 소재 보호를 위해 세탁망 사용을 권장합니다.
+                    표백제 사용은 피해주시고, 그늘에서 건조해주세요.
+                </p>
+            </div>
+        </section>
+
+        <!-- 신뢰 신호 -->
+        <section class="trust-signals">
+            <h2 class="section-title">왜 드리치시에서 구매하나요?</h2>
+
+            <div class="trust-grid">
+                <div class="trust-item">
+                    <div class="icon">🏆</div>
+                    <h4>일본 베스트셀러</h4>
+                    <p>베이비 티셔츠 카테고리 35위<br>검증된 인기 상품</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="icon">⭐</div>
+                    <h4>높은 고객 만족도</h4>
+                    <p>평점 4.6 / 5.0<br>실제 구매자 후기 기반</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="icon">✨</div>
+                    <h4>50년 전통 브랜드</h4>
+                    <p>1971년 창립<br>일본 대표 아동복 브랜드</p>
+                </div>
+
+                <div class="trust-item">
+                    <div class="icon">💎</div>
+                    <h4>검증된 내구성</h4>
+                    <p>세탁 후에도 변형 없음<br>오래 입히는 티셔츠</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

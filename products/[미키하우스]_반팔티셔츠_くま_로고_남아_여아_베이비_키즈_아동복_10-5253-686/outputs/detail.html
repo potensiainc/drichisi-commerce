@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 곰 자수 반팔티셔츠 남녀공용 베이비 키즈 여름옷</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Bricolage+Grotesque:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #FFFFFF;
+            --bg-alt: #F8F6F4;
+            --text-main: #1D3557;
+            --text-sub: #5A6477;
+            --accent: #E63946;
+            --accent-soft: #F4A261;
+            --line-soft: #C89968;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Gowun Dodum', sans-serif;
+            color: var(--text-main);
+            background: var(--bg-base);
+            line-height: 1.7;
+            word-break: keep-all;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--bg-base);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            position: relative;
+            background: var(--bg-base);
+            padding: 0;
+            text-align: center;
+        }
+
+        .hero-label {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--text-sub);
+            padding: 40px 60px 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .hero-content {
+            padding: 60px 80px 80px;
+            background: var(--bg-base);
+        }
+
+        .hero-headline {
+            font-family: 'Gowun Dodum', sans-serif;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 1.4;
+            color: var(--text-main);
+            margin-bottom: 24px;
+        }
+
+        .hero-subtext {
+            font-size: 19px;
+            line-height: 1.8;
+            color: var(--text-sub);
+            max-width: 580px;
+            margin: 0 auto;
+        }
+
+        .brand-tag {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--line-soft);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 32px;
+        }
+
+        /* STORY SECTION */
+        .story {
+            background: var(--bg-alt);
+            padding: 100px 80px;
+        }
+
+        .section-title {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 24px;
+        }
+
+        .story-content {
+            max-width: 640px;
+        }
+
+        .story-headline {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1.5;
+            color: var(--text-main);
+            margin-bottom: 32px;
+        }
+
+        .story-text {
+            font-size: 18px;
+            line-height: 1.9;
+            color: var(--text-sub);
+            margin-bottom: 20px;
+        }
+
+        /* DETAILS SECTION */
+        .details {
+            background: var(--bg-base);
+            padding: 100px 60px;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-top: 48px;
+        }
+
+        .detail-item {
+            text-align: center;
+        }
+
+        .detail-image {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .detail-caption {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-size: 14px;
+            font-style: italic;
+            color: var(--text-sub);
+            margin-top: 16px;
+            line-height: 1.6;
+        }
+
+        /* FOR YOU SECTION */
+        .for-you {
+            background: var(--bg-alt);
+            padding: 100px 80px;
+        }
+
+        .for-you-list {
+            max-width: 640px;
+            margin-top: 40px;
+        }
+
+        .for-you-item {
+            font-size: 19px;
+            line-height: 1.8;
+            color: var(--text-sub);
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(200, 153, 104, 0.2);
+        }
+
+        .for-you-item:last-child {
+            border-bottom: none;
+        }
+
+        .for-you-item:before {
+            content: '✓';
+            color: var(--accent);
+            font-weight: 700;
+            margin-right: 16px;
+        }
+
+        /* SPECS SECTION */
+        .specs {
+            background: var(--bg-base);
+            padding: 100px 80px;
+        }
+
+        .specs-table {
+            width: 100%;
+            margin-top: 48px;
+            border-collapse: collapse;
+        }
+
+        .specs-table th,
+        .specs-table td {
+            padding: 20px 24px;
+            text-align: left;
+            border-bottom: 1px solid rgba(200, 153, 104, 0.2);
+        }
+
+        .specs-table th {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-weight: 600;
+            color: var(--text-main);
+            width: 30%;
+            background: rgba(248, 246, 244, 0.5);
+        }
+
+        .specs-table td {
+            color: var(--text-sub);
+        }
+
+        /* CLOSING SECTION */
+        .closing {
+            background: var(--bg-alt);
+            padding: 120px 80px;
+            text-align: center;
+        }
+
+        .closing-text {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.6;
+            color: var(--text-main);
+            margin-bottom: 24px;
+        }
+
+        .closing-brand {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--line-soft);
+            letter-spacing: 0.05em;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero-label {
+                font-size: 16px;
+                padding: 30px 30px 15px;
+            }
+
+            .hero-content {
+                padding: 40px 30px 50px;
+            }
+
+            .hero-headline {
+                font-size: 32px;
+            }
+
+            .hero-subtext {
+                font-size: 17px;
+            }
+
+            .story,
+            .for-you,
+            .specs,
+            .closing {
+                padding: 60px 30px;
+            }
+
+            .details {
+                padding: 60px 30px;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .story-headline {
+                font-size: 26px;
+            }
+
+            .story-text,
+            .for-you-item {
+                font-size: 17px;
+            }
+
+            .closing-text {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-headline {
+                font-size: 28px;
+            }
+
+            .hero-subtext {
+                font-size: 16px;
+            }
+
+            .story-headline {
+                font-size: 24px;
+            }
+
+            .story-text,
+            .for-you-item {
+                font-size: 16px;
+            }
+
+            .closing-text {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-label">
+                미키하우스 곰 자수 반팔티셔츠 남녀공용 베이비 키즈 여름옷
+            </div>
+            <img src="../images/default/thumbnail.jpg" alt="미키하우스 곰 자수 반팔티셔츠 정면" class="hero-image">
+            <div class="hero-content">
+                <h1 class="hero-headline">
+                    곰곰이 티셔츠 입을래!<br>
+                    <br>
+                    아이가 스스로 찾는 옷이 있죠.
+                </h1>
+                <p class="hero-subtext">
+                    입체 자수로 표현된 다섯 마리 곰이<br>
+                    아이의 첫 번째 친구가 되어줍니다.
+                </p>
+                <div class="brand-tag">MIKIHOUSE</div>
+            </div>
+        </section>
+
+        <!-- STORY SECTION -->
+        <section class="story">
+            <div class="section-title">STORY</div>
+            <div class="story-content">
+                <h2 class="story-headline">
+                    일본 소재, 미키하우스 품질 관리.
+                </h2>
+                <p class="story-text">
+                    아이 피부에 닿는 옷이니까 더 신중해지는 게 엄마 마음이죠.
+                </p>
+                <p class="story-text">
+                    일본 원단을 사용하고 미키하우스 품질 컨트롤까지 거친 티셔츠라면 믿고 입힐 수 있습니다.
+                </p>
+                <p class="story-text">
+                    베트남 봉제로 꼼꼼하게 만들어진 디테일. 화이트 베이스에 다채로운 컬러 곰 자수가 포인트예요.
+                </p>
+                <p class="story-text">
+                    소매 끝단의 빨강·파랑 3줄 스트라이프가 심플한 티셔츠를 스포티하면서도 세련되게 만들어줍니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- DETAILS SECTION -->
+        <section class="details">
+            <div class="section-title">DETAILS</div>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <img src="../images/default/image_01.jpg" alt="미키하우스 티셔츠 뒷면 디자인" class="detail-image" loading="lazy">
+                    <p class="detail-caption">뒤돌아서도 귀여운 옷. 갈색 곰 단일 자수와 로고 배치.</p>
+                </div>
+                <div class="detail-item">
+                    <img src="../images/default/image_02.jpg" alt="곰 자수 클로즈업 디테일" class="detail-image" loading="lazy">
+                    <p class="detail-caption">입체 자수 퀄리티. 섬세한 눈·코·귀 디테일.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOR YOU SECTION -->
+        <section class="for-you">
+            <div class="section-title">FOR YOU</div>
+            <div class="for-you-list">
+                <div class="for-you-item">
+                    놀이터에서 뛰어노는 아이, 편하고 귀여운 옷 입히고 싶은 분께
+                </div>
+                <div class="for-you-item">
+                    여름 외출복으로 시원하면서도 깔끔한 티셔츠 찾는 분께
+                </div>
+                <div class="for-you-item">
+                    첫째 입히고 둘째한테도 물려줄 수 있는 튼튼한 옷 원하는 분께
+                </div>
+            </div>
+        </section>
+
+        <!-- SPECS SECTION -->
+        <section class="specs">
+            <div class="section-title">SPECIFICATIONS</div>
+            <table class="specs-table">
+                <tr>
+                    <th>브랜드</th>
+                    <td>MIKIHOUSE (미키하우스)</td>
+                </tr>
+                <tr>
+                    <th>상품명</th>
+                    <td>반팔 티셔츠 곰 로고 남아 여아 베이비 키즈</td>
+                </tr>
+                <tr>
+                    <th>제품번호</th>
+                    <td>10-5253-686</td>
+                </tr>
+                <tr>
+                    <th>사이즈</th>
+                    <td>90, 100, 110, 120<br>
+                    <span style="font-size: 15px; color: var(--text-sub);">
+                    90 = 12-18개월 / 100 = 2-3세 / 110 = 4-5세 / 120 = 6-7세 권장
+                    </span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>디자인</th>
+                    <td>화이트 베이스, 5마리 곰 자수 (입체 자수), 소매 스트라이프 (빨강/파랑)</td>
+                </tr>
+                <tr>
+                    <th>원산지</th>
+                    <td>일본 소재, 베트남 봉제</td>
+                </tr>
+                <tr>
+                    <th>성별</th>
+                    <td>남녀공용 (유니섹스)</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- CLOSING SECTION -->
+        <section class="closing">
+            <p class="closing-text">
+                매일 입고 싶은 옷.
+            </p>
+            <div class="closing-brand">MIKIHOUSE</div>
+        </section>
+    </div>
+</body>
+</html>

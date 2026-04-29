@@ -1,0 +1,107 @@
+{
+  "product_name": "미키하우스 심플로고 반팔 티셔츠 (핑크)",
+  "generated_at": "2026-04-26T10:45:00+09:00",
+  "source_analysis": "products/[미키하우스]_심플로고반팔티셔츠_(핑크)_12-5217-493_(100)/analysis.json",
+
+  "title_candidates": [
+    {
+      "id": "A",
+      "type": "표준형",
+      "text": "MIKI HOUSE 미키하우스 심플로고 반팔 티셔츠 면100% 남녀공용 12-5217-493",
+      "length": 45,
+      "keywords_used": ["MIKI HOUSE", "미키하우스", "심플로고", "반팔 티셔츠", "면100%", "남녀공용", "모델코드"],
+      "target_search_terms": ["미키하우스 티셔츠", "미키하우스 반팔", "MIKI HOUSE 아동복", "일본 아동복", "면 티셔츠 아기"],
+      "rationale": "네이버 가이드 정석. 브랜드(영문+한글)+상품유형+핵심속성(소재·성별)+모델코드 구성으로 가장 안정적인 검색 노출 기대."
+    },
+    {
+      "id": "B",
+      "type": "세부 키워드 강화형",
+      "text": "MIKI HOUSE 미키하우스 베이비 키즈 반팔티 심플로고 면100% 데일리 등원복",
+      "length": 45,
+      "keywords_used": ["MIKI HOUSE", "미키하우스", "베이비", "키즈", "반팔티", "심플로고", "면100%", "데일리", "등원복"],
+      "target_search_terms": ["미키하우스 등원복", "베이비 데일리 티셔츠", "키즈 반팔티", "일본 아동복 등원복", "면 티셔츠 베이비"],
+      "rationale": "타겟(베이비·키즈) + 용도(데일리·등원복) 키워드로 롱테일 검색 공략. 신규 셀러에 유리."
+    },
+    {
+      "id": "C",
+      "type": "최소형",
+      "text": "MIKI HOUSE 미키하우스 심플로고 티셔츠 면100%",
+      "length": 31,
+      "keywords_used": ["MIKI HOUSE", "미키하우스", "심플로고", "티셔츠", "면100%"],
+      "rationale": "브랜드 파워가 강한 미키하우스 특성상 브랜드명 검색 유입에 최적화. 간결하고 깔끔."
+    }
+  ],
+
+  "recommended_title": {
+    "candidate_id": "B",
+    "text": "MIKI HOUSE 미키하우스 베이비 키즈 반팔티 심플로고 면100% 데일리 등원복",
+    "selection_reason": "analysis.json의 1순위 셀링포인트('일본 1위 베이비 브랜드')와 primary_persona('워킹맘, 데일리로 입히고 싶어함')를 가장 잘 반영. 베이비·키즈·데일리·등원복 키워드로 타겟 맘들의 실제 검색 의도에 정확히 매칭. 신규 셀러로 추정되므로 롱테일 강화형이 유리."
+  },
+
+  "tags": [
+    {
+      "tag": "미키하우스반팔",
+      "type": "core",
+      "search_intent": "브랜드+상품유형 직접 검색"
+    },
+    {
+      "tag": "일본아동복",
+      "type": "core",
+      "search_intent": "일본 브랜드 아동복 찾는 검색"
+    },
+    {
+      "tag": "베이비등원복",
+      "type": "long-tail",
+      "search_intent": "어린이집 등원용 베이비 옷 검색"
+    },
+    {
+      "tag": "키즈데일리티셔츠",
+      "type": "long-tail",
+      "search_intent": "매일 입히는 키즈 티셔츠 검색"
+    },
+    {
+      "tag": "아동면티",
+      "type": "long-tail",
+      "search_intent": "면 소재 아동 티셔츠 검색"
+    },
+    {
+      "tag": "심플베이직티",
+      "type": "emotional",
+      "search_intent": "심플하고 베이직한 디자인 선호 검색"
+    },
+    {
+      "tag": "남녀공용아동복",
+      "type": "emotional",
+      "search_intent": "성별 구분 없는 아동복 검색"
+    },
+    {
+      "tag": "여름베이비옷",
+      "type": "seasonal",
+      "search_intent": "여름 시즌 베이비 옷 검색"
+    },
+    {
+      "tag": "일본육아용품",
+      "type": "emotional",
+      "search_intent": "일본 프리미엄 육아용품 선호 검색"
+    },
+    {
+      "tag": "어깨트임베이비티",
+      "type": "long-tail",
+      "search_intent": "갓난아기용 어깨 트임 티셔츠 검색 (80/90cm 사이즈 특징)"
+    }
+  ],
+
+  "category_recommendation": {
+    "path": "출산/유아동 > 유아동의류/잡화 > 유아동의류 > 티셔츠/상의",
+    "rationale": "베이비/키즈 반팔 티셔츠로 네이버 스마트스토어 유아동의류 카테고리 내 티셔츠 세부 카테고리가 가장 적합",
+    "note": "네이버 스마트스토어 센터에서 정확한 카테고리명 최종 확인 필요"
+  },
+
+  "brand_field": "MIKI HOUSE",
+  "manufacturer_field": "MIKI HOUSE",
+
+  "seo_check": {
+    "all_passed": true,
+    "failed_items": []
+  }
+}

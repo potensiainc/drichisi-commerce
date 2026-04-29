@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>미키하우스 클래식 히코리 오버롤 7부 면100 남아여아</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #FFFFFF;
+      --bg-alt: #F8F9FA;
+      --text-main: #2C3E50;
+      --text-sub: #34495E;
+      --accent: #2C3E50;
+      --accent-soft: #34495E;
+      --line-soft: #E8EBED;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text-main);
+      background: var(--bg-base);
+      line-height: 1.7;
+      word-break: keep-all;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--bg-base);
+    }
+
+    /* HERO SECTION */
+    .hero {
+      position: relative;
+      background: var(--bg-base);
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .hero__seo-label {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-sub);
+      letter-spacing: -0.02em;
+      padding: 24px 60px 16px;
+      border-bottom: 1px solid var(--line-soft);
+      width: 100%;
+    }
+
+    .hero__image-wrapper {
+      position: relative;
+      width: 100%;
+      background: var(--bg-base);
+      padding: 0;
+    }
+
+    .hero__image {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    .hero__content {
+      padding: 48px 60px 80px;
+      background: var(--bg-base);
+    }
+
+    .hero__headline {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--text-main);
+      margin-bottom: 24px;
+      letter-spacing: -0.02em;
+    }
+
+    .hero__subtext {
+      font-size: 16px;
+      line-height: 1.8;
+      color: var(--text-sub);
+      margin-bottom: 32px;
+    }
+
+    .hero__badges {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 16px;
+      background: var(--bg-alt);
+      border: 1px solid var(--line-soft);
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-main);
+    }
+
+    /* STORY SECTION */
+    .story {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .story__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .story__text h2 {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 1.5;
+      color: var(--text-main);
+      margin-bottom: 24px;
+      letter-spacing: -0.02em;
+    }
+
+    .story__text p {
+      font-size: 15px;
+      line-height: 1.9;
+      color: var(--text-sub);
+      margin-bottom: 16px;
+    }
+
+    .story__image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: contain;
+    }
+
+    /* DETAILS SECTION */
+    .details {
+      background: var(--bg-base);
+      padding: 100px 60px;
+    }
+
+    .details__header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .details__header h2 {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 32px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .details__header p {
+      font-size: 15px;
+      color: var(--text-sub);
+      line-height: 1.8;
+    }
+
+    .details__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+      margin-bottom: 48px;
+    }
+
+    .detail-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      background: var(--bg-alt);
+    }
+
+    .detail-card__image {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    .detail-card__caption {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .detail-card__caption h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .detail-card__caption p {
+      font-size: 14px;
+      color: var(--text-sub);
+      line-height: 1.7;
+    }
+
+    /* FEATURES SECTION */
+    .features {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .features__header {
+      margin-bottom: 48px;
+    }
+
+    .features__header h2 {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .features__grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+
+    .feature-item {
+      padding: 32px;
+      background: var(--bg-base);
+      border-radius: 8px;
+      border: 1px solid var(--line-soft);
+    }
+
+    .feature-item__number {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      background: var(--text-main);
+      color: var(--bg-base);
+      border-radius: 50%;
+      text-align: center;
+      line-height: 32px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    .feature-item h3 {
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 12px;
+    }
+
+    .feature-item p {
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--text-sub);
+    }
+
+    /* SPECS SECTION */
+    .specs {
+      background: var(--bg-base);
+      padding: 100px 60px;
+    }
+
+    .specs__header {
+      margin-bottom: 48px;
+    }
+
+    .specs__header h2 {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .specs__table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--line-soft);
+      background: var(--bg-base);
+    }
+
+    .specs__table th,
+    .specs__table td {
+      padding: 20px 24px;
+      text-align: left;
+      border-bottom: 1px solid var(--line-soft);
+      font-size: 15px;
+    }
+
+    .specs__table th {
+      background: var(--bg-alt);
+      font-weight: 600;
+      color: var(--text-main);
+      width: 200px;
+    }
+
+    .specs__table td {
+      color: var(--text-sub);
+    }
+
+    .specs__table tr:last-child th,
+    .specs__table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* SIZE GUIDE SECTION */
+    .size-guide {
+      background: var(--bg-alt);
+      padding: 100px 60px;
+    }
+
+    .size-guide__header {
+      margin-bottom: 48px;
+    }
+
+    .size-guide__header h2 {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .size-guide__header p {
+      font-size: 15px;
+      color: var(--text-sub);
+      line-height: 1.8;
+    }
+
+    .size-guide__note {
+      background: var(--bg-base);
+      padding: 24px;
+      border-radius: 8px;
+      border-left: 4px solid var(--accent);
+      margin-bottom: 32px;
+    }
+
+    .size-guide__note p {
+      font-size: 14px;
+      line-height: 1.8;
+      color: var(--text-sub);
+    }
+
+    .size-guide__table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--line-soft);
+      background: var(--bg-base);
+    }
+
+    .size-guide__table th,
+    .size-guide__table td {
+      padding: 16px 20px;
+      text-align: center;
+      border: 1px solid var(--line-soft);
+      font-size: 14px;
+    }
+
+    .size-guide__table th {
+      background: var(--text-main);
+      color: var(--bg-base);
+      font-weight: 600;
+    }
+
+    .size-guide__table td {
+      color: var(--text-sub);
+    }
+
+    /* CARE SECTION */
+    .care {
+      background: var(--bg-base);
+      padding: 100px 60px;
+    }
+
+    .care__header {
+      margin-bottom: 48px;
+    }
+
+    .care__header h2 {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .care__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .care-item {
+      text-align: center;
+      padding: 32px 24px;
+      background: var(--bg-alt);
+      border-radius: 8px;
+    }
+
+    .care-item__icon {
+      font-size: 40px;
+      margin-bottom: 16px;
+      opacity: 0.8;
+    }
+
+    .care-item h3 {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 8px;
+    }
+
+    .care-item p {
+      font-size: 13px;
+      color: var(--text-sub);
+      line-height: 1.7;
+    }
+
+    /* CLOSING SECTION */
+    .closing {
+      background: var(--bg-alt);
+      padding: 120px 60px;
+      text-align: center;
+    }
+
+    .closing__logo {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 24px;
+      letter-spacing: 0.05em;
+    }
+
+    .closing__text {
+      font-size: 15px;
+      line-height: 1.9;
+      color: var(--text-sub);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* MOBILE RESPONSIVE */
+    @media (max-width: 768px) {
+      .hero__seo-label {
+        padding: 20px 24px 12px;
+        font-size: 13px;
+      }
+
+      .hero__content {
+        padding: 32px 24px 60px;
+      }
+
+      .hero__headline {
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+
+      .hero__subtext {
+        font-size: 14px;
+        margin-bottom: 24px;
+      }
+
+      .story {
+        padding: 60px 24px;
+      }
+
+      .story__grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .story__text h2 {
+        font-size: 22px;
+        margin-bottom: 16px;
+      }
+
+      .story__text p {
+        font-size: 14px;
+      }
+
+      .details {
+        padding: 60px 24px;
+      }
+
+      .details__header h2 {
+        font-size: 24px;
+      }
+
+      .details__grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .features {
+        padding: 60px 24px;
+      }
+
+      .features__header h2 {
+        font-size: 22px;
+      }
+
+      .features__grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+
+      .feature-item {
+        padding: 24px;
+      }
+
+      .specs {
+        padding: 60px 24px;
+      }
+
+      .specs__header h2 {
+        font-size: 22px;
+      }
+
+      .specs__table th,
+      .specs__table td {
+        padding: 16px;
+        font-size: 13px;
+      }
+
+      .specs__table th {
+        width: 120px;
+      }
+
+      .size-guide {
+        padding: 60px 24px;
+      }
+
+      .size-guide__header h2 {
+        font-size: 22px;
+      }
+
+      .size-guide__table {
+        font-size: 12px;
+      }
+
+      .size-guide__table th,
+      .size-guide__table td {
+        padding: 12px 8px;
+      }
+
+      .care {
+        padding: 60px 24px;
+      }
+
+      .care__header h2 {
+        font-size: 22px;
+      }
+
+      .care__grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .closing {
+        padding: 80px 24px;
+      }
+
+      .closing__logo {
+        font-size: 20px;
+      }
+
+      .closing__text {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="hero__seo-label">
+        미키하우스 클래식 히코리 오버롤 7부 면100 남아여아
+      </div>
+      <div class="hero__image-wrapper">
+        <img src="../images/default/thumbnail.jpg" alt="미키하우스 히코리 스트라이프 오버롤 정면" class="hero__image">
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__headline">유행 타지 않는 클래식 히코리 스트라이프,<br>남아 여아 모두 사랑받는 디자인</h1>
+        <p class="hero__subtext">
+          미키하우스만의 클래식한 히코리 스트라이프 패턴과 귀여운 로고 자수가 포인트예요.
+          7부 기장으로 사계절 입히기 좋고, 활동성도 뛰어나 하루 종일 편안하게 입힐 수 있어요.
+        </p>
+        <div class="hero__badges">
+          <span class="badge">일본 정품</span>
+          <span class="badge">면 100%</span>
+          <span class="badge">남녀공용</span>
+          <span class="badge">7부 기장</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY SECTION -->
+    <section class="story">
+      <div class="story__grid">
+        <div class="story__text">
+          <h2>매일 입혀도 질리지 않는 클래식</h2>
+          <p>
+            히코리 스트라이프는 오래전부터 사랑받아온 디자인이에요.
+            유행을 타지 않아 오래 입힐 수 있고, 어떤 아이템과 매치해도 잘 어울려요.
+          </p>
+          <p>
+            미키하우스의 빨간 로고 자수가 포인트가 되어 심플하면서도 귀여운 느낌을 더해줘요.
+            남아 여아 구분 없이 입힐 수 있어 실용적이에요.
+          </p>
+        </div>
+        <div class="story__image-wrapper">
+          <img src="../images/default/image_01.jpg" alt="미키하우스 오버롤 후면" class="story__image" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAILS SECTION -->
+    <section class="details">
+      <div class="details__header">
+        <h2>디테일까지 꼼꼼하게</h2>
+        <p>미키하우스의 세심한 배려가 담긴 디자인</p>
+      </div>
+      <div class="details__grid">
+        <div class="detail-card">
+          <img src="../images/default/image_02.jpg" alt="미키하우스 로고 자수" class="detail-card__image" loading="lazy">
+          <div class="detail-card__caption">
+            <h3>미키하우스 로고 자수</h3>
+            <p>가슴 중앙에 빨간 로고 자수로 브랜드 아이덴티티를 더했어요</p>
+          </div>
+        </div>
+        <div class="detail-card">
+          <img src="../images/default/image_03.jpg" alt="히코리 스트라이프 패턴" class="detail-card__image" loading="lazy">
+          <div class="detail-card__caption">
+            <h3>정통 히코리 스트라이프</h3>
+            <p>촘촘한 네이비 스트라이프가 클래식한 분위기를 연출해요</p>
+          </div>
+        </div>
+        <div class="detail-card">
+          <img src="../images/default/image_04.jpg" alt="어깨끈 조절 가능" class="detail-card__image" loading="lazy">
+          <div class="detail-card__caption">
+            <h3>어깨끈 조절 가능</h3>
+            <p>아이 성장에 맞춰 길이 조절이 가능해 오래 입힐 수 있어요</p>
+          </div>
+        </div>
+        <div class="detail-card">
+          <img src="../images/default/image_06.jpg" alt="포켓과 버튼 디테일" class="detail-card__image" loading="lazy">
+          <div class="detail-card__caption">
+            <h3>실용적인 포켓</h3>
+            <p>앞뒤 포켓과 메탈 버튼 마감으로 완성도를 높였어요</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features">
+      <div class="features__header">
+        <h2>미키하우스를 선택하는 이유</h2>
+      </div>
+      <div class="features__grid">
+        <div class="feature-item">
+          <span class="feature-item__number">1</span>
+          <h3>일본 프리미엄 브랜드</h3>
+          <p>미키하우스는 일본 베이비·키즈 의류 대표 브랜드로 품질과 디자인을 인정받고 있어요.</p>
+        </div>
+        <div class="feature-item">
+          <span class="feature-item__number">2</span>
+          <h3>고급 면 100% 소재</h3>
+          <p>피부가 예민한 아이도 안심하고 입힐 수 있는 순면 소재로 제작되었어요.</p>
+        </div>
+        <div class="feature-item">
+          <span class="feature-item__number">3</span>
+          <h3>7부 기장의 활용도</h3>
+          <p>계절 가리지 않고 입히기 좋은 7부 기장으로 봄부터 가을까지 활용도가 높아요.</p>
+        </div>
+        <div class="feature-item">
+          <span class="feature-item__number">4</span>
+          <h3>남녀공용 디자인</h3>
+          <p>성별 구분 없이 입힐 수 있어 형제자매가 함께 입히거나 물려 입히기 좋아요.</p>
+        </div>
+        <div class="feature-item">
+          <span class="feature-item__number">5</span>
+          <h3>간편한 관리</h3>
+          <p>세탁기 사용이 가능해 바쁜 육아 일상에서도 부담 없이 관리할 수 있어요.</p>
+        </div>
+        <div class="feature-item">
+          <span class="feature-item__number">6</span>
+          <h3>타임리스 디자인</h3>
+          <p>클래식한 히코리 패턴은 유행을 타지 않아 몇 년이 지나도 촌스럽지 않아요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPECS SECTION -->
+    <section class="specs">
+      <div class="specs__header">
+        <h2>상품 정보</h2>
+      </div>
+      <table class="specs__table">
+        <tr>
+          <th>브랜드</th>
+          <td>미키하우스 (MIKIHOUSE)</td>
+        </tr>
+        <tr>
+          <th>상품명</th>
+          <td>히코리 스트라이프 서스펜더 팬츠 7부</td>
+        </tr>
+        <tr>
+          <th>품번</th>
+          <td>10-3340-492</td>
+        </tr>
+        <tr>
+          <th>소재</th>
+          <td>면 100%</td>
+        </tr>
+        <tr>
+          <th>사이즈</th>
+          <td>80 / 90 / 100</td>
+        </tr>
+        <tr>
+          <th>색상</th>
+          <td>네이비 히코리 스트라이프</td>
+        </tr>
+        <tr>
+          <th>착용 계절</th>
+          <td>봄, 여름, 가을 (사계절 활용 가능)</td>
+        </tr>
+        <tr>
+          <th>대상</th>
+          <td>남아, 여아 베이비·키즈 (0-3세)</td>
+        </tr>
+        <tr>
+          <th>세탁 방법</th>
+          <td>세탁기 사용 가능 (약하게), 표백제 사용 금지, 건조기 사용 금지</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- SIZE GUIDE SECTION -->
+    <section class="size-guide">
+      <div class="size-guide__header">
+        <h2>우리 아이에게 딱 맞는 사이즈 고르는 법</h2>
+        <p>처음 일본 아동복 구매하시는 분들이 많이 궁금해하시는 사이즈예요</p>
+      </div>
+      <div class="size-guide__note">
+        <p>
+          <strong>💡 사이즈 선택 팁</strong><br>
+          미키하우스는 일본 브랜드로 일반적으로 한국 사이즈보다 약간 작게 나와요.
+          아이 키를 기준으로 선택하되, 여유 있게 입히고 싶으시면 한 치수 크게 선택하시면 좋아요.
+          어깨끈 길이 조절이 가능해서 오래 입힐 수 있어요.
+        </p>
+      </div>
+      <table class="size-guide__table">
+        <thead>
+          <tr>
+            <th>사이즈</th>
+            <th>권장 키</th>
+            <th>권장 연령</th>
+            <th>총장</th>
+            <th>가슴둘레</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>80</strong></td>
+            <td>75-85cm</td>
+            <td>12-18개월</td>
+            <td>약 43cm</td>
+            <td>약 52cm</td>
+          </tr>
+          <tr>
+            <td><strong>90</strong></td>
+            <td>85-95cm</td>
+            <td>18-24개월</td>
+            <td>약 47cm</td>
+            <td>약 56cm</td>
+          </tr>
+          <tr>
+            <td><strong>100</strong></td>
+            <td>95-105cm</td>
+            <td>2-3세</td>
+            <td>약 51cm</td>
+            <td>약 60cm</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CARE SECTION -->
+    <section class="care">
+      <div class="care__header">
+        <h2>오래 입히고 싶으시죠? 관리 방법</h2>
+      </div>
+      <div class="care__grid">
+        <div class="care-item">
+          <div class="care-item__icon">🧺</div>
+          <h3>세탁기 사용 가능</h3>
+          <p>약하게 설정해서 세탁하시면 편하게 관리할 수 있어요</p>
+        </div>
+        <div class="care-item">
+          <div class="care-item__icon">🚫</div>
+          <h3>표백제 사용 금지</h3>
+          <p>색상 보호를 위해 표백제는 사용하지 마세요</p>
+        </div>
+        <div class="care-item">
+          <div class="care-item__icon">☀️</div>
+          <h3>자연 건조 권장</h3>
+          <p>건조기 대신 그늘에서 자연 건조하시면 오래 입힐 수 있어요</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING SECTION -->
+    <section class="closing">
+      <div class="closing__logo">MIKIHOUSE</div>
+      <p class="closing__text">
+        아이를 생각한 제품 만들기.<br>
+        미키하우스는 아이와 가족의 매일을 웃음으로 가득하게 만드는 것을 목표로 합니다.
+      </p>
+    </section>
+  </div>
+</body>
+</html>

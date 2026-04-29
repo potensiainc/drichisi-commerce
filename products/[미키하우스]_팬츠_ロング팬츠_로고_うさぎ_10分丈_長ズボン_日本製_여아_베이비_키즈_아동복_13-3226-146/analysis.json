@@ -1,0 +1,193 @@
+{
+  "product_name": "미키하우스 토끼 와펜 긴 바지",
+  "analyzed_at": "2026-04-26T23:30:00+09:00",
+  "meta": {
+    "original_name": "[ミキハウス] パンツ ロングパンツ ロゴ うさぎ 10分丈 長ズボン 日本製 女の子 ベビー キッズ 子供服 13-3226-146",
+    "brand": "MIKIHOUSE (미키하우스)",
+    "price": {
+      "amount": "3,998",
+      "currency": "JPY"
+    },
+    "origin": "일본제 (MADE IN JAPAN)",
+    "review": {
+      "rating": "",
+      "count": ""
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0FKMTHXQ5",
+    "product_id": "B0FKMTHXQ5"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "아동의류",
+    "rationale": "여아용 긴 바지. 베이비~키즈(80-120cm) 사이즈 전개. 일본 유명 아동복 브랜드 미키하우스 제품."
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "both",
+    "spec_translation_notes": "ニットコール → 니트코드(늘어나는 코듀로이 질감 소재), うさこ → 토끼 캐릭터(우사코), 10分丈 → 긴 바지(발목 길이), ゴム調節口 → 고무 조절구멍"
+  },
+  "risks": [
+    {
+      "type": "해외직구 고지",
+      "severity": "high",
+      "description": "일본 직구 상품으로 전자상거래법 상 해외직구 고지 필수",
+      "action_required": "상품 상세페이지 하단에 '본 제품은 해외 판매자가 해외에서 직접 배송하는 상품입니다' 고지 필요"
+    },
+    {
+      "type": "언어 표기",
+      "severity": "medium",
+      "description": "일본어 원문이 제목 및 설명에 포함되어 있어 전체 한글 번역 필요",
+      "action_required": "ロング팬츠 → 긴바지, うさぎ → 토끼, 10分丈 → 발목 길이, 長ズボン → 긴 바지 등 모든 일본어 한글 번역"
+    },
+    {
+      "type": "A/S 및 품질보증",
+      "severity": "medium",
+      "description": "해외직구 상품으로 국내 A/S 불가 가능성",
+      "action_required": "반품/교환 정책 명시. 단순 변심 반품 시 국제 배송비 구매자 부담 안내"
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "일본제 프리미엄 품질",
+      "evidence": "미키하우스 정품, MADE IN JAPAN 각인, 40년 전통 아동복 브랜드",
+      "emotional_hook": "아이 옷은 직접 닿는 거니까, 품질 좋은 걸 입히고 싶은 마음"
+    },
+    {
+      "priority": 2,
+      "headline": "니트코드 소재 - 부드럽고 신축성 높은",
+      "evidence": "코듀로이와 비슷한 골 질감이지만 니트처럼 늘어나는 소재. 움직임 많은 아이에게 편안함",
+      "emotional_hook": "뛰어놀 때도, 앉았다 일어날 때도 불편하지 않게"
+    },
+    {
+      "priority": 3,
+      "headline": "귀여운 토끼 원형 와펜 + 컬러풀 로고",
+      "evidence": "오른쪽 다리에 핑크 원형 와펜(토끼 얼굴 + QUALITY STYLE STANDARD 자수), 왼쪽 다리에 세로 MIKIHOUSE 컬러풀 자수",
+      "emotional_hook": "유치원이나 놀이터에서 다른 아이들과 구별되는 포인트"
+    },
+    {
+      "priority": 4,
+      "headline": "허리 고무 조절 가능",
+      "evidence": "허리 총고무 + 내부 고무 조절구멍 있어 성장에 맞춰 조절 가능",
+      "emotional_hook": "빨리 크는 아이, 오래 입힐 수 있어요"
+    },
+    {
+      "priority": 5,
+      "headline": "실용적인 포켓 구성",
+      "evidence": "앞 양쪽 포켓 + 뒷주머니 1개. 아이들이 주운 보물(?)을 넣기 좋은",
+      "emotional_hook": "산책길에 주운 예쁜 돌멩이, 도토리 넣고 다니는 재미"
+    }
+  ],
+  "target": {
+    "primary_persona": "30-40대 엄마. 1-5세 여아 자녀. 프리미엄 아동복에 관심 많고, 일본 브랜드 선호. 품질과 디자인 둘 다 중시. 아이 옷은 '싸구려'보다 좋은 걸 입히고 싶은 마음. 미키하우스 브랜드 인지도 높음.",
+    "secondary_persona": "20대 후반 이모/이숙모. 조카 선물용. 백화점 브랜드급 아동복 선물하고 싶은데 가격 부담스러워 직구 검색. 귀여운 디자인 + 브랜드 네임밸류 중시.",
+    "use_moments": [
+      "유치원/어린이집 등원 시",
+      "주말 놀이터·공원 나들이",
+      "집에서 편하게 입는 데일리 바지"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "playful-premium: 귀엽고 발랄하지만 고급스러운. 유아동복 특유의 사랑스러움 + 일본 장인정신의 품질감 조화",
+    "tone_rationale": "미키하우스는 일본 대표 프리미엄 아동복 브랜드. 귀여운 캐릭터·컬러풀한 로고로 아이들이 좋아할 만한 요소 + MADE IN JAPAN 품질로 부모가 신뢰할 만한 요소. 두 가지를 모두 전달해야 함.",
+    "color_palette": [
+      {
+        "hex": "#2C3E5F",
+        "role": "Primary (본체 컬러)",
+        "source": "바지 본체 네이비 블루 - 실제 상품 추출"
+      },
+      {
+        "hex": "#FFC0CB",
+        "role": "Accent (포인트 컬러)",
+        "source": "원형 와펜 배경 핑크 - 실제 상품 추출"
+      },
+      {
+        "hex": "#FFD700",
+        "role": "Sub-accent (활기)",
+        "source": "MIKIHOUSE 로고 노란색 자수 - 실제 상품 추출"
+      },
+      {
+        "hex": "#FFFAF0",
+        "role": "Neutral (부드러움)",
+        "source": "토끼 와펜 크림색 + 배경톤"
+      },
+      {
+        "hex": "#87CEEB",
+        "role": "Highlight (상쾌함)",
+        "source": "로고 하늘색 자수 디테일 - 보조 컬러"
+      }
+    ],
+    "typography_mood": "Sans-serif, round-friendly. 동글동글한 산세리프(Noto Sans KR Medium/Bold). 너무 딱딱하지 않고 친근한 느낌. 헤드라인은 Bold, 본문은 Regular.",
+    "copy_voice": "친근하고 따뜻한 엄마 시점. '~예요' '~죠' 같은 부드러운 어미 활용. 아이 키우는 일상 공감 포인트 넣기. 지나치게 귀엽게 꾸미지 않되 따스한 톤.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "editorial-magazine",
+      "rationale": "아동복은 시각적 귀여움이 구매 결정의 큰 요소. 큰 이미지로 와펜·자수 디테일 보여주는 게 중요. 동시에 MADE IN JAPAN, 니트코드 소재 등 '품질 스토리'를 editorial 톤으로 설명."
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "thumbnail.jpg",
+      "role": "hero_candidate",
+      "description": "정면 풀샷. 네이비 바지 전체 + 왼쪽 MIKIHOUSE 세로 로고, 오른쪽 원형 토끼 와펜 모두 보임. 깔끔한 화이트 배경."
+    },
+    {
+      "filename": "image_01.jpg",
+      "role": "detail_shots",
+      "description": "원형 토끼 와펜 클로즈업. 핑크 배경에 크림색 토끼 얼굴 + QUALITY STYLE STANDARD 자수. 컬러풀한 별·꽃 디테일."
+    },
+    {
+      "filename": "image_02.jpg",
+      "role": "detail_shots",
+      "description": "뒷면 풀샷. 뒷주머니 + 빨간 MIKIHOUSE 택 보임. 전체 실루엣 확인 가능."
+    },
+    {
+      "filename": "image_03.jpg",
+      "role": "spec_shots",
+      "description": "니트코드 소재 질감 클로즈업. 골 질감의 니트 조직 선명하게 보임. 부드러운 광택."
+    },
+    {
+      "filename": "image_04.jpg",
+      "role": "detail_shots",
+      "description": "손으로 소재 잡은 컷. 신축성·부드러움 강조. 니트코드 특유의 늘어남 표현."
+    },
+    {
+      "filename": "image_05.jpg",
+      "role": "detail_shots",
+      "description": "원형 와펜 각도 다른 컷. 입체적인 자수 퀄리티 보임."
+    },
+    {
+      "filename": "image_06.jpg",
+      "role": "spec_shots",
+      "description": "허리 밴드 내부 고무 조절구멍 클로즈업. 실용적 기능 설명용."
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 헤리티지 훅",
+        "text": "미키하우스, 일본 엄마들의 첫 선택.\n40년 전통 아동복 브랜드가 만든 긴 바지입니다."
+      },
+      {
+        "angle": "소재 기능 훅",
+        "text": "코듀로이 질감인데 니트처럼 늘어나요.\n뛰어놀 때도 편한, 니트코드 소재 바지."
+      },
+      {
+        "angle": "감성 순간 훅",
+        "text": "유치원 가는 아침, 혼자 입겠다고 우기는 날.\n입히기 쉽고, 편해서 아이도 좋아하는 바지예요."
+      }
+    ],
+    "for_you_moments": [
+      "아이 옷은 '좋은 것'으로 입히고 싶은 분께",
+      "빨리 크는 아이, 사이즈 조절 되는 바지 찾는 분께",
+      "미키하우스 좋아하는데 백화점 가격은 부담스러운 분께"
+    ],
+    "scenes": [
+      "유치원 등원 시간. 혼자 입겠다며 바지 잡아당기는 아이. 신축성 좋아서 혼자서도 잘 입어요.",
+      "놀이터에서 미끄럼틀 타고, 모래놀이 하고. 무릎 꿇어도 불편하지 않은 니트코드 소재.",
+      "집에서 편하게 입는 데일리 바지. 세탁기 돌려도 금방 마르고, 구김 덜 가요."
+    ],
+    "closing": "아이는 편하게, 엄마는 안심하고.\nMADE IN JAPAN."
+  }
+}

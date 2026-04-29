@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 퍼즐블록 백팩 - Slide 03 Feature 1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background: linear-gradient(180deg, #87CEEB 0%, #5BA3C6 100%);
+    }
+
+    .product-image {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 480px;
+      height: auto;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.4));
+    }
+
+    .content {
+      position: absolute;
+      bottom: 120px;
+      left: 160px;
+      right: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .feature-number {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      color: rgba(255,255,255,0.7);
+      text-transform: uppercase;
+    }
+
+    .headline {
+      font-size: 46px;
+      font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.4;
+      text-shadow:
+        0 2px 4px rgba(0,0,0,0.3),
+        0 4px 20px rgba(0,0,0,0.2);
+    }
+
+    .highlight {
+      color: #FFD700;
+      font-weight: 800;
+    }
+
+    .sub-text {
+      font-size: 24px;
+      font-weight: 400;
+      color: rgba(255,255,255,0.85);
+      margin-top: 10px;
+    }
+
+    .corner {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-color: rgba(255,255,255,0.3);
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 40px; left: 40px; border-top-width: 2px; border-left-width: 2px; }
+    .corner-tr { top: 40px; right: 40px; border-top-width: 2px; border-right-width: 2px; }
+    .corner-bl { bottom: 40px; left: 40px; border-bottom-width: 2px; border-left-width: 2px; }
+    .corner-br { bottom: 40px; right: 40px; border-bottom-width: 2px; border-right-width: 2px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.4);
+    }
+
+    .dot.active {
+      background: #FFD700;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <img class="product-image" src="file:///D:/commerce/products/[미키하우스]_リュック_リュックサック_バッグ_かばん_로고_くま_うさぎ_남아_여아_키즈_베이비_아동_통원_10-8213-687/images/nobg/pink_02_nobg.png" alt="미키하우스 퍼즐블록 백팩">
+
+    <div class="content">
+      <span class="feature-number">Feature 01</span>
+      <h2 class="headline">
+        <span class="highlight">체스트 벨트</span>로<br>
+        흘러내림 걱정 끝
+      </h2>
+      <p class="sub-text">뛰어다녀도 안정적인 착용감</p>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

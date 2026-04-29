@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "product_id": "B0CRGXPGXP",
+    "analyzed_at": "2026-04-27",
+    "category": "유아용품/레인용품",
+    "subcategory": "우산"
+  },
+  "language_handling": {
+    "brand_name_policy": "original",
+    "brand_name_kr": "미키하우스",
+    "brand_name_original": "MIKIHOUSE",
+    "option_translation": {
+      "ピンク": "핑크",
+      "マルチカラー": "멀티컬러"
+    },
+    "image_folder_mapping": {
+      "ピンク": "pink",
+      "マルチカラー": "multicolor"
+    }
+  },
+  "design_direction": {
+    "design_tone": "playful_safe",
+    "color_palette": [
+      "#FFB6C1",
+      "#FF69B4",
+      "#87CEEB",
+      "#FFE4B5",
+      "#98FB98"
+    ],
+    "layout_hint": "어린이 타겟이므로 시각적으로 명확하고 귀여운 요소 강조. 안전성과 품질 신뢰감을 부모에게 전달."
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "brand_trust",
+        "text": "미키하우스의 프리미엄 품질, 우리 아이 첫 우산으로 완벽해요"
+      },
+      {
+        "angle": "cute_character",
+        "text": "귀여운 곰·토끼 로고가 비 오는 날을 즐겁게 만들어요"
+      },
+      {
+        "angle": "size_fit",
+        "text": "45cm, 유치원·어린이집 통원에 딱 맞는 사이즈"
+      },
+      {
+        "angle": "parent_peace",
+        "text": "아이가 좋아하고 엄마 아빠도 안심하는 일본 프리미엍 우산"
+      }
+    ],
+    "benefit_bullets": [
+      "45cm 길이로 유아·어린이에게 최적화된 사이즈",
+      "미키하우스 브랜드의 높은 품질과 내구성",
+      "귀여운 곰(핑크)·토끼(멀티컬러) 로고 포인트",
+      "유치원·어린이집 통원용으로 실용적",
+      "아이가 좋아하는 컬러와 디자인 선택 가능"
+    ]
+  },
+  "image_inventory": [
+    {
+      "variant": "핑크",
+      "folder": "pink",
+      "images": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "usage_suggestion": "메인 이미지(01), 로고 디테일(02), 사용 모습(03), 손잡이(04), 전체 디자인(05)"
+    },
+    {
+      "variant": "멀티컬러",
+      "folder": "multicolor",
+      "images": [
+        "image_01.jpg",
+        "image_02.jpg",
+        "image_03.jpg",
+        "image_04.jpg",
+        "image_05.jpg"
+      ],
+      "thumbnail": "thumbnail.jpg",
+      "usage_suggestion": "메인 이미지(01), 로고 디테일(02), 사용 모습(03), 손잡이(04), 전체 디자인(05)"
+    }
+  ],
+  "target_audience": {
+    "primary": "3-7세 자녀를 둔 엄마",
+    "secondary": "유아용품 품질 중시 고객",
+    "pain_points": [
+      "아이 우산이 너무 크거나 작아서 불편함",
+      "저렴한 우산은 금방 망가짐",
+      "아이가 우산 들고 가기 싫어함"
+    ],
+    "desires": [
+      "아이가 좋아하는 귀여운 디자인",
+      "내구성 좋은 프리미엄 브랜드",
+      "적정 사이즈로 사용하기 편한 우산"
+    ]
+  },
+  "product_specs": {
+    "size": "45cm",
+    "type": "장우산",
+    "target_age": "유아·어린이",
+    "brand": "MIKIHOUSE (미키하우스)",
+    "variants": [
+      {
+        "name": "핑크",
+        "character": "곰 로고"
+      },
+      {
+        "name": "멀티컬러",
+        "character": "토끼 로고"
+      }
+    ]
+  },
+  "compliance_notes": {
+    "platform_mention": "절대 금지 (아마존 등)",
+    "currency": "원화만 표기 (엔화 금지)",
+    "kc_certification": "언급 금지",
+    "translation_status": "모든 일본어 한글 번역 완료"
+  }
+}

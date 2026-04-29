@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "product_name": "미키하우스 HOT BISCUITS 세컨드 베이비 슈즈",
+    "generated_at": "2026-04-27T00:00:00Z",
+    "seo_version": "2.0"
+  },
+  "title_candidates": [
+    {
+      "text": "미키하우스 HOT BISCUITS 세컨드 베이비슈즈 걸음마 신발",
+      "length": 33,
+      "keyword_density": {
+        "미키하우스": 1,
+        "베이비슈즈": 1,
+        "걸음마": 1,
+        "세컨드": 1
+      },
+      "rationale": "브랜드명 + 제품 카테고리 + 주요 용도를 명확히 표현. 33자로 간결하면서도 핵심 키워드 모두 포함."
+    },
+    {
+      "text": "미키하우스 유아 신발 통기성 메쉬 걸음마 슈즈 14-15cm",
+      "length": 32,
+      "keyword_density": {
+        "미키하우스": 1,
+        "유아 신발": 1,
+        "통기성": 1,
+        "메쉬": 1,
+        "걸음마": 1
+      },
+      "rationale": "기능성(통기성 메쉬) + 사이즈 범위를 명시하여 검색 매칭률 향상. 여름철 수요 타겟팅."
+    },
+    {
+      "text": "미키하우스 2E 넓은 발볼 베이비슈즈 세컨드슈즈 남아 여아",
+      "length": 33,
+      "keyword_density": {
+        "미키하우스": 1,
+        "2E": 1,
+        "발볼": 1,
+        "베이비슈즈": 1,
+        "남아": 1,
+        "여아": 1
+      },
+      "rationale": "2E 라스트(넓은 발볼) 차별점 강조. 발볼 넓은 아기 부모 타겟팅. 유니섹스 명시."
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 HOT BISCUITS 세컨드 베이비슈즈 걸음마 신발",
+    "length": 33,
+    "selected_reason": "브랜드 정식 라인명(HOT BISCUITS) 포함으로 브랜드 검색 최적화. 제품 카테고리(세컨드 베이비슈즈) + 용도(걸음마 신발) 명확히 전달. 50자 이내 여유 있는 길이."
+  },
+  "tags": [
+    "미키하우스",
+    "HOT BISCUITS",
+    "베이비슈즈",
+    "세컨드슈즈",
+    "걸음마신발",
+    "유아신발",
+    "통기성신발",
+    "넓은발볼",
+    "일본아기신발",
+    "유니섹스슈즈"
+  ],
+  "category_recommendation": {
+    "path": "출산/육아 > 유아동패션/잡화 > 신발 > 베이비슈즈",
+    "confidence": "high",
+    "rationale": "세컨드 슈즈는 생후 12-24개월 걸음마기 아기 대상으로, 네이버 스마트스토어의 베이비슈즈 카테고리가 가장 적합. 사이즈 14.0-15.0cm는 베이비 범위에 해당."
+  },
+  "brand_field": {
+    "value": "MIKIHOUSE",
+    "rationale": "스마트스토어 브랜드 필드에는 영문 공식 표기 'MIKIHOUSE' 입력 권장. 서브 라인 'HOT BISCUITS'는 상품명에 포함."
+  },
+  "manufacturer_field": {
+    "value": "MIKIHOUSE CO., LTD. (일본)",
+    "rationale": "일본 미키하우스 본사가 제조사. 원산지 '일본' 병기."
+  },
+  "search_keywords": {
+    "primary": [
+      "미키하우스 베이비슈즈",
+      "세컨드슈즈",
+      "걸음마 신발",
+      "유아 신발 14cm"
+    ],
+    "secondary": [
+      "통기성 메쉬 신발",
+      "발볼 넓은 아기 신발",
+      "일본 베이비슈즈",
+      "HOT BISCUITS"
+    ],
+    "long_tail": [
+      "미키하우스 세컨드슈즈 14cm",
+      "걸음마 연습 신발 추천",
+      "여름 베이비슈즈 통기성",
+      "발볼 넓은 걸음마 신발"
+    ]
+  },
+  "seo_check": {
+    "all_passed": true,
+    "checks": [
+      {
+        "item": "브랜드명 정확성",
+        "status": "pass",
+        "note": "MIKIHOUSE 영문 표기 + 한글 '미키하우스' 병기"
+      },
+      {
+        "item": "50자 제한",
+        "status": "pass",
+        "note": "추천 상품명 33자로 여유 있음"
+      },
+      {
+        "item": "금지어 미포함",
+        "status": "pass",
+        "note": "플랫폼명, 원통화 기호 미포함"
+      },
+      {
+        "item": "핵심 키워드 포함",
+        "status": "pass",
+        "note": "브랜드, 제품 카테고리, 용도 모두 포함"
+      },
+      {
+        "item": "태그 개수",
+        "status": "pass",
+        "note": "10개로 적정 (스마트스토어 권장 5-15개)"
+      },
+      {
+        "item": "카테고리 매칭",
+        "status": "pass",
+        "note": "베이비슈즈 카테고리 정확히 매칭"
+      }
+    ]
+  },
+  "naver_shopping_optimization": {
+    "title_structure": "[브랜드] [서브브랜드] [제품타입] [용도]",
+    "keyword_placement": "브랜드명 최우선 배치, 제품 카테고리 중심, 용도 명확 표현",
+    "competitive_keywords": [
+      "미키하우스",
+      "베이비슈즈",
+      "걸음마신발"
+    ],
+    "differentiation_keywords": [
+      "HOT BISCUITS",
+      "세컨드슈즈",
+      "통기성 메쉬",
+      "2E 발볼"
+    ]
+  },
+  "compliance": {
+    "platform_name_exposure": false,
+    "currency_symbol_exposure": false,
+    "foreign_language_exposure": false,
+    "note": "브랜드명 'MIKIHOUSE', 'HOT BISCUITS'는 영문 공식 표기로 허용. 나머지 모두 한국어 표기."
+  }
+}

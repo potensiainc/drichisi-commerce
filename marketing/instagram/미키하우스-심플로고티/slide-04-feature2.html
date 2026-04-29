@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 - Slide 04 Feature 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background: linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%);
+      display: flex;
+      flex-direction: column;
+      padding: 80px;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .feature-number {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      color: #C8102E;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      font-size: 46px;
+      font-weight: 700;
+      color: #1A1A1A;
+      line-height: 1.4;
+    }
+
+    .highlight {
+      color: #C8102E;
+      font-weight: 800;
+    }
+
+    .color-grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .color-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .color-item img {
+      width: 220px;
+      height: auto;
+      filter: drop-shadow(0 8px 20px rgba(0,0,0,0.12));
+    }
+
+    .color-labels {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+
+    .color-chip {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .chip-circle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 2px solid #E0E0E0;
+    }
+
+    .chip-circle.pink { background: #F5A9B8; }
+    .chip-circle.white { background: #FFFFFF; }
+    .chip-circle.red { background: #C8102E; }
+    .chip-circle.yellow { background: #FFB81C; }
+    .chip-circle.green { background: #00A651; }
+
+    .chip-name {
+      font-size: 14px;
+      font-weight: 500;
+      color: #666;
+    }
+
+    .corner {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border-color: #E0E0E0;
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 30px; left: 30px; border-top-width: 2px; border-left-width: 2px; }
+    .corner-tr { top: 30px; right: 30px; border-top-width: 2px; border-right-width: 2px; }
+    .corner-bl { bottom: 30px; left: 30px; border-bottom-width: 2px; border-left-width: 2px; }
+    .corner-br { bottom: 30px; right: 30px; border-bottom-width: 2px; border-right-width: 2px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #E0E0E0;
+    }
+
+    .dot.active {
+      background: #C8102E;
+      width: 24px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <div class="header">
+      <span class="feature-number">Feature 02</span>
+      <h2 class="headline"><span class="highlight">6가지 컬러</span>로 취향대로</h2>
+    </div>
+
+    <div class="color-grid">
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_심플로고반팔티셔츠_(핑크)_12-5217-493_(100)/images/default/nobg/51fLLcvi0tL._AC_SL1200__nobg.png" alt="핑크">
+      </div>
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_심플로고반팔티셔츠_(핑크)_12-5217-493_(100)/images/default/nobg/512JHJT5L8L._AC_SL1200__nobg.png" alt="화이트">
+      </div>
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_심플로고반팔티셔츠_(핑크)_12-5217-493_(100)/images/default/nobg/51Elaw4Rx+L._AC_SL1200__nobg.png" alt="레드">
+      </div>
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_심플로고반팔티셔츠_(핑크)_12-5217-493_(100)/images/default/nobg/61Tpo3WtIiL._AC_SL1200__nobg.png" alt="옐로우">
+      </div>
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_심플로고반팔티셔츠_(핑크)_12-5217-493_(100)/images/default/nobg/61tDy9JxOcL._AC_SL1200__nobg.png" alt="그린">
+      </div>
+      <div class="color-item">
+        <img src="file:///D:/commerce/products/[미키하우스]_심플로고반팔티셔츠_(핑크)_12-5217-493_(100)/images/default/nobg/51V1h207VwL._AC_SL1200__nobg.png" alt="멀티">
+      </div>
+    </div>
+
+    <div class="color-labels">
+      <div class="color-chip">
+        <div class="chip-circle pink"></div>
+        <span class="chip-name">핑크</span>
+      </div>
+      <div class="color-chip">
+        <div class="chip-circle white"></div>
+        <span class="chip-name">화이트</span>
+      </div>
+      <div class="color-chip">
+        <div class="chip-circle red"></div>
+        <span class="chip-name">레드</span>
+      </div>
+      <div class="color-chip">
+        <div class="chip-circle yellow"></div>
+        <span class="chip-name">옐로우</span>
+      </div>
+      <div class="color-chip">
+        <div class="chip-circle green"></div>
+        <span class="chip-name">그린</span>
+      </div>
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .stars {
+      position: absolute;
+      width: 100%;
+      height: 60%;
+      overflow: hidden;
+    }
+    .star {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: white;
+      border-radius: 50%;
+      opacity: 0.6;
+    }
+    .feature-badge {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      background: #FFD700;
+      color: #333;
+      padding: 10px 25px;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 25px;
+      z-index: 10;
+    }
+    .top-section {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px;
+      position: relative;
+    }
+    .product-image {
+      width: 450px;
+      height: 450px;
+      object-fit: contain;
+      filter: drop-shadow(0 20px 40px rgba(0,0,0,0.4));
+    }
+    .reflector-effect {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: radial-gradient(circle, rgba(255,215,0,0.9) 0%, transparent 70%);
+      border-radius: 50%;
+      top: 350px;
+      right: 280px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.3); opacity: 0.7; }
+    }
+    .reflector-label {
+      position: absolute;
+      top: 300px;
+      right: 80px;
+      background: #FFD700;
+      padding: 12px 25px;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #333;
+      box-shadow: 0 4px 20px rgba(255,215,0,0.4);
+    }
+    .reflector-line {
+      position: absolute;
+      width: 80px;
+      height: 3px;
+      background: #FFD700;
+      top: 350px;
+      right: 190px;
+      transform: rotate(-20deg);
+    }
+    .bottom-section {
+      background: white;
+      padding: 50px 60px;
+    }
+    .feature-title {
+      font-size: 42px;
+      font-weight: 900;
+      color: #C8102E;
+      margin-bottom: 25px;
+    }
+    .feature-desc {
+      font-size: 26px;
+      color: #333;
+      line-height: 1.6;
+    }
+    .feature-desc strong {
+      color: #C8102E;
+      font-weight: 700;
+    }
+    .safety-icon {
+      display: inline-block;
+      background: #C8102E;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 18px;
+      margin-left: 10px;
+    }
+    .slide-number {
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      font-size: 16px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="stars">
+      <div class="star" style="left: 10%; top: 10%;"></div>
+      <div class="star" style="left: 25%; top: 5%;"></div>
+      <div class="star" style="left: 45%; top: 15%;"></div>
+      <div class="star" style="left: 60%; top: 8%;"></div>
+      <div class="star" style="left: 75%; top: 12%;"></div>
+      <div class="star" style="left: 90%; top: 6%;"></div>
+      <div class="star" style="left: 15%; top: 25%;"></div>
+      <div class="star" style="left: 35%; top: 20%;"></div>
+      <div class="star" style="left: 55%; top: 28%;"></div>
+      <div class="star" style="left: 80%; top: 22%;"></div>
+    </div>
+
+    <div class="feature-badge">POINT 02</div>
+
+    <div class="top-section">
+      <img class="product-image" src="../../products/[미키하우스]_レインブーツ_10-9471-684_키즈/images/multicolor/image_05.jpg" alt="미키하우스 레인부츠 후면">
+
+      <div class="reflector-effect"></div>
+      <div class="reflector-line"></div>
+      <div class="reflector-label">반사테이프</div>
+    </div>
+
+    <div class="bottom-section">
+      <h2 class="feature-title">어두운 등하원길도 안심 <span class="safety-icon">SAFE</span></h2>
+      <p class="feature-desc">
+        어두운 새벽·저녁 등하원 시간에도<br>
+        <strong>차량에 잘 보이도록 반사 테이프</strong>가 부착되어 있어요.
+      </p>
+    </div>
+
+    <p class="slide-number">5 / 7</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+{
+  "product_name": "미키하우스 심플로고 반팔 티셔츠 (핑크)",
+  "analyzed_at": "2026-04-26T10:30:00+09:00",
+  "meta": {
+    "original_name": "[ミキハウス] シンプルロゴ半袖Tシャツ (ピンク) 12-5217-493 (100)",
+    "brand": "ミキハウス (MIKI HOUSE)",
+    "price": {
+      "amount": "3,465",
+      "currency": "JPY"
+    },
+    "origin": "日本",
+    "review": {
+      "rating": "4.0",
+      "count": "1"
+    },
+    "source_url": "https://www.amazon.co.jp/dp/B0D38R1LHT",
+    "product_id": "B0D38R1LHT"
+  },
+  "category": {
+    "main": "아동/반려",
+    "sub": "아동의류",
+    "rationale": "베이비/키즈 반팔 티셔츠로 80~150cm 사이즈 전개, 남녀 공용 아동복 카테고리에 해당"
+  },
+  "language_handling": {
+    "source_language": "ja",
+    "translation_required": true,
+    "brand_name_policy": "original",
+    "spec_translation_notes": "브랜드명 'ミキハウス'는 영문 'MIKI HOUSE' 또는 '미키하우스' 병기 권장. 소재·사이즈 정보는 한국어 번역 필수."
+  },
+  "risks": [
+    {
+      "type": "해외직구·병행수입 고지",
+      "severity": "high",
+      "description": "일본 직구 상품으로 전자상거래법·표시광고법 고지 필수",
+      "action_required": "상세페이지 하단에 '본 제품은 해외 구매대행을 통해 유통되는 상품입니다' 고지 필요"
+    },
+    {
+      "type": "A/S 및 품질보증 정보",
+      "severity": "medium",
+      "description": "해외 브랜드 제품으로 국내 A/S 불가능할 수 있음",
+      "action_required": "구매대행 특성상 A/S 제한 사항 명시 권장"
+    },
+    {
+      "type": "사이즈 표기",
+      "severity": "low",
+      "description": "일본 사이즈 표기(80/90/100 등)가 한국과 다를 수 있음",
+      "action_required": "사이즈 비교표 제공 권장 (cm 단위로 실측 정보 제공)"
+    }
+  ],
+  "selling_points": [
+    {
+      "priority": 1,
+      "headline": "일본 1위 베이비 브랜드의 베스트셀러",
+      "evidence": "1978년 창립 이래 일본 부모들의 신뢰를 받는 미키하우스의 대표 아이템. 부드러운 천축 소재(면 100%) 사용.",
+      "emotional_hook": "아이 옷은 브랜드보다 소재라고 생각했는데, 미키하우스는 둘 다 놓치지 않았어요."
+    },
+    {
+      "priority": 2,
+      "headline": "심플한 디자인으로 남녀 공용, 8가지 컬러",
+      "evidence": "화이트, 핑크, 레드, 옐로우, 그린 등 다양한 컬러 옵션. 미니멀한 로고로 어떤 옷과도 매치 가능.",
+      "emotional_hook": "오늘은 뭐 입히지? 고민할 시간에 쓱 꺼내 입히면 그게 정답이에요."
+    },
+    {
+      "priority": 3,
+      "headline": "80cm부터 150cm까지, 오래 입는 기본템",
+      "evidence": "성장 단계별 8가지 사이즈 전개. 80/90cm는 어깨 트임으로 갓난아기도 편안하게 착용 가능.",
+      "emotional_hook": "올해 입고 내년에도 입고, 동생한테도 물려줄 수 있는 옷이에요."
+    }
+  ],
+  "target": {
+    "primary_persona": "30대 초중반 워킹맘, 첫아이 또는 둘째를 키우는 중. 아이 옷은 '브랜드'보다 '소재와 내구성'을 우선시하지만, 일본 프리미엄 브랜드에 대한 신뢰도가 높음. 심플한 디자인을 선호하며, 여러 벌 구비해 데일리로 입히고 싶어함.",
+    "secondary_persona": "20대 후반~30대 초반 예비 엄마, 출산 준비 중이거나 베이비샤워 선물 구매. 일본 육아 용품에 관심이 많고, SNS에서 '미키하우스'를 자주 봤음. 검증된 브랜드로 첫 옷을 준비하고 싶어함.",
+    "use_moments": [
+      "어린이집 등원복으로 매일 입히기",
+      "여름 외출 시 가볍게 입히기",
+      "집에서 놀 때 편하게 입히기"
+    ]
+  },
+  "design_direction": {
+    "design_tone": "clean & trustworthy",
+    "tone_rationale": "미키하우스는 일본 육아 용품의 대표 브랜드로, 부모들이 가장 먼저 '믿을 수 있는' 브랜드로 떠올리는 이름입니다. 상품 자체도 심플하고 깔끔한 디자인이므로, 상세페이지 역시 과한 꾸밈 없이 정돈된 레이아웃과 신뢰감 있는 톤으로 구성해야 합니다. 부모의 마음을 안심시키는 것이 핵심입니다.",
+    "color_palette": [
+      {
+        "hex": "#F5A9B8",
+        "role": "primary (상품 본체 컬러 - 핑크)",
+        "source": "thumbnail.jpg의 티셔츠 본체 파스텔 핑크"
+      },
+      {
+        "hex": "#FFFFFF",
+        "role": "secondary (상품 본체 컬러 - 화이트)",
+        "source": "image_01.jpg의 티셔츠 본체 순백색"
+      },
+      {
+        "hex": "#C8102E",
+        "role": "accent (상품 본체 컬러 - 레드)",
+        "source": "image_02.jpg의 티셔츠 본체 선명한 레드"
+      },
+      {
+        "hex": "#1E3A8A",
+        "role": "text/logo (브랜드 컬러)",
+        "source": "image_01.jpg, image_05.jpg의 'mikiHOUSE' 로고 네이비"
+      },
+      {
+        "hex": "#F5F5F5",
+        "role": "background (페이지 배경)",
+        "source": "이미지들의 스튜디오 배경 라이트 그레이"
+      }
+    ],
+    "typography_mood": "sans-serif, rounded & friendly — 아동복답게 둥글고 부드러운 산세리프. 본문은 가독성 높은 고딕, 헤드라인은 약간의 라운드 처리로 친근함 부여.",
+    "copy_voice": "정보 전달 + 공감. 엄마들이 궁금해하는 정보(소재, 사이즈, 세탁)를 명확히 전달하되, '아이 옷 고르는 게 어려웠던 경험'에 공감하는 톤.",
+    "layout_hint": {
+      "primary": "photo-dominant",
+      "secondary": "spec-dense",
+      "rationale": "아동복은 '실물이 어떻게 보이는가'가 가장 중요하므로 photo-dominant로 컬러별 이미지를 크게 노출. 동시에 부모들은 소재·사이즈·세탁 정보를 꼼꼼히 확인하므로 spec-dense 섹션으로 보완."
+    }
+  },
+  "image_inventory": [
+    {
+      "filename": "thumbnail.jpg",
+      "role": "hero_candidate",
+      "description": "핑크 티셔츠 정면, 화이트 로고, 깔끔한 스튜디오 촬영. HERO 메인 후보."
+    },
+    {
+      "filename": "image_01.jpg",
+      "role": "option_shots",
+      "description": "화이트 티셔츠 정면, 네이비 로고. 컬러 옵션 비교용."
+    },
+    {
+      "filename": "image_02.jpg",
+      "role": "option_shots",
+      "description": "레드 티셔츠 정면, 화이트 로고. 컬러 옵션 비교용."
+    },
+    {
+      "filename": "image_03.jpg",
+      "role": "option_shots",
+      "description": "옐로우 티셔츠 정면, 화이트 로고. 컬러 옵션 비교용."
+    },
+    {
+      "filename": "image_04.jpg",
+      "role": "option_shots",
+      "description": "그린 티셔츠 정면, 화이트 로고. 컬러 옵션 비교용."
+    },
+    {
+      "filename": "image_05.jpg",
+      "role": "detail_shots",
+      "description": "멀티컬러 티셔츠 (화이트 베이스 + 초록/빨강 소매), 네이비 로고. 특별한 디자인 옵션 소개용."
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 신뢰",
+        "text": "일본 부모들이 가장 먼저 찾는 브랜드.\n미키하우스."
+      },
+      {
+        "angle": "심플함의 가치",
+        "text": "로고 하나로 충분해요.\n매일 입어도 질리지 않는 티셔츠."
+      },
+      {
+        "angle": "엄마의 마음",
+        "text": "아이 옷은 소재가 먼저잖아요.\n면 100%, 부드러운 천축 소재."
+      }
+    ],
+    "for_you_moments": [
+      "아이 옷장에 '매일 입히는 기본템'이 필요한 분께",
+      "여러 벌 사도 질리지 않는 심플한 디자인을 찾는 분께",
+      "일본 프리미엄 브랜드로 첫 옷을 준비하고 싶은 분께"
+    ],
+    "scenes": [
+      "어린이집 등원 전, 서둘러 입히는 아침",
+      "여름 공원 나들이, 땀 흡수 잘 되는 티셔츠 필요할 때",
+      "집에서 뛰어노는 시간, 편안하게 입히고 싶을 때"
+    ],
+    "closing": "심플한 옷이 가장 오래 입혀요."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "brand": "MIKIHOUSE HOT BISCUITS",
+  "model_number": "72-9305-143",
+  "category": "베이비 슈즈",
+  "target_gender": "유니섹스",
+  "target_age": "베이비",
+  "color_options": [
+    {
+      "name": "default",
+      "available": true
+    }
+  ],
+  "size_options": [
+    {
+      "name": "14.0 cm",
+      "available": true
+    },
+    {
+      "name": "14.5 cm",
+      "available": true
+    },
+    {
+      "name": "15.0 cm",
+      "available": true
+    },
+    {
+      "name": "15.5 cm",
+      "available": true
+    }
+  ],
+  "specs": {
+    "Amazon 판매 순위": "베이비슈즈 - 399위",
+    "브랜드": "미키하우스 핫비스킷",
+    "제품 유형": "세컨드 베이비 슈즈",
+    "대상": "남아/여아",
+    "사이즈 범위": "14.0-15.5cm"
+  },
+  "source_url": "https://www.amazon.co.jp/dp/B0DZ62CQSY",
+  "scraped_at": "2026-04-26T14:41:53.116701"
+}

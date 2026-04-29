@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #FFFAF0;
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 60px;
+      position: relative;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+    .slide-number {
+      font-size: 14px;
+      color: #999;
+      letter-spacing: 2px;
+    }
+    .headline {
+      font-size: 36px;
+      font-weight: 900;
+      color: #2C3E5F;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .scenes-container {
+      flex: 1;
+      display: flex;
+      gap: 30px;
+    }
+    .scene-card {
+      flex: 1;
+      background: white;
+      border-radius: 24px;
+      padding: 30px;
+      box-shadow: 0 10px 40px rgba(44, 62, 95, 0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .scene-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #FFC0CB 0%, #FFB6C1 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      margin-bottom: 25px;
+    }
+    .scene-card:nth-child(2) .scene-icon {
+      background: linear-gradient(135deg, #87CEEB 0%, #7EC8E3 100%);
+    }
+    .scene-card:nth-child(3) .scene-icon {
+      background: linear-gradient(135deg, #FFD700 0%, #FFC107 100%);
+    }
+    .scene-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #2C3E5F;
+      margin-bottom: 15px;
+    }
+    .scene-desc {
+      font-size: 17px;
+      color: #666;
+      line-height: 1.7;
+    }
+    .bottom-bar {
+      height: 8px;
+      width: 60px;
+      border-radius: 4px;
+      margin-top: auto;
+    }
+    .scene-card:nth-child(1) .bottom-bar { background: #FFC0CB; }
+    .scene-card:nth-child(2) .bottom-bar { background: #87CEEB; }
+    .scene-card:nth-child(3) .bottom-bar { background: #FFD700; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="slide-number">06 / 07</span>
+    </div>
+
+    <h2 class="headline">이런 순간에 입혀주세요</h2>
+
+    <div class="scenes-container">
+      <div class="scene-card">
+        <div class="scene-icon">&#127979;</div>
+        <h3 class="scene-title">유치원 등원</h3>
+        <p class="scene-desc">
+          혼자 입겠다고<br>
+          우기는 아침에도<br>
+          신축성 좋아서<br>
+          혼자 잘 입어요
+        </p>
+        <div class="bottom-bar"></div>
+      </div>
+
+      <div class="scene-card">
+        <div class="scene-icon">&#127966;</div>
+        <h3 class="scene-title">놀이터 나들이</h3>
+        <p class="scene-desc">
+          미끄럼틀 타고<br>
+          모래놀이 해도<br>
+          무릎 꿇어도<br>
+          불편하지 않아요
+        </p>
+        <div class="bottom-bar"></div>
+      </div>
+
+      <div class="scene-card">
+        <div class="scene-icon">&#127968;</div>
+        <h3 class="scene-title">집에서 편하게</h3>
+        <p class="scene-desc">
+          데일리 바지로<br>
+          세탁해도 금방 마르고<br>
+          구김도 덜 가는<br>
+          실용적인 바지
+        </p>
+        <div class="bottom-bar"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

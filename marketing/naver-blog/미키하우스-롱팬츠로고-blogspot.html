@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>육아맘들 사이에서 난리 난 미키하우스 롱팬츠, 우리 아이 일상복으로 딱이에요</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            line-height: 1.4;
+            border-bottom: 3px solid #f39c12;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-left: 12px;
+            border-left: 4px solid #f39c12;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .intro {
+            font-size: 17px;
+            line-height: 1.9;
+            color: #555;
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .image-caption {
+            font-size: 14px;
+            color: #777;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        table th {
+            background-color: #f39c12;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        table td {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 15px;
+        }
+
+        table tr:last-child td {
+            border-bottom: none;
+        }
+
+        table tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .feature-list {
+            background-color: #fff8e1;
+            padding: 20px 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #f39c12;
+        }
+
+        .feature-list h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .feature-list p {
+            margin-bottom: 10px;
+            line-height: 1.7;
+        }
+
+        .recommend-box {
+            background-color: #e8f5e9;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border: 2px solid #66bb6a;
+        }
+
+        .recommend-box h3 {
+            font-size: 19px;
+            font-weight: bold;
+            color: #2e7d32;
+            margin-bottom: 15px;
+        }
+
+        .recommend-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .recommend-box li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+            line-height: 1.6;
+        }
+
+        .recommend-box li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #66bb6a;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 40px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cta-box h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .cta-box p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            opacity: 0.95;
+        }
+
+        .cta-box a {
+            display: inline-block;
+            background-color: white;
+            color: #667eea;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 17px;
+            transition: transform 0.3s ease;
+        }
+
+        .cta-box a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .info-box {
+            background-color: #e3f2fd;
+            padding: 20px 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #2196f3;
+        }
+
+        .info-box p {
+            margin-bottom: 10px;
+            color: #1565c0;
+            font-size: 15px;
+        }
+
+        .hashtags {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #e0e0e0;
+            color: #2196f3;
+            font-size: 14px;
+            line-height: 2;
+        }
+
+        .closing {
+            background-color: #fafafa;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+            font-size: 17px;
+            line-height: 1.9;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<h1>육아맘들 사이에서 난리 난 미키하우스 롱팬츠, 우리 아이 일상복으로 딱이에요</h1>
+
+<div class="intro">
+    <p>안녕하세요! 오늘은 육아맘들 사이에서 입소문 난 미키하우스 심플 로고 롱팬츠를 소개해드리려고 해요. 아이가 자라면서 옷을 자주 바꿔야 하는데, 그럴 때마다 고민되는 게 품질과 가격 사이의 균형이거든요. 특히 자주 입는 일상복은 튼튼하면서도 가격 부담이 적으면 좋잖아요. 이번에 소개할 미키하우스 롱팬츠가 바로 그런 제품이에요.</p>
+</div>
+
+<div class="image-container">
+    <img src="D:\commerce\products\[미키하우스]_팬츠_ロング팬츠_ズボン_로고_無地_남아_여아_베이비_키즈_아동복_통원_통학_13-3201-680\images\マルチカラー\image_01.jpg" alt="미키하우스 롱팬츠 멀티컬러">
+    <p class="image-caption">미키하우스 심플 로고 롱팬츠 - 멀티컬러</p>
+</div>
+
+<h2>미키하우스, 어떤 브랜드인가요?</h2>
+
+<p>미키하우스는 일본에서 1971년에 시작된 아동복 브랜드예요. 50년이 넘는 역사를 가진 브랜드답게 품질과 디자인에서 인정받고 있죠. 특히 일본 현지에서는 출산 선물이나 돌잔치 선물로 많이 선택되는 프리미엄 브랜드인데요, 튼튼한 봉제와 아이 피부를 생각한 소재 선택으로 육아맘들에게 꾸준히 사랑받고 있어요.</p>
+
+<table>
+    <tr>
+        <th>항목</th>
+        <th>내용</th>
+    </tr>
+    <tr>
+        <td>브랜드</td>
+        <td>MIKIHOUSE (미키하우스)</td>
+    </tr>
+    <tr>
+        <td>제품명</td>
+        <td>로고 롱팬츠</td>
+    </tr>
+    <tr>
+        <td>원산지</td>
+        <td>일본</td>
+    </tr>
+    <tr>
+        <td>색상</td>
+        <td>멀티컬러, 블랙, 레드x네이비 (3가지)</td>
+    </tr>
+    <tr>
+        <td>사이즈</td>
+        <td>80, 90, 100, 110, 120, 130 (6가지)</td>
+    </tr>
+    <tr>
+        <td>제품코드</td>
+        <td>13-3201-680</td>
+    </tr>
+    <tr>
+        <td>적합연령</td>
+        <td>약 1세~7세 (사이즈별 상이)</td>
+    </tr>
+</table>
+
+<h2>이 팬츠의 특별한 점은?</h2>
+
+<div class="feature-list">
+    <h3>1. 심플한 로고 디자인</h3>
+    <p>미키하우스 하면 화려한 프린트를 떠올리시는 분들도 많은데요, 이 롱팬츠는 심플한 로고만 포인트로 들어가 있어요. 아이 옷이 너무 화려하면 상의 매칭이 어려운데, 이 팬츠는 어떤 티셔츠와도 잘 어울리거든요. 특히 요즘은 심플한 디자인을 선호하는 부모님들이 많아서 더 인기가 좋아요.</p>
+</div>
+
+<div class="image-container">
+    <img src="D:\commerce\products\[미키하우스]_팬츠_ロング팬츠_ズボン_로고_無地_남아_여아_베이비_키즈_아동복_통원_통학_13-3201-680\images\マルチカラー\image_02.jpg" alt="미키하우스 롱팬츠 로고 디테일">
+    <p class="image-caption">심플한 로고 디자인이 포인트</p>
+</div>
+
+<div class="feature-list">
+    <h3>2. 남아/여아 구분 없이 입을 수 있어요</h3>
+    <p>3가지 색상 모두 남아, 여아 구분 없이 입힐 수 있어요. 멀티컬러는 아이보리 베이스에 컬러풀한 로고, 블랙은 깔끔하고 세련된 느낌, 레드x네이비는 스포티한 느낌이에요. 형제자매가 있거나, 지인에게 물려줄 계획이 있다면 더욱 실용적이죠.</p>
+</div>
+
+<div class="image-container">
+    <img src="D:\commerce\products\[미키하우스]_팬츠_ロング팬츠_ズボン_로고_無地_남아_여아_베이비_키즈_아동복_통원_통학_13-3201-680\images\ブラック\image_01.jpg" alt="미키하우스 롱팬츠 블랙">
+    <p class="image-caption">미키하우스 심플 로고 롱팬츠 - 블랙</p>
+</div>
+
+<div class="feature-list">
+    <h3>3. 어린이집, 유치원 일상복으로 제격</h3>
+    <p>너무 비싼 옷은 어린이집에 입히기 부담스럽고, 그렇다고 너무 싼 옷은 금방 헤지는데요. 이 팬츠는 가격 대비 품질이 뛰어나서 일상복으로 딱이에요. 활동량이 많은 아이들이 입어도 튼튼하게 버텨주거든요.</p>
+</div>
+
+<div class="feature-list">
+    <h3>4. 사이즈 구성이 다양해요</h3>
+    <p>80부터 130까지 6가지 사이즈로 구성되어 있어요. 80사이즈는 돌 전후 아기부터, 130사이즈는 초등 저학년까지 입을 수 있어요. 형제자매가 있다면 색상을 다르게 구매해서 함께 맞춰 입히는 것도 좋아요.</p>
+</div>
+
+<div class="image-container">
+    <img src="D:\commerce\products\[미키하우스]_팬츠_ロング팬츠_ズボン_로고_無地_남아_여아_베이비_키즈_아동복_통원_통학_13-3201-680\images\赤×紺\image_01.jpg" alt="미키하우스 롱팬츠 레드x네이비">
+    <p class="image-caption">미키하우스 심플 로고 롱팬츠 - 레드x네이비</p>
+</div>
+
+<h2>실제로 입혀보니 어떤가요?</h2>
+
+<p><strong>소재와 착용감</strong></p>
+<p>소재는 부드러우면서도 적당한 두께감이 있어요. 너무 얇으면 금방 해지고, 너무 두꺼우면 활동하기 불편한데 딱 적당하거든요. 신축성도 있어서 아이가 뛰어놀 때도 편안하게 움직일 수 있어요.</p>
+
+<div class="image-container">
+    <img src="D:\commerce\products\[미키하우스]_팬츠_ロング팬츠_ズボン_로고_無地_남아_여아_베이비_키즈_아동복_통원_통학_13-3201-680\images\マルチカラー\image_03.jpg" alt="미키하우스 롱팬츠 소재 디테일">
+    <p class="image-caption">부드럽고 적당한 두께의 소재</p>
+</div>
+
+<p><strong>세탁 후에도 변형 없어요</strong></p>
+<p>아이 옷은 세탁을 정말 자주 하잖아요. 그런데 이 팬츠는 여러 번 세탁해도 로고가 벗겨지거나 늘어나지 않더라고요. 일본 브랜드답게 봉제도 탄탄해서 오래 입힐 수 있을 것 같아요.</p>
+
+<p><strong>코디하기 편해요</strong></p>
+<p>심플한 디자인이라 어떤 상의와도 잘 어울려요. 단색 티셔츠는 물론이고, 프린트 티셔츠와 매칭해도 전혀 부담스럽지 않아요. 아침에 서둘러 옷을 입힐 때도 고민 없이 꺼낼 수 있는 팬츠예요.</p>
+
+<div class="image-container">
+    <img src="D:\commerce\products\[미키하우스]_팬츠_ロング팬츠_ズボン_로고_無地_남아_여아_베이비_키즈_아동복_통원_통학_13-3201-680\images\ブラック\image_02.jpg" alt="미키하우스 롱팬츠 착용 모습">
+    <p class="image-caption">어떤 상의와도 잘 어울리는 심플한 디자인</p>
+</div>
+
+<h2>사이즈는 어떻게 선택하나요?</h2>
+
+<table>
+    <tr>
+        <th>사이즈</th>
+        <th>권장 연령</th>
+        <th>키 기준</th>
+    </tr>
+    <tr>
+        <td>80</td>
+        <td>약 1세</td>
+        <td>75-85cm</td>
+    </tr>
+    <tr>
+        <td>90</td>
+        <td>약 1-2세</td>
+        <td>85-95cm</td>
+    </tr>
+    <tr>
+        <td>100</td>
+        <td>약 2-3세</td>
+        <td>95-105cm</td>
+    </tr>
+    <tr>
+        <td>110</td>
+        <td>약 3-5세</td>
+        <td>105-115cm</td>
+    </tr>
+    <tr>
+        <td>120</td>
+        <td>약 5-6세</td>
+        <td>115-125cm</td>
+    </tr>
+    <tr>
+        <td>130</td>
+        <td>약 6-7세</td>
+        <td>125-135cm</td>
+    </tr>
+</table>
+
+<div class="info-box">
+    <p>일본 브랜드는 보통 국내 사이즈보다 약간 작게 나오는 편이에요. 하지만 미키하우스는 비교적 정사이즈로 나와서 평소 입는 사이즈대로 선택하시면 돼요. 오래 입히고 싶다면 한 사이즈 크게 구매하는 것도 좋아요.</p>
+</div>
+
+<div class="image-container">
+    <img src="D:\commerce\products\[미키하우스]_팬츠_ロング팬츠_ズボン_로고_無地_남아_여아_베이비_키즈_아동복_통원_통학_13-3201-680\images\赤×紺\image_02.jpg" alt="미키하우스 롱팬츠 사이즈감">
+    <p class="image-caption">정사이즈로 나오는 미키하우스 팬츠</p>
+</div>
+
+<div class="recommend-box">
+    <h3>이런 분들께 추천해요</h3>
+    <ul>
+        <li>심플하고 깔끔한 디자인을 선호하는 부모님</li>
+        <li>어린이집, 유치원 일상복을 찾는 분</li>
+        <li>품질 좋은 일본 아동복을 합리적인 가격에 구매하고 싶은 분</li>
+        <li>형제자매가 있어서 남녀 구분 없이 입힐 옷을 찾는 분</li>
+        <li>세탁을 자주 해도 변형 없는 튼튼한 팬츠를 원하는 분</li>
+    </ul>
+</div>
+
+<h2>어디서 구매할 수 있나요?</h2>
+
+<p>드리치시 스토어에서 미키하우스 정품을 구매하실 수 있어요. 일본 현지 가격으로 구매대행하기 때문에 합리적인 가격에 만나보실 수 있어요. 현재 가격은 약 2만 원대로, 미키하우스 브랜드 가치를 생각하면 정말 착한 가격이에요.</p>
+
+<div class="cta-box">
+    <h3>미키하우스 롱팬츠 구매하기</h3>
+    <p>일본 정품 구매대행 | 합리적인 가격 | 안전한 배송</p>
+    <a href="https://smartstore.naver.com/drichisi" target="_blank">드리치시 스토어 바로가기</a>
+</div>
+
+<div class="info-box">
+    <p>배송은 일본에서 직접 들여오기 때문에 약 7-10일 정도 소요되며, 모든 제품은 일본 정품으로 보증됩니다.</p>
+</div>
+
+<div class="image-container">
+    <img src="D:\commerce\products\[미키하우스]_팬츠_ロング팬츠_ズボン_로고_無地_남아_여아_베이비_키즈_아동복_통원_통학_13-3201-680\images\マルチカラー\image_04.jpg" alt="미키하우스 롱팬츠 3가지 색상">
+    <p class="image-caption">3가지 색상 모두 매력적인 미키하우스 롱팬츠</p>
+</div>
+
+<div class="closing">
+    <p>아이 옷은 금방 작아지기 때문에 너무 비싼 옷을 사는 것도, 그렇다고 품질을 포기하는 것도 애매하잖아요. 미키하우스 심플 로고 롱팬츠는 그 중간 지점을 딱 맞춘 제품이에요. 일본 프리미엄 브랜드의 품질을 합리적인 가격에 만날 수 있어서, 일상복으로 여러 장 구비해두면 정말 유용해요.</p>
+
+    <p>3가지 색상 모두 매력적이라 고르기 어려우실 텐데요, 여러 색상을 구매해서 번갈아 입히면 아이도 즐겁고 코디하기도 훨씬 편하실 거예요.</p>
+
+    <p>우리 아이 일상복, 품질과 가격 모두 만족스러운 미키하우스 롱팬츠로 준비해보세요!</p>
+</div>
+
+<div class="cta-box">
+    <h3>더 많은 일본 육아템이 궁금하다면?</h3>
+    <p>드리치시에서 엄선한 일본 프리미엄 육아용품을 만나보세요</p>
+    <a href="https://smartstore.naver.com/drichisi" target="_blank">드리치시 스토어 둘러보기</a>
+</div>
+
+<div class="hashtags">
+    #미키하우스 #미키하우스팬츠 #일본아동복 #일본유아복 #아동복추천 #유아복추천 #어린이집옷 #유치원옷 #일본구매대행 #육아맘추천 #드리치시 #일본직구 #키즈팬츠 #아기옷추천 #심플아동복
+</div>
+
+</body>
+</html>

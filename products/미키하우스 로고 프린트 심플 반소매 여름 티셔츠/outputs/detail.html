@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIKI HOUSE 미키하우스 베이비 키즈 반팔티 심플로고 면100% 데일리 등원복</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700&family=Gowun+Dodum&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Color Palette from analysis.json */
+            --primary: #F5A9B8;  /* 파스텔 핑크 */
+            --secondary: #FFFFFF; /* 순백색 */
+            --accent: #C8102E;   /* 선명한 레드 */
+            --text-main: #1E3A8A; /* 네이비 */
+            --bg-base: #FFFFFF;
+            --bg-alt: #F5F5F5;   /* 라이트 그레이 */
+            --line-soft: #E0E0E0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #333;
+            background: var(--bg-base);
+            line-height: 1.7;
+            word-break: keep-all;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--bg-base);
+        }
+
+        /* HERO Section */
+        .hero {
+            position: relative;
+            background: linear-gradient(to bottom, #FFF8FA 0%, #FFFFFF 100%);
+            padding: 60px 60px 80px;
+            text-align: center;
+        }
+
+        .hero__seo-title {
+            font-size: 14px;
+            font-weight: 500;
+            color: #666;
+            letter-spacing: -0.3px;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+
+        .hero__headline {
+            font-size: 42px;
+            font-weight: 600;
+            color: var(--text-main);
+            line-height: 1.3;
+            margin-bottom: 16px;
+            letter-spacing: -1px;
+        }
+
+        .hero__subtext {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 48px;
+        }
+
+        .hero__image {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+
+        .hero__image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Story Section */
+        .story {
+            padding: 100px 60px;
+            background: var(--bg-base);
+        }
+
+        .story__content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .story__title {
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 32px;
+            line-height: 1.4;
+        }
+
+        .story__text {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.9;
+            margin-bottom: 24px;
+        }
+
+        /* Colors Section */
+        .colors {
+            padding: 80px 60px;
+            background: var(--bg-alt);
+        }
+
+        .colors__title {
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--text-main);
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .colors__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .color-card {
+            background: var(--bg-base);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .color-card__image {
+            width: 100%;
+            aspect-ratio: 1;
+            overflow: hidden;
+        }
+
+        .color-card__image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .color-card__name {
+            padding: 16px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            color: #555;
+        }
+
+        /* For You Section */
+        .for-you {
+            padding: 100px 60px;
+            background: var(--bg-base);
+        }
+
+        .for-you__title {
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--text-main);
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .for-you__list {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .for-you__item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 28px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.7;
+        }
+
+        .for-you__item::before {
+            content: "✓";
+            color: var(--accent);
+            font-weight: 600;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        /* Specs Section */
+        .specs {
+            padding: 80px 60px;
+            background: var(--bg-alt);
+        }
+
+        .specs__title {
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--text-main);
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .specs__table {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--bg-base);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .spec-row {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            border-bottom: 1px solid var(--line-soft);
+        }
+
+        .spec-row:last-child {
+            border-bottom: none;
+        }
+
+        .spec-row__label {
+            padding: 20px 24px;
+            background: #F9F9F9;
+            font-weight: 500;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .spec-row__value {
+            padding: 20px 24px;
+            color: #333;
+            font-size: 15px;
+        }
+
+        /* Notice Section */
+        .notice {
+            padding: 80px 60px;
+            background: #FFF9F0;
+        }
+
+        .notice__title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--text-main);
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .notice__content {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--bg-base);
+            border-radius: 8px;
+            padding: 32px;
+        }
+
+        .notice__item {
+            margin-bottom: 24px;
+        }
+
+        .notice__item:last-child {
+            margin-bottom: 0;
+        }
+
+        .notice__item-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .notice__item-text {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.7;
+        }
+
+        .size-table {
+            width: 100%;
+            margin-top: 16px;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        .size-table th,
+        .size-table td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid var(--line-soft);
+        }
+
+        .size-table th {
+            background: #F9F9F9;
+            font-weight: 600;
+            color: #666;
+        }
+
+        .size-table td {
+            color: #333;
+        }
+
+        /* Closing Section */
+        .closing {
+            padding: 100px 60px;
+            background: var(--bg-base);
+            text-align: center;
+        }
+
+        .closing__text {
+            font-size: 28px;
+            font-weight: 500;
+            color: var(--text-main);
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .closing__brand {
+            font-size: 16px;
+            font-weight: 400;
+            color: #888;
+            letter-spacing: 1px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero,
+            .story,
+            .colors,
+            .for-you,
+            .specs,
+            .notice,
+            .closing {
+                padding: 60px 32px;
+            }
+
+            .hero__headline {
+                font-size: 32px;
+            }
+
+            .hero__subtext {
+                font-size: 16px;
+            }
+
+            .story__title,
+            .for-you__title {
+                font-size: 24px;
+            }
+
+            .colors__title,
+            .specs__title {
+                font-size: 22px;
+            }
+
+            .colors__grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+            }
+
+            .spec-row {
+                grid-template-columns: 120px 1fr;
+            }
+
+            .spec-row__label,
+            .spec-row__value {
+                padding: 16px;
+                font-size: 13px;
+            }
+
+            .closing__text {
+                font-size: 22px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero,
+            .story,
+            .colors,
+            .for-you,
+            .specs,
+            .notice,
+            .closing {
+                padding: 48px 24px;
+            }
+
+            .colors__grid {
+                grid-template-columns: 1fr;
+            }
+
+            .spec-row {
+                grid-template-columns: 1fr;
+            }
+
+            .spec-row__label {
+                border-bottom: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- HERO Section -->
+        <section class="hero">
+            <div class="hero__seo-title">
+                MIKI HOUSE 미키하우스 베이비 키즈 반팔티 심플로고 면100% 데일리 등원복
+            </div>
+            <h1 class="hero__headline">
+                아이 옷은 소재가 중요하잖아요
+            </h1>
+            <p class="hero__subtext">
+                부드러운 면 100% 소재
+            </p>
+            <div class="hero__image">
+                <img src="../images/default/main.jpg" alt="MIKI HOUSE 미키하우스 심플로고 반팔 티셔츠 메인" />
+            </div>
+        </section>
+
+        <!-- STORY Section -->
+        <section class="story">
+            <div class="story__content">
+                <h2 class="story__title">일본 부모들이 가장 먼저 찾는 브랜드</h2>
+                <p class="story__text">
+                    1978년 창립 이래 일본 부모들의 신뢰를 받아온 미키하우스. 브랜드가 중요한 게 아니라 소재와 내구성이 중요하다고 생각했는데, 미키하우스는 둘 다 놓치지 않았어요.
+                </p>
+                <p class="story__text">
+                    부드러운 천축 소재로 면 100% 사용. 80/90cm는 어깨 트임으로 갓난아기도 편안하게 착용할 수 있어요.
+                </p>
+                <p class="story__text">
+                    오늘은 뭐 입히지? 고민할 시간에 쓱 꺼내 입히면 그게 정답이에요. 심플한 로고 하나로 충분한 티셔츠예요.
+                </p>
+            </div>
+        </section>
+
+        <!-- COLORS Section -->
+        <section class="colors">
+            <h2 class="colors__title">다양한 컬러로 매일 다르게</h2>
+            <div class="colors__grid">
+                <div class="color-card">
+                    <div class="color-card__image">
+                        <img src="../images/default/color_pink.jpg" alt="미키하우스 티셔츠 메인" loading="lazy" />
+                    </div>
+                    <div class="color-card__name">핑크</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-card__image">
+                        <img src="../images/default/color_white.jpg" alt="미키하우스 티셔츠 상세" loading="lazy" />
+                    </div>
+                    <div class="color-card__name">화이트</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-card__image">
+                        <img src="../images/default/color_red.jpg" alt="미키하우스 티셔츠 디테일" loading="lazy" />
+                    </div>
+                    <div class="color-card__name">레드</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-card__image">
+                        <img src="../images/default/color_yellow.jpg" alt="미키하우스 티셔츠 착용" loading="lazy" />
+                    </div>
+                    <div class="color-card__name">옐로우</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-card__image">
+                        <img src="../images/default/color_green.jpg" alt="미키하우스 티셔츠 컬러" loading="lazy" />
+                    </div>
+                    <div class="color-card__name">그린</div>
+                </div>
+                <div class="color-card">
+                    <div class="color-card__image">
+                        <img src="../images/default/color_multi.jpg" alt="미키하우스 티셔츠 전체" loading="lazy" />
+                    </div>
+                    <div class="color-card__name">멀티컬러</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOR YOU Section -->
+        <section class="for-you">
+            <h2 class="for-you__title">이런 분께 추천해요</h2>
+            <div class="for-you__list">
+                <div class="for-you__item">아이 옷장에 '매일 입히는 기본템'이 필요한 분께</div>
+                <div class="for-you__item">여러 벌 사도 질리지 않는 심플한 디자인을 찾는 분께</div>
+                <div class="for-you__item">일본 프리미엄 브랜드로 첫 옷을 준비하고 싶은 분께</div>
+            </div>
+        </section>
+
+        <!-- SPECS Section -->
+        <section class="specs">
+            <h2 class="specs__title">제품 정보</h2>
+            <div class="specs__table">
+                <div class="spec-row">
+                    <div class="spec-row__label">브랜드</div>
+                    <div class="spec-row__value">MIKI HOUSE (미키하우스)</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-row__label">모델코드</div>
+                    <div class="spec-row__value">12-5217-493</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-row__label">소재</div>
+                    <div class="spec-row__value">면 100%, 리브 부분: 면 73%, 복합섬유(폴리에스터) 27%</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-row__label">사이즈</div>
+                    <div class="spec-row__value">80, 90, 100, 110, 120</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-row__label">디자인</div>
+                    <div class="spec-row__value">심플 로고, 남녀 공용</div>
+                </div>
+                <div class="spec-row">
+                    <div class="spec-row__label">특징</div>
+                    <div class="spec-row__value">80/90cm는 어깨 트임으로 갓난아기 착용 편리</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NOTICE Section -->
+        <section class="notice">
+            <h2 class="notice__title">사이즈</h2>
+            <div class="notice__content">
+                <div class="notice__item">
+                    <div class="notice__item-title">사이즈 측정 기준</div>
+                    <div class="notice__item-text">
+                        일본 사이즈 표기(80/90/100 등)는 한국과 다를 수 있습니다. 아래 사이즈표를 참고해주세요.
+                    </div>
+                    <table class="size-table">
+                        <thead>
+                            <tr>
+                                <th>사이즈 (cm)</th>
+                                <th>가슴둘레</th>
+                                <th>총 기장</th>
+                                <th>권장 연령</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>80</td>
+                                <td>약 52cm</td>
+                                <td>약 36cm</td>
+                                <td>12-18개월</td>
+                            </tr>
+                            <tr>
+                                <td>90</td>
+                                <td>약 54cm</td>
+                                <td>약 39cm</td>
+                                <td>18-24개월</td>
+                            </tr>
+                            <tr>
+                                <td>100</td>
+                                <td>약 56cm</td>
+                                <td>약 42cm</td>
+                                <td>2-3세</td>
+                            </tr>
+                            <tr>
+                                <td>110</td>
+                                <td>약 60cm</td>
+                                <td>약 46cm</td>
+                                <td>4-5세</td>
+                            </tr>
+                            <tr>
+                                <td>120</td>
+                                <td>약 64cm</td>
+                                <td>약 50cm</td>
+                                <td>6-7세</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLOSING Section -->
+        <section class="closing">
+            <p class="closing__text">
+                심플한 옷이 가장 오래 입을 수 있어요
+            </p>
+            <p class="closing__brand">MIKI HOUSE</p>
+        </section>
+
+    </div>
+</body>
+</html>

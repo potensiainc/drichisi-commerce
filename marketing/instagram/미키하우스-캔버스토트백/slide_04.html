@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>미키하우스 캔버스 토트백 - Slide 4</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: #1A1A1A;
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      position: relative;
+    }
+    .left-panel {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px;
+      position: relative;
+    }
+    .right-panel {
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(180deg, #E8DCC8 0%, #D4C4A8 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .right-panel img {
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+      filter: drop-shadow(0 10px 30px rgba(0,0,0,0.2));
+    }
+    .logo {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      width: 140px;
+      height: auto;
+      filter: brightness(0) invert(1);
+    }
+    .tag {
+      display: inline-block;
+      background: #C8102E;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    .headline {
+      font-size: 48px;
+      font-weight: 900;
+      color: white;
+      line-height: 1.4;
+      margin-bottom: 30px;
+    }
+    .headline span {
+      color: #FFD700;
+    }
+    .features {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .feature {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .feature-icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feature-icon svg {
+      width: 24px;
+      height: 24px;
+      fill: #FFD700;
+    }
+    .feature-text {
+      font-size: 22px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.9);
+    }
+    .accent-corner {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 200px;
+      height: 200px;
+      background: linear-gradient(135deg, transparent 50%, #C8102E 50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <img src="../../../assets/brands/mikihouse/logo_nobg.png" alt="MIKIHOUSE" class="logo">
+      <span class="tag">Point 01</span>
+      <h1 class="headline">엄마와 아이가<br><span>함께 쓰는 디자인</span></h1>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          </div>
+          <span class="feature-text">미니멀한 투톤 컬러</span>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          </div>
+          <span class="feature-text">어른도 사용 가능한 깔끔함</span>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          </div>
+          <span class="feature-text">과하지 않은 로고</span>
+        </div>
+      </div>
+      <div class="accent-corner"></div>
+    </div>
+    <div class="right-panel">
+      <img src="../../../products/[미키하우스]_WEB한정_トートバッグ_로고_キャンバス_無地_日本製_남아_여아_베이비_키즈_아동복_大人用_レディース_ママ_かばん_バッグ_10-8227-686/images/ベージュ/image_01.jpg" alt="베이지 토트백">
+    </div>
+  </div>
+</body>
+</html>

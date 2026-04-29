@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>엄마들 사이에서 난리 난 미키하우스 토끼 반팔티, 드디어 입혀봤어요</title>
+    <style>
+        body {
+            font-family: 'Malgun Gothic', '맑은 고딕', AppleGothic, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        .blog-post {
+            background-color: #fff;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            line-height: 1.4;
+            border-bottom: 3px solid #FFB6C1;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-left: 12px;
+            border-left: 4px solid #FFB6C1;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 18px;
+            color: #444;
+        }
+
+        .intro {
+            font-size: 17px;
+            background-color: #FFF5F7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #FFB6C1;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .spec-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background-color: #ffffff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .spec-table th {
+            background-color: #FFB6C1;
+            color: #ffffff;
+            padding: 15px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .spec-table td {
+            padding: 15px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 15px;
+        }
+
+        .spec-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .spec-table tr:hover {
+            background-color: #FFF5F7;
+        }
+
+        .usage-list {
+            background-color: #F8F9FA;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+
+        .usage-list h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 3px solid #FFB6C1;
+        }
+
+        .usage-list p {
+            margin-bottom: 12px;
+            padding-left: 10px;
+        }
+
+        .recommendation-box {
+            background: linear-gradient(135deg, #FFF5F7 0%, #FFE4E9 100%);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border: 2px solid #FFB6C1;
+        }
+
+        .recommendation-box p {
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .recommendation-box p:before {
+            content: "• ";
+            color: #FFB6C1;
+            font-weight: bold;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #FFB6C1 0%, #FF9EBB 100%);
+            padding: 30px;
+            text-align: center;
+            margin: 40px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+        }
+
+        .cta-box p {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .cta-box a {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #FF69B4;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 17px;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+
+        .cta-box a:hover {
+            background-color: #FFF5F7;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .closing {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFB6C1;
+            margin: 40px 0;
+            padding: 25px;
+            background-color: #FFF5F7;
+            border-radius: 8px;
+        }
+
+        ul {
+            margin: 20px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .cta-box {
+                padding: 25px 15px;
+            }
+
+            .cta-box a {
+                padding: 12px 30px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="blog-post">
+        <h1>엄마들 사이에서 난리 난 미키하우스 토끼 반팔티, 드디어 입혀봤어요</h1>
+
+        <div class="intro">
+            <p>안녕하세요! 오늘은 육아맘들 사이에서 엄청 유명한 미키하우스 토끼 반팔티셔츠를 소개해드릴게요.</p>
+            <p>사실 저도 미키하우스 옷은 몇 벌 갖고 있었는데요, 이번에 토끼 자수가 들어간 디자인을 보자마자 "이건 꼭 있어야 해!"라는 생각이 들더라고요. 그래서 바로 구매했답니다.</p>
+        </div>
+
+        <div class="image-container">
+            <img src="images/default/thumbnail.jpg" alt="미키하우스 토끼 반팔티셔츠 전면">
+        </div>
+
+        <h2>미키하우스 토끼 반팔티, 뭐가 특별할까요?</h2>
+
+        <p>미키하우스는 1978년부터 일본 엄마들이 믿고 선택해온 프리미엄 유아복 브랜드예요. 국내에서도 품질 좋기로 소문난 브랜드죠.</p>
+
+        <p>이번 토끼 반팔티의 가장 큰 특징은 앞면에 있는 귀여운 핑크 토끼 얼굴 자수예요. 토끼가 총 5개나 있는데, 각각 표정이 조금씩 다르더라고요. 그리고 핑크·블루 하트 자수도 있어서 심플한 화이트 티셔츠인데 포인트가 확실해요.</p>
+
+        <p>뒷면에도 디테일이 있어요. 토끼 귀 자수와 함께 'miki HOUSE' 로고가 새겨져 있어서 뒷모습도 사랑스럽답니다. 소매에는 핑크 3줄 스트라이프가 있어서 더 귀여워요.</p>
+
+        <div class="image-container">
+            <img src="images/default/image_01.jpg" alt="미키하우스 토끼 반팔티셔츠 후면">
+        </div>
+
+        <table class="spec-table">
+            <tr>
+                <th>항목</th>
+                <th>내용</th>
+            </tr>
+            <tr>
+                <td>브랜드</td>
+                <td>MIKIHOUSE (미키하우스)</td>
+            </tr>
+            <tr>
+                <td>제품명</td>
+                <td>토끼 자수 반팔티셔츠</td>
+            </tr>
+            <tr>
+                <td>원산지</td>
+                <td>일본 디자인, 베트남 제조 (일본 원단 사용)</td>
+            </tr>
+            <tr>
+                <td>색상</td>
+                <td>화이트 (핑크 자수)</td>
+            </tr>
+            <tr>
+                <td>사이즈</td>
+                <td>80 / 110 / 120</td>
+            </tr>
+            <tr>
+                <td>소재</td>
+                <td>면 (일본 원단)</td>
+            </tr>
+            <tr>
+                <td>디자인</td>
+                <td>앞면: 토끼 얼굴 자수 5개, 하트 자수 / 뒷면: 토끼 귀 + 로고 자수</td>
+            </tr>
+        </table>
+
+        <h2>실제로 입혀보니 어땠을까요?</h2>
+
+        <p>가장 먼저 놀란 건 소재였어요. 일본 원단을 사용해서 그런지 손으로 만졌을 때부터 부드러운 느낌이 확 다르더라고요. 아이 피부에 닿는 옷이니까 소재가 정말 중요한데, 이건 하루 종일 입혀도 보송한 느낌이 계속 유지돼요.</p>
+
+        <div class="image-container">
+            <img src="images/default/image_02.jpg" alt="미키하우스 토끼 자수 클로즈업">
+        </div>
+
+        <p>자수 퀄리티도 정말 좋았어요. 토끼 얼굴 하나하나 정성스럽게 수놓여 있고, 세탁 후에도 실밥이 풀리거나 하지 않았어요. 이게 바로 미키하우스 품질이구나 싶었죠.</p>
+
+        <p>사이즈는 80, 110, 120 세 가지가 있는데요, 일본 사이즈 기준이라 참고하시면 좋을 것 같아요.</p>
+        <ul>
+            <li>80: 12-18개월 정도</li>
+            <li>110: 4-5세 정도</li>
+            <li>120: 6-7세 정도</li>
+        </ul>
+
+        <p>우리 아이는 110 사이즈를 입히는데 딱 맞더라고요. 너무 타이트하지도 않고 적당히 여유 있어서 활동하기 편해 보였어요.</p>
+
+        <h2>어떻게 입히면 좋을까요?</h2>
+
+        <p>화이트 베이스에 핑크 포인트라서 매칭이 정말 쉬워요. 저는 이렇게 활용하고 있어요.</p>
+
+        <div class="usage-list">
+            <h3>1. 유치원 데일리 룩</h3>
+            <p>레깅스나 반바지와 매칭해서 유치원 보낼 때 입혀요.</p>
+            <p>흰색이지만 면 소재라 세탁이 쉬워서 부담 없더라고요.</p>
+
+            <h3>2. 여름 외출복</h3>
+            <p>얇은 원피스 안에 이너로 입히거나, 청치마와 매칭.</p>
+            <p>소매 핑크 줄이 살짝 보이는 것도 예뻐요.</p>
+
+            <h3>3. 사진 촬영복</h3>
+            <p>화이트 베이스에 핑크 포인트라서 사진 찍을 때 깔끔하고 화사하게 나와요.</p>
+            <p>가족 사진 찍을 때 입히기 좋았어요.</p>
+        </div>
+
+        <h2>구매 정보</h2>
+
+        <p>가격은 일본 아마존 기준 ¥4,455예요. 한화로는 대략 4만 원대 초반 정도 되는데요, 미키하우스 브랜드 제품 치고는 합리적인 가격이라고 생각해요.</p>
+
+        <div class="cta-box">
+            <p>드리치시 스토어에서 보기</p>
+            <a href="https://smartstore.naver.com/drichisi" target="_blank" rel="noopener">미키하우스 토끼 반팔티 구매하기</a>
+        </div>
+
+        <p>드리치시에서 일본 정품을 구매대행하고 있습니다. 정품 보장은 물론이고, 안전하게 포장해서 배송해드려요.</p>
+
+        <p>배송은 일본에서 출고되기 때문에 2-3주 정도 소요되는데요, 미리 준비하시면 좋을 것 같아요. 특히 여름 시즌 전에 미리 장만하시는 걸 추천드려요.</p>
+
+        <div class="image-container">
+            <img src="images/default/image_03.jpg" alt="미키하우스 제조 정보">
+        </div>
+
+        <h2>이런 분들께 추천드려요</h2>
+
+        <div class="recommendation-box">
+            <p>아이 옷은 무엇보다 소재가 중요하다고 생각하시는 분</p>
+            <p>일본 유아복 브랜드의 품질을 신뢰하는 엄마</p>
+            <p>귀엽지만 과하지 않은, 오래 입힐 수 있는 디자인을 찾으시는 분</p>
+            <p>출산 선물이나 돌잔치 선물을 준비하시는 분</p>
+        </div>
+
+        <p>미키하우스는 한 번 사면 동생에게 물려줄 만큼 튼튼한 옷으로 유명하잖아요. 이 토끼 반팔티도 세탁 후에도 형태가 잘 유지돼서 오래 입힐 수 있을 것 같아요.</p>
+
+        <h2>마무리하며</h2>
+
+        <p>요즘 아이 옷 사주면서 느끼는 건데요, 비싸다고 다 좋은 건 아니지만, 소재 좋은 옷은 확실히 다르더라고요. 특히 피부 예민한 우리 아이 같은 경우는 더욱 그래요.</p>
+
+        <p>미키하우스 토끼 반팔티는 일본 원단으로 만든 프리미엄 소재에, 귀여운 토끼 자수 디테일까지 있어서 데일리로 입히기에도 좋고 선물용으로도 손색없는 아이템이에요.</p>
+
+        <p>여름 시즌 앞두고 아이 옷 장만하시는 분들께 추천드립니다!</p>
+
+        <div class="cta-box">
+            <p>미키하우스 토끼 반팔티 구매하러 가기</p>
+            <a href="https://smartstore.naver.com/drichisi" target="_blank" rel="noopener">드리치시 스토어 방문하기</a>
+        </div>
+
+        <div class="closing">
+            <p>Since 1978, MIKIHOUSE.</p>
+            <p>믿고 입히는 미키하우스, 드리치시에서 만나보세요.</p>
+        </div>
+    </div>
+</body>
+</html>

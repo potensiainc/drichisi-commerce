@@ -1,0 +1,86 @@
+{
+  "product_name": "란도린 리드디퓨저 클래식 플로럴",
+  "content_type": "carousel",
+  "created_at": "2026-04-26",
+  "updated_at": "2026-04-26",
+  "slide_count": 7,
+  "design_system": {
+    "primary_color": "#C9A65C",
+    "secondary_color": "#2A2520",
+    "background_light": "#F7F6F3",
+    "background_dark": "#1A1815",
+    "headline_font": "Noto Serif KR",
+    "accent_font": "Cormorant Garamond"
+  },
+  "image_source": "products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/",
+  "slides": [
+    {
+      "order": 1,
+      "file": "slide-01-cover.html",
+      "type": "cover",
+      "headline": "집에 들어오면 향수 가게 같다는 말 듣는 이유",
+      "theme": "dark",
+      "background_image": "thumbnail.jpg",
+      "dim_style": "bottom-gradient"
+    },
+    {
+      "order": 2,
+      "file": "slide-02-problem.html",
+      "type": "problem",
+      "headline": "디퓨저 하나로 집 분위기가 달라질 수 있을까?",
+      "theme": "light",
+      "background_image": null,
+      "dim_style": null
+    },
+    {
+      "order": 3,
+      "file": "slide-03-feature1.html",
+      "type": "feature",
+      "headline": "향수병 같은 디자인, 두기만 해도 인테리어",
+      "theme": "dark",
+      "background_image": "image_04.jpg",
+      "dim_style": "uniform-overlay"
+    },
+    {
+      "order": 4,
+      "file": "slide-04-feature2.html",
+      "type": "feature",
+      "headline": "3단계로 퍼지는 향",
+      "theme": "light",
+      "background_image": null,
+      "dim_style": null
+    },
+    {
+      "order": 5,
+      "file": "slide-05-feature3.html",
+      "type": "feature",
+      "headline": "80ml, 한 번 두면 한 시즌 내내",
+      "theme": "dark",
+      "background_image": "image_06.jpg",
+      "dim_style": "uniform-overlay"
+    },
+    {
+      "order": 6,
+      "file": "slide-06-lifestyle.html",
+      "type": "lifestyle",
+      "headline": "어디에 둬도 분위기가 달라져요",
+      "theme": "light",
+      "background_image": "image_02.jpg",
+      "dim_style": "light-overlay"
+    },
+    {
+      "order": 7,
+      "file": "slide-07-cta.html",
+      "type": "cta",
+      "headline": "프로필 링크에서 만나요",
+      "theme": "dark",
+      "background_image": "image_03.jpg",
+      "dim_style": "gradient-overlay"
+    }
+  ],
+  "hashtag_count": 15,
+  "usage_instructions": {
+    "html_to_png": "브라우저에서 HTML 파일을 열고 스크린샷(1080x1080) 또는 Puppeteer/Playwright로 PNG 변환",
+    "recommended_tool": "puppeteer screenshot --width=1080 --height=1080"
+  }
+}

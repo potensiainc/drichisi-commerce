@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      background: linear-gradient(180deg, #F5F5F5 0%, #EAEAEA 100%);
+      overflow: hidden;
+      position: relative;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      width: 140px;
+      height: auto;
+    }
+    .slide-number {
+      color: rgba(0,0,0,0.3);
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .title-section {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .title-section h2 {
+      font-size: 38px;
+      font-weight: 900;
+      color: #2E4057;
+    }
+    .title-section h2 span {
+      color: #C8102E;
+    }
+    .comparison {
+      flex: 1;
+      display: flex;
+      gap: 30px;
+      padding: 20px 0;
+    }
+    .product-card {
+      flex: 1;
+      background: white;
+      border-radius: 30px;
+      padding: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    .product-card.indigo {
+      border-top: 6px solid #2E4057;
+    }
+    .product-card.beige {
+      border-top: 6px solid #E8DCC8;
+    }
+    .card-badge {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+      padding: 8px 20px;
+      border-radius: 15px;
+    }
+    .product-card.indigo .card-badge {
+      background: #2E4057;
+      color: white;
+    }
+    .product-card.beige .card-badge {
+      background: #E8DCC8;
+      color: #2E4057;
+    }
+    .card-image {
+      width: 260px;
+      height: 300px;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+    .card-title {
+      font-size: 26px;
+      font-weight: 700;
+      color: #2E4057;
+      margin-bottom: 15px;
+    }
+    .card-features {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    .feature-tag {
+      background: #F5F5F5;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+    .vs-badge {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px;
+      height: 70px;
+      background: #FFD700;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 900;
+      color: #2E4057;
+      box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="file:///D:/commerce/assets/brands/mikihouse/logo.png" alt="MIKIHOUSE" class="logo">
+      <span class="slide-number">6 / 7</span>
+    </div>
+
+    <div class="title-section">
+      <h2>상황에 맞게 <span>선택</span>하세요</h2>
+    </div>
+
+    <div class="comparison">
+      <div class="product-card indigo">
+        <div class="card-badge">INDIGO BLUE</div>
+        <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/インディゴブルー/nobg/thumbnail_nobg.png" alt="인디고블루" class="card-image">
+        <div class="card-title">스트레치 데님</div>
+        <div class="card-features">
+          <div class="feature-tag">클래식한 데님 감성</div>
+          <div class="feature-tag">편안한 신축성</div>
+          <div class="feature-tag">사계절 착용 가능</div>
+        </div>
+      </div>
+
+      <div class="vs-badge">OR</div>
+
+      <div class="product-card beige">
+        <div class="card-badge">BEIGE</div>
+        <img src="file:///D:/commerce/products/[미키하우스]_9分丈팬츠_팬츠_로고_無地_남아_여아_베이비_키즈_아동복_ズボン_12-3207-797/images/ベージュ/nobg/thumbnail_nobg.png" alt="베이지" class="card-image">
+        <div class="card-title">흡한속건 기능</div>
+        <div class="card-features">
+          <div class="feature-tag">빠른 건조 기능</div>
+          <div class="feature-tag">산뜻한 착용감</div>
+          <div class="feature-tag">여름철 추천</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

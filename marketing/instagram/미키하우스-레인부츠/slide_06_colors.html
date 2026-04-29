@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 1080px;
+      height: 1080px;
+      font-family: 'Noto Sans KR', sans-serif;
+      overflow: hidden;
+    }
+    .container {
+      width: 1080px;
+      height: 1080px;
+      background: white;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .header {
+      padding: 50px 60px 30px;
+      text-align: center;
+    }
+    .color-badge {
+      background: #C8102E;
+      color: white;
+      padding: 10px 30px;
+      font-size: 20px;
+      font-weight: 700;
+      border-radius: 25px;
+      display: inline-block;
+      margin-bottom: 25px;
+    }
+    .title {
+      font-size: 48px;
+      font-weight: 900;
+      color: #333;
+    }
+    .title span {
+      color: #C8102E;
+    }
+    .colors-section {
+      flex: 1;
+      display: flex;
+      gap: 0;
+    }
+    .color-card {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      position: relative;
+    }
+    .color-card.multicolor {
+      background: linear-gradient(180deg, #FFDD4A 0%, #FFF8DC 100%);
+    }
+    .color-card.pink {
+      background: linear-gradient(180deg, #FFB6C1 0%, #FFF0F5 100%);
+    }
+    .color-card img {
+      width: 380px;
+      height: 380px;
+      object-fit: contain;
+      filter: drop-shadow(0 15px 30px rgba(0,0,0,0.15));
+    }
+    .color-name {
+      font-size: 32px;
+      font-weight: 700;
+      color: #333;
+      margin-top: 30px;
+    }
+    .color-tag {
+      position: absolute;
+      top: 20px;
+      background: white;
+      padding: 8px 20px;
+      border-radius: 20px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #666;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .divider {
+      width: 4px;
+      background: white;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    .footer {
+      background: #333;
+      padding: 25px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .size-info {
+      color: white;
+      font-size: 22px;
+    }
+    .size-info span {
+      color: #FFD700;
+      font-weight: 700;
+    }
+    .slide-number {
+      color: rgba(255,255,255,0.7);
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="color-badge">2 COLORS</div>
+      <h2 class="title">우리 아이 <span>취향대로</span> 골라요</h2>
+    </div>
+
+    <div class="colors-section">
+      <div class="color-card multicolor">
+        <div class="color-tag">BEST</div>
+        <img src="../../products/[미키하우스]_レインブーツ_10-9471-684_키즈/images/multicolor/image_01.jpg" alt="멀티컬러">
+        <p class="color-name">멀티컬러</p>
+      </div>
+      <div class="divider"></div>
+      <div class="color-card pink">
+        <div class="color-tag">NEW</div>
+        <img src="../../products/[미키하우스]_レインブーツ_10-9471-684_키즈/images/pink/image_01.jpg" alt="핑크">
+        <p class="color-name">핑크</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="size-info">사이즈: <span>13cm ~ 19cm</span> (1cm 단위)</p>
+      <p class="slide-number">6 / 7</p>
+    </div>
+  </div>
+</body>
+</html>

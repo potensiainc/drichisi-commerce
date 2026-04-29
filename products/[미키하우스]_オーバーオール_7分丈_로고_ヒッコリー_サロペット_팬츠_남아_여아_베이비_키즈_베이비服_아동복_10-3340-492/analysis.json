@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "analyzed_at": "2026-04-26T23:30:00+09:00",
+    "product_id": "B0BSN9L7JL",
+    "analyzer_version": "2.0"
+  },
+  "language_handling": {
+    "brand_name_original": "ミキハウス",
+    "brand_name_kr": "미키하우스",
+    "brand_name_policy": "original",
+    "product_name_segments": {
+      "original": "[ミキハウス] オーバーオール 7分丈 ロゴ ヒッコリー サロペット パンツ 男の子 女の子 ベビー キッズ ベビー服 子供服 10-3340-492",
+      "translated": "[미키하우스] 오버롤 7부 로고 히코리 서스펜더 팬츠 남아 여아 베이비 키즈 아동복 10-3340-492",
+      "breakdown": {
+        "brand": "미키하우스",
+        "type": "오버롤/서스펜더 팬츠",
+        "key_features": ["7부 기장", "히코리 스트라이프", "로고 자수"],
+        "target": "남아/여아 베이비·키즈"
+      }
+    },
+    "option_handling": {
+      "size": {
+        "original": ["80", "90", "100"],
+        "display": ["80", "90", "100"],
+        "policy": "numeric_as_is"
+      }
+    }
+  },
+  "category_analysis": {
+    "primary": "베이비·키즈",
+    "secondary": "아동복",
+    "tertiary": "하의/팬츠",
+    "naver_category_path": "패션의류 > 아동의류 > 팬츠/레깅스",
+    "target_age": "0-3세",
+    "target_gender": "남아/여아 공용"
+  },
+  "design_direction": {
+    "design_tone": "classic_casual",
+    "color_palette": [
+      "#2C3E50",
+      "#FFFFFF",
+      "#F8F9FA",
+      "#34495E"
+    ],
+    "layout_hint": "깔끔하고 신뢰감 있는 레이아웃. 히코리 스트라이프 패턴을 살린 클래식한 디자인. 미키하우스 브랜드 아이덴티티 강조.",
+    "typography_preference": "sans-serif, 깔끔하고 가독성 높은 폰트",
+    "section_priorities": [
+      "hero",
+      "features",
+      "details",
+      "size_guide",
+      "care",
+      "trust"
+    ]
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "brand_premium",
+        "text": "일본 베이비·키즈 프리미엄 브랜드 미키하우스의 클래식 서스펜더 팬츠"
+      },
+      {
+        "angle": "versatility",
+        "text": "사계절 입히기 좋은 7부 기장, 활동성과 스타일 모두 잡은 히코리 오버롤"
+      },
+      {
+        "angle": "timeless_design",
+        "text": "유행 타지 않는 클래식 히코리 스트라이프, 남아 여아 모두 사랑받는 디자인"
+      }
+    ],
+    "feature_bullets": [
+      "일본 프리미엄 브랜드 미키하우스 정품",
+      "클래식 히코리 스트라이프 패턴",
+      "귀여운 미키하우스 로고 자수 포인트",
+      "활동성 좋은 7부 기장",
+      "남녀공용으로 오래 입히는 실용성",
+      "어깨끈 조절 가능",
+      "고급 면 100% 소재로 피부 자극 없음",
+      "세탁기 사용 가능한 간편 관리"
+    ],
+    "trust_builders": [
+      "미키하우스 공식 정품 100% 보장",
+      "일본 직수입 프리미엄 퀄리티",
+      "까다로운 품질 검수 통과",
+      "고객 평점 5.0점 만족도"
+    ]
+  },
+  "image_inventory": [
+    {
+      "filename": "image_01.jpg",
+      "path": "../images/default/image_01.jpg",
+      "role": "hero",
+      "description": "히코리 스트라이프 서스펜더 팬츠 전체 이미지",
+      "priority": 1
+    },
+    {
+      "filename": "image_02.jpg",
+      "path": "../images/default/image_02.jpg",
+      "role": "detail",
+      "description": "착용 이미지 또는 디테일 샷",
+      "priority": 2
+    },
+    {
+      "filename": "image_03.jpg",
+      "path": "../images/default/image_03.jpg",
+      "role": "detail",
+      "description": "로고 자수 클로즈업 또는 패턴 디테일",
+      "priority": 3
+    },
+    {
+      "filename": "image_04.jpg",
+      "path": "../images/default/image_04.jpg",
+      "role": "detail",
+      "description": "착용 각도 또는 스타일링",
+      "priority": 4
+    },
+    {
+      "filename": "image_05.jpg",
+      "path": "../images/default/image_05.jpg",
+      "role": "detail",
+      "description": "소재감 또는 마감 디테일",
+      "priority": 5
+    },
+    {
+      "filename": "image_06.jpg",
+      "path": "../images/default/image_06.jpg",
+      "role": "detail",
+      "description": "추가 디테일 또는 사이즈 참고",
+      "priority": 6
+    }
+  ],
+  "content_restrictions": {
+    "must_avoid": [
+      "아마존",
+      "Amazon",
+      "일본 구매대행 직접 언급",
+      "원화 환산 가격",
+      "¥ 표시",
+      "KC인증 언급"
+    ],
+    "must_include": [
+      "미키하우스 정품",
+      "일본 직수입",
+      "사이즈 정보",
+      "소재 정보",
+      "세탁 방법"
+    ],
+    "tone_guidelines": "친근하고 따뜻하면서도 신뢰감 있는 톤. 육아맘 타겟에 맞춰 실용성과 품질을 강조."
+  },
+  "risk_flags": {
+    "group_a_critical": [],
+    "group_b_caution": [
+      {
+        "type": "brand_name_variation",
+        "detail": "미키하우스/MIKIHOUSE 표기 일관성 유지 필요",
+        "recommendation": "브랜드명은 '미키하우스'로 통일"
+      }
+    ]
+  },
+  "seo_keywords": [
+    "미키하우스",
+    "미키하우스 오버롤",
+    "아기 서스펜더",
+    "히코리 팬츠",
+    "베이비 팬츠",
+    "일본 아동복",
+    "남아 여아 공용",
+    "7부 팬츠",
+    "클래식 디자인",
+    "면 100%"
+  ],
+  "recommended_sections": [
+    {
+      "section": "HERO",
+      "priority": 1,
+      "content_hint": "대표 이미지 + 선택된 Hero Hook + 핵심 특장점 3-4개"
+    },
+    {
+      "section": "FEATURES",
+      "priority": 2,
+      "content_hint": "8가지 특장점을 아이콘/이미지와 함께 2-3단 레이아웃"
+    },
+    {
+      "section": "DETAILS",
+      "priority": 3,
+      "content_hint": "디테일 이미지 + 소재/디자인 설명"
+    },
+    {
+      "section": "SIZE_GUIDE",
+      "priority": 4,
+      "content_hint": "사이즈 80/90/100 치수 안내 테이블"
+    },
+    {
+      "section": "CARE",
+      "priority": 5,
+      "content_hint": "세탁 방법 아이콘 + 관리 팁"
+    },
+    {
+      "section": "TRUST",
+      "priority": 6,
+      "content_hint": "정품 보장 + 품질 검수 + 고객 평점"
+    }
+  ]
+}

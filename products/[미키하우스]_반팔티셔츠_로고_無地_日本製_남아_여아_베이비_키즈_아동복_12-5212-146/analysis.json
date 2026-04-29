@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "analyzed_at": "2026-04-26T23:30:00",
+    "product_id": "B0DVSMMY3T",
+    "version": "2.0"
+  },
+  "language_handling": {
+    "brand_name_original": "MIKIHOUSE",
+    "brand_name_korean": "미키하우스",
+    "brand_name_policy": "korean_preferred",
+    "product_name_korean": "반팔 티셔츠",
+    "key_features_korean": [
+      "라메 프린트 백로고",
+      "일본제",
+      "남녀공용",
+      "천죽 소재"
+    ]
+  },
+  "category": {
+    "main": "유아동패션",
+    "sub": "상의",
+    "detailed": "반팔티셔츠",
+    "target_age": "베이비/키즈",
+    "target_gender": "남녀공용"
+  },
+  "design_direction": {
+    "design_tone": "깔끔하고 화사한",
+    "color_palette": [
+      "#FFFFFF",
+      "#FFE5E5",
+      "#FFB6C1",
+      "#FFC0CB"
+    ],
+    "layout_hint": "심플하고 정돈된 레이아웃으로 제품의 디테일과 품질을 강조",
+    "typography": "깔끔한 고딕체, 제목은 Medium-Bold, 본문은 Regular"
+  },
+  "image_inventory": [
+    {
+      "filename": "thumbnail.jpg",
+      "purpose": "대표 이미지",
+      "description": "제품 정면 화이트 배경"
+    },
+    {
+      "filename": "image_01.jpg",
+      "purpose": "제품 상세",
+      "description": "제품 전체 정면"
+    },
+    {
+      "filename": "image_02.jpg",
+      "purpose": "제품 상세",
+      "description": "착용 이미지 또는 디테일"
+    },
+    {
+      "filename": "image_03.jpg",
+      "purpose": "제품 상세",
+      "description": "백로고 디테일"
+    },
+    {
+      "filename": "image_04.jpg",
+      "purpose": "제품 상세",
+      "description": "소재 및 디테일"
+    },
+    {
+      "filename": "image_05.jpg",
+      "purpose": "제품 상세",
+      "description": "추가 각도 또는 디테일"
+    }
+  ],
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 신뢰",
+        "text": "일본 국민 브랜드 미키하우스의\n프리미엄 반팔티셔츠"
+      },
+      {
+        "angle": "품질 강조",
+        "text": "일본제 정품으로 만나는\n특별한 아이 옷"
+      },
+      {
+        "angle": "디자인 포인트",
+        "text": "라메가 반짝이는 백로고\n여름에도 시원한 천죽 소재"
+      },
+      {
+        "angle": "실용성",
+        "text": "남녀공용으로 활용도 높은\n미키하우스 반팔티"
+      }
+    ],
+    "feature_bullets": [
+      "일본 프리미엄 브랜드 미키하우스 정품",
+      "반짝이는 라메 프린트 백로고 디자인",
+      "일본제 천죽(40/2 텐죽) 소재로 여름에도 시원함",
+      "남아/여아 모두 착용 가능한 유니크 디자인",
+      "80cm/90cm 사이즈는 어깨 트임으로 입히기 편함"
+    ],
+    "usp_statement": "일본 국민 브랜드 미키하우스의 정품 반팔티셔츠입니다. 등판의 큰 백로고는 라메 프린트로 화려하고 특별하며, 시원한 천죽 소재로 여름에도 쾌적하게 착용할 수 있습니다."
+  },
+  "specs_table": [
+    {
+      "label": "브랜드",
+      "value": "미키하우스 (MIKIHOUSE)"
+    },
+    {
+      "label": "품번",
+      "value": "12-5212-146"
+    },
+    {
+      "label": "원산지",
+      "value": "일본제 (Made in Japan)"
+    },
+    {
+      "label": "소재",
+      "value": "40/2 천죽 (텐죽)"
+    },
+    {
+      "label": "사이즈",
+      "value": "90, 100"
+    },
+    {
+      "label": "성별",
+      "value": "남아/여아 공용"
+    },
+    {
+      "label": "특징",
+      "value": "라메 프린트 백로고, 80cm/90cm 어깨 트임"
+    }
+  ],
+  "risk_assessment": {
+    "group_a": [],
+    "group_b": [
+      {
+        "type": "사이즈 선택 주의",
+        "description": "일본 사이즈로 국내 사이즈와 차이가 있을 수 있습니다",
+        "severity": "medium"
+      },
+      {
+        "type": "세탁 주의",
+        "description": "라메 프린트 제품으로 세탁 시 주의가 필요합니다",
+        "severity": "low"
+      }
+    ]
+  },
+  "trust_signals": {
+    "origin_guarantee": {
+      "statement": "일본에서 직접 구매한 미키하우스 정품입니다",
+      "proof_available": false
+    },
+    "quality_assurance": {
+      "statement": "일본제 정품으로 품질을 보장합니다",
+      "proof_available": false
+    }
+  }
+}

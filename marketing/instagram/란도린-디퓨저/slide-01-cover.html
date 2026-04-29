@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <title>란도린 디퓨저 - Slide 01 Cover</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Serif+KR:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'Noto Serif KR', serif;
+    }
+
+    .container {
+      width: 1080px;
+      height: 1080px;
+      position: relative;
+      background-image: url('file:///D:/commerce/products/[란도린] 리드디퓨저 클래식 플로럴 방향제/images/화면 캡처 2026-04-25 180533.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .dim-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.1) 0%,
+        rgba(0, 0, 0, 0.2) 30%,
+        rgba(0, 0, 0, 0.75) 100%
+      );
+    }
+
+    .content {
+      position: absolute;
+      bottom: 100px;
+      left: 160px;
+      right: 80px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .brand-tag {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.3em;
+      color: #C9A65C;
+      text-transform: uppercase;
+    }
+
+    .headline {
+      font-family: 'Noto Serif KR', serif;
+      font-size: 54px;
+      font-weight: 600;
+      color: #FFFFFF;
+      line-height: 1.4;
+      letter-spacing: -0.02em;
+      text-shadow:
+        0 2px 4px rgba(0,0,0,0.8),
+        0 4px 20px rgba(0,0,0,0.6),
+        0 0 40px rgba(0,0,0,0.4);
+    }
+
+    .headline .highlight {
+      color: #F5D88A;
+      font-weight: 700;
+    }
+
+    .sub-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 400;
+      font-style: italic;
+      color: rgba(253, 252, 250, 0.7);
+      letter-spacing: 0.05em;
+    }
+
+    .corner {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-color: rgba(201, 166, 92, 0.5);
+      border-style: solid;
+      border-width: 0;
+    }
+
+    .corner-tl { top: 40px; left: 40px; border-top-width: 1px; border-left-width: 1px; }
+    .corner-tr { top: 40px; right: 40px; border-top-width: 1px; border-right-width: 1px; }
+    .corner-bl { bottom: 40px; left: 40px; border-bottom-width: 1px; border-left-width: 1px; }
+    .corner-br { bottom: 40px; right: 40px; border-bottom-width: 1px; border-right-width: 1px; }
+
+    .slide-indicator {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(253, 252, 250, 0.4);
+    }
+
+    .dot.active {
+      background: #C9A65C;
+      width: 24px;
+      border-radius: 3px;
+    }
+
+    .top-brand {
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px;
+      font-weight: 400;
+      font-style: italic;
+      color: #C9A65C;
+      letter-spacing: 0.1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="dim-overlay"></div>
+
+    <div class="corner corner-tl"></div>
+    <div class="corner corner-tr"></div>
+    <div class="corner corner-bl"></div>
+    <div class="corner corner-br"></div>
+
+    <div class="top-brand">Laundrin'</div>
+
+    <div class="content">
+      <!-- <span class="brand-tag">Home Fragrance</span> -->
+      <h1 class="headline">
+        집에 들어오면<br>
+        <span class="highlight">부자집</span> 느낌나는<br>
+        <span class="highlight">고급스러운 향기</span> 
+      </h1>
+      <!-- <span class="sub-text">Classic Floral · 80ml</span> -->
+    </div>
+
+    <div class="slide-indicator">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+  </div>
+</body>
+</html>

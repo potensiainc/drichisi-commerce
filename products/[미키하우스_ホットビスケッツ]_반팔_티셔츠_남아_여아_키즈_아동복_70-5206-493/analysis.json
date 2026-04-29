@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "product_id": "B0BVYZVCN5",
+    "analyzed_at": "2026-04-26",
+    "version": "2.0",
+    "category": "육아/유아용품 > 아동복",
+    "target_audience": "영유아 아동(80-120cm) 부모"
+  },
+  "language_handling": {
+    "brand_name_original": "MIKIHOUSE HOT BISCUITS",
+    "brand_name_kr": "미키하우스 핫비스킷",
+    "brand_name_policy": "original",
+    "product_type_original": "半袖Tシャツ",
+    "product_type_kr": "반팔티셔츠",
+    "notes": "브랜드명은 원어 표기 우선. 일본 대표 아동복 브랜드로 한국에서도 원어 표기가 일반적임. 제품 타입은 한글 표기."
+  },
+  "design_direction": {
+    "color_palette": [
+      "#DC143C",
+      "#FFFFFF",
+      "#FFD700",
+      "#FF6347",
+      "#4169E1",
+      "#FFA500"
+    ],
+    "design_tone": "밝고 경쾌한",
+    "layout_hint": "보더 스트라이프 패턴 강조, 가슴 와펜 클로즈업, 착용샷으로 활동성 표현, 네임태그 디테일 부각",
+    "primary_color_name": "레드&화이트 / 멀티컬러",
+    "visual_hierarchy": "HERO(착용샷) → 디자인 디테일(와펜, 보더) → 소재&기능성 → 네임태그 → 사이즈 안내"
+  },
+  "copy_drafts": {
+    "hero_hook_variants": [
+      {
+        "angle": "브랜드 신뢰",
+        "text": "일본 엄마들의 첫 선택, 미키하우스 핫비스킷"
+      },
+      {
+        "angle": "매일 입히는 티셔츠",
+        "text": "하루 종일 뛰어놀아도 끄떡없는 튼튼한 천연 소재"
+      },
+      {
+        "angle": "유니섹스 활용도",
+        "text": "남아도 여아도, 어떤 컬러든 자유롭게"
+      },
+      {
+        "angle": "실용성",
+        "text": "세탁기에 돌려도 변함없는 모양과 색감"
+      }
+    ],
+    "feature_highlights": [
+      "부드럽고 튼튼한 천연 소재 (천축 면 100%)",
+      "통기성과 흡습성이 뛰어나 땀 많은 아이들에게 적합",
+      "세탁 후에도 변형 없는 내구성",
+      "귀여운 펠트 와펜 포인트",
+      "90cm 이하는 어깨 스냅 버튼으로 착탈 편리",
+      "네임 태그 제공 (어린이집, 유치원 필수)",
+      "유니섹스 디자인으로 남아·여아 모두 착용",
+      "레드&화이트, 멀티컬러 2가지 옵션",
+      "80~120cm 5가지 사이즈"
+    ],
+    "storytelling_hooks": [
+      "미키하우스는 1971년부터 일본 엄마들의 신뢰를 받아온 아동복 브랜드입니다. 핫비스킷 라인은 '매일 입어도 좋은 품질'을 철학으로, 편안하고 튼튼한 일상복을 제안합니다.",
+      "아이들은 움직임이 많고 땀을 많이 흘립니다. 이 티셔츠는 통기성이 뛰어난 천연 면 소재로 만들어져 하루 종일 쾌적하게 착용할 수 있습니다.",
+      "어린이집이나 유치원에서 옷에 이름을 써야 하는 경우가 많죠. 이 제품에는 안쪽에 네임태그가 달려있어 별도로 준비할 필요가 없습니다.",
+      "90cm 이하 사이즈는 어깨에 스냅 버튼이 있어 아이가 스스로 입고 벗기 편리합니다. 기저귀를 차는 아기들도 갈아입히기 훨씬 수월합니다."
+    ]
+  },
+  "image_inventory": {
+    "hero_candidates": [
+      "images/レッド/thumbnail.jpg",
+      "images/マルチカラー/thumbnail.jpg",
+      "images/レッド/image_06.jpg"
+    ],
+    "detail_shots": [
+      "images/レッド/image_01.jpg",
+      "images/レッド/image_02.jpg",
+      "images/レッド/image_03.jpg",
+      "images/レッド/image_04.jpg",
+      "images/レッド/image_05.jpg",
+      "images/マルチカラー/image_01.jpg",
+      "images/マルチカラー/image_02.jpg",
+      "images/マルチカラー/image_03.jpg",
+      "images/マルチカラー/image_04.jpg",
+      "images/マルチカラー/image_05.jpg",
+      "images/マルチカラー/image_06.jpg"
+    ],
+    "lifestyle_shots": [
+      "images/レッド/image_06.jpg"
+    ],
+    "closeup_shots": [
+      "images/レッド/image_05.jpg",
+      "images/マルチカラー/image_05.jpg"
+    ]
+  },
+  "specs_structured": {
+    "소재": "면 100% (천축 소재)",
+    "사이즈": "80 / 90 / 100 / 110 / 120",
+    "컬러": "레드&화이트 보더 / 멀티컬러 보더",
+    "특징": "반팔, 어깨 스냅 버튼 (80~90cm), 네임태그",
+    "원산지": "일본",
+    "브랜드": "MIKIHOUSE HOT BISCUITS"
+  },
+  "compliance_notes": {
+    "risk_group_a": [
+      "플랫폼명 노출 금지 (아마존 등)"
+    ],
+    "risk_group_b": [
+      "KC 인증 관련 언급 금지",
+      "원통화(¥) 가격 노출 금지",
+      "구매대행 특성 명시 필요"
+    ],
+    "trust_signals": [
+      "일본 베스트셀러 35위 (베이비 티셔츠 카테고리)",
+      "평점 4.6 / 5.0",
+      "1971년 창립 일본 대표 아동복 브랜드",
+      "세탁 후에도 변형 없는 내구성 검증"
+    ]
+  }
+}

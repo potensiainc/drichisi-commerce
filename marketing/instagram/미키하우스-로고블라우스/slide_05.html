@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미키하우스 블라우스 - Slide 5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 1080px;
+            height: 1080px;
+            font-family: 'Noto Sans KR', sans-serif;
+            background: linear-gradient(135deg, #FFF9F0 0%, #FFE8E8 50%, #FFF5E0 100%);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding: 50px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .section-label {
+            background: linear-gradient(135deg, #C8102E 0%, #8B0000 100%);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        .page-num {
+            font-size: 20px;
+            color: #999;
+            font-weight: 500;
+        }
+        .main-content {
+            flex: 1;
+            display: flex;
+            padding: 0 60px;
+            gap: 40px;
+        }
+        .image-section {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .product-image {
+            width: 450px;
+            height: 500px;
+            object-fit: contain;
+            filter: drop-shadow(0 20px 40px rgba(0,0,0,0.15));
+        }
+        .detail-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+        }
+        .detail-title {
+            font-size: 44px;
+            font-weight: 900;
+            color: #333;
+            line-height: 1.3;
+        }
+        .detail-title span {
+            color: #C8102E;
+        }
+        .detail-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+        }
+        .detail-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 900;
+            color: white;
+            flex-shrink: 0;
+        }
+        .detail-text {
+            flex: 1;
+        }
+        .detail-text h4 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .detail-text p {
+            font-size: 17px;
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="section-label">DESIGN DETAIL</span>
+        <span class="page-num">03</span>
+    </div>
+    <div class="main-content">
+        <div class="image-section">
+            <img src="../../products/[미키하우스]_긴팔블라우스_無地_로고_日本製_면100％_남아_여아_베이비_키즈_아동복_13-5402-144/images/nobg/image_03_nobg.png" alt="디테일" class="product-image">
+        </div>
+        <div class="detail-section">
+            <h2 class="detail-title">세심한<br><span>디자인 디테일</span></h2>
+            <div class="detail-item">
+                <div class="detail-icon">M</div>
+                <div class="detail-text">
+                    <h4>M 와펜 포인트</h4>
+                    <p>옷깃에 미키하우스 시그니처 M 와펜을 달아 브랜드 아이덴티티를 표현</p>
+                </div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-icon">P</div>
+                <div class="detail-text">
+                    <h4>팔꿈치 패치</h4>
+                    <p>활동량 많은 아이를 위한 팔꿈치 패치로 내구성과 디자인 모두 만족</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

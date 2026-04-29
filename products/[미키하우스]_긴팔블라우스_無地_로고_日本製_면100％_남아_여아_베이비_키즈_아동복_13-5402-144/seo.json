@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "version": "2.0",
+    "generated_at": "2026-04-26T23:32:00+09:00",
+    "source_analysis": "analysis.json",
+    "agent": "naver-smartstore-seo"
+  },
+  "title_candidates": [
+    {
+      "text": "미키하우스 긴팔블라우스 면100% 일본제 유아동복 70-100",
+      "length": 29,
+      "score": 95,
+      "rationale": "브랜드명(미키하우스) + 상품명(긴팔블라우스) + 핵심 소재(면100%) + 원산지(일본제) + 카테고리(유아동복) + 사이즈 범위 명시. 검색 키워드 최적화."
+    },
+    {
+      "text": "미키하우스 크리스마스 로고 블라우스 일본정품 베이비키즈",
+      "length": 29,
+      "score": 90,
+      "rationale": "브랜드명 + 시즌성 키워드(크리스마스) + 정품 강조 + 타겟(베이비키즈). 특별한 날 검색 유도."
+    },
+    {
+      "text": "미키하우스 유니섹스 긴팔블라우스 면100% 남아여아공용",
+      "length": 28,
+      "score": 88,
+      "rationale": "유니섹스 강조로 검색 폭 확대. 남아/여아 모두 타겟팅."
+    }
+  ],
+  "recommended_title": {
+    "text": "미키하우스 긴팔블라우스 면100% 일본제 유아동복 70-100",
+    "length": 29,
+    "reasoning": "네이버 쇼핑 검색 알고리즘에서 중요한 브랜드명, 소재, 원산지, 사이즈를 모두 포함하여 검색 노출 최적화. 50자 제한 준수하며 핵심 키워드 모두 포함."
+  },
+  "tags": [
+    "미키하우스",
+    "일본베이비복",
+    "일본아동복",
+    "긴팔블라우스",
+    "면블라우스",
+    "유아블라우스",
+    "키즈블라우스",
+    "일본정품",
+    "유니섹스아동복",
+    "베이비셔츠"
+  ],
+  "category_recommendation": {
+    "path": "출산/육아 > 유아동의류(~13세) > 상의 > 블라우스/셔츠",
+    "category_id": null,
+    "confidence": "high",
+    "alternative_paths": [
+      "출산/육아 > 유아동의류(~13세) > 상의 > 티셔츠",
+      "출산/육아 > 유아동의류(~13세) > 베이비의류(0~2세) > 상의"
+    ]
+  },
+  "brand_field": {
+    "value": "미키하우스",
+    "original_name": "MIKIHOUSE",
+    "display_policy": "한글 브랜드명 사용 (미키하우스)"
+  },
+  "manufacturer_field": {
+    "value": "미키하우스",
+    "country": "일본",
+    "display_text": "미키하우스 (일본)"
+  },
+  "search_keywords": {
+    "primary": [
+      "미키하우스",
+      "미키하우스 블라우스",
+      "일본 베이비복",
+      "일본 아동복"
+    ],
+    "secondary": [
+      "면 블라우스",
+      "유아 블라우스",
+      "키즈 블라우스",
+      "일본제 아동복",
+      "베이비 셔츠",
+      "유니섹스 블라우스"
+    ],
+    "long_tail": [
+      "미키하우스 긴팔블라우스",
+      "일본정품 베이비복",
+      "면100 유아블라우스",
+      "크리스마스 아동복",
+      "유니섹스 베이비셔츠"
+    ]
+  },
+  "seo_check": {
+    "title_length_ok": true,
+    "brand_name_included": true,
+    "category_keyword_included": true,
+    "material_included": true,
+    "origin_included": true,
+    "forbidden_words_clean": true,
+    "all_passed": true,
+    "warnings": []
+  },
+  "naver_shopping_attributes": {
+    "성별": "공용",
+    "연령대": "영유아(0-4세)",
+    "소재": "면 100%",
+    "제조국": "일본",
+    "시즌": "사계절",
+    "세탁방법": "라벨 확인 권장"
+  }
+}
