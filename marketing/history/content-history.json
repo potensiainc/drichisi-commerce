@@ -1,20 +1,34 @@
 {
-  "version": "1.1",
-  "last_updated": "2026-05-02",
+  "version": "1.2",
+  "last_updated": "2026-05-12",
   "performance_summary": {
-    "total_analyzed": 21,
-    "s_plus_count": 2,
-    "s_count": 6,
-    "a_count": 4,
-    "b_count": 4,
+    "total_analyzed": 28,
+    "s_plus_plus_count": 1,
+    "s_plus_count": 3,
+    "s_count": 14,
+    "a_count": 6,
+    "b_count": 3,
     "c_count": 4,
     "d_count": 1,
     "top_post": {
+      "title": "진짜 부자 옷장에 꼭 있는 것들 10가지",
+      "views": 17000,
+      "likes": 177,
+      "comments": 17,
+      "rating": "S++"
+    },
+    "second_top": {
       "title": "돈 많아 보이는 집에 꼭 있는 9가지",
       "views": 11000,
       "likes": 95,
       "comments": 8,
-      "reposts": 5,
+      "rating": "S+"
+    },
+    "third_top": {
+      "title": "여유 있어 보이는 사람 주방에 꼭 있는 것들 8가지",
+      "views": 10000,
+      "likes": 142,
+      "comments": 12,
       "rating": "S+"
     },
     "worst_post": {
@@ -22,11 +36,19 @@
       "views": 46,
       "rating": "D",
       "reason": "설교 톤, 추상적 내용"
-    }
+    },
+    "new_successful_patterns": [
+      "역설 비결형: 돈 안 쓰는데 있어 보이는 (4.6천)",
+      "칭찬 유발형: ~다는 소리 듣는 (1.9천)",
+      "긍정 행동형: 30대에 시작해서 다행인 (3.9천)"
+    ],
+    "verified_spaces": [
+      "옷장 (1.7만)", "주방 (1만)", "집/거실 (1.1만)", "책상 (1.9천)", "가방 (2.6천)"
+    ]
   },
   "platforms": {
     "threads": {
-      "total_posts": 52,
+      "total_posts": 72,
       "posts": [
         {
           "id": "threads-2026-04-26-001",
@@ -1949,7 +1971,27 @@
         "진짜 부자들의 아침 루틴",
         "40대 여성의 옷장에 꼭 있는",
         "자산 10억 부자들이 절대 안 사는",
-        "진짜 여유 있는 사람들의 주말"
+        "진짜 여유 있는 사람들의 주말",
+        "진짜 부자 침실에 꼭 있는",
+        "돈 안 쓰는데 있어 보이는 사람 말투",
+        "선물 센스 좋다는 말 듣는",
+        "돈 많아 보이는 집 현관",
+        "진짜 부자 욕실에 꼭 있는",
+        "바쁜데 여유로워 보이는 사람 습관",
+        "일 잘한다는 소리 듣는",
+        "40대에도 건강한 사람들 습관",
+        "돈 많아 보이는 사람 차 안",
+        "30대에 시작해서 다행인 취미",
+        "피곤한데 피곤해 보이지 않는",
+        "여유 있어 보이는 사람 거실",
+        "진짜 부자 책꽂이에 꼭 있는",
+        "대화 잘한다는 소리 듣는",
+        "돈 안 쓰는데 깔끔해 보이는 집",
+        "35살에 끊어서 다행인 습관",
+        "여유 있어 보이는 사람 세탁실",
+        "바쁜데 안 바빠 보이는 사람",
+        "분위기 있다는 말 듣는 사람",
+        "돈 많아 보이는 사람 가방 속"
       ],
       "blocked_item_themes": [
         "비싼 게 아니라 오래 쓸 걸",
@@ -1961,8 +2003,249 @@
         "공간에 여백이 있다",
         "알람 없이 일어난다",
         "핸드폰보다 물 한 잔",
-        "유행은 지나가지만 취향은 남는다"
+        "유행은 지나가지만 취향은 남는다",
+        "부자의 침실은 자는 곳이 아니라 회복하는 곳",
+        "있어 보이는 건 말을 많이 해서가 아니다",
+        "좋은 선물은 비싼 게 아니라 생각이 담긴",
+        "첫인상은 얼굴이 아니라 현관에서",
+        "부자의 욕실은 씻는 곳이 아니라 하루를 여는 곳",
+        "여유는 시간이 많아서가 아니라 관리",
+        "일 잘하는 건 능력이 아니라 태도",
+        "건강한 40대는 30대 습관이 만든다",
+        "부자의 차는 비싸서가 아니라 관리가 다르다",
+        "취미는 빨리 시작할수록 오래 즐긴다",
+        "피곤해 보이는 건 컨디션이 아니라 관리",
+        "여유는 넓어서가 아니라 비워서",
+        "부자의 책꽂이는 읽은 책이 아니라 생각한 책",
+        "대화를 잘하는 건 말을 잘해서가 아니라 듣기",
+        "깔끔한 집은 넓어서가 아니라 정리해서",
+        "끊는 게 시작하는 것보다 더 중요할 때",
+        "옷이 좋아 보이는 건 비싸서가 아니라 관리",
+        "분위기는 꾸며서가 아니라 절제해서",
+        "가방이 비싸 보이는 건 브랜드가 아니라 속"
       ]
-    }
+    },
+    "new_posts_2026_05_12_16": [
+      {
+        "id": "threads-2026-05-12-001",
+        "date": "2026-05-12",
+        "time": "08:00",
+        "status": "draft",
+        "category": "공간/부자",
+        "title": "진짜 부자 침실에 꼭 있는 것들 9가지",
+        "pattern": "공간 아이템형",
+        "expected_rating": "S+",
+        "file_path": "marketing/threads/2026-05-12-화요일-01-부자침실.md"
+      },
+      {
+        "id": "threads-2026-05-12-002",
+        "date": "2026-05-12",
+        "time": "12:30",
+        "status": "draft",
+        "category": "말투/인상",
+        "title": "돈 안 쓰는데 있어 보이는 사람 말투 8가지",
+        "pattern": "역설형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-12-화요일-02-있어보이는사람말투.md"
+      },
+      {
+        "id": "threads-2026-05-12-003",
+        "date": "2026-05-12",
+        "time": "19:00",
+        "status": "draft",
+        "category": "센스/선물",
+        "title": "선물 센스 좋다는 말 듣는 사람 비결 8가지",
+        "pattern": "칭찬유발형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-12-화요일-03-센스있는선물.md"
+      },
+      {
+        "id": "threads-2026-05-12-004",
+        "date": "2026-05-12",
+        "time": "21:00",
+        "status": "draft",
+        "category": "공간/부자",
+        "title": "돈 많아 보이는 집 현관 특징 9가지",
+        "pattern": "공간 아이템형",
+        "expected_rating": "S+",
+        "file_path": "marketing/threads/2026-05-12-화요일-04-부자현관.md"
+      },
+      {
+        "id": "threads-2026-05-13-001",
+        "date": "2026-05-13",
+        "time": "08:00",
+        "status": "draft",
+        "category": "공간/부자",
+        "title": "진짜 부자 욕실에 꼭 있는 것들 8가지",
+        "pattern": "공간 아이템형",
+        "expected_rating": "S+",
+        "file_path": "marketing/threads/2026-05-13-수요일-01-부자욕실.md"
+      },
+      {
+        "id": "threads-2026-05-13-002",
+        "date": "2026-05-13",
+        "time": "12:30",
+        "status": "draft",
+        "category": "라이프스타일/여유",
+        "title": "바쁜데 여유로워 보이는 사람 습관 8가지",
+        "pattern": "역설형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-13-수요일-02-바쁜데여유로운습관.md"
+      },
+      {
+        "id": "threads-2026-05-13-003",
+        "date": "2026-05-13",
+        "time": "19:00",
+        "status": "draft",
+        "category": "직장/능력",
+        "title": "일 잘한다는 소리 듣는 사람 비결 8가지",
+        "pattern": "칭찬유발형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-13-수요일-03-일잘한다는소리.md"
+      },
+      {
+        "id": "threads-2026-05-13-004",
+        "date": "2026-05-13",
+        "time": "21:00",
+        "status": "draft",
+        "category": "건강/나이",
+        "title": "40대에도 건강한 사람들 습관 9가지",
+        "pattern": "건강/나이형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-13-수요일-04-40대건강습관.md"
+      },
+      {
+        "id": "threads-2026-05-14-001",
+        "date": "2026-05-14",
+        "time": "08:00",
+        "status": "draft",
+        "category": "공간/부자",
+        "title": "돈 많아 보이는 사람 차 안 특징 9가지",
+        "pattern": "공간 아이템형",
+        "expected_rating": "S+",
+        "file_path": "marketing/threads/2026-05-14-목요일-01-부자차안.md"
+      },
+      {
+        "id": "threads-2026-05-14-002",
+        "date": "2026-05-14",
+        "time": "12:30",
+        "status": "draft",
+        "category": "30대/취미",
+        "title": "30대에 시작해서 다행인 취미 8가지",
+        "pattern": "긍정 행동형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-14-목요일-02-30대시작다행.md"
+      },
+      {
+        "id": "threads-2026-05-14-003",
+        "date": "2026-05-14",
+        "time": "19:00",
+        "status": "draft",
+        "category": "관리/인상",
+        "title": "피곤한데 피곤해 보이지 않는 사람 비결 8가지",
+        "pattern": "역설형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-14-목요일-03-피곤해보이지않는.md"
+      },
+      {
+        "id": "threads-2026-05-14-004",
+        "date": "2026-05-14",
+        "time": "21:00",
+        "status": "draft",
+        "category": "공간/여유",
+        "title": "여유 있어 보이는 사람 거실 특징 9가지",
+        "pattern": "공간 아이템형",
+        "expected_rating": "S+",
+        "file_path": "marketing/threads/2026-05-14-목요일-04-여유있는사람거실.md"
+      },
+      {
+        "id": "threads-2026-05-15-001",
+        "date": "2026-05-15",
+        "time": "08:00",
+        "status": "draft",
+        "category": "공간/부자",
+        "title": "진짜 부자 책꽂이에 꼭 있는 것들 8가지",
+        "pattern": "공간 아이템형",
+        "expected_rating": "S+",
+        "file_path": "marketing/threads/2026-05-15-금요일-01-부자책꽂이.md"
+      },
+      {
+        "id": "threads-2026-05-15-002",
+        "date": "2026-05-15",
+        "time": "12:30",
+        "status": "draft",
+        "category": "대화/관계",
+        "title": "대화 잘한다는 소리 듣는 사람 비결 8가지",
+        "pattern": "칭찬유발형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-15-금요일-02-대화잘한다는소리.md"
+      },
+      {
+        "id": "threads-2026-05-15-003",
+        "date": "2026-05-15",
+        "time": "19:00",
+        "status": "draft",
+        "category": "공간/정리",
+        "title": "돈 안 쓰는데 깔끔해 보이는 집 비결 9가지",
+        "pattern": "역설형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-15-금요일-03-돈안쓰는데깔끔한.md"
+      },
+      {
+        "id": "threads-2026-05-15-004",
+        "date": "2026-05-15",
+        "time": "21:00",
+        "status": "draft",
+        "category": "30대/습관",
+        "title": "35살에 끊어서 다행인 습관 8가지",
+        "pattern": "나이+행동형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-15-금요일-04-35살끊은습관.md"
+      },
+      {
+        "id": "threads-2026-05-16-001",
+        "date": "2026-05-16",
+        "time": "10:00",
+        "status": "draft",
+        "category": "공간/여유",
+        "title": "여유 있어 보이는 사람 세탁실 특징 8가지",
+        "pattern": "공간 아이템형",
+        "expected_rating": "S+",
+        "file_path": "marketing/threads/2026-05-16-토요일-01-부자세탁실.md"
+      },
+      {
+        "id": "threads-2026-05-16-002",
+        "date": "2026-05-16",
+        "time": "14:00",
+        "status": "draft",
+        "category": "라이프스타일/여유",
+        "title": "바쁜데 안 바빠 보이는 사람 비결 8가지",
+        "pattern": "역설형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-16-토요일-02-안바빠보이는.md"
+      },
+      {
+        "id": "threads-2026-05-16-003",
+        "date": "2026-05-16",
+        "time": "18:00",
+        "status": "draft",
+        "category": "인상/분위기",
+        "title": "분위기 있다는 말 듣는 사람 비결 9가지",
+        "pattern": "칭찬유발형",
+        "expected_rating": "S",
+        "file_path": "marketing/threads/2026-05-16-토요일-03-분위기있는사람.md"
+      },
+      {
+        "id": "threads-2026-05-16-004",
+        "date": "2026-05-16",
+        "time": "21:00",
+        "status": "draft",
+        "category": "아이템/부자",
+        "title": "돈 많아 보이는 사람 가방 속 특징 8가지",
+        "pattern": "공간 아이템형",
+        "expected_rating": "S+",
+        "file_path": "marketing/threads/2026-05-16-토요일-04-돈많아보이는가방.md"
+      }
+    ]
   }
 }
