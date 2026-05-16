@@ -1,30 +1,40 @@
 {
-  "version": "1.2",
-  "last_updated": "2026-05-12",
+  "version": "1.3",
+  "last_updated": "2026-05-16",
   "performance_summary": {
-    "total_analyzed": 28,
+    "total_analyzed": 33,
+    "sss_count": 1,
     "s_plus_plus_count": 1,
     "s_plus_count": 3,
-    "s_count": 14,
+    "s_count": 19,
     "a_count": 6,
     "b_count": 3,
     "c_count": 4,
     "d_count": 1,
     "top_post": {
+      "title": "돈 많아 보이는 사람 차 안 특징 9가지",
+      "views": 44000,
+      "likes": 366,
+      "comments": 194,
+      "rating": "SSS",
+      "date": "2026-05-14",
+      "note": "역대 1위 갱신 - 차+부자 신규 공간 대성공"
+    },
+    "second_top": {
       "title": "진짜 부자 옷장에 꼭 있는 것들 10가지",
       "views": 17000,
       "likes": 177,
       "comments": 17,
       "rating": "S++"
     },
-    "second_top": {
+    "third_top": {
       "title": "돈 많아 보이는 집에 꼭 있는 9가지",
       "views": 11000,
       "likes": 95,
       "comments": 8,
       "rating": "S+"
     },
-    "third_top": {
+    "fourth_top": {
       "title": "여유 있어 보이는 사람 주방에 꼭 있는 것들 8가지",
       "views": 10000,
       "likes": 142,
@@ -38,12 +48,26 @@
       "reason": "설교 톤, 추상적 내용"
     },
     "new_successful_patterns": [
+      "차 안 공간형: 돈 많아 보이는 사람 차 안 (4.4만) - SSS급",
+      "엄마/아빠 주체: 예뻐 보이는 엄마들 (4.4천) - 신규 주체 대성공",
+      "현관 공간형: 돈 많아 보이는 집 현관 (2.9천) - 신규 공간",
       "역설 비결형: 돈 안 쓰는데 있어 보이는 (4.6천)",
+      "역설 비결형: 피곤한데 피곤해 보이지 않는 (2.6천)",
+      "역설 비결형: 돈 안 쓰는데 깔끔해 보이는 (2.1천)",
       "칭찬 유발형: ~다는 소리 듣는 (1.9천)",
       "긍정 행동형: 30대에 시작해서 다행인 (3.9천)"
     ],
     "verified_spaces": [
-      "옷장 (1.7만)", "주방 (1만)", "집/거실 (1.1만)", "책상 (1.9천)", "가방 (2.6천)"
+      "차 안 (4.4만) - SSS급",
+      "옷장 (1.7만) - S++",
+      "주방 (1만) - S+",
+      "집/거실 (1.1만) - S+",
+      "현관 (2.9천) - S",
+      "책상 (1.9천) - S",
+      "가방 (2.6천) - S"
+    ],
+    "new_verified_subjects": [
+      "예뻐 보이는 엄마들 (4.4천) - 30-40대 여성 타겟 검증"
     ]
   },
   "platforms": {
